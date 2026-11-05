@@ -1,0 +1,33 @@
+{
+  "templates": [
+    {
+      "id": "choose_different",
+      "text": "Choose ten English {word_class} whose meanings and uses differ from one another as much as possible.\nUse ordinary vocabulary. Avoid proper names, specialist terminology, and multi-word expressions.\nConsider each word's different meanings when choosing the list.\nReturn exactly ten words as a JSON array of strings, without explanations or formatting fences."
+    },
+    {
+      "id": "distant_meanings",
+      "text": "Give me ten English {word_class} with meanings that are as far apart as possible.\nChoose familiar single words from different semantic areas. Do not use names, technical jargon, or phrases.\nAccount for the different senses of each word.\nYour entire answer must be a JSON array containing exactly ten strings, with one word per string."
+    },
+    {
+      "id": "maximize_variety",
+      "text": "Make a list of ten English {word_class} that maximizes semantic variety across the list.\nEach entry should be an ordinary single word. Exclude proper names and specialized terminology.\nTry to avoid overlap in both meanings and uses, including alternative word senses.\nOutput only a valid JSON array of ten word strings."
+    },
+    {
+      "id": "unrelated_set",
+      "text": "Find a set of ten English {word_class} that are as unrelated to each other as you can make them.\nUse common vocabulary, single words, and no proper names or specialist terms.\nThink about all the meanings the words can have when judging relatedness.\nRespond with exactly ten strings in a JSON array and no additional text."
+    },
+    {
+      "id": "span_domains",
+      "text": "Select ten English {word_class} spanning widely different semantic domains.\nThe words should have as little overlap in meaning and use as possible, even considering their multiple senses.\nKeep to ordinary single-word vocabulary; avoid names, jargon, and multi-word entries.\nReturn the list as a JSON array of exactly ten strings. Do not add commentary."
+    },
+    {
+      "id": "divergent_associations",
+      "text": "For a divergent association task, supply ten English {word_class} that are maximally different in meaning and usage.\nPick everyday single words rather than proper names, technical terms, or phrases.\nConsider alternative meanings as well as the most obvious meaning of each word.\nThe answer must consist solely of a JSON array with ten strings."
+    },
+    {
+      "id": "minimize_similarity",
+      "text": "Write ten English {word_class}, choosing the list so that the words resemble one another in meaning as little as possible.\nUse ordinary vocabulary and one word per entry. Leave out proper names and specialized or multi-word terms.\nInclude different senses and uses in your judgment of semantic similarity.\nOutput exactly ten strings inside a JSON array, with nothing before or after it."
+    }
+  ],
+  "strict_reminder": "Only generate the requested word class: {word_class}. Every one of the ten entries must be usable as that class; do not substitute another word class."
+}

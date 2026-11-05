@@ -1,0 +1,604 @@
+{
+  "scores": {
+    "no_think": {
+      "original": {
+        "dat_nouns/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_nouns/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_nouns/reward_score": {
+          "mean": 71.81362056732178,
+          "n": 32
+        },
+        "dat_nouns/dat_score_valid": {
+          "mean": 71.81362056732178,
+          "n": 32
+        },
+        "dat_verbs/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_verbs/valid": {
+          "mean": 0.96875,
+          "n": 32
+        },
+        "dat_verbs/reward_score": {
+          "mean": 51.10681211948395,
+          "n": 32
+        },
+        "dat_verbs/dat_score_valid": {
+          "mean": 52.75541896204795,
+          "n": 31
+        },
+        "dat_adjectives/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_adjectives/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_adjectives/reward_score": {
+          "mean": 60.672537446022034,
+          "n": 32
+        },
+        "dat_adjectives/dat_score_valid": {
+          "mean": 60.672537446022034,
+          "n": 32
+        }
+      },
+      "step1500": {
+        "dat_nouns/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_nouns/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_nouns/reward_score": {
+          "mean": 79.28581190109253,
+          "n": 32
+        },
+        "dat_nouns/dat_score_valid": {
+          "mean": 79.28581190109253,
+          "n": 32
+        },
+        "dat_verbs/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_verbs/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_verbs/reward_score": {
+          "mean": 70.152627825737,
+          "n": 32
+        },
+        "dat_verbs/dat_score_valid": {
+          "mean": 70.152627825737,
+          "n": 32
+        },
+        "dat_adjectives/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_adjectives/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_adjectives/reward_score": {
+          "mean": 64.73702359199524,
+          "n": 32
+        },
+        "dat_adjectives/dat_score_valid": {
+          "mean": 64.73702359199524,
+          "n": 32
+        }
+      },
+      "step250": {
+        "dat_nouns/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_nouns/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_nouns/reward_score": {
+          "mean": 72.73389780521393,
+          "n": 32
+        },
+        "dat_nouns/dat_score_valid": {
+          "mean": 72.73389780521393,
+          "n": 32
+        },
+        "dat_verbs/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_verbs/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_verbs/reward_score": {
+          "mean": 56.223613142967224,
+          "n": 32
+        },
+        "dat_verbs/dat_score_valid": {
+          "mean": 56.223613142967224,
+          "n": 32
+        },
+        "dat_adjectives/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_adjectives/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_adjectives/reward_score": {
+          "mean": 60.83344864845276,
+          "n": 32
+        },
+        "dat_adjectives/dat_score_valid": {
+          "mean": 60.83344864845276,
+          "n": 32
+        }
+      },
+      "step500": {
+        "dat_nouns/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_nouns/valid": {
+          "mean": 0.96875,
+          "n": 32
+        },
+        "dat_nouns/reward_score": {
+          "mean": 70.93532240390778,
+          "n": 32
+        },
+        "dat_nouns/dat_score_valid": {
+          "mean": 73.22355861048544,
+          "n": 31
+        },
+        "dat_verbs/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_verbs/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_verbs/reward_score": {
+          "mean": 59.385114550590515,
+          "n": 32
+        },
+        "dat_verbs/dat_score_valid": {
+          "mean": 59.385114550590515,
+          "n": 32
+        },
+        "dat_adjectives/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_adjectives/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_adjectives/reward_score": {
+          "mean": 61.54828953742981,
+          "n": 32
+        },
+        "dat_adjectives/dat_score_valid": {
+          "mean": 61.54828953742981,
+          "n": 32
+        }
+      },
+      "step1000": {
+        "dat_nouns/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_nouns/valid": {
+          "mean": 0.90625,
+          "n": 32
+        },
+        "dat_nouns/reward_score": {
+          "mean": 68.60043430328369,
+          "n": 32
+        },
+        "dat_nouns/dat_score_valid": {
+          "mean": 75.69703095534751,
+          "n": 29
+        },
+        "dat_verbs/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_verbs/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_verbs/reward_score": {
+          "mean": 62.3396977186203,
+          "n": 32
+        },
+        "dat_verbs/dat_score_valid": {
+          "mean": 62.3396977186203,
+          "n": 32
+        },
+        "dat_adjectives/truncated": {
+          "mean": 0.0,
+          "n": 32
+        },
+        "dat_adjectives/valid": {
+          "mean": 1.0,
+          "n": 32
+        },
+        "dat_adjectives/reward_score": {
+          "mean": 64.88167142868042,
+          "n": 32
+        },
+        "dat_adjectives/dat_score_valid": {
+          "mean": 64.88167142868042,
+          "n": 32
+        }
+      }
+    }
+  },
+  "paired_differences": {
+    "no_think": {
+      "step1500": {
+        "dat_nouns/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_nouns/valid": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_nouns/reward_score": {
+          "delta": 7.472191333770752,
+          "bootstrap_95_low": 4.559251463413238,
+          "bootstrap_95_high": 10.458693069219585,
+          "n": 32,
+          "changed_items": 30
+        },
+        "dat_nouns/dat_score_valid": {
+          "delta": 7.472191333770752,
+          "bootstrap_95_low": 4.559251463413238,
+          "bootstrap_95_high": 10.458693069219585,
+          "n": 32,
+          "changed_items": 30
+        },
+        "dat_verbs/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_verbs/valid": {
+          "delta": 0.03125,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.09375,
+          "n": 32,
+          "changed_items": 1
+        },
+        "dat_verbs/reward_score": {
+          "delta": 19.04581570625305,
+          "bootstrap_95_low": 13.379866862297058,
+          "bootstrap_95_high": 25.116161772608752,
+          "n": 32,
+          "changed_items": 32
+        },
+        "dat_verbs/dat_score_valid": {
+          "delta": 17.147520742108746,
+          "bootstrap_95_low": 12.440947492661016,
+          "bootstrap_95_high": 21.667444976683587,
+          "n": 31,
+          "changed_items": 31
+        },
+        "dat_adjectives/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/valid": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/reward_score": {
+          "delta": 4.064486145973206,
+          "bootstrap_95_low": 1.0050611376762402,
+          "bootstrap_95_high": 7.65475830435753,
+          "n": 32,
+          "changed_items": 30
+        },
+        "dat_adjectives/dat_score_valid": {
+          "delta": 4.064486145973206,
+          "bootstrap_95_low": 1.005061137676239,
+          "bootstrap_95_high": 7.654758304357529,
+          "n": 32,
+          "changed_items": 30
+        }
+      },
+      "step250": {
+        "dat_nouns/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_nouns/valid": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_nouns/reward_score": {
+          "delta": 0.9202772378921509,
+          "bootstrap_95_low": -0.38297381401062014,
+          "bootstrap_95_high": 2.370099276304245,
+          "n": 32,
+          "changed_items": 12
+        },
+        "dat_nouns/dat_score_valid": {
+          "delta": 0.9202772378921509,
+          "bootstrap_95_low": -0.38297381401062014,
+          "bootstrap_95_high": 2.370099276304245,
+          "n": 32,
+          "changed_items": 12
+        },
+        "dat_verbs/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_verbs/valid": {
+          "delta": 0.03125,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.09375,
+          "n": 32,
+          "changed_items": 1
+        },
+        "dat_verbs/reward_score": {
+          "delta": 5.116801023483276,
+          "bootstrap_95_low": 1.9479474246501927,
+          "bootstrap_95_high": 8.861747193336484,
+          "n": 32,
+          "changed_items": 13
+        },
+        "dat_verbs/dat_score_valid": {
+          "delta": 4.1290740966796875,
+          "bootstrap_95_low": 1.3987031998172883,
+          "bootstrap_95_high": 7.406143176171086,
+          "n": 31,
+          "changed_items": 12
+        },
+        "dat_adjectives/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/valid": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/reward_score": {
+          "delta": 0.16091120243072443,
+          "bootstrap_95_low": -0.440570130944252,
+          "bootstrap_95_high": 0.7783124148845635,
+          "n": 32,
+          "changed_items": 8
+        },
+        "dat_adjectives/dat_score_valid": {
+          "delta": 0.1609112024307251,
+          "bootstrap_95_low": -0.440570130944252,
+          "bootstrap_95_high": 0.7783124148845663,
+          "n": 32,
+          "changed_items": 8
+        }
+      },
+      "step500": {
+        "dat_nouns/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_nouns/valid": {
+          "delta": -0.03125,
+          "bootstrap_95_low": -0.09375,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 1
+        },
+        "dat_nouns/reward_score": {
+          "delta": -0.8782981634140015,
+          "bootstrap_95_low": -6.6509439736604685,
+          "bootstrap_95_high": 2.8619668185710894,
+          "n": 32,
+          "changed_items": 20
+        },
+        "dat_nouns/dat_score_valid": {
+          "delta": 1.5563161296229209,
+          "bootstrap_95_low": -0.11427479405556949,
+          "bootstrap_95_high": 3.28245511208811,
+          "n": 31,
+          "changed_items": 19
+        },
+        "dat_verbs/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_verbs/valid": {
+          "delta": 0.03125,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.09375,
+          "n": 32,
+          "changed_items": 1
+        },
+        "dat_verbs/reward_score": {
+          "delta": 8.278302431106567,
+          "bootstrap_95_low": 4.6574933379888535,
+          "bootstrap_95_high": 12.41144801080227,
+          "n": 32,
+          "changed_items": 23
+        },
+        "dat_verbs/dat_score_valid": {
+          "delta": 7.282449414653163,
+          "bootstrap_95_low": 3.9375658127569384,
+          "bootstrap_95_high": 10.904262232011362,
+          "n": 31,
+          "changed_items": 22
+        },
+        "dat_adjectives/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/valid": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/reward_score": {
+          "delta": 0.8757520914077754,
+          "bootstrap_95_low": -0.08509500622749262,
+          "bootstrap_95_high": 1.9023337632417678,
+          "n": 32,
+          "changed_items": 19
+        },
+        "dat_adjectives/dat_score_valid": {
+          "delta": 0.8757520914077759,
+          "bootstrap_95_low": -0.08509500622749328,
+          "bootstrap_95_high": 1.9023337632417676,
+          "n": 32,
+          "changed_items": 19
+        }
+      },
+      "step1000": {
+        "dat_nouns/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_nouns/valid": {
+          "delta": -0.09375,
+          "bootstrap_95_low": -0.21875,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 3
+        },
+        "dat_nouns/reward_score": {
+          "delta": -3.213186264038086,
+          "bootstrap_95_low": -12.611661967635154,
+          "bootstrap_95_high": 4.349513635039328,
+          "n": 32,
+          "changed_items": 28
+        },
+        "dat_nouns/dat_score_valid": {
+          "delta": 4.456953640641837,
+          "bootstrap_95_low": 2.1992287767344507,
+          "bootstrap_95_high": 6.783991300648655,
+          "n": 29,
+          "changed_items": 25
+        },
+        "dat_verbs/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_verbs/valid": {
+          "delta": 0.03125,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.09375,
+          "n": 32,
+          "changed_items": 1
+        },
+        "dat_verbs/reward_score": {
+          "delta": 11.232885599136353,
+          "bootstrap_95_low": 5.922737428545951,
+          "bootstrap_95_high": 17.522649362683293,
+          "n": 32,
+          "changed_items": 31
+        },
+        "dat_verbs/dat_score_valid": {
+          "delta": 9.08256063153667,
+          "bootstrap_95_low": 4.929035734361218,
+          "bootstrap_95_high": 13.167818764717346,
+          "n": 31,
+          "changed_items": 30
+        },
+        "dat_adjectives/truncated": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/valid": {
+          "delta": 0.0,
+          "bootstrap_95_low": 0.0,
+          "bootstrap_95_high": 0.0,
+          "n": 32,
+          "changed_items": 0
+        },
+        "dat_adjectives/reward_score": {
+          "delta": 4.209133982658386,
+          "bootstrap_95_low": 1.2593409150838857,
+          "bootstrap_95_high": 7.846893751621246,
+          "n": 32,
+          "changed_items": 28
+        },
+        "dat_adjectives/dat_score_valid": {
+          "delta": 4.209133982658386,
+          "bootstrap_95_low": 1.2593409150838852,
+          "bootstrap_95_high": 7.846893751621246,
+          "n": 32,
+          "changed_items": 28
+        }
+      }
+    }
+  }
+}

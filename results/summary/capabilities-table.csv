@@ -1,0 +1,8 @@
+benchmark,mode,metric,baseline,lora1500,full250,n
+MMLU-Pro,no_think,accuracy_percent,59.29,59.29,56.07,280
+MMLU-Pro,medium_think,accuracy_percent,77.86,77.14,78.57,280
+HumanEval+,no_think,humaneval/plus_pass_at_1,93.9,94.51,92.07,164
+HumanEval+,medium_think,humaneval/plus_pass_at_1,93.29,93.9,93.9,164
+GSM8K,no_think,gsm8k/accuracy,98.05,98.44,98.44,256
+GSM8K,medium_think,gsm8k/accuracy,98.44,98.44,98.05,256
+IFEval,no_think,ifeval/strict_prompt_accuracy,83.18,80.78,79.48,541

@@ -1,0 +1,128 @@
+{
+  "config": {
+    "seed": 20261031,
+    "base_url": "http://127.0.0.1:8000/v1",
+    "concurrency": 64,
+    "models": [
+      "original",
+      "step1500",
+      "step250"
+    ],
+    "model_labels": {
+      "original": "Baseline",
+      "step1500": "LoRA 1500",
+      "step250": "Full 250"
+    },
+    "server": {
+      "max_model_len": 16384,
+      "kv_cache_gib": 24,
+      "max_num_seqs": 64,
+      "reasoning_parser": "qwen3"
+    },
+    "wandb": {
+      "project": "llm-creativity-grpo",
+      "entity": "savsunenko-sasha"
+    },
+    "training_run_directory": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z",
+    "adapter_run_directory": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z",
+    "adapter_paths": {
+      "step1500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1500"
+    },
+    "full_checkpoint_models": {
+      "original": "./data/inference-bf16",
+      "step1500": "./data/inference-bf16",
+      "step250": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-250"
+    },
+    "protocol": "writing-transfer-local-v1",
+    "full_model_owner": "writing-transfer-20261103T185135Z",
+    "assets_directory": "./data/writing-panel-20261103",
+    "generation_expected_responses": 768,
+    "modes": [
+      {
+        "name": "no_think"
+      }
+    ],
+    "task_order": [
+      "mazur",
+      "writingbench",
+      "steerbench"
+    ],
+    "judging": {
+      "mode": "local",
+      "critic_path": "./data/writing-judges/critic",
+      "judge_path": "./data/writing-judges/judge",
+      "metric_python": "./.venv-writing-metrics/bin/python"
+    },
+    "sampling": {
+      "mazur": {
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": -1,
+        "max_tokens": 2048
+      },
+      "writingbench": {
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "max_tokens": 4096
+      },
+      "steerbench": {
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": -1,
+        "max_tokens": 4096
+      }
+    }
+  },
+  "manifest": {
+    "created_at": "2026-11-03T18:49:29.576170+00:00",
+    "protocol": "writing-transfer-local-v1",
+    "selection_seed": 20261103,
+    "cases_sha256": "26def4b859de6a58af674c06b64eb284b90b490fc4ff5ae9f4d3cb8136a79a2e",
+    "sources": {
+      "mazur": {
+        "repo": "lechmazur/writing",
+        "commit": "05408954d0165c3ea68acb834797a64be2baf450"
+      },
+      "writingbench": {
+        "repo": "X-PLUG/WritingBench",
+        "commit": "ae2d5176449b7b769815482641d35926f26793eb"
+      },
+      "steerbench": {
+        "repo": "MLD3/steerability",
+        "commit": "97fba84ecba2907ee7c9b59ba2564668b593243c",
+        "dataset": "tchang97/steerbench",
+        "dataset_revision": "8858ba3fc3cfc90e7dad237ac27d0bf6ae454a98"
+      }
+    },
+    "cases_per_model": {
+      "mazur": 64,
+      "writingbench": 64,
+      "steerbench": 128
+    },
+    "models": 3,
+    "writer_responses": 768,
+    "writingbench_selection": "English style subset, round-robin six domains; inputs<=6500tokens; explicit word requests<=1200; prompts unchanged",
+    "steerbench_selection": "Two fixed target instructions for each of all64 source texts; pinned upstream direct+negative prompt",
+    "mazur_selection": "32fixed briefs,600-800words,2fixed generation seeds; first response retained; no length redraws",
+    "max_prompt_tokens": 3525
+  }
+}

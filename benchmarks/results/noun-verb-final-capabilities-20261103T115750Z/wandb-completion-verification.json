@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-04T14:44:22.721219+00:00",
+  "state": "finished",
+  "summary": {
+    "execution_status": "completed",
+    "progress/comparisons_complete": 21,
+    "progress/comparisons_total": 21,
+    "results/all_benchmarks": {
+      "path": "media/table/results/all_benchmarks_44_124971205c71ffdb742d.table.json",
+      "size": 573,
+      "_type": "table-file",
+      "ncols": 7,
+      "nrows": 7,
+      "sha256": "124971205c71ffdb742d99a024c9cf896575e10bdeb4e4a0c1645c18d8a3e32a",
+      "log_mode": "IMMUTABLE",
+      "artifact_path": "wandb-client-artifact://mzx2fm44q5oqmnljg3ck9g85q176vr0pe42rolei2qoi4lm8tkl02dqmeennpahaf2ktklw1mrxreit9i5znbqq2s3t7ig5fltj5loyvrc4zzdpi2rflry68mxc46m1e/results/all_benchmarks.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://tdcb8sqzacbu8prkxb0fkqlpnzcctww5kptunocwbvuc6ve8ee3nv7nv7wbbfcipwjznowg49fgnkpc520ywtkrek25g86wtp6rjwxlv4efwofxt4z9e4i9gxws89c7f:latest/results/all_benchmarks.table.json"
+    },
+    "results/changes_from_original": {
+      "path": "media/table/results/changes_from_original_45_4790c566b9f0444e4746.table.json",
+      "size": 1801,
+      "_type": "table-file",
+      "ncols": 9,
+      "nrows": 14,
+      "sha256": "4790c566b9f0444e47468d55246bd93e5753c19736f71e5ca93a86847a328369",
+      "log_mode": "IMMUTABLE",
+      "artifact_path": "wandb-client-artifact://heunl6m0iouyxwqxixu4r0647iwdzdv2dpved2h5by4db4n2hbkc2gjfr4g388nojnehd96dxhin7qpt9k9vqajtg3fmfmcxzpcyg2klvjar55x3w97b8sf4diirlufm/results/changes_from_original.table.json",
+      "_latest_artifact_path": "wandb-client-artifact://zoq4uajb8msa8k7kvbmzq04matrtprmuldmg2fegno96y15h3krexyezykzvuqop9j7jwjnes1wmnmqvqed578vb1haipny9m9w0gwuyqss002i20817i5d3q5gb669h:latest/results/changes_from_original.table.json"
+    }
+  }
+}

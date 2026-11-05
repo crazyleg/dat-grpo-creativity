@@ -1,0 +1,180 @@
+{
+  "type": "object",
+  "properties": {
+    "story_a": {
+      "type": "object",
+      "properties": {
+        "creativity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "imagery": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "style": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "coherence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "character_and_impact": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "integration": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "overall_quality": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        }
+      },
+      "required": [
+        "creativity",
+        "imagery",
+        "style",
+        "coherence",
+        "character_and_impact",
+        "integration",
+        "overall_quality"
+      ],
+      "additionalProperties": false
+    },
+    "story_b": {
+      "type": "object",
+      "properties": {
+        "creativity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "imagery": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "style": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "coherence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "character_and_impact": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "integration": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "overall_quality": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        }
+      },
+      "required": [
+        "creativity",
+        "imagery",
+        "style",
+        "coherence",
+        "character_and_impact",
+        "integration",
+        "overall_quality"
+      ],
+      "additionalProperties": false
+    },
+    "winner": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "TIE"
+      ]
+    },
+    "rationales": {
+      "type": "object",
+      "properties": {
+        "creativity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "imagery": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coherence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "character_and_impact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "integration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "overall_quality": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "creativity",
+        "imagery",
+        "style",
+        "coherence",
+        "character_and_impact",
+        "integration",
+        "overall_quality"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_a": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_b": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cautions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "story_a",
+    "story_b",
+    "winner",
+    "rationales",
+    "evidence_a",
+    "evidence_b",
+    "cautions"
+  ],
+  "additionalProperties": false
+}

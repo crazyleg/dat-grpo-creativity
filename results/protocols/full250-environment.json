@@ -1,0 +1,22 @@
+{
+  "torch": "2.9.1+cu130",
+  "torchvision": "0.24.1",
+  "unsloth": "2026.10.11",
+  "unsloth-zoo": "2026.10.11",
+  "transformers": "5.17.0",
+  "trl": "1.15.0",
+  "peft": "0.21.2",
+  "bitsandbytes": "0.50.2",
+  "wandb": "0.31.0",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "flash-linear-attention": "0.6.0",
+  "torchao": "0.14.1",
+  "triton_ptxas_path": "/usr/local/cuda/bin/ptxas",
+  "loader_flags": {
+    "HF_DEACTIVATE_ASYNC_LOAD": "1",
+    "MALLOC_ARENA_MAX": "2",
+    "UNSLOTH_SAFETENSORS_PREAD": "1",
+    "UNSLOTH_COMPILE_DISABLE": "1"
+  }
+}

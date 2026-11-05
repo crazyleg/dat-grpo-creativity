@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-03T01:21:20.202276+00:00",
+  "run_directory": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z",
+  "completed_step": 1500,
+  "reward_audit": {
+    "completed_updates": 1500,
+    "completions": 6000,
+    "classes": {
+      "verbs": 2944,
+      "nouns": 3056
+    },
+    "templates": {
+      "maximize_variety": 892,
+      "minimize_similarity": 872,
+      "unrelated_set": 880,
+      "choose_different": 816,
+      "span_domains": 832,
+      "divergent_associations": 856,
+      "distant_meanings": 852
+    },
+    "rewards_recomputed": true,
+    "adjective_training_completions": 0,
+    "rendered_dataset_sha256": "cd8072241c799b052ae41b86e22c5e30ff294a569dc79e8c09018ba021cf8e21"
+  },
+  "weights": {
+    "tensors": 992,
+    "parameters": 116727808,
+    "weight_bytes_scanned": 466911232,
+    "dtype_tensors": {
+      "F32": 992
+    },
+    "all_finite": true
+  },
+  "status": "verified"
+}

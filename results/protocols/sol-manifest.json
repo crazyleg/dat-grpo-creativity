@@ -1,0 +1,209 @@
+{
+  "config": {
+    "source_directory": "benchmarks/results/writing-transfer-20261103T185135Z",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "concurrency": 4,
+    "timeout_seconds": 600,
+    "tie_threshold": 0.5,
+    "wandb": {
+      "project": "llm-creativity-grpo",
+      "entity": "savsunenko-sasha"
+    }
+  },
+  "inputs": {
+    "assets/cases.jsonl": "26def4b859de6a58af674c06b64eb284b90b490fc4ff5ae9f4d3cb8136a79a2e",
+    "mazur/original/responses.jsonl": "25726b1a6e538e010434ddfac947820a0fe4d4981fbb44a43d52e399ce96c1ab",
+    "mazur/step250/responses.jsonl": "5cdb78f8cb6ed8af42e7aa93156ea7fc14837e055a4145361cc3d3c95cb05377"
+  },
+  "metrics": {
+    "creativity": "Originality of ideas, meaningful novel associations, and inventive construction.",
+    "imagery": "Freshness, specificity, and effectiveness of sensory or figurative images.",
+    "style": "Control of voice, diction, syntax, rhythm, and fit to the chosen literary mode.",
+    "coherence": "Internal consistency and meaningful causal, emotional, symbolic, or formal connections.",
+    "character_and_impact": "Character specificity, motivation, agency, and emotional or intellectual effect.",
+    "integration": "Purposeful use of all ten required elements in action, setting, imagery, or structure.",
+    "overall_quality": "Holistic literary effectiveness for this brief, considering strengths and weaknesses together."
+  },
+  "prompt": "Evaluate the two anonymized stories against their shared required elements.\nUse only the supplied stories and brief. Complete the evaluation directly and\nreturn the JSON object matching the supplied schema. Tool use is unnecessary.\n\nGive each story a 0-10 score for every metric, with at most one decimal place.\nUse these common anchors within each dimension: 0 unusable, 1-2 severely weak,\n3-4 weak, 5-6 competent, 7-8 strong, 9-10 exceptional.\nKeep creativity, imagery, style, coherence, character/impact, and integration\ndistinct. Judge each chosen mode fairly, including plain, realist, lyrical,\nsurreal, fragmented, and ambiguous writing. Assess experimental writing for\neffective pattern and control. Identify apparent accidental disconnection.\nAvoid automatic ceilings for unfamiliar style or nontraditional endings.\nAssess the same qualities with equal attention in both stories.\n\nRequired elements should have meaningful roles. Exact wording is optional when\nthe requested element is clearly realized. Identify omissions or substitutions.\nEvaluate the prose provided, including incomplete endings. Length and familiarity\nalone should confer no advantage. Story wrappers and word-counter artifacts have\nbeen removed before evaluation.\n\nThe overall_quality score is a holistic assessment. Select the overall winner\nas A, B, or TIE by comparative literary effectiveness. A tie is appropriate when\nneither story has a meaningful overall advantage. Explain the comparison for\nevery metric with specific evidence, including strengths and limitations of\nboth stories. Give one short exact quotation from each story in evidence_a\nand evidence_b. Record uncertainties in cautions.\n\nMetric definitions follow.\ncreativity: Originality of ideas, meaningful novel associations, and inventive construction.\nimagery: Freshness, specificity, and effectiveness of sensory or figurative images.\nstyle: Control of voice, diction, syntax, rhythm, and fit to the chosen literary mode.\ncoherence: Internal consistency and meaningful causal, emotional, symbolic, or formal connections.\ncharacter_and_impact: Character specificity, motivation, agency, and emotional or intellectual effect.\nintegration: Purposeful use of all ten required elements in action, setting, imagery, or structure.\noverall_quality: Holistic literary effectiveness for this brief, considering strengths and weaknesses together.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "story_a": {
+        "type": "object",
+        "properties": {
+          "creativity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "imagery": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "style": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "coherence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "character_and_impact": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "integration": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "overall_quality": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          }
+        },
+        "required": [
+          "creativity",
+          "imagery",
+          "style",
+          "coherence",
+          "character_and_impact",
+          "integration",
+          "overall_quality"
+        ],
+        "additionalProperties": false
+      },
+      "story_b": {
+        "type": "object",
+        "properties": {
+          "creativity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "imagery": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "style": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "coherence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "character_and_impact": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "integration": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "overall_quality": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          }
+        },
+        "required": [
+          "creativity",
+          "imagery",
+          "style",
+          "coherence",
+          "character_and_impact",
+          "integration",
+          "overall_quality"
+        ],
+        "additionalProperties": false
+      },
+      "winner": {
+        "type": "string",
+        "enum": [
+          "A",
+          "B",
+          "TIE"
+        ]
+      },
+      "rationales": {
+        "type": "object",
+        "properties": {
+          "creativity": {
+            "type": "string",
+            "minLength": 1
+          },
+          "imagery": {
+            "type": "string",
+            "minLength": 1
+          },
+          "style": {
+            "type": "string",
+            "minLength": 1
+          },
+          "coherence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "character_and_impact": {
+            "type": "string",
+            "minLength": 1
+          },
+          "integration": {
+            "type": "string",
+            "minLength": 1
+          },
+          "overall_quality": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "creativity",
+          "imagery",
+          "style",
+          "coherence",
+          "character_and_impact",
+          "integration",
+          "overall_quality"
+        ],
+        "additionalProperties": false
+      },
+      "evidence_a": {
+        "type": "string",
+        "minLength": 1
+      },
+      "evidence_b": {
+        "type": "string",
+        "minLength": 1
+      },
+      "cautions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "story_a",
+      "story_b",
+      "winner",
+      "rationales",
+      "evidence_a",
+      "evidence_b",
+      "cautions"
+    ],
+    "additionalProperties": false
+  }
+}

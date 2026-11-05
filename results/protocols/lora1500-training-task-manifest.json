@@ -1,0 +1,47 @@
+{
+  "templates_sha256": "5a377d8e81bac88c8e78cbc6d30ca62051941d59d71190705c372ad448fcf491",
+  "rows": 1120,
+  "unique_rendered_prompts": 28,
+  "classes": {
+    "nouns": 560,
+    "verbs": 560
+  },
+  "reminder": {
+    "False": 560,
+    "True": 560
+  },
+  "combinations": {
+    "divergent_associations/nouns/False": 40,
+    "divergent_associations/nouns/True": 40,
+    "minimize_similarity/verbs/True": 40,
+    "span_domains/verbs/False": 40,
+    "unrelated_set/nouns/True": 40,
+    "distant_meanings/verbs/True": 40,
+    "divergent_associations/verbs/True": 40,
+    "unrelated_set/verbs/False": 40,
+    "choose_different/verbs/False": 40,
+    "choose_different/verbs/True": 40,
+    "unrelated_set/verbs/True": 40,
+    "distant_meanings/nouns/True": 40,
+    "maximize_variety/verbs/True": 40,
+    "unrelated_set/nouns/False": 40,
+    "choose_different/nouns/False": 40,
+    "span_domains/nouns/True": 40,
+    "minimize_similarity/nouns/False": 40,
+    "span_domains/verbs/True": 40,
+    "divergent_associations/verbs/False": 40,
+    "distant_meanings/verbs/False": 40,
+    "span_domains/nouns/False": 40,
+    "maximize_variety/nouns/True": 40,
+    "maximize_variety/verbs/False": 40,
+    "minimize_similarity/verbs/False": 40,
+    "distant_meanings/nouns/False": 40,
+    "maximize_variety/nouns/False": 40,
+    "minimize_similarity/nouns/True": 40,
+    "choose_different/nouns/True": 40
+  },
+  "holdout_word_classes": [
+    "adjectives"
+  ],
+  "rendered_dataset_sha256": "cd8072241c799b052ae41b86e22c5e30ff294a569dc79e8c09018ba021cf8e21"
+}

@@ -1,0 +1,197 @@
+{
+  "protocol": "noun-verb-lora1500-dat-v1",
+  "seed": 20261031,
+  "base_url": "http://127.0.0.1:8000/v1",
+  "concurrency": 64,
+  "models": [
+    "original",
+    "step1500",
+    "step250",
+    "step500",
+    "step1000"
+  ],
+  "snapshots": [
+    250,
+    500,
+    1000,
+    1500
+  ],
+  "adapter_run_directory": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z",
+  "adapter_paths": {
+    "step250": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-250",
+    "step500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-500",
+    "step1000": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1000",
+    "step1500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1500"
+  },
+  "inference_owner": "noun-verb-lora-dat-20261103T112551Z",
+  "server": {
+    "max_model_len": 16384,
+    "kv_cache_gib": 24,
+    "max_num_seqs": 64,
+    "reasoning_parser": "qwen3",
+    "guard_server": true
+  },
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  },
+  "modes": [
+    {
+      "name": "no_think",
+      "max_tokens": 192,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": -1,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  ],
+  "tasks": {
+    "dat": {
+      "label": "DAT nouns, verbs and adjective holdout: noun-verb LoRA snapshots",
+      "case_tasks": [
+        "dat_nouns",
+        "dat_verbs",
+        "dat_adjectives"
+      ],
+      "expected_cases": 96,
+      "primary_metrics": [
+        "dat_nouns/reward_score",
+        "dat_verbs/reward_score",
+        "dat_adjectives/reward_score"
+      ],
+      "max_tokens": {
+        "no_think": 192
+      },
+      "sampling_note": "Fresh baseline and final LoRA1500 first, then250/500/1000. Same32 cases per class, sample seeds and BF16 inference settings as the full-weight DAT screen. T=1,top_p=1,top_k=-1,no thinking,192 completion tokens,64 concurrent requests. Raw official DAT and class/joint validity remain separate."
+    }
+  },
+  "assets_directory": "./benchmarks/results/noun-verb-lora-dat-20261103T112551Z/assets",
+  "audit_word_classes": true,
+  "pos_audit_expected_per_class": 32,
+  "task": "dat",
+  "expected_cases": 96,
+  "audit_adjective_pos": true,
+  "dataset_manifest": {
+    "protocol": "noun-verb-lora250-dat-v1",
+    "created_at": "2026-11-02T19:24:54.668003+00:00",
+    "cases_sha256": "db0de89e100577765ed45418b31ec035c1c4683ed8c07ac51d97676bf9535321",
+    "historical_cases_sha256": "a405b3decedaaa06a142636d216e0eb17819bdc71f4ebc2995e3558c365a0226",
+    "counts": {
+      "dat_nouns": 32,
+      "dat_verbs": 32,
+      "dat_adjectives": 32
+    },
+    "adjectives_training_held_out": true,
+    "verb_prompt_source": "prompts/dat.txt with word_class=verbs"
+  },
+  "inference_export": {
+    "created_at": "2026-10-31T21:25:34.917897+00:00",
+    "source": {
+      "id": "unsloth/Qwen3.8-27B-unsloth-bnb-4bit",
+      "revision": "8aa5f05d26b7205477066e1449e0af13f762a299",
+      "upstream_id": "Qwen/Qwen3.8-27B",
+      "upstream_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "snapshot": "./data/hub/models--unsloth--Qwen3.8-27B-unsloth-bnb-4bit/snapshots/8aa5f05d26b7205477066e1449e0af13f762a299",
+      "prepared_at": "2026-10-31T10:54:48.124957+00:00"
+    },
+    "operation": "dequantize frozen NF4 backbone to BF16; no LoRA merged",
+    "dtype": "bfloat16",
+    "all_evaluation_variants_share_this_backbone": true,
+    "shards": {
+      "model-00013-of-00014.safetensors": 3988983544,
+      "model-00003-of-00014.safetensors": 3988983448,
+      "model-00008-of-00014.safetensors": 3989066408,
+      "model-00010-of-00014.safetensors": 3852566456,
+      "model-00002-of-00014.safetensors": 3988962736,
+      "model-00004-of-00014.safetensors": 3956523744,
+      "model-00014-of-00014.safetensors": 3287319184,
+      "model-00009-of-00014.safetensors": 3978477176,
+      "model-00012-of-00014.safetensors": 3988962808,
+      "model-00006-of-00014.safetensors": 3988962808,
+      "model-00011-of-00014.safetensors": 3988962808,
+      "model-00005-of-00014.safetensors": 3874602744,
+      "model-00007-of-00014.safetensors": 3966926504,
+      "model-00001-of-00014.safetensors": 3874306264
+    }
+  },
+  "server_launch": {
+    "pid": 2268159,
+    "command": [
+      "./.venv-inference/bin/python",
+      "-u",
+      "scripts/guarded_process.py",
+      "--run-dir",
+      "./inference/noun-verb-lora-dat-20261103T112551Z",
+      "--min-available-gib",
+      "18",
+      "--timeout-seconds",
+      "604800",
+      "--progress-timeout-seconds",
+      "604800",
+      "--",
+      "./.venv-inference/bin/python",
+      "-u",
+      "-m",
+      "vllm.entrypoints.openai.api_server",
+      "--model",
+      "./data/inference-bf16",
+      "--served-model-name",
+      "original",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "8000",
+      "--dtype",
+      "bfloat16",
+      "--max-model-len",
+      "16384",
+      "--max-num-seqs",
+      "64",
+      "--max-num-batched-tokens",
+      "8192",
+      "--enforce-eager",
+      "--gpu-memory-utilization",
+      "0.1",
+      "--kv-cache-memory-bytes",
+      "25769803776",
+      "--enable-lora",
+      "--max-lora-rank",
+      "16",
+      "--max-loras",
+      "1",
+      "--max-cpu-loras",
+      "5",
+      "--lora-dtype",
+      "bfloat16",
+      "--limit-mm-per-prompt",
+      "{\"image\":0,\"video\":0}",
+      "--no-enable-prefix-caching",
+      "--generation-config",
+      "vllm",
+      "--seed",
+      "20261031",
+      "--reasoning-parser",
+      "qwen3",
+      "--lora-modules",
+      "step250=./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-250",
+      "step500=./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-500",
+      "step1000=./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1000",
+      "step1500=./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1500"
+    ],
+    "base_url": "http://127.0.0.1:8000/v1",
+    "model_path": "./data/inference-bf16",
+    "adapter_run_directory": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z",
+    "adapter_paths": {
+      "step250": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-250",
+      "step500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-500",
+      "step1000": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1000",
+      "step1500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1500"
+    },
+    "inference_owner": "noun-verb-lora-dat-20261103T112551Z"
+  }
+}

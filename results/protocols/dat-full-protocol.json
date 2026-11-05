@@ -1,0 +1,184 @@
+{
+  "protocol": "noun-verb-full-dat-v1",
+  "seed": 20261031,
+  "base_url": "http://127.0.0.1:8000/v1",
+  "concurrency": 64,
+  "models": [
+    "original",
+    "step250",
+    "step50",
+    "step75",
+    "step100",
+    "step150",
+    "step200"
+  ],
+  "snapshots": [
+    50,
+    75,
+    100,
+    150,
+    200,
+    250
+  ],
+  "server": {
+    "max_model_len": 16384,
+    "kv_cache_gib": 24,
+    "max_num_seqs": 64,
+    "reasoning_parser": "qwen3"
+  },
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  },
+  "modes": [
+    {
+      "name": "no_think",
+      "max_tokens": 192,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": -1,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  ],
+  "tasks": {
+    "dat": {
+      "label": "DAT nouns, verbs and adjective holdout: full finetune snapshots",
+      "case_tasks": [
+        "dat_nouns",
+        "dat_verbs",
+        "dat_adjectives"
+      ],
+      "expected_cases": 96,
+      "primary_metrics": [
+        "dat_nouns/reward_score",
+        "dat_verbs/reward_score",
+        "dat_adjectives/reward_score"
+      ],
+      "max_tokens": {
+        "no_think": 192
+      },
+      "sampling_note": "Same32 fixed cases per class and sample seeds as the prior conditional LoRA panel. Fresh original baseline, then full250, then50/75/100/150/200. T=1, top_p=1, unrestricted top_k, no thinking,192 completion tokens,64 concurrent requests. Official DAT assigns0 to unscoreable outputs; lexical and joint validity reported separately."
+    }
+  },
+  "assets_directory": "./benchmarks/results/noun-verb-full-dat-20261103T102138Z/assets",
+  "audit_word_classes": true,
+  "pos_audit_expected_per_class": 32,
+  "task": "dat",
+  "expected_cases": 96,
+  "training_run_directory": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z",
+  "full_model_owner": "noun-verb-full-dat-20261103T102138Z",
+  "audit_adjective_pos": true,
+  "full_checkpoint_models": {
+    "original": "./data/inference-bf16",
+    "step50": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-50",
+    "step75": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-75",
+    "step100": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-100",
+    "step150": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-150",
+    "step200": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-200",
+    "step250": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-250"
+  },
+  "dataset_manifest": {
+    "protocol": "noun-verb-lora250-dat-v1",
+    "created_at": "2026-11-02T19:24:54.668003+00:00",
+    "cases_sha256": "db0de89e100577765ed45418b31ec035c1c4683ed8c07ac51d97676bf9535321",
+    "historical_cases_sha256": "a405b3decedaaa06a142636d216e0eb17819bdc71f4ebc2995e3558c365a0226",
+    "counts": {
+      "dat_nouns": 32,
+      "dat_verbs": 32,
+      "dat_adjectives": 32
+    },
+    "adjectives_training_held_out": true,
+    "verb_prompt_source": "prompts/dat.txt with word_class=verbs"
+  },
+  "inference_export": {
+    "created_at": "2026-10-31T21:25:34.917897+00:00",
+    "source": {
+      "id": "unsloth/Qwen3.8-27B-unsloth-bnb-4bit",
+      "revision": "8aa5f05d26b7205477066e1449e0af13f762a299",
+      "upstream_id": "Qwen/Qwen3.8-27B",
+      "upstream_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "snapshot": "./data/hub/models--unsloth--Qwen3.8-27B-unsloth-bnb-4bit/snapshots/8aa5f05d26b7205477066e1449e0af13f762a299",
+      "prepared_at": "2026-10-31T10:54:48.124957+00:00"
+    },
+    "operation": "dequantize frozen NF4 backbone to BF16; no LoRA merged",
+    "dtype": "bfloat16",
+    "all_evaluation_variants_share_this_backbone": true,
+    "shards": {
+      "model-00013-of-00014.safetensors": 3988983544,
+      "model-00003-of-00014.safetensors": 3988983448,
+      "model-00008-of-00014.safetensors": 3989066408,
+      "model-00010-of-00014.safetensors": 3852566456,
+      "model-00002-of-00014.safetensors": 3988962736,
+      "model-00004-of-00014.safetensors": 3956523744,
+      "model-00014-of-00014.safetensors": 3287319184,
+      "model-00009-of-00014.safetensors": 3978477176,
+      "model-00012-of-00014.safetensors": 3988962808,
+      "model-00006-of-00014.safetensors": 3988962808,
+      "model-00011-of-00014.safetensors": 3988962808,
+      "model-00005-of-00014.safetensors": 3874602744,
+      "model-00007-of-00014.safetensors": 3966926504,
+      "model-00001-of-00014.safetensors": 3874306264
+    }
+  },
+  "server_launch": {
+    "pid": 2217881,
+    "command": [
+      "./.venv-inference/bin/python",
+      "-u",
+      "scripts/guarded_process.py",
+      "--run-dir",
+      "./inference/noun-verb-full-dat-20261103T102138Z/original",
+      "--min-available-gib",
+      "18",
+      "--timeout-seconds",
+      "604800",
+      "--progress-timeout-seconds",
+      "604800",
+      "--",
+      "./.venv-inference/bin/python",
+      "-u",
+      "-m",
+      "vllm.entrypoints.openai.api_server",
+      "--model",
+      "./data/inference-bf16",
+      "--served-model-name",
+      "original",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "8000",
+      "--dtype",
+      "bfloat16",
+      "--max-model-len",
+      "16384",
+      "--max-num-seqs",
+      "64",
+      "--max-num-batched-tokens",
+      "8192",
+      "--enforce-eager",
+      "--gpu-memory-utilization",
+      "0.1",
+      "--kv-cache-memory-bytes",
+      "25769803776",
+      "--limit-mm-per-prompt",
+      "{\"image\":0,\"video\":0}",
+      "--no-enable-prefix-caching",
+      "--generation-config",
+      "vllm",
+      "--reasoning-parser",
+      "qwen3",
+      "--seed",
+      "20261031"
+    ],
+    "base_url": "http://127.0.0.1:8000/v1",
+    "model": "original",
+    "model_path": "./data/inference-bf16",
+    "full_model_owner": "noun-verb-full-dat-20261103T102138Z",
+    "started_at": "2026-11-03T10:21:48.077066+00:00"
+  }
+}

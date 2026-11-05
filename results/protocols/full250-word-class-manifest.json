@@ -1,0 +1,11 @@
+{
+  "format": "wordnet-nv-v1",
+  "wordnet_version": "3.0",
+  "source_archive_sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+  "lexicon_sha256": "37daca1431652b1e1a5745d7b6dac2641784dcfe5e1677fb3041f192805d2101",
+  "method": "Accept any noun/verb sense, including WordNet inflection rules; ambiguous words may satisfy both classes. Unverified words fail the class check. Adjective DAT is not a training task.",
+  "lemma_counts": {
+    "nouns": 57202,
+    "verbs": 8696
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "protocol": "noun-verb-lora1500-dat-v1",
+  "seed": 20261031,
+  "base_url": "http://127.0.0.1:8000/v1",
+  "concurrency": 64,
+  "models": [
+    "original",
+    "step1500",
+    "step250",
+    "step500",
+    "step1000"
+  ],
+  "snapshots": [
+    250,
+    500,
+    1000,
+    1500
+  ],
+  "adapter_run_directory": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z",
+  "adapter_paths": {
+    "step250": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-250",
+    "step500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-500",
+    "step1000": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1000",
+    "step1500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1500"
+  },
+  "inference_owner": "noun-verb-lora-dat-20261103T112551Z",
+  "server": {
+    "max_model_len": 16384,
+    "kv_cache_gib": 24,
+    "max_num_seqs": 64,
+    "reasoning_parser": "qwen3",
+    "guard_server": true
+  },
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  },
+  "modes": [
+    {
+      "name": "no_think",
+      "max_tokens": 192,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": -1,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  ],
+  "tasks": {
+    "dat": {
+      "label": "DAT nouns, verbs and adjective holdout: noun-verb LoRA snapshots",
+      "case_tasks": [
+        "dat_nouns",
+        "dat_verbs",
+        "dat_adjectives"
+      ],
+      "expected_cases": 96,
+      "primary_metrics": [
+        "dat_nouns/reward_score",
+        "dat_verbs/reward_score",
+        "dat_adjectives/reward_score"
+      ],
+      "max_tokens": {
+        "no_think": 192
+      },
+      "sampling_note": "Fresh baseline and final LoRA1500 first, then250/500/1000. Same32 cases per class, sample seeds and BF16 inference settings as the full-weight DAT screen. T=1,top_p=1,top_k=-1,no thinking,192 completion tokens,64 concurrent requests. Raw official DAT and class/joint validity remain separate."
+    }
+  },
+  "assets_directory": "./benchmarks/results/noun-verb-lora-dat-20261103T112551Z/assets",
+  "audit_word_classes": true,
+  "pos_audit_expected_per_class": 32,
+  "task": "dat",
+  "expected_cases": 96,
+  "audit_adjective_pos": true
+}

@@ -1,0 +1,658 @@
+{
+  "wordnet_version": "3.0",
+  "method": "Any requested WordNet sense; adjective satellites accepted. Unknowns separate. Normalize typographic quotes only for lexical audit. Verified DAT assigns zero unless formal scoring and all ten word-class checks pass. WordNet coverage has known false negatives.",
+  "paired_differences": {
+    "step250": {
+      "nouns": {
+        "verified_dat": {
+          "delta": 8.64449393749237,
+          "bootstrap_95_low": -9.085924860835075,
+          "bootstrap_95_high": 25.569396582245815,
+          "n": 32,
+          "changed_items": 32
+        },
+        "joint_valid": {
+          "delta": -0.0625,
+          "bootstrap_95_low": -0.28125,
+          "bootstrap_95_high": 0.15625,
+          "n": 32,
+          "changed_items": 12
+        }
+      },
+      "verbs": {
+        "verified_dat": {
+          "delta": 17.950483083724976,
+          "bootstrap_95_low": 2.1377752810716633,
+          "bootstrap_95_high": 33.52076288759708,
+          "n": 32,
+          "changed_items": 31
+        },
+        "joint_valid": {
+          "delta": -0.125,
+          "bootstrap_95_low": -0.34375,
+          "bootstrap_95_high": 0.09375,
+          "n": 32,
+          "changed_items": 12
+        }
+      },
+      "adjectives": {
+        "verified_dat": {
+          "delta": -51.85968953371048,
+          "bootstrap_95_low": -59.530601754784584,
+          "bootstrap_95_high": -42.87569547593595,
+          "n": 32,
+          "changed_items": 29
+        },
+        "joint_valid": {
+          "delta": -0.875,
+          "bootstrap_95_low": -0.96875,
+          "bootstrap_95_high": -0.75,
+          "n": 32,
+          "changed_items": 28
+        }
+      }
+    },
+    "step50": {
+      "nouns": {
+        "verified_dat": {
+          "delta": -61.42107713222504,
+          "bootstrap_95_low": -70.0502442240715,
+          "bootstrap_95_high": -51.398338901996624,
+          "n": 32,
+          "changed_items": 27
+        },
+        "joint_valid": {
+          "delta": -0.84375,
+          "bootstrap_95_low": -0.96875,
+          "bootstrap_95_high": -0.71875,
+          "n": 32,
+          "changed_items": 27
+        }
+      },
+      "verbs": {
+        "verified_dat": {
+          "delta": -43.36992907524109,
+          "bootstrap_95_low": -50.1371452987194,
+          "bootstrap_95_high": -35.57191098928453,
+          "n": 32,
+          "changed_items": 27
+        },
+        "joint_valid": {
+          "delta": -0.84375,
+          "bootstrap_95_low": -0.96875,
+          "bootstrap_95_high": -0.71875,
+          "n": 32,
+          "changed_items": 27
+        }
+      },
+      "adjectives": {
+        "verified_dat": {
+          "delta": -54.42192846536636,
+          "bootstrap_95_low": -60.363559666275975,
+          "bootstrap_95_high": -47.14679549336434,
+          "n": 32,
+          "changed_items": 29
+        },
+        "joint_valid": {
+          "delta": -0.90625,
+          "bootstrap_95_low": -1.0,
+          "bootstrap_95_high": -0.78125,
+          "n": 32,
+          "changed_items": 29
+        }
+      }
+    },
+    "step75": {
+      "nouns": {
+        "verified_dat": {
+          "delta": -61.42107713222504,
+          "bootstrap_95_low": -70.0502442240715,
+          "bootstrap_95_high": -51.398338901996624,
+          "n": 32,
+          "changed_items": 27
+        },
+        "joint_valid": {
+          "delta": -0.84375,
+          "bootstrap_95_low": -0.96875,
+          "bootstrap_95_high": -0.71875,
+          "n": 32,
+          "changed_items": 27
+        }
+      },
+      "verbs": {
+        "verified_dat": {
+          "delta": -43.36992907524109,
+          "bootstrap_95_low": -50.1371452987194,
+          "bootstrap_95_high": -35.57191098928453,
+          "n": 32,
+          "changed_items": 27
+        },
+        "joint_valid": {
+          "delta": -0.84375,
+          "bootstrap_95_low": -0.96875,
+          "bootstrap_95_high": -0.71875,
+          "n": 32,
+          "changed_items": 27
+        }
+      },
+      "adjectives": {
+        "verified_dat": {
+          "delta": -54.42192846536636,
+          "bootstrap_95_low": -60.363559666275975,
+          "bootstrap_95_high": -47.14679549336434,
+          "n": 32,
+          "changed_items": 29
+        },
+        "joint_valid": {
+          "delta": -0.90625,
+          "bootstrap_95_low": -1.0,
+          "bootstrap_95_high": -0.78125,
+          "n": 32,
+          "changed_items": 29
+        }
+      }
+    },
+    "step100": {
+      "nouns": {
+        "verified_dat": {
+          "delta": -17.369860291481018,
+          "bootstrap_95_low": -36.44844279289246,
+          "bootstrap_95_high": 2.3941133588552455,
+          "n": 32,
+          "changed_items": 31
+        },
+        "joint_valid": {
+          "delta": -0.34375,
+          "bootstrap_95_low": -0.5625,
+          "bootstrap_95_high": -0.09375,
+          "n": 32,
+          "changed_items": 19
+        }
+      },
+      "verbs": {
+        "verified_dat": {
+          "delta": 10.443260192871094,
+          "bootstrap_95_low": -5.89827706515789,
+          "bootstrap_95_high": 27.10550363659858,
+          "n": 32,
+          "changed_items": 31
+        },
+        "joint_valid": {
+          "delta": -0.1875,
+          "bootstrap_95_low": -0.40625,
+          "bootstrap_95_high": 0.03125,
+          "n": 32,
+          "changed_items": 14
+        }
+      },
+      "adjectives": {
+        "verified_dat": {
+          "delta": -27.166405022144318,
+          "bootstrap_95_low": -41.37603016346693,
+          "bootstrap_95_high": -11.61526263952256,
+          "n": 32,
+          "changed_items": 30
+        },
+        "joint_valid": {
+          "delta": -0.5625,
+          "bootstrap_95_low": -0.75,
+          "bootstrap_95_high": -0.375,
+          "n": 32,
+          "changed_items": 20
+        }
+      }
+    },
+    "step150": {
+      "nouns": {
+        "verified_dat": {
+          "delta": 12.219622731208801,
+          "bootstrap_95_low": -1.3364817976951597,
+          "bootstrap_95_high": 25.306619828939432,
+          "n": 32,
+          "changed_items": 31
+        },
+        "joint_valid": {
+          "delta": 0.03125,
+          "bootstrap_95_low": -0.125,
+          "bootstrap_95_high": 0.1875,
+          "n": 32,
+          "changed_items": 7
+        }
+      },
+      "verbs": {
+        "verified_dat": {
+          "delta": -23.676060914993286,
+          "bootstrap_95_low": -36.5250623524189,
+          "bootstrap_95_high": -10.81273871958257,
+          "n": 32,
+          "changed_items": 27
+        },
+        "joint_valid": {
+          "delta": -0.59375,
+          "bootstrap_95_low": -0.75,
+          "bootstrap_95_high": -0.4375,
+          "n": 32,
+          "changed_items": 19
+        }
+      },
+      "adjectives": {
+        "verified_dat": {
+          "delta": -54.42192846536636,
+          "bootstrap_95_low": -60.363559666275975,
+          "bootstrap_95_high": -47.14679549336434,
+          "n": 32,
+          "changed_items": 29
+        },
+        "joint_valid": {
+          "delta": -0.90625,
+          "bootstrap_95_low": -1.0,
+          "bootstrap_95_high": -0.78125,
+          "n": 32,
+          "changed_items": 29
+        }
+      }
+    },
+    "step200": {
+      "nouns": {
+        "verified_dat": {
+          "delta": -25.007795691490173,
+          "bootstrap_95_low": -45.07338964045048,
+          "bootstrap_95_high": -3.038907498121268,
+          "n": 32,
+          "changed_items": 31
+        },
+        "joint_valid": {
+          "delta": -0.4375,
+          "bootstrap_95_low": -0.65625,
+          "bootstrap_95_high": -0.1875,
+          "n": 32,
+          "changed_items": 22
+        }
+      },
+      "verbs": {
+        "verified_dat": {
+          "delta": 10.798109769821167,
+          "bootstrap_95_low": -3.3754645615816115,
+          "bootstrap_95_high": 24.1251839607954,
+          "n": 32,
+          "changed_items": 28
+        },
+        "joint_valid": {
+          "delta": -0.21875,
+          "bootstrap_95_low": -0.375,
+          "bootstrap_95_high": -0.0625,
+          "n": 32,
+          "changed_items": 9
+        }
+      },
+      "adjectives": {
+        "verified_dat": {
+          "delta": -54.42192846536636,
+          "bootstrap_95_low": -60.363559666275975,
+          "bootstrap_95_high": -47.14679549336434,
+          "n": 32,
+          "changed_items": 29
+        },
+        "joint_valid": {
+          "delta": -0.90625,
+          "bootstrap_95_low": -1.0,
+          "bootstrap_95_high": -0.78125,
+          "n": 32,
+          "changed_items": 29
+        }
+      }
+    }
+  },
+  "models": {
+    "original": {
+      "nouns": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 310,
+        "known_other_class_words": 10,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 27,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 27,
+        "lists_with_known_other_class": 5,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 96.875,
+        "verified_dat_mean": 61.42107713222504
+      },
+      "verbs": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 314,
+        "known_other_class_words": 6,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 28,
+        "formal_valid_lists": 31,
+        "joint_valid_lists": 27,
+        "lists_with_known_other_class": 4,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 98.125,
+        "verified_dat_mean": 43.36992907524109
+      },
+      "adjectives": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 317,
+        "known_other_class_words": 3,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 29,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 29,
+        "lists_with_known_other_class": 3,
+        "noun_without_adjective_words": 2,
+        "compatible_word_percent": 99.0625,
+        "verified_dat_mean": 54.42192846536636
+      }
+    },
+    "step250": {
+      "nouns": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 311,
+        "known_other_class_words": 3,
+        "unknown_words": 6,
+        "all_ten_compatible_lists": 25,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 25,
+        "lists_with_known_other_class": 3,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 97.1875,
+        "verified_dat_mean": 70.06557106971741
+      },
+      "verbs": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 311,
+        "known_other_class_words": 5,
+        "unknown_words": 4,
+        "all_ten_compatible_lists": 23,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 23,
+        "lists_with_known_other_class": 5,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 97.1875,
+        "verified_dat_mean": 61.320412158966064
+      },
+      "adjectives": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 243,
+        "known_other_class_words": 57,
+        "unknown_words": 20,
+        "all_ten_compatible_lists": 1,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 1,
+        "lists_with_known_other_class": 27,
+        "noun_without_adjective_words": 36,
+        "compatible_word_percent": 75.9375,
+        "verified_dat_mean": 2.562238931655884
+      }
+    },
+    "step50": {
+      "nouns": {
+        "lists": 32,
+        "parsed_lists": 0,
+        "unparsed_lists": 32,
+        "words": 0,
+        "compatible_words": 0,
+        "known_other_class_words": 0,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 0,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 0,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": null,
+        "verified_dat_mean": 0.0
+      },
+      "verbs": {
+        "lists": 32,
+        "parsed_lists": 0,
+        "unparsed_lists": 32,
+        "words": 0,
+        "compatible_words": 0,
+        "known_other_class_words": 0,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 0,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 0,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": null,
+        "verified_dat_mean": 0.0
+      },
+      "adjectives": {
+        "lists": 32,
+        "parsed_lists": 0,
+        "unparsed_lists": 32,
+        "words": 0,
+        "compatible_words": 0,
+        "known_other_class_words": 0,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 0,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 0,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": null,
+        "verified_dat_mean": 0.0
+      }
+    },
+    "step75": {
+      "nouns": {
+        "lists": 32,
+        "parsed_lists": 0,
+        "unparsed_lists": 32,
+        "words": 0,
+        "compatible_words": 0,
+        "known_other_class_words": 0,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 0,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 0,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": null,
+        "verified_dat_mean": 0.0
+      },
+      "verbs": {
+        "lists": 32,
+        "parsed_lists": 0,
+        "unparsed_lists": 32,
+        "words": 0,
+        "compatible_words": 0,
+        "known_other_class_words": 0,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 0,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 0,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": null,
+        "verified_dat_mean": 0.0
+      },
+      "adjectives": {
+        "lists": 32,
+        "parsed_lists": 0,
+        "unparsed_lists": 32,
+        "words": 0,
+        "compatible_words": 0,
+        "known_other_class_words": 0,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 0,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 0,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": null,
+        "verified_dat_mean": 0.0
+      }
+    },
+    "step100": {
+      "nouns": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 299,
+        "known_other_class_words": 19,
+        "unknown_words": 2,
+        "all_ten_compatible_lists": 16,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 16,
+        "lists_with_known_other_class": 16,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 93.4375,
+        "verified_dat_mean": 44.05121684074402
+      },
+      "verbs": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 306,
+        "known_other_class_words": 11,
+        "unknown_words": 3,
+        "all_ten_compatible_lists": 21,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 21,
+        "lists_with_known_other_class": 8,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 95.625,
+        "verified_dat_mean": 53.81318926811218
+      },
+      "adjectives": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 240,
+        "known_other_class_words": 73,
+        "unknown_words": 7,
+        "all_ten_compatible_lists": 11,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 11,
+        "lists_with_known_other_class": 20,
+        "noun_without_adjective_words": 63,
+        "compatible_word_percent": 75.0,
+        "verified_dat_mean": 27.255523443222046
+      }
+    },
+    "step150": {
+      "nouns": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 316,
+        "known_other_class_words": 3,
+        "unknown_words": 1,
+        "all_ten_compatible_lists": 28,
+        "formal_valid_lists": 31,
+        "joint_valid_lists": 28,
+        "lists_with_known_other_class": 3,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 98.75,
+        "verified_dat_mean": 73.64069986343384
+      },
+      "verbs": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 266,
+        "known_other_class_words": 54,
+        "unknown_words": 0,
+        "all_ten_compatible_lists": 8,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 8,
+        "lists_with_known_other_class": 24,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 83.125,
+        "verified_dat_mean": 19.693868160247803
+      },
+      "adjectives": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 92,
+        "known_other_class_words": 227,
+        "unknown_words": 1,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 32,
+        "noun_without_adjective_words": 221,
+        "compatible_word_percent": 28.75,
+        "verified_dat_mean": 0.0
+      }
+    },
+    "step200": {
+      "nouns": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 288,
+        "known_other_class_words": 7,
+        "unknown_words": 25,
+        "all_ten_compatible_lists": 13,
+        "formal_valid_lists": 28,
+        "joint_valid_lists": 13,
+        "lists_with_known_other_class": 5,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 90.0,
+        "verified_dat_mean": 36.41328144073486
+      },
+      "verbs": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 305,
+        "known_other_class_words": 10,
+        "unknown_words": 5,
+        "all_ten_compatible_lists": 20,
+        "formal_valid_lists": 32,
+        "joint_valid_lists": 20,
+        "lists_with_known_other_class": 9,
+        "noun_without_adjective_words": 0,
+        "compatible_word_percent": 95.3125,
+        "verified_dat_mean": 54.168038845062256
+      },
+      "adjectives": {
+        "lists": 32,
+        "parsed_lists": 32,
+        "unparsed_lists": 0,
+        "words": 320,
+        "compatible_words": 208,
+        "known_other_class_words": 58,
+        "unknown_words": 54,
+        "all_ten_compatible_lists": 0,
+        "formal_valid_lists": 29,
+        "joint_valid_lists": 0,
+        "lists_with_known_other_class": 27,
+        "noun_without_adjective_words": 42,
+        "compatible_word_percent": 65.0,
+        "verified_dat_mean": 0.0
+      }
+    }
+  }
+}

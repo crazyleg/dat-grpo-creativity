@@ -1,0 +1,40 @@
+{
+  "judgments": 128,
+  "source_stories": 128,
+  "paired_cases": 64,
+  "briefs": 32,
+  "schema_valid": 128,
+  "unmatched_evidence_quotes": [
+    {
+      "case_id": "mazur/61:1",
+      "story": "a",
+      "excerpt": "the dreamers would sleep, not knowing that their lost love had been measured, weighted, and scheduled for repair."
+    },
+    {
+      "case_id": "mazur/16:0",
+      "story": "a",
+      "excerpt": "“These were deciduous vows, promises that shed their leaves at the first frost, leaving the tree bare but alive.”"
+    }
+  ],
+  "opposite_numeric_overall_winner_conflicts": [],
+  "overall_order_patterns": {
+    "A/B": 25,
+    "B/TIE": 1,
+    "B/A": 28,
+    "TIE/B": 2,
+    "B/B": 7,
+    "A/A": 1
+  },
+  "ordered_model_winners": {
+    "full250": 65,
+    "baseline": 60,
+    "tie": 3
+  },
+  "usage": {
+    "input_tokens": 1798235,
+    "cached_input_tokens": 433152,
+    "output_tokens": 142572,
+    "reasoning_output_tokens": 23536
+  },
+  "audited_at": "2026-11-04T11:26:33.358898+00:00"
+}

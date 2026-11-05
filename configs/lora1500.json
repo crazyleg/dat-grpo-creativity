@@ -1,0 +1,77 @@
+{
+  "model": {
+    "id": "unsloth/Qwen3.8-27B-unsloth-bnb-4bit",
+    "revision": "8aa5f05d26b7205477066e1449e0af13f762a299",
+    "upstream_id": "Qwen/Qwen3.8-27B",
+    "upstream_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0"
+  },
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": null
+  },
+  "task": {
+    "word_classes": [
+      "nouns",
+      "verbs"
+    ],
+    "holdout_word_classes": [
+      "adjectives"
+    ],
+    "prompt_templates_file": "prompts/dat_noun_verb.json",
+    "dataset_rows": 1120,
+    "prompt_seed": 3407,
+    "requested_words": 10,
+    "scored_words": 7
+  },
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0
+  },
+  "training": {
+    "max_steps": 1500,
+    "learning_rate": 1e-06,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "num_generations": 4,
+    "max_completion_length": 192,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "beta": 0.04,
+    "epsilon": 0.1,
+    "loss_type": "grpo",
+    "scale_rewards": "group",
+    "num_iterations": 1,
+    "bf16": true,
+    "gradient_checkpointing": true,
+    "optim": "adamw_torch",
+    "lr_scheduler_type": "constant",
+    "max_grad_norm": 0.5,
+    "logging_steps": 1,
+    "save_steps": 500,
+    "save_total_limit": 3,
+    "seed": 3407,
+    "use_vllm": false,
+    "report_to": [
+      "wandb"
+    ],
+    "push_to_hub": false,
+    "remove_unused_columns": false
+  },
+  "max_seq_length": 768,
+  "sample_table_interval": 5,
+  "adaptation": "lora",
+  "reward": {
+    "lexicon_file": "data/dat/wordnet-nv.json",
+    "lexicon_manifest": "data/dat/wordnet-nv-manifest.json",
+    "wrong_class_penalty_per_word": 0.2,
+    "invalid_reward": -2.0,
+    "lexicon_sha256": "37daca1431652b1e1a5745d7b6dac2641784dcfe5e1677fb3041f192805d2101",
+    "wordnet_archive_sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+  },
+  "early_checkpoint_steps": [
+    5,
+    10
+  ]
+}

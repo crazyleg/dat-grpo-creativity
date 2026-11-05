@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-11-03T09:21:13.139496+00:00",
+  "run_directory": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z",
+  "completed_step": 250,
+  "reward_audit": {
+    "completed_updates": 250,
+    "completions": 1500,
+    "classes": {
+      "verbs": 804,
+      "nouns": 696
+    },
+    "templates": {
+      "maximize_variety": 180,
+      "minimize_similarity": 222,
+      "unrelated_set": 228,
+      "choose_different": 180,
+      "span_domains": 198,
+      "divergent_associations": 252,
+      "distant_meanings": 240
+    },
+    "rewards_recomputed": true,
+    "adjective_training_completions": 0,
+    "rendered_dataset_sha256": "cd8072241c799b052ae41b86e22c5e30ff294a569dc79e8c09018ba021cf8e21"
+  },
+  "weights": {
+    "shards": 55,
+    "weight_tensors": 1184,
+    "weight_bytes": 54715060192,
+    "final_matches_checkpoint": true,
+    "all_finite": true,
+    "parameters": 27356728560
+  },
+  "archived_snapshots": {
+    "50": {
+      "shards": 55,
+      "weight_tensors": 1184,
+      "weight_bytes": 54715060192
+    },
+    "75": {
+      "shards": 55,
+      "weight_tensors": 1184,
+      "weight_bytes": 54715060192
+    },
+    "100": {
+      "shards": 55,
+      "weight_tensors": 1184,
+      "weight_bytes": 54715060192
+    },
+    "150": {
+      "shards": 55,
+      "weight_tensors": 1184,
+      "weight_bytes": 54715060192
+    },
+    "200": {
+      "shards": 55,
+      "weight_tensors": 1184,
+      "weight_bytes": 54715060192
+    },
+    "250": {
+      "shards": 55,
+      "weight_tensors": 1184,
+      "weight_bytes": 54715060192
+    }
+  },
+  "parameter_changes": {
+    "embedding": {
+      "name": "model.language_model.embed_tokens.weight",
+      "sampled_values": 1536,
+      "changed_fraction": 0.7701822916666666,
+      "delta_rms": 6.427751941373572e-05
+    },
+    "lm_head": {
+      "name": "lm_head.weight",
+      "sampled_values": 2048,
+      "changed_fraction": 0.63623046875,
+      "delta_rms": 7.557922072010115e-05
+    },
+    "attention": {
+      "name": "model.language_model.layers.0.linear_attn.in_proj_qkv.weight",
+      "sampled_values": 2048,
+      "changed_fraction": 0.71337890625,
+      "delta_rms": 9.935214620782062e-05
+    },
+    "mlp": {
+      "name": "model.language_model.layers.0.mlp.gate_proj.weight",
+      "sampled_values": 2048,
+      "changed_fraction": 0.78271484375,
+      "delta_rms": 8.148763299686834e-05
+    }
+  },
+  "optimizer": {
+    "optimizer_updates": 250,
+    "optimizer_parameter_tensors": 1184,
+    "active_parameter_tensors": 851,
+    "loss-agreement": {
+      "completed_steps": 250,
+      "all_passed": true
+    },
+    "gradient-agreement": {
+      "completed_steps": 250,
+      "all_passed": true
+    }
+  },
+  "status": "verified"
+}

@@ -1,0 +1,245 @@
+{
+  "checked_at": "2026-11-04T14:43:58.455460+00:00",
+  "stage_checks": [
+    {
+      "task": "mmlu_pro",
+      "verified": true,
+      "expected_cases": 280
+    },
+    {
+      "task": "humaneval",
+      "verified": true,
+      "expected_cases": 164
+    },
+    {
+      "task": "gsm8k",
+      "verified": true,
+      "expected_cases": 256
+    },
+    {
+      "task": "ifeval",
+      "verified": true,
+      "expected_cases": 541
+    }
+  ],
+  "cached_responses_retained": 3841,
+  "retained_prefixes": [
+    {
+      "file": "00-mmlu_pro/medium_think/step1500/responses.jsonl",
+      "original_responses": 280,
+      "prefix_retained": true
+    },
+    {
+      "file": "00-mmlu_pro/medium_think/original/responses.jsonl",
+      "original_responses": 280,
+      "prefix_retained": true
+    },
+    {
+      "file": "00-mmlu_pro/medium_think/step250/responses.jsonl",
+      "original_responses": 280,
+      "prefix_retained": true
+    },
+    {
+      "file": "00-mmlu_pro/no_think/step1500/responses.jsonl",
+      "original_responses": 280,
+      "prefix_retained": true
+    },
+    {
+      "file": "00-mmlu_pro/no_think/original/responses.jsonl",
+      "original_responses": 280,
+      "prefix_retained": true
+    },
+    {
+      "file": "00-mmlu_pro/no_think/step250/responses.jsonl",
+      "original_responses": 280,
+      "prefix_retained": true
+    },
+    {
+      "file": "01-humaneval/medium_think/step1500/responses.jsonl",
+      "original_responses": 164,
+      "prefix_retained": true
+    },
+    {
+      "file": "01-humaneval/medium_think/original/responses.jsonl",
+      "original_responses": 164,
+      "prefix_retained": true
+    },
+    {
+      "file": "01-humaneval/medium_think/step250/responses.jsonl",
+      "original_responses": 164,
+      "prefix_retained": true
+    },
+    {
+      "file": "01-humaneval/no_think/step1500/responses.jsonl",
+      "original_responses": 164,
+      "prefix_retained": true
+    },
+    {
+      "file": "01-humaneval/no_think/original/responses.jsonl",
+      "original_responses": 164,
+      "prefix_retained": true
+    },
+    {
+      "file": "01-humaneval/no_think/step250/responses.jsonl",
+      "original_responses": 164,
+      "prefix_retained": true
+    },
+    {
+      "file": "02-gsm8k/medium_think/step1500/responses.jsonl",
+      "original_responses": 153,
+      "prefix_retained": true
+    },
+    {
+      "file": "02-gsm8k/medium_think/original/responses.jsonl",
+      "original_responses": 256,
+      "prefix_retained": true
+    },
+    {
+      "file": "02-gsm8k/no_think/step1500/responses.jsonl",
+      "original_responses": 256,
+      "prefix_retained": true
+    },
+    {
+      "file": "02-gsm8k/no_think/original/responses.jsonl",
+      "original_responses": 256,
+      "prefix_retained": true
+    },
+    {
+      "file": "02-gsm8k/no_think/step250/responses.jsonl",
+      "original_responses": 256,
+      "prefix_retained": true
+    }
+  ],
+  "response_files": [
+    {
+      "file": "00-mmlu_pro/no_think/original/responses.jsonl",
+      "rows": 280,
+      "sha256": "d9645e503a0245f6152f206c8ba55d2c3953a32a16eece90a9c20674bc62e44f",
+      "truncated": 2
+    },
+    {
+      "file": "00-mmlu_pro/no_think/step1500/responses.jsonl",
+      "rows": 280,
+      "sha256": "9623ecd125cfa9a77dacf5aac162563bff08daddee533899cf4b284750d58ed1",
+      "truncated": 1
+    },
+    {
+      "file": "00-mmlu_pro/no_think/step250/responses.jsonl",
+      "rows": 280,
+      "sha256": "6d60ab85943954eaf32e919e3ce0b988ee94afb833fe3e49eac3145ade52cd6a",
+      "truncated": 0
+    },
+    {
+      "file": "00-mmlu_pro/medium_think/original/responses.jsonl",
+      "rows": 280,
+      "sha256": "0bcbf91b41364f1210c7c5b41640d7ad4bd7c0462224384982c5d67d0f449d50",
+      "truncated": 12
+    },
+    {
+      "file": "00-mmlu_pro/medium_think/step1500/responses.jsonl",
+      "rows": 280,
+      "sha256": "bcdf1f08b6058473653703ce4619c7ca56abb664c65f97f913e7bc68b0045694",
+      "truncated": 9
+    },
+    {
+      "file": "00-mmlu_pro/medium_think/step250/responses.jsonl",
+      "rows": 280,
+      "sha256": "48ff477808202b937dd4e578c6d1605c609fc19eefa15b7d2b879ddb118d964a",
+      "truncated": 8
+    },
+    {
+      "file": "01-humaneval/no_think/original/responses.jsonl",
+      "rows": 164,
+      "sha256": "0c4e135c0b125c153fa105a60e10392ba120abe48ad392fe8eec5ab36796ffbd",
+      "truncated": 0
+    },
+    {
+      "file": "01-humaneval/no_think/step1500/responses.jsonl",
+      "rows": 164,
+      "sha256": "435699dec80cfe59c1e8be7fb5c470d4dc6d9a3439df67fcb27566e083191885",
+      "truncated": 0
+    },
+    {
+      "file": "01-humaneval/no_think/step250/responses.jsonl",
+      "rows": 164,
+      "sha256": "73739009796d26708b9fe578a722941398ba6151bd84aea0c599d3681dbeed62",
+      "truncated": 0
+    },
+    {
+      "file": "01-humaneval/medium_think/original/responses.jsonl",
+      "rows": 164,
+      "sha256": "61f013e381e9a09a49130e31580a9775682c430da480ca220f5dd1ffd660dfd7",
+      "truncated": 0
+    },
+    {
+      "file": "01-humaneval/medium_think/step1500/responses.jsonl",
+      "rows": 164,
+      "sha256": "f4d9426836c2c636c1865c1ae5d2881bfb2bda586588a6bcc5bbb7d6355151c7",
+      "truncated": 1
+    },
+    {
+      "file": "01-humaneval/medium_think/step250/responses.jsonl",
+      "rows": 164,
+      "sha256": "f81fbbe19a7415ab1e3cf9ce681dbd02158c5d1041e5c08448c97febf361d312",
+      "truncated": 0
+    },
+    {
+      "file": "02-gsm8k/no_think/original/responses.jsonl",
+      "rows": 256,
+      "sha256": "188018ee9f16a02943ef60a259108885de062e5bd1a9c3cece743ae5e28b2a88",
+      "truncated": 0
+    },
+    {
+      "file": "02-gsm8k/no_think/step1500/responses.jsonl",
+      "rows": 256,
+      "sha256": "bc4ffb578d89e1b10d5ff5812bea9d31ae7bd2a347d4be58a979df7cff81245d",
+      "truncated": 2
+    },
+    {
+      "file": "02-gsm8k/no_think/step250/responses.jsonl",
+      "rows": 256,
+      "sha256": "97779fc2c8e1c9c4eed8c2bc977e2ce913de64c9896a218afa7a4c84abccb000",
+      "truncated": 0
+    },
+    {
+      "file": "02-gsm8k/medium_think/original/responses.jsonl",
+      "rows": 256,
+      "sha256": "d54dd11a8275e6cfd31989e6993814b35c70a15d6f579ef79aa88111e11a5a6d",
+      "truncated": 0
+    },
+    {
+      "file": "02-gsm8k/medium_think/step1500/responses.jsonl",
+      "rows": 256,
+      "sha256": "5df42184bdc1b0734c9e0c526d5f8fbd0e832d1a5a6380d0ca91eb5c3c89d700",
+      "truncated": 0
+    },
+    {
+      "file": "02-gsm8k/medium_think/step250/responses.jsonl",
+      "rows": 256,
+      "sha256": "1ebf916fce0b71ac58129361da09fe844e3b43c06366cd356d6268614210c15a",
+      "truncated": 0
+    },
+    {
+      "file": "03-ifeval/no_think/original/responses.jsonl",
+      "rows": 541,
+      "sha256": "6e64424cf3c80ed250f4f815d53f62e055a06f4de332c1ded4476b1c8efb9b68",
+      "truncated": 6
+    },
+    {
+      "file": "03-ifeval/no_think/step1500/responses.jsonl",
+      "rows": 541,
+      "sha256": "306adb4ffd61ac0fc029a279479cfdea1fa32cbd491012716de1be287adfcb9e",
+      "truncated": 4
+    },
+    {
+      "file": "03-ifeval/no_think/step250/responses.jsonl",
+      "rows": 541,
+      "sha256": "8411485472434124841f60a78e2bebe32d118241d3641728fbf7b53c5a4b3747",
+      "truncated": 4
+    }
+  ],
+  "frozen_archive_files_unchanged": 138,
+  "aggregate_recomputed_exactly": true,
+  "comparisons_completed": 21,
+  "responses": 5823
+}

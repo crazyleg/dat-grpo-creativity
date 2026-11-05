@@ -1,0 +1,277 @@
+{
+  "results/steerbench": {
+    "columns": [
+      "Model",
+      "N",
+      "Steering error (lower better)",
+      "Miscalibration (lower better)",
+      "Side effects (lower better)"
+    ],
+    "rows": [
+      [
+        "Baseline",
+        128,
+        0.5386921980348249,
+        0.776859308779385,
+        0.5244068291362816
+      ],
+      [
+        "LoRA 1500",
+        128,
+        0.5503118296841452,
+        0.7860109231755865,
+        0.527029494213266
+      ],
+      [
+        "Full 250",
+        128,
+        0.5632784087773376,
+        0.8614043075742308,
+        0.463834897966678
+      ]
+    ]
+  },
+  "results/paired_differences": {
+    "columns": [
+      "Benchmark",
+      "Metric",
+      "Model vsbaseline",
+      "Delta",
+      "CI95low",
+      "CI95high",
+      "Items",
+      "Clusters"
+    ],
+    "rows": [
+      [
+        "steerbench",
+        "steering_error",
+        "LoRA 1500",
+        0.01161963164932021,
+        -0.012511934486590345,
+        0.03603711507324842,
+        128,
+        64
+      ],
+      [
+        "steerbench",
+        "miscalibration",
+        "LoRA 1500",
+        0.009151614396201534,
+        -0.020990806886569017,
+        0.04125995078743873,
+        128,
+        64
+      ],
+      [
+        "steerbench",
+        "side_effect_error",
+        "LoRA 1500",
+        0.002622665076984417,
+        -0.040327800897897934,
+        0.045462446108837415,
+        128,
+        64
+      ],
+      [
+        "steerbench",
+        "steering_error",
+        "Full 250",
+        0.024586210742512736,
+        -0.008310877767903025,
+        0.06125681455976887,
+        128,
+        64
+      ],
+      [
+        "steerbench",
+        "miscalibration",
+        "Full 250",
+        0.08454499879484567,
+        0.02942079327655164,
+        0.1513800928756403,
+        128,
+        64
+      ],
+      [
+        "steerbench",
+        "side_effect_error",
+        "Full 250",
+        -0.06057193116960355,
+        -0.12056171704493869,
+        -0.0024402846789215436,
+        128,
+        64
+      ],
+      [
+        "writingbench",
+        "overall",
+        "LoRA 1500",
+        0.036065573770491785,
+        -0.05245901639344266,
+        0.12786885245901636,
+        61,
+        61
+      ],
+      [
+        "writingbench",
+        "style",
+        "LoRA 1500",
+        0.140625,
+        0.0,
+        0.2890625,
+        64,
+        64
+      ],
+      [
+        "writingbench",
+        "overall",
+        "Full 250",
+        -0.055737704918032795,
+        -0.2852459016393442,
+        0.13442622950819677,
+        61,
+        61
+      ],
+      [
+        "writingbench",
+        "style",
+        "Full 250",
+        -0.0625,
+        -0.296875,
+        0.1484375,
+        64,
+        64
+      ]
+    ]
+  },
+  "results/writingbench_critic": {
+    "columns": [
+      "Model",
+      "Requested cases",
+      "Fully scored cases",
+      "Overall1-10",
+      "Style-scored cases",
+      "Style1-10"
+    ],
+    "rows": [
+      [
+        "Baseline",
+        64,
+        62,
+        8.064516129032258,
+        64,
+        8.4609375
+      ],
+      [
+        "LoRA 1500",
+        64,
+        62,
+        8.106451612903225,
+        64,
+        8.6015625
+      ],
+      [
+        "Full 250",
+        64,
+        63,
+        8.050793650793652,
+        64,
+        8.3984375
+      ]
+    ]
+  },
+  "results/mazur_judge_diagnostics": {
+    "columns": [
+      "Model vsbaseline",
+      "A wins",
+      "B wins",
+      "Ties",
+      "Order-consistent pairs",
+      "Complete pairs",
+      "Valid signed margins",
+      "Parsed winners"
+    ],
+    "rows": [
+      [
+        "LoRA 1500",
+        111,
+        17,
+        0,
+        17,
+        64,
+        111,
+        128
+      ],
+      [
+        "Full 250",
+        98,
+        30,
+        0,
+        28,
+        64,
+        98,
+        128
+      ]
+    ]
+  },
+  "results/mazur_pairwise": {
+    "columns": [
+      "Model vsbaseline",
+      "Requested pairs",
+      "Pairs withboth orders",
+      "Win credit%",
+      "CI95low",
+      "CI95high",
+      "Brief clusters"
+    ],
+    "rows": [
+      [
+        "LoRA 1500",
+        64,
+        64,
+        52.34375,
+        46.875,
+        57.8125,
+        32
+      ],
+      [
+        "Full 250",
+        64,
+        64,
+        40.625,
+        33.59375,
+        48.4375,
+        32
+      ]
+    ]
+  },
+  "results/steerbench_content": {
+    "columns": [
+      "Model",
+      "Requested",
+      "Scored",
+      "Content-preserved % (local judge)"
+    ],
+    "rows": [
+      [
+        "Baseline",
+        128,
+        128,
+        100.0
+      ],
+      [
+        "LoRA 1500",
+        128,
+        128,
+        100.0
+      ],
+      [
+        "Full 250",
+        128,
+        128,
+        100.0
+      ]
+    ]
+  }
+}

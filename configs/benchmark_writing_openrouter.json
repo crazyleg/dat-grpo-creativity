@@ -1,0 +1,29 @@
+{
+  "source_directory": "benchmarks/results/writing-transfer-20261103T185135Z",
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "anthropic/claude-opus-5.5",
+  "provider": {
+    "order": [
+      "Anthropic"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+  },
+  "reasoning": {
+    "effort": "medium"
+  },
+  "max_tokens": {
+    "describe": 6144,
+    "score": 4096
+  },
+  "concurrency": 4,
+  "max_cost_usd": 30.0,
+  "input_price_per_token": 4e-06,
+  "output_price_per_token": 2e-05,
+  "tie_threshold": 0.5,
+  "key_file": "~/.config/openrouter/api_key",
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  }
+}

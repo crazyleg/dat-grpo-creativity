@@ -1,0 +1,5436 @@
+{
+  "metrics": {
+    "creativity": {
+      "baseline_mean": 5.22109375,
+      "full250_mean": 5.921093750000001,
+      "delta": {
+        "mean": 0.7,
+        "ci95_low": 0.45625000000000004,
+        "ci95_high": 0.94921875,
+        "clusters": 32,
+        "items": 64
+      },
+      "win_credit": {
+        "mean": 0.7421875,
+        "ci95_low": 0.6484375,
+        "ci95_high": 0.8321289062499986,
+        "clusters": 32,
+        "items": 64
+      },
+      "order_agreement_percent": 84.375,
+      "winner_counts": {
+        "B": 53,
+        "A": 51,
+        "TIE": 24
+      },
+      "items": {
+        "mazur/0": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 4.9,
+          "full250": 6.2,
+          "delta": 1.2999999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/1": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 5.9,
+          "full250": 6.85,
+          "delta": 0.9499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/2": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 5.45,
+          "full250": 4.9,
+          "delta": -0.5499999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/3": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 3.5,
+          "full250": 4.0,
+          "delta": 0.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/4": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.65,
+          "full250": 3.25,
+          "delta": -1.4000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/5": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 3.5,
+          "full250": 5.25,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/6": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 5.25,
+          "full250": 6.3,
+          "delta": 1.0499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/7": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 5.15,
+          "full250": 6.5,
+          "delta": 1.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/8": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 3.75,
+          "full250": 5.9,
+          "delta": 2.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/9": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 5.4,
+          "full250": 5.55,
+          "delta": 0.14999999999999947,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/10": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 4.65,
+          "full250": 6.5,
+          "delta": 1.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/11": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 5.3,
+          "full250": 5.6,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/12": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 6.6,
+          "full250": 6.5,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/13": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 4.5,
+          "full250": 6.5,
+          "delta": 2.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/14": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.1,
+          "full250": 5.2,
+          "delta": -0.8999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/15": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.05,
+          "full250": 6.6,
+          "delta": 0.5499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/16": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 5.65,
+          "full250": 7.1,
+          "delta": 1.4499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/17": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 4.45,
+          "full250": 5.9,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/18": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 6.3,
+          "full250": 7.15,
+          "delta": 0.8500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/19": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.25,
+          "full250": 6.5,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/20": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 5.4,
+          "full250": 6.85,
+          "delta": 1.4499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/21": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 5.4,
+          "full250": 7.8,
+          "delta": 2.3999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/22": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.05,
+          "full250": 5.5,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/23": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.5,
+          "full250": 4.95,
+          "delta": -0.5499999999999998,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/24": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 6.45,
+          "full250": 6.5,
+          "delta": 0.05000000000000071,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/25": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 5.5,
+          "full250": 5.6,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/26": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.05,
+          "full250": 4.85,
+          "delta": -0.20000000000000018,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/27": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.6,
+          "full250": 6.7,
+          "delta": 1.1000000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/28": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 4.9,
+          "full250": 6.3,
+          "delta": 1.3999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/29": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 4.0,
+          "full250": 7.25,
+          "delta": 3.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/30": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 4.9,
+          "full250": 7.25,
+          "delta": 2.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/31": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 5.65,
+          "full250": 3.65,
+          "delta": -2.0000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/32": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.3,
+          "full250": 5.8,
+          "delta": 0.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/33": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.1,
+          "full250": 5.65,
+          "delta": 0.5500000000000007,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/34": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 5.7,
+          "full250": 6.5,
+          "delta": 0.7999999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/35": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 6.8,
+          "full250": 7.35,
+          "delta": 0.5499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/36": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.75,
+          "full250": 4.5,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/37": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 4.6,
+          "full250": 6.0,
+          "delta": 1.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/38": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.45,
+          "full250": 5.4,
+          "delta": -0.049999999999998934,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/39": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.0,
+          "full250": 6.0,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/40": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 6.35,
+          "full250": 7.85,
+          "delta": 1.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/41": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 5.5,
+          "full250": 6.85,
+          "delta": 1.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/42": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 6.0,
+          "full250": 7.2,
+          "delta": 1.2000000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/43": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 5.0,
+          "full250": 7.0,
+          "delta": 2.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/44": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.9,
+          "full250": 6.3,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/45": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.9,
+          "full250": 4.75,
+          "delta": -1.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/46": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 6.15,
+          "full250": 5.65,
+          "delta": -0.5,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/47": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 5.0,
+          "full250": 6.0,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/48": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 5.25,
+          "full250": 6.7,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/49": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 3.75,
+          "full250": 4.5,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/50": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 3.5,
+          "full250": 3.8,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/51": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 4.5,
+          "full250": 5.35,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/52": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.65,
+          "full250": 4.95,
+          "delta": -0.7000000000000011,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/53": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.75,
+          "full250": 5.55,
+          "delta": -0.1999999999999993,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/54": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.3,
+          "full250": 6.05,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/55": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 4.35,
+          "full250": 5.9,
+          "delta": 1.5500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/56": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.25,
+          "full250": 5.0,
+          "delta": -0.25,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/57": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 4.55,
+          "full250": 6.05,
+          "delta": 1.5000000000000009,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/58": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 3.9,
+          "full250": 4.25,
+          "delta": 0.3500000000000001,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/59": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.45,
+          "full250": 6.25,
+          "delta": 1.7999999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/60": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 5.15,
+          "full250": 6.0,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/61": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 3.75,
+          "full250": 5.75,
+          "delta": 2.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/62": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 7.1,
+          "full250": 6.5,
+          "delta": -0.5999999999999996,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/63": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 6.75,
+          "full250": 6.1,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      }
+    },
+    "imagery": {
+      "baseline_mean": 5.5921875,
+      "full250_mean": 6.2125,
+      "delta": {
+        "mean": 0.6203125,
+        "ci95_low": 0.37181640624999995,
+        "ci95_high": 0.86328125,
+        "clusters": 32,
+        "items": 64
+      },
+      "win_credit": {
+        "mean": 0.7265625,
+        "ci95_low": 0.6328125,
+        "ci95_high": 0.81640625,
+        "clusters": 32,
+        "items": 64
+      },
+      "order_agreement_percent": 78.125,
+      "winner_counts": {
+        "B": 49,
+        "A": 49,
+        "TIE": 30
+      },
+      "items": {
+        "mazur/0": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 5.05,
+          "full250": 6.4,
+          "delta": 1.3500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/1": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 6.1,
+          "full250": 6.9,
+          "delta": 0.8000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/2": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 5.75,
+          "full250": 5.05,
+          "delta": -0.7000000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/3": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 4.5,
+          "full250": 3.85,
+          "delta": -0.6499999999999999,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/4": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 5.15,
+          "full250": 3.65,
+          "delta": -1.5000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/5": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.0,
+          "full250": 5.75,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/6": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 6.5,
+          "full250": 6.4,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/7": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 6.0,
+          "full250": 7.0,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/8": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 3.4,
+          "full250": 5.9,
+          "delta": 2.5000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/9": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 5.8,
+          "full250": 5.85,
+          "delta": 0.04999999999999982,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/10": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 5.1,
+          "full250": 6.6,
+          "delta": 1.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/11": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 5.95,
+          "full250": 6.25,
+          "delta": 0.3000000000000007,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/12": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 6.8,
+          "full250": 7.0,
+          "delta": 0.20000000000000018,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/13": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 5.0,
+          "full250": 7.0,
+          "delta": 2.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/14": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.4,
+          "full250": 4.9,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/15": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.55,
+          "full250": 7.05,
+          "delta": 0.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/16": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 6.0,
+          "full250": 7.25,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/17": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 4.7,
+          "full250": 6.25,
+          "delta": 1.5500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/18": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 6.65,
+          "full250": 7.25,
+          "delta": 0.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/19": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.95,
+          "full250": 6.6,
+          "delta": 0.6499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/20": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 5.8,
+          "full250": 7.15,
+          "delta": 1.3500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/21": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 5.85,
+          "full250": 7.55,
+          "delta": 1.7000000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/22": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.8,
+          "full250": 5.9,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/23": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 6.1,
+          "full250": 5.4,
+          "delta": -0.6999999999999993,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/24": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 6.4,
+          "full250": 6.85,
+          "delta": 0.4499999999999993,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/25": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 5.8,
+          "full250": 5.35,
+          "delta": -0.4500000000000002,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/26": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.65,
+          "full250": 5.8,
+          "delta": 0.14999999999999947,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/27": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.25,
+          "full250": 7.3,
+          "delta": 2.0500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/28": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 5.15,
+          "full250": 6.3,
+          "delta": 1.1499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/29": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 4.55,
+          "full250": 7.2,
+          "delta": 2.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/30": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 5.45,
+          "full250": 6.65,
+          "delta": 1.2000000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/31": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 5.5,
+          "full250": 4.55,
+          "delta": -0.9500000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/32": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.55,
+          "full250": 5.85,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/33": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 4.85,
+          "full250": 6.3,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/34": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 5.9,
+          "full250": 7.0,
+          "delta": 1.0999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/35": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 7.05,
+          "full250": 7.5,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/36": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 6.25,
+          "full250": 4.25,
+          "delta": -2.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/37": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.25,
+          "full250": 5.3,
+          "delta": 0.04999999999999982,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/38": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 6.2,
+          "full250": 6.1,
+          "delta": -0.10000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/39": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.0,
+          "full250": 6.25,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/40": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 6.65,
+          "full250": 8.05,
+          "delta": 1.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/41": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 6.0,
+          "full250": 7.4,
+          "delta": 1.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/42": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 6.2,
+          "full250": 7.65,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/43": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 5.9,
+          "full250": 7.0,
+          "delta": 1.0999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/44": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 6.1,
+          "full250": 6.25,
+          "delta": 0.15000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/45": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.85,
+          "full250": 4.95,
+          "delta": -0.8999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/46": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 6.25,
+          "full250": 5.9,
+          "delta": -0.34999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/47": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 5.15,
+          "full250": 6.1,
+          "delta": 0.9499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/48": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 5.3,
+          "full250": 7.15,
+          "delta": 1.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/49": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 4.55,
+          "full250": 5.65,
+          "delta": 1.1000000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/50": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 3.9,
+          "full250": 4.5,
+          "delta": 0.6000000000000001,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/51": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 5.5,
+          "full250": 5.95,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/52": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.5,
+          "full250": 5.05,
+          "delta": -0.4500000000000002,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/53": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.95,
+          "full250": 6.15,
+          "delta": 0.20000000000000107,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/54": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.85,
+          "full250": 6.6,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/55": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.1,
+          "full250": 5.85,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/56": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 6.0,
+          "full250": 5.25,
+          "delta": -0.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/57": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.35,
+          "full250": 6.8,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/58": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.25,
+          "full250": 5.25,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/59": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.95,
+          "full250": 6.45,
+          "delta": 1.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/60": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 5.55,
+          "full250": 6.35,
+          "delta": 0.7999999999999989,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/61": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 4.05,
+          "full250": 6.35,
+          "delta": 2.3,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/62": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 7.0,
+          "full250": 6.9,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/63": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 6.3,
+          "full250": 6.6,
+          "delta": 0.29999999999999893,
+          "win_credit": 0.5,
+          "order_agrees": true
+        }
+      }
+    },
+    "style": {
+      "baseline_mean": 4.637499999999999,
+      "full250_mean": 4.85,
+      "delta": {
+        "mean": 0.21250000000000002,
+        "ci95_low": -0.12656249999999994,
+        "ci95_high": 0.5383593749999989,
+        "clusters": 32,
+        "items": 64
+      },
+      "win_credit": {
+        "mean": 0.56640625,
+        "ci95_low": 0.4609375,
+        "ci95_high": 0.6641601562499986,
+        "clusters": 32,
+        "items": 64
+      },
+      "order_agreement_percent": 75.0,
+      "winner_counts": {
+        "TIE": 25,
+        "B": 59,
+        "A": 44
+      },
+      "items": {
+        "mazur/0": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 4.35,
+          "full250": 4.15,
+          "delta": -0.1999999999999993,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/1": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 5.45,
+          "full250": 4.9,
+          "delta": -0.5499999999999998,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/2": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 4.65,
+          "full250": 3.65,
+          "delta": -1.0000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/3": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 3.5,
+          "full250": 2.0,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/4": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.1,
+          "full250": 2.1,
+          "delta": -1.9999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/5": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 3.85,
+          "full250": 3.9,
+          "delta": 0.04999999999999982,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/6": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 5.65,
+          "full250": 4.1,
+          "delta": -1.5500000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/7": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 4.25,
+          "full250": 5.65,
+          "delta": 1.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/8": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 2.75,
+          "full250": 4.65,
+          "delta": 1.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/9": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 5.0,
+          "full250": 4.1,
+          "delta": -0.9000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/10": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 3.25,
+          "full250": 5.4,
+          "delta": 2.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/11": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 4.85,
+          "full250": 5.35,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/12": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 5.7,
+          "full250": 5.5,
+          "delta": -0.20000000000000018,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/13": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 3.5,
+          "full250": 6.0,
+          "delta": 2.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/14": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 5.75,
+          "full250": 3.1,
+          "delta": -2.65,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/15": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 5.2,
+          "full250": 6.15,
+          "delta": 0.9500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/16": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 5.4,
+          "full250": 5.45,
+          "delta": 0.049999999999998934,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/17": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 3.65,
+          "full250": 4.6,
+          "delta": 0.9499999999999997,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/18": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.8,
+          "full250": 6.15,
+          "delta": 0.35000000000000053,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/19": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.05,
+          "full250": 5.9,
+          "delta": 0.8500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/20": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 4.25,
+          "full250": 6.4,
+          "delta": 2.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/21": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 4.65,
+          "full250": 6.7,
+          "delta": 2.049999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/22": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 4.85,
+          "full250": 5.25,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/23": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.0,
+          "full250": 3.85,
+          "delta": -1.15,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/24": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 5.75,
+          "full250": 5.95,
+          "delta": 0.20000000000000018,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/25": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 4.7,
+          "full250": 3.5,
+          "delta": -1.1999999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/26": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 4.85,
+          "full250": 4.05,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/27": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 4.65,
+          "full250": 6.3,
+          "delta": 1.6499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/28": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 4.7,
+          "full250": 5.15,
+          "delta": 0.45000000000000107,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/29": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 3.65,
+          "full250": 5.7,
+          "delta": 2.0500000000000003,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/30": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 4.35,
+          "full250": 5.55,
+          "delta": 1.2000000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/31": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 4.85,
+          "full250": 2.65,
+          "delta": -2.1999999999999997,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/32": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.25,
+          "full250": 4.5,
+          "delta": -0.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/33": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 4.05,
+          "full250": 5.65,
+          "delta": 1.6000000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/34": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 4.95,
+          "full250": 6.05,
+          "delta": 1.1000000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/35": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 6.25,
+          "full250": 6.75,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/36": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.0,
+          "full250": 3.0,
+          "delta": -2.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/37": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.15,
+          "full250": 3.4,
+          "delta": -1.7500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/38": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.7,
+          "full250": 4.85,
+          "delta": -0.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/39": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 3.25,
+          "full250": 5.0,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/40": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 6.15,
+          "full250": 6.6,
+          "delta": 0.4499999999999993,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/41": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 4.8,
+          "full250": 6.4,
+          "delta": 1.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/42": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 4.7,
+          "full250": 6.55,
+          "delta": 1.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/43": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 5.8,
+          "full250": 5.9,
+          "delta": 0.10000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/44": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.5,
+          "full250": 4.1,
+          "delta": -1.4000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/45": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 4.85,
+          "full250": 2.75,
+          "delta": -2.0999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/46": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 5.0,
+          "full250": 4.35,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/47": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 3.9,
+          "full250": 5.2,
+          "delta": 1.3000000000000003,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/48": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 4.25,
+          "full250": 5.95,
+          "delta": 1.7000000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/49": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 2.65,
+          "full250": 3.25,
+          "delta": 0.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/50": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 3.45,
+          "full250": 2.15,
+          "delta": -1.3000000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/51": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 4.0,
+          "full250": 4.2,
+          "delta": 0.20000000000000018,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/52": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 4.45,
+          "full250": 4.65,
+          "delta": 0.20000000000000018,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/53": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.5,
+          "full250": 4.8,
+          "delta": -0.7000000000000002,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/54": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.05,
+          "full250": 6.1,
+          "delta": 1.049999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/55": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 4.15,
+          "full250": 4.65,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/56": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.0,
+          "full250": 3.25,
+          "delta": -1.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/57": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 4.6,
+          "full250": 4.6,
+          "delta": 0.0,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/58": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 3.25,
+          "full250": 4.15,
+          "delta": 0.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/59": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.25,
+          "full250": 5.85,
+          "delta": 1.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/60": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 4.65,
+          "full250": 4.7,
+          "delta": 0.049999999999998934,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/61": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 3.0,
+          "full250": 5.15,
+          "delta": 2.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/62": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 6.25,
+          "full250": 6.05,
+          "delta": -0.1999999999999993,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/63": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 4.05,
+          "full250": 6.0,
+          "delta": 1.9500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      }
+    },
+    "coherence": {
+      "baseline_mean": 5.192187499999999,
+      "full250_mean": 4.2953125,
+      "delta": {
+        "mean": -0.8968750000000001,
+        "ci95_low": -1.2781640625000001,
+        "ci95_high": -0.5414062500000001,
+        "clusters": 32,
+        "items": 64
+      },
+      "win_credit": {
+        "mean": 0.3203125,
+        "ci95_low": 0.234375,
+        "ci95_high": 0.41015625,
+        "clusters": 32,
+        "items": 64
+      },
+      "order_agreement_percent": 87.5,
+      "winner_counts": {
+        "A": 56,
+        "B": 58,
+        "TIE": 14
+      },
+      "items": {
+        "mazur/0": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 6.1,
+          "full250": 3.25,
+          "delta": -2.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/1": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 6.1,
+          "full250": 3.8,
+          "delta": -2.3,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/2": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 4.4,
+          "full250": 3.65,
+          "delta": -0.7500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/3": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 4.15,
+          "full250": 1.9,
+          "delta": -2.2500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/4": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.0,
+          "full250": 1.65,
+          "delta": -2.35,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/5": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.3,
+          "full250": 3.0,
+          "delta": -1.2999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/6": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 6.25,
+          "full250": 4.65,
+          "delta": -1.5999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/7": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 5.45,
+          "full250": 5.6,
+          "delta": 0.14999999999999947,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/8": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 3.0,
+          "full250": 3.9,
+          "delta": 0.8999999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/9": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 5.8,
+          "full250": 3.5,
+          "delta": -2.3,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/10": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 3.35,
+          "full250": 5.85,
+          "delta": 2.4999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/11": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 5.4,
+          "full250": 4.9,
+          "delta": -0.5,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/12": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 6.75,
+          "full250": 4.15,
+          "delta": -2.5999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/13": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 3.5,
+          "full250": 6.25,
+          "delta": 2.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/14": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.45,
+          "full250": 2.75,
+          "delta": -3.7,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/15": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 4.8,
+          "full250": 6.45,
+          "delta": 1.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/16": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 6.3,
+          "full250": 4.15,
+          "delta": -2.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/17": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 5.25,
+          "full250": 3.25,
+          "delta": -2.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/18": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 6.0,
+          "full250": 6.25,
+          "delta": 0.25,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/19": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.8,
+          "full250": 5.5,
+          "delta": -0.2999999999999998,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/20": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 4.9,
+          "full250": 5.65,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/21": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 6.15,
+          "full250": 5.8,
+          "delta": -0.34999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/22": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 4.7,
+          "full250": 5.65,
+          "delta": 0.9500000000000011,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/23": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 6.0,
+          "full250": 4.0,
+          "delta": -2.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/24": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 6.45,
+          "full250": 5.1,
+          "delta": -1.3500000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/25": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 4.95,
+          "full250": 2.6,
+          "delta": -2.349999999999999,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/26": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 6.5,
+          "full250": 2.5,
+          "delta": -4.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/27": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 4.9,
+          "full250": 5.9,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/28": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 6.0,
+          "full250": 4.5,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/29": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 5.75,
+          "full250": 4.15,
+          "delta": -1.5999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/30": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 6.05,
+          "full250": 5.4,
+          "delta": -0.6499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/31": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 5.4,
+          "full250": 2.05,
+          "delta": -3.3500000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/32": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.1,
+          "full250": 3.3,
+          "delta": -1.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/33": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 3.4,
+          "full250": 5.3,
+          "delta": 1.9,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/34": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 5.3,
+          "full250": 6.2,
+          "delta": 0.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/35": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 7.1,
+          "full250": 6.15,
+          "delta": -0.9499999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/36": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 6.0,
+          "full250": 2.0,
+          "delta": -4.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/37": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.1,
+          "full250": 3.1,
+          "delta": -2.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/38": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.35,
+          "full250": 4.45,
+          "delta": -0.8999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/39": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 3.25,
+          "full250": 4.75,
+          "delta": 1.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/40": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 7.2,
+          "full250": 5.05,
+          "delta": -2.1499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/41": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 4.9,
+          "full250": 5.55,
+          "delta": 0.6499999999999995,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/42": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 6.05,
+          "full250": 6.5,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/43": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 6.0,
+          "full250": 5.15,
+          "delta": -0.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/44": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.75,
+          "full250": 4.6,
+          "delta": -1.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/45": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.9,
+          "full250": 2.15,
+          "delta": -3.7500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/46": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 5.45,
+          "full250": 3.8,
+          "delta": -1.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/47": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 3.35,
+          "full250": 4.15,
+          "delta": 0.8000000000000003,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/48": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 5.0,
+          "full250": 4.6,
+          "delta": -0.40000000000000036,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/49": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 2.25,
+          "full250": 2.4,
+          "delta": 0.1499999999999999,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/50": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 4.8,
+          "full250": 1.7,
+          "delta": -3.0999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/51": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 5.65,
+          "full250": 3.55,
+          "delta": -2.1000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/52": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 3.8,
+          "full250": 4.8,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/53": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.8,
+          "full250": 4.45,
+          "delta": -1.3500000000000014,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/54": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.05,
+          "full250": 6.3,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/55": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 4.75,
+          "full250": 3.4,
+          "delta": -1.3499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/56": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.5,
+          "full250": 2.25,
+          "delta": -3.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/57": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.8,
+          "full250": 4.1,
+          "delta": -1.7000000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/58": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.5,
+          "full250": 3.0,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/59": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.05,
+          "full250": 3.9,
+          "delta": -0.1499999999999999,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/60": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 5.45,
+          "full250": 4.2,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/61": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 4.0,
+          "full250": 5.3,
+          "delta": 1.2999999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/62": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 5.95,
+          "full250": 6.05,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/63": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 3.85,
+          "full250": 5.0,
+          "delta": 1.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      }
+    },
+    "character_and_impact": {
+      "baseline_mean": 5.050000000000001,
+      "full250_mean": 4.8765624999999995,
+      "delta": {
+        "mean": -0.17343750000000002,
+        "ci95_low": -0.49765624999999997,
+        "ci95_high": 0.14298828124999968,
+        "clusters": 32,
+        "items": 64
+      },
+      "win_credit": {
+        "mean": 0.4921875,
+        "ci95_low": 0.39453125,
+        "ci95_high": 0.5859375,
+        "clusters": 32,
+        "items": 64
+      },
+      "order_agreement_percent": 65.625,
+      "winner_counts": {
+        "A": 39,
+        "B": 61,
+        "TIE": 28
+      },
+      "items": {
+        "mazur/0": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 5.65,
+          "full250": 3.85,
+          "delta": -1.8000000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/1": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 6.15,
+          "full250": 4.6,
+          "delta": -1.5500000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/2": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 5.0,
+          "full250": 4.35,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/3": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 4.0,
+          "full250": 2.5,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/4": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.4,
+          "full250": 2.6,
+          "delta": -1.8000000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/5": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 3.9,
+          "full250": 4.1,
+          "delta": 0.19999999999999973,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/6": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 5.65,
+          "full250": 5.0,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/7": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 4.9,
+          "full250": 6.05,
+          "delta": 1.1499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/8": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 3.5,
+          "full250": 4.9,
+          "delta": 1.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/9": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 5.9,
+          "full250": 3.95,
+          "delta": -1.9500000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/10": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 3.65,
+          "full250": 6.0,
+          "delta": 2.35,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/11": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 5.1,
+          "full250": 4.55,
+          "delta": -0.5499999999999989,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/12": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 5.8,
+          "full250": 5.15,
+          "delta": -0.6499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/13": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 4.0,
+          "full250": 6.25,
+          "delta": 2.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/14": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.1,
+          "full250": 3.7,
+          "delta": -2.3999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/15": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 5.6,
+          "full250": 6.65,
+          "delta": 1.0500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/16": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 5.4,
+          "full250": 5.6,
+          "delta": 0.1999999999999993,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/17": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 4.5,
+          "full250": 4.2,
+          "delta": -0.3000000000000007,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/18": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 6.0,
+          "full250": 6.45,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/19": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.15,
+          "full250": 6.05,
+          "delta": 0.8999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/20": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 4.65,
+          "full250": 6.75,
+          "delta": 2.0999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/21": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 5.35,
+          "full250": 6.65,
+          "delta": 1.3000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/22": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.5,
+          "full250": 5.35,
+          "delta": -0.15000000000000036,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/23": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.9,
+          "full250": 3.7,
+          "delta": -2.2,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/24": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 6.3,
+          "full250": 6.05,
+          "delta": -0.25,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/25": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 5.45,
+          "full250": 3.3,
+          "delta": -2.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/26": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.6,
+          "full250": 2.65,
+          "delta": -2.9499999999999997,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/27": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.25,
+          "full250": 6.3,
+          "delta": 1.0500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/28": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 5.45,
+          "full250": 5.0,
+          "delta": -0.4500000000000002,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/29": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 4.6,
+          "full250": 5.05,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/30": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 4.9,
+          "full250": 5.75,
+          "delta": 0.8499999999999996,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/31": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 5.1,
+          "full250": 2.15,
+          "delta": -2.9499999999999997,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/32": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.75,
+          "full250": 4.25,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/33": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 4.25,
+          "full250": 5.5,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/34": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 5.35,
+          "full250": 5.7,
+          "delta": 0.35000000000000053,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/35": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 6.25,
+          "full250": 6.9,
+          "delta": 0.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/36": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.75,
+          "full250": 2.75,
+          "delta": -3.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/37": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 4.8,
+          "full250": 4.45,
+          "delta": -0.34999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/38": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.25,
+          "full250": 4.95,
+          "delta": -0.2999999999999998,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/39": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 4.25,
+          "full250": 4.5,
+          "delta": 0.25,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/40": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 6.45,
+          "full250": 6.2,
+          "delta": -0.2500000000000009,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/41": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 5.05,
+          "full250": 6.0,
+          "delta": 0.9499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/42": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 5.3,
+          "full250": 6.5,
+          "delta": 1.2000000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/43": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 3.6,
+          "full250": 5.4,
+          "delta": 1.8000000000000003,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/44": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.95,
+          "full250": 4.85,
+          "delta": -1.1000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/45": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.3,
+          "full250": 2.9,
+          "delta": -2.4,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/46": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 5.6,
+          "full250": 4.55,
+          "delta": -1.0499999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/47": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 4.3,
+          "full250": 4.55,
+          "delta": 0.25,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/48": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 4.7,
+          "full250": 5.8,
+          "delta": 1.1000000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/49": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 3.1,
+          "full250": 3.0,
+          "delta": -0.10000000000000009,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/50": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 4.0,
+          "full250": 2.35,
+          "delta": -1.65,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/51": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 5.0,
+          "full250": 4.55,
+          "delta": -0.4500000000000002,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/52": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 4.4,
+          "full250": 5.05,
+          "delta": 0.6500000000000004,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/53": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.85,
+          "full250": 5.05,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/54": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.65,
+          "full250": 6.1,
+          "delta": 0.4499999999999993,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/55": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 4.95,
+          "full250": 4.55,
+          "delta": -0.40000000000000036,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/56": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.5,
+          "full250": 3.0,
+          "delta": -2.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/57": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 4.65,
+          "full250": 5.15,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/58": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.25,
+          "full250": 4.0,
+          "delta": -0.25,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/59": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.1,
+          "full250": 5.75,
+          "delta": 1.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/60": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 5.05,
+          "full250": 5.3,
+          "delta": 0.25,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/61": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 3.6,
+          "full250": 5.15,
+          "delta": 1.5500000000000003,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/62": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 5.9,
+          "full250": 6.35,
+          "delta": 0.4499999999999993,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/63": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 4.9,
+          "full250": 5.8,
+          "delta": 0.8999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      }
+    },
+    "integration": {
+      "baseline_mean": 5.8859375,
+      "full250_mean": 5.63671875,
+      "delta": {
+        "mean": -0.24921875,
+        "ci95_low": -0.62111328125,
+        "ci95_high": 0.12658203124999973,
+        "clusters": 32,
+        "items": 64
+      },
+      "win_credit": {
+        "mean": 0.4921875,
+        "ci95_low": 0.40234375,
+        "ci95_high": 0.5859375,
+        "clusters": 32,
+        "items": 64
+      },
+      "order_agreement_percent": 75.0,
+      "winner_counts": {
+        "A": 45,
+        "B": 51,
+        "TIE": 32
+      },
+      "items": {
+        "mazur/0": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 6.3,
+          "full250": 4.55,
+          "delta": -1.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/1": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 6.75,
+          "full250": 4.5,
+          "delta": -2.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/2": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 6.0,
+          "full250": 5.6,
+          "delta": -0.40000000000000036,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/3": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 4.0,
+          "full250": 3.5,
+          "delta": -0.5,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/4": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.85,
+          "full250": 3.5,
+          "delta": -1.3499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/5": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.25,
+          "full250": 4.1,
+          "delta": -0.15000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/6": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 6.35,
+          "full250": 7.0,
+          "delta": 0.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/7": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 6.15,
+          "full250": 7.0,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/8": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 4.0,
+          "full250": 5.35,
+          "delta": 1.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/9": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 7.0,
+          "full250": 5.0,
+          "delta": -2.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/10": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 4.4,
+          "full250": 6.6,
+          "delta": 2.1999999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/11": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 6.25,
+          "full250": 5.1,
+          "delta": -1.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/12": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 6.8,
+          "full250": 5.6,
+          "delta": -1.2000000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/13": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 5.5,
+          "full250": 7.25,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/14": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 7.45,
+          "full250": 4.35,
+          "delta": -3.0999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/15": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.35,
+          "full250": 6.75,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/16": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 6.45,
+          "full250": 6.8,
+          "delta": 0.34999999999999964,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/17": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 6.25,
+          "full250": 4.2,
+          "delta": -2.0500000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/18": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 7.3,
+          "full250": 7.6,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/19": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.55,
+          "full250": 7.0,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/20": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 5.65,
+          "full250": 7.2,
+          "delta": 1.5499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/21": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 6.85,
+          "full250": 6.65,
+          "delta": -0.1999999999999993,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/22": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.65,
+          "full250": 7.0,
+          "delta": 1.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/23": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.8,
+          "full250": 5.5,
+          "delta": -0.2999999999999998,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/24": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 7.15,
+          "full250": 5.3,
+          "delta": -1.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/25": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 6.5,
+          "full250": 4.0,
+          "delta": -2.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/26": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 6.5,
+          "full250": 3.4,
+          "delta": -3.1,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/27": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 6.4,
+          "full250": 6.9,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/28": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 6.0,
+          "full250": 6.15,
+          "delta": 0.15000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/29": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 6.0,
+          "full250": 6.45,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/30": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 6.4,
+          "full250": 6.9,
+          "delta": 0.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/31": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 7.05,
+          "full250": 2.95,
+          "delta": -4.1,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/32": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 6.35,
+          "full250": 4.8,
+          "delta": -1.5499999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/33": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.35,
+          "full250": 4.95,
+          "delta": -0.39999999999999947,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/34": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 6.5,
+          "full250": 6.85,
+          "delta": 0.34999999999999964,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/35": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 7.3,
+          "full250": 7.3,
+          "delta": 8.881784197001252e-16,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/36": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 6.75,
+          "full250": 3.75,
+          "delta": -3.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/37": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.7,
+          "full250": 5.5,
+          "delta": -0.1999999999999993,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/38": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.7,
+          "full250": 6.0,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/39": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 6.0,
+          "full250": 5.75,
+          "delta": -0.25,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/40": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 6.65,
+          "full250": 7.15,
+          "delta": 0.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/41": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 5.8,
+          "full250": 7.15,
+          "delta": 1.3500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/42": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 6.2,
+          "full250": 7.45,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/43": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 2.75,
+          "full250": 6.65,
+          "delta": 3.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/44": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 6.9,
+          "full250": 6.65,
+          "delta": -0.25,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/45": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 6.5,
+          "full250": 4.35,
+          "delta": -2.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/46": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 6.05,
+          "full250": 4.9,
+          "delta": -1.1499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/47": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 5.1,
+          "full250": 5.9,
+          "delta": 0.8000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/48": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 6.05,
+          "full250": 6.3,
+          "delta": 0.2500000000000009,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/49": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 2.9,
+          "full250": 4.1,
+          "delta": 1.1999999999999997,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/50": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 5.1,
+          "full250": 3.5,
+          "delta": -1.5999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/51": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 5.65,
+          "full250": 4.35,
+          "delta": -1.3000000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/52": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 4.65,
+          "full250": 5.6,
+          "delta": 0.9499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/53": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 6.2,
+          "full250": 5.7,
+          "delta": -0.5,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/54": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.9,
+          "full250": 6.9,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/55": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.5,
+          "full250": 5.2,
+          "delta": -0.3000000000000007,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/56": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 6.75,
+          "full250": 3.0,
+          "delta": -3.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/57": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.55,
+          "full250": 5.85,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        "mazur/58": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 5.4,
+          "full250": 4.85,
+          "delta": -0.5500000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/59": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 5.1,
+          "full250": 6.05,
+          "delta": 0.9500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/60": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 5.85,
+          "full250": 5.35,
+          "delta": -0.5,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/61": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 4.65,
+          "full250": 5.65,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/62": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 5.75,
+          "full250": 7.4,
+          "delta": 1.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/63": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 6.2,
+          "full250": 6.1,
+          "delta": -0.10000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": true
+        }
+      }
+    },
+    "overall_quality": {
+      "baseline_mean": 5.1796875,
+      "full250_mean": 5.12734375,
+      "delta": {
+        "mean": -0.052343750000000036,
+        "ci95_low": -0.36175781249999994,
+        "ci95_high": 0.24296875,
+        "clusters": 32,
+        "items": 64
+      },
+      "win_credit": {
+        "mean": 0.51953125,
+        "ci95_low": 0.41015625,
+        "ci95_high": 0.62890625,
+        "clusters": 32,
+        "items": 64
+      },
+      "order_agreement_percent": 82.8125,
+      "winner_counts": {
+        "A": 55,
+        "B": 70,
+        "TIE": 3
+      },
+      "items": {
+        "mazur/0": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 5.5,
+          "full250": 4.25,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/1": {
+          "cluster_id": "prompts_wc/prompt_wc_111.txt",
+          "baseline": 6.05,
+          "full250": 4.9,
+          "delta": -1.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/2": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 5.1,
+          "full250": 4.3,
+          "delta": -0.7999999999999989,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/3": {
+          "cluster_id": "prompts_wc/prompt_wc_122.txt",
+          "baseline": 3.95,
+          "full250": 2.7,
+          "delta": -1.2499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/4": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.5,
+          "full250": 2.65,
+          "delta": -1.85,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/5": {
+          "cluster_id": "prompts_wc/prompt_wc_139.txt",
+          "baseline": 4.05,
+          "full250": 4.35,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        "mazur/6": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 5.9,
+          "full250": 5.2,
+          "delta": -0.7000000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/7": {
+          "cluster_id": "prompts_wc/prompt_wc_150.txt",
+          "baseline": 5.0,
+          "full250": 6.1,
+          "delta": 1.0999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/8": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 3.25,
+          "full250": 4.9,
+          "delta": 1.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/9": {
+          "cluster_id": "prompts_wc/prompt_wc_152.txt",
+          "baseline": 5.85,
+          "full250": 4.4,
+          "delta": -1.4499999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/10": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 3.95,
+          "full250": 6.15,
+          "delta": 2.2000000000000006,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/11": {
+          "cluster_id": "prompts_wc/prompt_wc_16.txt",
+          "baseline": 5.45,
+          "full250": 5.25,
+          "delta": -0.20000000000000018,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/12": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 6.4,
+          "full250": 5.35,
+          "delta": -1.0500000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/13": {
+          "cluster_id": "prompts_wc/prompt_wc_164.txt",
+          "baseline": 4.1,
+          "full250": 6.5,
+          "delta": 2.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/14": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 6.3,
+          "full250": 3.6,
+          "delta": -2.6999999999999997,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/15": {
+          "cluster_id": "prompts_wc/prompt_wc_173.txt",
+          "baseline": 5.6,
+          "full250": 6.6,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/16": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 5.8,
+          "full250": 5.8,
+          "delta": 0.0,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/17": {
+          "cluster_id": "prompts_wc/prompt_wc_180.txt",
+          "baseline": 4.8,
+          "full250": 4.6,
+          "delta": -0.20000000000000107,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/18": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 6.2,
+          "full250": 6.75,
+          "delta": 0.5499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/19": {
+          "cluster_id": "prompts_wc/prompt_wc_185.txt",
+          "baseline": 5.4,
+          "full250": 6.1,
+          "delta": 0.6999999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/20": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 4.95,
+          "full250": 6.6,
+          "delta": 1.6499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/21": {
+          "cluster_id": "prompts_wc/prompt_wc_188.txt",
+          "baseline": 5.55,
+          "full250": 6.85,
+          "delta": 1.299999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/22": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.2,
+          "full250": 5.7,
+          "delta": 0.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/23": {
+          "cluster_id": "prompts_wc/prompt_wc_192.txt",
+          "baseline": 5.75,
+          "full250": 4.3,
+          "delta": -1.4500000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/24": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 6.4,
+          "full250": 5.85,
+          "delta": -0.5500000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/25": {
+          "cluster_id": "prompts_wc/prompt_wc_21.txt",
+          "baseline": 5.3,
+          "full250": 3.65,
+          "delta": -1.6499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/26": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.7,
+          "full250": 3.55,
+          "delta": -2.1499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/27": {
+          "cluster_id": "prompts_wc/prompt_wc_215.txt",
+          "baseline": 5.25,
+          "full250": 6.5,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/28": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 5.35,
+          "full250": 5.45,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/29": {
+          "cluster_id": "prompts_wc/prompt_wc_242.txt",
+          "baseline": 4.65,
+          "full250": 6.0,
+          "delta": 1.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/30": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 5.2,
+          "full250": 6.2,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/31": {
+          "cluster_id": "prompts_wc/prompt_wc_246.txt",
+          "baseline": 5.5,
+          "full250": 2.8,
+          "delta": -2.7,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/32": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 5.55,
+          "full250": 4.45,
+          "delta": -1.1000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/33": {
+          "cluster_id": "prompts_wc/prompt_wc_248.txt",
+          "baseline": 4.3,
+          "full250": 5.6,
+          "delta": 1.299999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/34": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 5.5,
+          "full250": 6.3,
+          "delta": 0.7999999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/35": {
+          "cluster_id": "prompts_wc/prompt_wc_254.txt",
+          "baseline": 6.7,
+          "full250": 7.0,
+          "delta": 0.3000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/36": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.85,
+          "full250": 3.2,
+          "delta": -2.6499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/37": {
+          "cluster_id": "prompts_wc/prompt_wc_306.txt",
+          "baseline": 5.1,
+          "full250": 4.15,
+          "delta": -0.9499999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/38": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 5.55,
+          "full250": 5.05,
+          "delta": -0.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/39": {
+          "cluster_id": "prompts_wc/prompt_wc_307.txt",
+          "baseline": 4.15,
+          "full250": 5.3,
+          "delta": 1.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/40": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 6.65,
+          "full250": 6.65,
+          "delta": 0.0,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/41": {
+          "cluster_id": "prompts_wc/prompt_wc_329.txt",
+          "baseline": 5.15,
+          "full250": 6.5,
+          "delta": 1.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/42": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 5.6,
+          "full250": 6.9,
+          "delta": 1.3000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/43": {
+          "cluster_id": "prompts_wc/prompt_wc_332.txt",
+          "baseline": 4.5,
+          "full250": 6.05,
+          "delta": 1.5500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/44": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.9,
+          "full250": 5.0,
+          "delta": -0.9000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/45": {
+          "cluster_id": "prompts_wc/prompt_wc_341.txt",
+          "baseline": 5.65,
+          "full250": 3.2,
+          "delta": -2.45,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/46": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 5.65,
+          "full250": 4.65,
+          "delta": -1.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/47": {
+          "cluster_id": "prompts_wc/prompt_wc_342.txt",
+          "baseline": 4.25,
+          "full250": 5.15,
+          "delta": 0.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/48": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 5.0,
+          "full250": 6.0,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/49": {
+          "cluster_id": "prompts_wc/prompt_wc_382.txt",
+          "baseline": 3.0,
+          "full250": 3.65,
+          "delta": 0.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/50": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 4.35,
+          "full250": 2.6,
+          "delta": -1.7499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/51": {
+          "cluster_id": "prompts_wc/prompt_wc_384.txt",
+          "baseline": 5.05,
+          "full250": 4.4,
+          "delta": -0.6499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/52": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 4.55,
+          "full250": 5.1,
+          "delta": 0.5499999999999989,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/53": {
+          "cluster_id": "prompts_wc/prompt_wc_395.txt",
+          "baseline": 5.75,
+          "full250": 5.1,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/54": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 5.4,
+          "full250": 6.3,
+          "delta": 0.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/55": {
+          "cluster_id": "prompts_wc/prompt_wc_52.txt",
+          "baseline": 4.8,
+          "full250": 4.75,
+          "delta": -0.05000000000000071,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/56": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.6,
+          "full250": 3.35,
+          "delta": -2.2499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        "mazur/57": {
+          "cluster_id": "prompts_wc/prompt_wc_62.txt",
+          "baseline": 5.1,
+          "full250": 5.2,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/58": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.25,
+          "full250": 4.0,
+          "delta": -0.25,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        "mazur/59": {
+          "cluster_id": "prompts_wc/prompt_wc_8.txt",
+          "baseline": 4.45,
+          "full250": 5.6,
+          "delta": 1.1499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/60": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 5.25,
+          "full250": 5.25,
+          "delta": 0.0,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/61": {
+          "cluster_id": "prompts_wc/prompt_wc_80.txt",
+          "baseline": 3.7,
+          "full250": 5.5,
+          "delta": 1.7999999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        "mazur/62": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 6.35,
+          "full250": 6.45,
+          "delta": 0.10000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        "mazur/63": {
+          "cluster_id": "prompts_wc/prompt_wc_9.txt",
+          "baseline": 4.9,
+          "full250": 5.85,
+          "delta": 0.9499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      }
+    }
+  },
+  "story_ranking": [
+    {
+      "case_id": "mazur/35",
+      "cluster_id": "prompts_wc/prompt_wc_254.txt",
+      "model": "full250",
+      "creativity": 7.35,
+      "imagery": 7.5,
+      "style": 6.75,
+      "coherence": 6.15,
+      "character_and_impact": 6.9,
+      "integration": 7.3,
+      "overall_quality": 7.0,
+      "rank": 1
+    },
+    {
+      "case_id": "mazur/42",
+      "cluster_id": "prompts_wc/prompt_wc_332.txt",
+      "model": "full250",
+      "creativity": 7.2,
+      "imagery": 7.65,
+      "style": 6.55,
+      "coherence": 6.5,
+      "character_and_impact": 6.5,
+      "integration": 7.45,
+      "overall_quality": 6.9,
+      "rank": 2
+    },
+    {
+      "case_id": "mazur/21",
+      "cluster_id": "prompts_wc/prompt_wc_188.txt",
+      "model": "full250",
+      "creativity": 7.8,
+      "imagery": 7.55,
+      "style": 6.7,
+      "coherence": 5.8,
+      "character_and_impact": 6.65,
+      "integration": 6.65,
+      "overall_quality": 6.85,
+      "rank": 3
+    },
+    {
+      "case_id": "mazur/18",
+      "cluster_id": "prompts_wc/prompt_wc_185.txt",
+      "model": "full250",
+      "creativity": 7.15,
+      "imagery": 7.25,
+      "style": 6.15,
+      "coherence": 6.25,
+      "character_and_impact": 6.45,
+      "integration": 7.6,
+      "overall_quality": 6.75,
+      "rank": 4
+    },
+    {
+      "case_id": "mazur/35",
+      "cluster_id": "prompts_wc/prompt_wc_254.txt",
+      "model": "baseline",
+      "creativity": 6.8,
+      "imagery": 7.05,
+      "style": 6.25,
+      "coherence": 7.1,
+      "character_and_impact": 6.25,
+      "integration": 7.3,
+      "overall_quality": 6.7,
+      "rank": 5
+    },
+    {
+      "case_id": "mazur/40",
+      "cluster_id": "prompts_wc/prompt_wc_329.txt",
+      "model": "baseline",
+      "creativity": 6.35,
+      "imagery": 6.65,
+      "style": 6.15,
+      "coherence": 7.2,
+      "character_and_impact": 6.45,
+      "integration": 6.65,
+      "overall_quality": 6.65,
+      "rank": 6
+    },
+    {
+      "case_id": "mazur/40",
+      "cluster_id": "prompts_wc/prompt_wc_329.txt",
+      "model": "full250",
+      "creativity": 7.85,
+      "imagery": 8.05,
+      "style": 6.6,
+      "coherence": 5.05,
+      "character_and_impact": 6.2,
+      "integration": 7.15,
+      "overall_quality": 6.65,
+      "rank": 6
+    },
+    {
+      "case_id": "mazur/15",
+      "cluster_id": "prompts_wc/prompt_wc_173.txt",
+      "model": "full250",
+      "creativity": 6.6,
+      "imagery": 7.05,
+      "style": 6.15,
+      "coherence": 6.45,
+      "character_and_impact": 6.65,
+      "integration": 6.75,
+      "overall_quality": 6.6,
+      "rank": 8
+    },
+    {
+      "case_id": "mazur/20",
+      "cluster_id": "prompts_wc/prompt_wc_188.txt",
+      "model": "full250",
+      "creativity": 6.85,
+      "imagery": 7.15,
+      "style": 6.4,
+      "coherence": 5.65,
+      "character_and_impact": 6.75,
+      "integration": 7.2,
+      "overall_quality": 6.6,
+      "rank": 8
+    },
+    {
+      "case_id": "mazur/13",
+      "cluster_id": "prompts_wc/prompt_wc_164.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 7.0,
+      "style": 6.0,
+      "coherence": 6.25,
+      "character_and_impact": 6.25,
+      "integration": 7.25,
+      "overall_quality": 6.5,
+      "rank": 10
+    },
+    {
+      "case_id": "mazur/27",
+      "cluster_id": "prompts_wc/prompt_wc_215.txt",
+      "model": "full250",
+      "creativity": 6.7,
+      "imagery": 7.3,
+      "style": 6.3,
+      "coherence": 5.9,
+      "character_and_impact": 6.3,
+      "integration": 6.9,
+      "overall_quality": 6.5,
+      "rank": 10
+    },
+    {
+      "case_id": "mazur/41",
+      "cluster_id": "prompts_wc/prompt_wc_329.txt",
+      "model": "full250",
+      "creativity": 6.85,
+      "imagery": 7.4,
+      "style": 6.4,
+      "coherence": 5.55,
+      "character_and_impact": 6.0,
+      "integration": 7.15,
+      "overall_quality": 6.5,
+      "rank": 10
+    },
+    {
+      "case_id": "mazur/62",
+      "cluster_id": "prompts_wc/prompt_wc_9.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 6.9,
+      "style": 6.05,
+      "coherence": 6.05,
+      "character_and_impact": 6.35,
+      "integration": 7.4,
+      "overall_quality": 6.45,
+      "rank": 13
+    },
+    {
+      "case_id": "mazur/12",
+      "cluster_id": "prompts_wc/prompt_wc_164.txt",
+      "model": "baseline",
+      "creativity": 6.6,
+      "imagery": 6.8,
+      "style": 5.7,
+      "coherence": 6.75,
+      "character_and_impact": 5.8,
+      "integration": 6.8,
+      "overall_quality": 6.4,
+      "rank": 14
+    },
+    {
+      "case_id": "mazur/24",
+      "cluster_id": "prompts_wc/prompt_wc_21.txt",
+      "model": "baseline",
+      "creativity": 6.45,
+      "imagery": 6.4,
+      "style": 5.75,
+      "coherence": 6.45,
+      "character_and_impact": 6.3,
+      "integration": 7.15,
+      "overall_quality": 6.4,
+      "rank": 14
+    },
+    {
+      "case_id": "mazur/62",
+      "cluster_id": "prompts_wc/prompt_wc_9.txt",
+      "model": "baseline",
+      "creativity": 7.1,
+      "imagery": 7.0,
+      "style": 6.25,
+      "coherence": 5.95,
+      "character_and_impact": 5.9,
+      "integration": 5.75,
+      "overall_quality": 6.35,
+      "rank": 16
+    },
+    {
+      "case_id": "mazur/14",
+      "cluster_id": "prompts_wc/prompt_wc_173.txt",
+      "model": "baseline",
+      "creativity": 6.1,
+      "imagery": 6.4,
+      "style": 5.75,
+      "coherence": 6.45,
+      "character_and_impact": 6.1,
+      "integration": 7.45,
+      "overall_quality": 6.3,
+      "rank": 17
+    },
+    {
+      "case_id": "mazur/34",
+      "cluster_id": "prompts_wc/prompt_wc_254.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 7.0,
+      "style": 6.05,
+      "coherence": 6.2,
+      "character_and_impact": 5.7,
+      "integration": 6.85,
+      "overall_quality": 6.3,
+      "rank": 17
+    },
+    {
+      "case_id": "mazur/54",
+      "cluster_id": "prompts_wc/prompt_wc_52.txt",
+      "model": "full250",
+      "creativity": 6.05,
+      "imagery": 6.6,
+      "style": 6.1,
+      "coherence": 6.3,
+      "character_and_impact": 6.1,
+      "integration": 6.9,
+      "overall_quality": 6.3,
+      "rank": 17
+    },
+    {
+      "case_id": "mazur/18",
+      "cluster_id": "prompts_wc/prompt_wc_185.txt",
+      "model": "baseline",
+      "creativity": 6.3,
+      "imagery": 6.65,
+      "style": 5.8,
+      "coherence": 6.0,
+      "character_and_impact": 6.0,
+      "integration": 7.3,
+      "overall_quality": 6.2,
+      "rank": 20
+    },
+    {
+      "case_id": "mazur/30",
+      "cluster_id": "prompts_wc/prompt_wc_246.txt",
+      "model": "full250",
+      "creativity": 7.25,
+      "imagery": 6.65,
+      "style": 5.55,
+      "coherence": 5.4,
+      "character_and_impact": 5.75,
+      "integration": 6.9,
+      "overall_quality": 6.2,
+      "rank": 20
+    },
+    {
+      "case_id": "mazur/10",
+      "cluster_id": "prompts_wc/prompt_wc_16.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 6.6,
+      "style": 5.4,
+      "coherence": 5.85,
+      "character_and_impact": 6.0,
+      "integration": 6.6,
+      "overall_quality": 6.15,
+      "rank": 22
+    },
+    {
+      "case_id": "mazur/19",
+      "cluster_id": "prompts_wc/prompt_wc_185.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 6.6,
+      "style": 5.9,
+      "coherence": 5.5,
+      "character_and_impact": 6.05,
+      "integration": 7.0,
+      "overall_quality": 6.1,
+      "rank": 23
+    },
+    {
+      "case_id": "mazur/7",
+      "cluster_id": "prompts_wc/prompt_wc_150.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 7.0,
+      "style": 5.65,
+      "coherence": 5.6,
+      "character_and_impact": 6.05,
+      "integration": 7.0,
+      "overall_quality": 6.1,
+      "rank": 23
+    },
+    {
+      "case_id": "mazur/1",
+      "cluster_id": "prompts_wc/prompt_wc_111.txt",
+      "model": "baseline",
+      "creativity": 5.9,
+      "imagery": 6.1,
+      "style": 5.45,
+      "coherence": 6.1,
+      "character_and_impact": 6.15,
+      "integration": 6.75,
+      "overall_quality": 6.05,
+      "rank": 25
+    },
+    {
+      "case_id": "mazur/43",
+      "cluster_id": "prompts_wc/prompt_wc_332.txt",
+      "model": "full250",
+      "creativity": 7.0,
+      "imagery": 7.0,
+      "style": 5.9,
+      "coherence": 5.15,
+      "character_and_impact": 5.4,
+      "integration": 6.65,
+      "overall_quality": 6.05,
+      "rank": 25
+    },
+    {
+      "case_id": "mazur/29",
+      "cluster_id": "prompts_wc/prompt_wc_242.txt",
+      "model": "full250",
+      "creativity": 7.25,
+      "imagery": 7.2,
+      "style": 5.7,
+      "coherence": 4.15,
+      "character_and_impact": 5.05,
+      "integration": 6.45,
+      "overall_quality": 6.0,
+      "rank": 27
+    },
+    {
+      "case_id": "mazur/48",
+      "cluster_id": "prompts_wc/prompt_wc_382.txt",
+      "model": "full250",
+      "creativity": 6.7,
+      "imagery": 7.15,
+      "style": 5.95,
+      "coherence": 4.6,
+      "character_and_impact": 5.8,
+      "integration": 6.3,
+      "overall_quality": 6.0,
+      "rank": 27
+    },
+    {
+      "case_id": "mazur/44",
+      "cluster_id": "prompts_wc/prompt_wc_341.txt",
+      "model": "baseline",
+      "creativity": 5.9,
+      "imagery": 6.1,
+      "style": 5.5,
+      "coherence": 5.75,
+      "character_and_impact": 5.95,
+      "integration": 6.9,
+      "overall_quality": 5.9,
+      "rank": 29
+    },
+    {
+      "case_id": "mazur/6",
+      "cluster_id": "prompts_wc/prompt_wc_150.txt",
+      "model": "baseline",
+      "creativity": 5.25,
+      "imagery": 6.5,
+      "style": 5.65,
+      "coherence": 6.25,
+      "character_and_impact": 5.65,
+      "integration": 6.35,
+      "overall_quality": 5.9,
+      "rank": 29
+    },
+    {
+      "case_id": "mazur/24",
+      "cluster_id": "prompts_wc/prompt_wc_21.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 6.85,
+      "style": 5.95,
+      "coherence": 5.1,
+      "character_and_impact": 6.05,
+      "integration": 5.3,
+      "overall_quality": 5.85,
+      "rank": 31
+    },
+    {
+      "case_id": "mazur/36",
+      "cluster_id": "prompts_wc/prompt_wc_306.txt",
+      "model": "baseline",
+      "creativity": 5.75,
+      "imagery": 6.25,
+      "style": 5.0,
+      "coherence": 6.0,
+      "character_and_impact": 5.75,
+      "integration": 6.75,
+      "overall_quality": 5.85,
+      "rank": 31
+    },
+    {
+      "case_id": "mazur/63",
+      "cluster_id": "prompts_wc/prompt_wc_9.txt",
+      "model": "full250",
+      "creativity": 6.1,
+      "imagery": 6.6,
+      "style": 6.0,
+      "coherence": 5.0,
+      "character_and_impact": 5.8,
+      "integration": 6.1,
+      "overall_quality": 5.85,
+      "rank": 31
+    },
+    {
+      "case_id": "mazur/9",
+      "cluster_id": "prompts_wc/prompt_wc_152.txt",
+      "model": "baseline",
+      "creativity": 5.4,
+      "imagery": 5.8,
+      "style": 5.0,
+      "coherence": 5.8,
+      "character_and_impact": 5.9,
+      "integration": 7.0,
+      "overall_quality": 5.85,
+      "rank": 31
+    },
+    {
+      "case_id": "mazur/16",
+      "cluster_id": "prompts_wc/prompt_wc_180.txt",
+      "model": "baseline",
+      "creativity": 5.65,
+      "imagery": 6.0,
+      "style": 5.4,
+      "coherence": 6.3,
+      "character_and_impact": 5.4,
+      "integration": 6.45,
+      "overall_quality": 5.8,
+      "rank": 35
+    },
+    {
+      "case_id": "mazur/16",
+      "cluster_id": "prompts_wc/prompt_wc_180.txt",
+      "model": "full250",
+      "creativity": 7.1,
+      "imagery": 7.25,
+      "style": 5.45,
+      "coherence": 4.15,
+      "character_and_impact": 5.6,
+      "integration": 6.8,
+      "overall_quality": 5.8,
+      "rank": 35
+    },
+    {
+      "case_id": "mazur/23",
+      "cluster_id": "prompts_wc/prompt_wc_192.txt",
+      "model": "baseline",
+      "creativity": 5.5,
+      "imagery": 6.1,
+      "style": 5.0,
+      "coherence": 6.0,
+      "character_and_impact": 5.9,
+      "integration": 5.8,
+      "overall_quality": 5.75,
+      "rank": 37
+    },
+    {
+      "case_id": "mazur/53",
+      "cluster_id": "prompts_wc/prompt_wc_395.txt",
+      "model": "baseline",
+      "creativity": 5.75,
+      "imagery": 5.95,
+      "style": 5.5,
+      "coherence": 5.8,
+      "character_and_impact": 5.85,
+      "integration": 6.2,
+      "overall_quality": 5.75,
+      "rank": 37
+    },
+    {
+      "case_id": "mazur/22",
+      "cluster_id": "prompts_wc/prompt_wc_192.txt",
+      "model": "full250",
+      "creativity": 5.5,
+      "imagery": 5.9,
+      "style": 5.25,
+      "coherence": 5.65,
+      "character_and_impact": 5.35,
+      "integration": 7.0,
+      "overall_quality": 5.7,
+      "rank": 39
+    },
+    {
+      "case_id": "mazur/26",
+      "cluster_id": "prompts_wc/prompt_wc_215.txt",
+      "model": "baseline",
+      "creativity": 5.05,
+      "imagery": 5.65,
+      "style": 4.85,
+      "coherence": 6.5,
+      "character_and_impact": 5.6,
+      "integration": 6.5,
+      "overall_quality": 5.7,
+      "rank": 39
+    },
+    {
+      "case_id": "mazur/45",
+      "cluster_id": "prompts_wc/prompt_wc_341.txt",
+      "model": "baseline",
+      "creativity": 5.9,
+      "imagery": 5.85,
+      "style": 4.85,
+      "coherence": 5.9,
+      "character_and_impact": 5.3,
+      "integration": 6.5,
+      "overall_quality": 5.65,
+      "rank": 41
+    },
+    {
+      "case_id": "mazur/46",
+      "cluster_id": "prompts_wc/prompt_wc_342.txt",
+      "model": "baseline",
+      "creativity": 6.15,
+      "imagery": 6.25,
+      "style": 5.0,
+      "coherence": 5.45,
+      "character_and_impact": 5.6,
+      "integration": 6.05,
+      "overall_quality": 5.65,
+      "rank": 41
+    },
+    {
+      "case_id": "mazur/15",
+      "cluster_id": "prompts_wc/prompt_wc_173.txt",
+      "model": "baseline",
+      "creativity": 6.05,
+      "imagery": 6.55,
+      "style": 5.2,
+      "coherence": 4.8,
+      "character_and_impact": 5.6,
+      "integration": 6.35,
+      "overall_quality": 5.6,
+      "rank": 43
+    },
+    {
+      "case_id": "mazur/33",
+      "cluster_id": "prompts_wc/prompt_wc_248.txt",
+      "model": "full250",
+      "creativity": 5.65,
+      "imagery": 6.3,
+      "style": 5.65,
+      "coherence": 5.3,
+      "character_and_impact": 5.5,
+      "integration": 4.95,
+      "overall_quality": 5.6,
+      "rank": 43
+    },
+    {
+      "case_id": "mazur/42",
+      "cluster_id": "prompts_wc/prompt_wc_332.txt",
+      "model": "baseline",
+      "creativity": 6.0,
+      "imagery": 6.2,
+      "style": 4.7,
+      "coherence": 6.05,
+      "character_and_impact": 5.3,
+      "integration": 6.2,
+      "overall_quality": 5.6,
+      "rank": 43
+    },
+    {
+      "case_id": "mazur/56",
+      "cluster_id": "prompts_wc/prompt_wc_62.txt",
+      "model": "baseline",
+      "creativity": 5.25,
+      "imagery": 6.0,
+      "style": 5.0,
+      "coherence": 5.5,
+      "character_and_impact": 5.5,
+      "integration": 6.75,
+      "overall_quality": 5.6,
+      "rank": 43
+    },
+    {
+      "case_id": "mazur/59",
+      "cluster_id": "prompts_wc/prompt_wc_8.txt",
+      "model": "full250",
+      "creativity": 6.25,
+      "imagery": 6.45,
+      "style": 5.85,
+      "coherence": 3.9,
+      "character_and_impact": 5.75,
+      "integration": 6.05,
+      "overall_quality": 5.6,
+      "rank": 43
+    },
+    {
+      "case_id": "mazur/21",
+      "cluster_id": "prompts_wc/prompt_wc_188.txt",
+      "model": "baseline",
+      "creativity": 5.4,
+      "imagery": 5.85,
+      "style": 4.65,
+      "coherence": 6.15,
+      "character_and_impact": 5.35,
+      "integration": 6.85,
+      "overall_quality": 5.55,
+      "rank": 48
+    },
+    {
+      "case_id": "mazur/32",
+      "cluster_id": "prompts_wc/prompt_wc_248.txt",
+      "model": "baseline",
+      "creativity": 5.3,
+      "imagery": 5.55,
+      "style": 5.25,
+      "coherence": 5.1,
+      "character_and_impact": 5.75,
+      "integration": 6.35,
+      "overall_quality": 5.55,
+      "rank": 48
+    },
+    {
+      "case_id": "mazur/38",
+      "cluster_id": "prompts_wc/prompt_wc_307.txt",
+      "model": "baseline",
+      "creativity": 5.45,
+      "imagery": 6.2,
+      "style": 5.7,
+      "coherence": 5.35,
+      "character_and_impact": 5.25,
+      "integration": 5.7,
+      "overall_quality": 5.55,
+      "rank": 48
+    },
+    {
+      "case_id": "mazur/0",
+      "cluster_id": "prompts_wc/prompt_wc_111.txt",
+      "model": "baseline",
+      "creativity": 4.9,
+      "imagery": 5.05,
+      "style": 4.35,
+      "coherence": 6.1,
+      "character_and_impact": 5.65,
+      "integration": 6.3,
+      "overall_quality": 5.5,
+      "rank": 51
+    },
+    {
+      "case_id": "mazur/31",
+      "cluster_id": "prompts_wc/prompt_wc_246.txt",
+      "model": "baseline",
+      "creativity": 5.65,
+      "imagery": 5.5,
+      "style": 4.85,
+      "coherence": 5.4,
+      "character_and_impact": 5.1,
+      "integration": 7.05,
+      "overall_quality": 5.5,
+      "rank": 51
+    },
+    {
+      "case_id": "mazur/34",
+      "cluster_id": "prompts_wc/prompt_wc_254.txt",
+      "model": "baseline",
+      "creativity": 5.7,
+      "imagery": 5.9,
+      "style": 4.95,
+      "coherence": 5.3,
+      "character_and_impact": 5.35,
+      "integration": 6.5,
+      "overall_quality": 5.5,
+      "rank": 51
+    },
+    {
+      "case_id": "mazur/61",
+      "cluster_id": "prompts_wc/prompt_wc_80.txt",
+      "model": "full250",
+      "creativity": 5.75,
+      "imagery": 6.35,
+      "style": 5.15,
+      "coherence": 5.3,
+      "character_and_impact": 5.15,
+      "integration": 5.65,
+      "overall_quality": 5.5,
+      "rank": 51
+    },
+    {
+      "case_id": "mazur/11",
+      "cluster_id": "prompts_wc/prompt_wc_16.txt",
+      "model": "baseline",
+      "creativity": 5.3,
+      "imagery": 5.95,
+      "style": 4.85,
+      "coherence": 5.4,
+      "character_and_impact": 5.1,
+      "integration": 6.25,
+      "overall_quality": 5.45,
+      "rank": 55
+    },
+    {
+      "case_id": "mazur/28",
+      "cluster_id": "prompts_wc/prompt_wc_242.txt",
+      "model": "full250",
+      "creativity": 6.3,
+      "imagery": 6.3,
+      "style": 5.15,
+      "coherence": 4.5,
+      "character_and_impact": 5.0,
+      "integration": 6.15,
+      "overall_quality": 5.45,
+      "rank": 55
+    },
+    {
+      "case_id": "mazur/19",
+      "cluster_id": "prompts_wc/prompt_wc_185.txt",
+      "model": "baseline",
+      "creativity": 5.25,
+      "imagery": 5.95,
+      "style": 5.05,
+      "coherence": 5.8,
+      "character_and_impact": 5.15,
+      "integration": 5.55,
+      "overall_quality": 5.4,
+      "rank": 57
+    },
+    {
+      "case_id": "mazur/54",
+      "cluster_id": "prompts_wc/prompt_wc_52.txt",
+      "model": "baseline",
+      "creativity": 5.3,
+      "imagery": 5.85,
+      "style": 5.05,
+      "coherence": 5.05,
+      "character_and_impact": 5.65,
+      "integration": 5.9,
+      "overall_quality": 5.4,
+      "rank": 57
+    },
+    {
+      "case_id": "mazur/12",
+      "cluster_id": "prompts_wc/prompt_wc_164.txt",
+      "model": "full250",
+      "creativity": 6.5,
+      "imagery": 7.0,
+      "style": 5.5,
+      "coherence": 4.15,
+      "character_and_impact": 5.15,
+      "integration": 5.6,
+      "overall_quality": 5.35,
+      "rank": 59
+    },
+    {
+      "case_id": "mazur/28",
+      "cluster_id": "prompts_wc/prompt_wc_242.txt",
+      "model": "baseline",
+      "creativity": 4.9,
+      "imagery": 5.15,
+      "style": 4.7,
+      "coherence": 6.0,
+      "character_and_impact": 5.45,
+      "integration": 6.0,
+      "overall_quality": 5.35,
+      "rank": 59
+    },
+    {
+      "case_id": "mazur/25",
+      "cluster_id": "prompts_wc/prompt_wc_21.txt",
+      "model": "baseline",
+      "creativity": 5.5,
+      "imagery": 5.8,
+      "style": 4.7,
+      "coherence": 4.95,
+      "character_and_impact": 5.45,
+      "integration": 6.5,
+      "overall_quality": 5.3,
+      "rank": 61
+    },
+    {
+      "case_id": "mazur/39",
+      "cluster_id": "prompts_wc/prompt_wc_307.txt",
+      "model": "full250",
+      "creativity": 6.0,
+      "imagery": 6.25,
+      "style": 5.0,
+      "coherence": 4.75,
+      "character_and_impact": 4.5,
+      "integration": 5.75,
+      "overall_quality": 5.3,
+      "rank": 61
+    },
+    {
+      "case_id": "mazur/11",
+      "cluster_id": "prompts_wc/prompt_wc_16.txt",
+      "model": "full250",
+      "creativity": 5.6,
+      "imagery": 6.25,
+      "style": 5.35,
+      "coherence": 4.9,
+      "character_and_impact": 4.55,
+      "integration": 5.1,
+      "overall_quality": 5.25,
+      "rank": 63
+    },
+    {
+      "case_id": "mazur/27",
+      "cluster_id": "prompts_wc/prompt_wc_215.txt",
+      "model": "baseline",
+      "creativity": 5.6,
+      "imagery": 5.25,
+      "style": 4.65,
+      "coherence": 4.9,
+      "character_and_impact": 5.25,
+      "integration": 6.4,
+      "overall_quality": 5.25,
+      "rank": 63
+    },
+    {
+      "case_id": "mazur/60",
+      "cluster_id": "prompts_wc/prompt_wc_80.txt",
+      "model": "baseline",
+      "creativity": 5.15,
+      "imagery": 5.55,
+      "style": 4.65,
+      "coherence": 5.45,
+      "character_and_impact": 5.05,
+      "integration": 5.85,
+      "overall_quality": 5.25,
+      "rank": 63
+    },
+    {
+      "case_id": "mazur/60",
+      "cluster_id": "prompts_wc/prompt_wc_80.txt",
+      "model": "full250",
+      "creativity": 6.0,
+      "imagery": 6.35,
+      "style": 4.7,
+      "coherence": 4.2,
+      "character_and_impact": 5.3,
+      "integration": 5.35,
+      "overall_quality": 5.25,
+      "rank": 63
+    },
+    {
+      "case_id": "mazur/22",
+      "cluster_id": "prompts_wc/prompt_wc_192.txt",
+      "model": "baseline",
+      "creativity": 5.05,
+      "imagery": 5.8,
+      "style": 4.85,
+      "coherence": 4.7,
+      "character_and_impact": 5.5,
+      "integration": 5.65,
+      "overall_quality": 5.2,
+      "rank": 67
+    },
+    {
+      "case_id": "mazur/30",
+      "cluster_id": "prompts_wc/prompt_wc_246.txt",
+      "model": "baseline",
+      "creativity": 4.9,
+      "imagery": 5.45,
+      "style": 4.35,
+      "coherence": 6.05,
+      "character_and_impact": 4.9,
+      "integration": 6.4,
+      "overall_quality": 5.2,
+      "rank": 67
+    },
+    {
+      "case_id": "mazur/57",
+      "cluster_id": "prompts_wc/prompt_wc_62.txt",
+      "model": "full250",
+      "creativity": 6.05,
+      "imagery": 6.8,
+      "style": 4.6,
+      "coherence": 4.1,
+      "character_and_impact": 5.15,
+      "integration": 5.85,
+      "overall_quality": 5.2,
+      "rank": 67
+    },
+    {
+      "case_id": "mazur/6",
+      "cluster_id": "prompts_wc/prompt_wc_150.txt",
+      "model": "full250",
+      "creativity": 6.3,
+      "imagery": 6.4,
+      "style": 4.1,
+      "coherence": 4.65,
+      "character_and_impact": 5.0,
+      "integration": 7.0,
+      "overall_quality": 5.2,
+      "rank": 67
+    },
+    {
+      "case_id": "mazur/41",
+      "cluster_id": "prompts_wc/prompt_wc_329.txt",
+      "model": "baseline",
+      "creativity": 5.5,
+      "imagery": 6.0,
+      "style": 4.8,
+      "coherence": 4.9,
+      "character_and_impact": 5.05,
+      "integration": 5.8,
+      "overall_quality": 5.15,
+      "rank": 71
+    },
+    {
+      "case_id": "mazur/47",
+      "cluster_id": "prompts_wc/prompt_wc_342.txt",
+      "model": "full250",
+      "creativity": 6.0,
+      "imagery": 6.1,
+      "style": 5.2,
+      "coherence": 4.15,
+      "character_and_impact": 4.55,
+      "integration": 5.9,
+      "overall_quality": 5.15,
+      "rank": 71
+    },
+    {
+      "case_id": "mazur/2",
+      "cluster_id": "prompts_wc/prompt_wc_122.txt",
+      "model": "baseline",
+      "creativity": 5.45,
+      "imagery": 5.75,
+      "style": 4.65,
+      "coherence": 4.4,
+      "character_and_impact": 5.0,
+      "integration": 6.0,
+      "overall_quality": 5.1,
+      "rank": 73
+    },
+    {
+      "case_id": "mazur/37",
+      "cluster_id": "prompts_wc/prompt_wc_306.txt",
+      "model": "baseline",
+      "creativity": 4.6,
+      "imagery": 5.25,
+      "style": 5.15,
+      "coherence": 5.1,
+      "character_and_impact": 4.8,
+      "integration": 5.7,
+      "overall_quality": 5.1,
+      "rank": 73
+    },
+    {
+      "case_id": "mazur/52",
+      "cluster_id": "prompts_wc/prompt_wc_395.txt",
+      "model": "full250",
+      "creativity": 4.95,
+      "imagery": 5.05,
+      "style": 4.65,
+      "coherence": 4.8,
+      "character_and_impact": 5.05,
+      "integration": 5.6,
+      "overall_quality": 5.1,
+      "rank": 73
+    },
+    {
+      "case_id": "mazur/53",
+      "cluster_id": "prompts_wc/prompt_wc_395.txt",
+      "model": "full250",
+      "creativity": 5.55,
+      "imagery": 6.15,
+      "style": 4.8,
+      "coherence": 4.45,
+      "character_and_impact": 5.05,
+      "integration": 5.7,
+      "overall_quality": 5.1,
+      "rank": 73
+    },
+    {
+      "case_id": "mazur/57",
+      "cluster_id": "prompts_wc/prompt_wc_62.txt",
+      "model": "baseline",
+      "creativity": 4.55,
+      "imagery": 5.35,
+      "style": 4.6,
+      "coherence": 5.8,
+      "character_and_impact": 4.65,
+      "integration": 5.55,
+      "overall_quality": 5.1,
+      "rank": 73
+    },
+    {
+      "case_id": "mazur/38",
+      "cluster_id": "prompts_wc/prompt_wc_307.txt",
+      "model": "full250",
+      "creativity": 5.4,
+      "imagery": 6.1,
+      "style": 4.85,
+      "coherence": 4.45,
+      "character_and_impact": 4.95,
+      "integration": 6.0,
+      "overall_quality": 5.05,
+      "rank": 78
+    },
+    {
+      "case_id": "mazur/51",
+      "cluster_id": "prompts_wc/prompt_wc_384.txt",
+      "model": "baseline",
+      "creativity": 4.5,
+      "imagery": 5.5,
+      "style": 4.0,
+      "coherence": 5.65,
+      "character_and_impact": 5.0,
+      "integration": 5.65,
+      "overall_quality": 5.05,
+      "rank": 78
+    },
+    {
+      "case_id": "mazur/44",
+      "cluster_id": "prompts_wc/prompt_wc_341.txt",
+      "model": "full250",
+      "creativity": 6.3,
+      "imagery": 6.25,
+      "style": 4.1,
+      "coherence": 4.6,
+      "character_and_impact": 4.85,
+      "integration": 6.65,
+      "overall_quality": 5.0,
+      "rank": 80
+    },
+    {
+      "case_id": "mazur/48",
+      "cluster_id": "prompts_wc/prompt_wc_382.txt",
+      "model": "baseline",
+      "creativity": 5.25,
+      "imagery": 5.3,
+      "style": 4.25,
+      "coherence": 5.0,
+      "character_and_impact": 4.7,
+      "integration": 6.05,
+      "overall_quality": 5.0,
+      "rank": 80
+    },
+    {
+      "case_id": "mazur/7",
+      "cluster_id": "prompts_wc/prompt_wc_150.txt",
+      "model": "baseline",
+      "creativity": 5.15,
+      "imagery": 6.0,
+      "style": 4.25,
+      "coherence": 5.45,
+      "character_and_impact": 4.9,
+      "integration": 6.15,
+      "overall_quality": 5.0,
+      "rank": 80
+    },
+    {
+      "case_id": "mazur/20",
+      "cluster_id": "prompts_wc/prompt_wc_188.txt",
+      "model": "baseline",
+      "creativity": 5.4,
+      "imagery": 5.8,
+      "style": 4.25,
+      "coherence": 4.9,
+      "character_and_impact": 4.65,
+      "integration": 5.65,
+      "overall_quality": 4.95,
+      "rank": 83
+    },
+    {
+      "case_id": "mazur/1",
+      "cluster_id": "prompts_wc/prompt_wc_111.txt",
+      "model": "full250",
+      "creativity": 6.85,
+      "imagery": 6.9,
+      "style": 4.9,
+      "coherence": 3.8,
+      "character_and_impact": 4.6,
+      "integration": 4.5,
+      "overall_quality": 4.9,
+      "rank": 84
+    },
+    {
+      "case_id": "mazur/63",
+      "cluster_id": "prompts_wc/prompt_wc_9.txt",
+      "model": "baseline",
+      "creativity": 6.75,
+      "imagery": 6.3,
+      "style": 4.05,
+      "coherence": 3.85,
+      "character_and_impact": 4.9,
+      "integration": 6.2,
+      "overall_quality": 4.9,
+      "rank": 84
+    },
+    {
+      "case_id": "mazur/8",
+      "cluster_id": "prompts_wc/prompt_wc_152.txt",
+      "model": "full250",
+      "creativity": 5.9,
+      "imagery": 5.9,
+      "style": 4.65,
+      "coherence": 3.9,
+      "character_and_impact": 4.9,
+      "integration": 5.35,
+      "overall_quality": 4.9,
+      "rank": 84
+    },
+    {
+      "case_id": "mazur/17",
+      "cluster_id": "prompts_wc/prompt_wc_180.txt",
+      "model": "baseline",
+      "creativity": 4.45,
+      "imagery": 4.7,
+      "style": 3.65,
+      "coherence": 5.25,
+      "character_and_impact": 4.5,
+      "integration": 6.25,
+      "overall_quality": 4.8,
+      "rank": 87
+    },
+    {
+      "case_id": "mazur/55",
+      "cluster_id": "prompts_wc/prompt_wc_52.txt",
+      "model": "baseline",
+      "creativity": 4.35,
+      "imagery": 5.1,
+      "style": 4.15,
+      "coherence": 4.75,
+      "character_and_impact": 4.95,
+      "integration": 5.5,
+      "overall_quality": 4.8,
+      "rank": 87
+    },
+    {
+      "case_id": "mazur/55",
+      "cluster_id": "prompts_wc/prompt_wc_52.txt",
+      "model": "full250",
+      "creativity": 5.9,
+      "imagery": 5.85,
+      "style": 4.65,
+      "coherence": 3.4,
+      "character_and_impact": 4.55,
+      "integration": 5.2,
+      "overall_quality": 4.75,
+      "rank": 89
+    },
+    {
+      "case_id": "mazur/29",
+      "cluster_id": "prompts_wc/prompt_wc_242.txt",
+      "model": "baseline",
+      "creativity": 4.0,
+      "imagery": 4.55,
+      "style": 3.65,
+      "coherence": 5.75,
+      "character_and_impact": 4.6,
+      "integration": 6.0,
+      "overall_quality": 4.65,
+      "rank": 90
+    },
+    {
+      "case_id": "mazur/46",
+      "cluster_id": "prompts_wc/prompt_wc_342.txt",
+      "model": "full250",
+      "creativity": 5.65,
+      "imagery": 5.9,
+      "style": 4.35,
+      "coherence": 3.8,
+      "character_and_impact": 4.55,
+      "integration": 4.9,
+      "overall_quality": 4.65,
+      "rank": 90
+    },
+    {
+      "case_id": "mazur/17",
+      "cluster_id": "prompts_wc/prompt_wc_180.txt",
+      "model": "full250",
+      "creativity": 5.9,
+      "imagery": 6.25,
+      "style": 4.6,
+      "coherence": 3.25,
+      "character_and_impact": 4.2,
+      "integration": 4.2,
+      "overall_quality": 4.6,
+      "rank": 92
+    },
+    {
+      "case_id": "mazur/52",
+      "cluster_id": "prompts_wc/prompt_wc_395.txt",
+      "model": "baseline",
+      "creativity": 5.65,
+      "imagery": 5.5,
+      "style": 4.45,
+      "coherence": 3.8,
+      "character_and_impact": 4.4,
+      "integration": 4.65,
+      "overall_quality": 4.55,
+      "rank": 93
+    },
+    {
+      "case_id": "mazur/4",
+      "cluster_id": "prompts_wc/prompt_wc_139.txt",
+      "model": "baseline",
+      "creativity": 4.65,
+      "imagery": 5.15,
+      "style": 4.1,
+      "coherence": 4.0,
+      "character_and_impact": 4.4,
+      "integration": 4.85,
+      "overall_quality": 4.5,
+      "rank": 94
+    },
+    {
+      "case_id": "mazur/43",
+      "cluster_id": "prompts_wc/prompt_wc_332.txt",
+      "model": "baseline",
+      "creativity": 5.0,
+      "imagery": 5.9,
+      "style": 5.8,
+      "coherence": 6.0,
+      "character_and_impact": 3.6,
+      "integration": 2.75,
+      "overall_quality": 4.5,
+      "rank": 94
+    },
+    {
+      "case_id": "mazur/32",
+      "cluster_id": "prompts_wc/prompt_wc_248.txt",
+      "model": "full250",
+      "creativity": 5.8,
+      "imagery": 5.85,
+      "style": 4.5,
+      "coherence": 3.3,
+      "character_and_impact": 4.25,
+      "integration": 4.8,
+      "overall_quality": 4.45,
+      "rank": 96
+    },
+    {
+      "case_id": "mazur/59",
+      "cluster_id": "prompts_wc/prompt_wc_8.txt",
+      "model": "baseline",
+      "creativity": 4.45,
+      "imagery": 4.95,
+      "style": 4.25,
+      "coherence": 4.05,
+      "character_and_impact": 4.1,
+      "integration": 5.1,
+      "overall_quality": 4.45,
+      "rank": 96
+    },
+    {
+      "case_id": "mazur/51",
+      "cluster_id": "prompts_wc/prompt_wc_384.txt",
+      "model": "full250",
+      "creativity": 5.35,
+      "imagery": 5.95,
+      "style": 4.2,
+      "coherence": 3.55,
+      "character_and_impact": 4.55,
+      "integration": 4.35,
+      "overall_quality": 4.4,
+      "rank": 98
+    },
+    {
+      "case_id": "mazur/9",
+      "cluster_id": "prompts_wc/prompt_wc_152.txt",
+      "model": "full250",
+      "creativity": 5.55,
+      "imagery": 5.85,
+      "style": 4.1,
+      "coherence": 3.5,
+      "character_and_impact": 3.95,
+      "integration": 5.0,
+      "overall_quality": 4.4,
+      "rank": 98
+    },
+    {
+      "case_id": "mazur/5",
+      "cluster_id": "prompts_wc/prompt_wc_139.txt",
+      "model": "full250",
+      "creativity": 5.25,
+      "imagery": 5.75,
+      "style": 3.9,
+      "coherence": 3.0,
+      "character_and_impact": 4.1,
+      "integration": 4.1,
+      "overall_quality": 4.35,
+      "rank": 100
+    },
+    {
+      "case_id": "mazur/50",
+      "cluster_id": "prompts_wc/prompt_wc_384.txt",
+      "model": "baseline",
+      "creativity": 3.5,
+      "imagery": 3.9,
+      "style": 3.45,
+      "coherence": 4.8,
+      "character_and_impact": 4.0,
+      "integration": 5.1,
+      "overall_quality": 4.35,
+      "rank": 100
+    },
+    {
+      "case_id": "mazur/2",
+      "cluster_id": "prompts_wc/prompt_wc_122.txt",
+      "model": "full250",
+      "creativity": 4.9,
+      "imagery": 5.05,
+      "style": 3.65,
+      "coherence": 3.65,
+      "character_and_impact": 4.35,
+      "integration": 5.6,
+      "overall_quality": 4.3,
+      "rank": 102
+    },
+    {
+      "case_id": "mazur/23",
+      "cluster_id": "prompts_wc/prompt_wc_192.txt",
+      "model": "full250",
+      "creativity": 4.95,
+      "imagery": 5.4,
+      "style": 3.85,
+      "coherence": 4.0,
+      "character_and_impact": 3.7,
+      "integration": 5.5,
+      "overall_quality": 4.3,
+      "rank": 102
+    },
+    {
+      "case_id": "mazur/33",
+      "cluster_id": "prompts_wc/prompt_wc_248.txt",
+      "model": "baseline",
+      "creativity": 5.1,
+      "imagery": 4.85,
+      "style": 4.05,
+      "coherence": 3.4,
+      "character_and_impact": 4.25,
+      "integration": 5.35,
+      "overall_quality": 4.3,
+      "rank": 102
+    },
+    {
+      "case_id": "mazur/0",
+      "cluster_id": "prompts_wc/prompt_wc_111.txt",
+      "model": "full250",
+      "creativity": 6.2,
+      "imagery": 6.4,
+      "style": 4.15,
+      "coherence": 3.25,
+      "character_and_impact": 3.85,
+      "integration": 4.55,
+      "overall_quality": 4.25,
+      "rank": 105
+    },
+    {
+      "case_id": "mazur/47",
+      "cluster_id": "prompts_wc/prompt_wc_342.txt",
+      "model": "baseline",
+      "creativity": 5.0,
+      "imagery": 5.15,
+      "style": 3.9,
+      "coherence": 3.35,
+      "character_and_impact": 4.3,
+      "integration": 5.1,
+      "overall_quality": 4.25,
+      "rank": 105
+    },
+    {
+      "case_id": "mazur/58",
+      "cluster_id": "prompts_wc/prompt_wc_8.txt",
+      "model": "baseline",
+      "creativity": 3.9,
+      "imagery": 4.25,
+      "style": 3.25,
+      "coherence": 4.5,
+      "character_and_impact": 4.25,
+      "integration": 5.4,
+      "overall_quality": 4.25,
+      "rank": 105
+    },
+    {
+      "case_id": "mazur/37",
+      "cluster_id": "prompts_wc/prompt_wc_306.txt",
+      "model": "full250",
+      "creativity": 6.0,
+      "imagery": 5.3,
+      "style": 3.4,
+      "coherence": 3.1,
+      "character_and_impact": 4.45,
+      "integration": 5.5,
+      "overall_quality": 4.15,
+      "rank": 108
+    },
+    {
+      "case_id": "mazur/39",
+      "cluster_id": "prompts_wc/prompt_wc_307.txt",
+      "model": "baseline",
+      "creativity": 5.0,
+      "imagery": 5.0,
+      "style": 3.25,
+      "coherence": 3.25,
+      "character_and_impact": 4.25,
+      "integration": 6.0,
+      "overall_quality": 4.15,
+      "rank": 108
+    },
+    {
+      "case_id": "mazur/13",
+      "cluster_id": "prompts_wc/prompt_wc_164.txt",
+      "model": "baseline",
+      "creativity": 4.5,
+      "imagery": 5.0,
+      "style": 3.5,
+      "coherence": 3.5,
+      "character_and_impact": 4.0,
+      "integration": 5.5,
+      "overall_quality": 4.1,
+      "rank": 110
+    },
+    {
+      "case_id": "mazur/5",
+      "cluster_id": "prompts_wc/prompt_wc_139.txt",
+      "model": "baseline",
+      "creativity": 3.5,
+      "imagery": 4.0,
+      "style": 3.85,
+      "coherence": 4.3,
+      "character_and_impact": 3.9,
+      "integration": 4.25,
+      "overall_quality": 4.05,
+      "rank": 111
+    },
+    {
+      "case_id": "mazur/58",
+      "cluster_id": "prompts_wc/prompt_wc_8.txt",
+      "model": "full250",
+      "creativity": 4.25,
+      "imagery": 5.25,
+      "style": 4.15,
+      "coherence": 3.0,
+      "character_and_impact": 4.0,
+      "integration": 4.85,
+      "overall_quality": 4.0,
+      "rank": 112
+    },
+    {
+      "case_id": "mazur/10",
+      "cluster_id": "prompts_wc/prompt_wc_16.txt",
+      "model": "baseline",
+      "creativity": 4.65,
+      "imagery": 5.1,
+      "style": 3.25,
+      "coherence": 3.35,
+      "character_and_impact": 3.65,
+      "integration": 4.4,
+      "overall_quality": 3.95,
+      "rank": 113
+    },
+    {
+      "case_id": "mazur/3",
+      "cluster_id": "prompts_wc/prompt_wc_122.txt",
+      "model": "baseline",
+      "creativity": 3.5,
+      "imagery": 4.5,
+      "style": 3.5,
+      "coherence": 4.15,
+      "character_and_impact": 4.0,
+      "integration": 4.0,
+      "overall_quality": 3.95,
+      "rank": 113
+    },
+    {
+      "case_id": "mazur/61",
+      "cluster_id": "prompts_wc/prompt_wc_80.txt",
+      "model": "baseline",
+      "creativity": 3.75,
+      "imagery": 4.05,
+      "style": 3.0,
+      "coherence": 4.0,
+      "character_and_impact": 3.6,
+      "integration": 4.65,
+      "overall_quality": 3.7,
+      "rank": 115
+    },
+    {
+      "case_id": "mazur/25",
+      "cluster_id": "prompts_wc/prompt_wc_21.txt",
+      "model": "full250",
+      "creativity": 5.6,
+      "imagery": 5.35,
+      "style": 3.5,
+      "coherence": 2.6,
+      "character_and_impact": 3.3,
+      "integration": 4.0,
+      "overall_quality": 3.65,
+      "rank": 116
+    },
+    {
+      "case_id": "mazur/49",
+      "cluster_id": "prompts_wc/prompt_wc_382.txt",
+      "model": "full250",
+      "creativity": 4.5,
+      "imagery": 5.65,
+      "style": 3.25,
+      "coherence": 2.4,
+      "character_and_impact": 3.0,
+      "integration": 4.1,
+      "overall_quality": 3.65,
+      "rank": 116
+    },
+    {
+      "case_id": "mazur/14",
+      "cluster_id": "prompts_wc/prompt_wc_173.txt",
+      "model": "full250",
+      "creativity": 5.2,
+      "imagery": 4.9,
+      "style": 3.1,
+      "coherence": 2.75,
+      "character_and_impact": 3.7,
+      "integration": 4.35,
+      "overall_quality": 3.6,
+      "rank": 118
+    },
+    {
+      "case_id": "mazur/26",
+      "cluster_id": "prompts_wc/prompt_wc_215.txt",
+      "model": "full250",
+      "creativity": 4.85,
+      "imagery": 5.8,
+      "style": 4.05,
+      "coherence": 2.5,
+      "character_and_impact": 2.65,
+      "integration": 3.4,
+      "overall_quality": 3.55,
+      "rank": 119
+    },
+    {
+      "case_id": "mazur/56",
+      "cluster_id": "prompts_wc/prompt_wc_62.txt",
+      "model": "full250",
+      "creativity": 5.0,
+      "imagery": 5.25,
+      "style": 3.25,
+      "coherence": 2.25,
+      "character_and_impact": 3.0,
+      "integration": 3.0,
+      "overall_quality": 3.35,
+      "rank": 120
+    },
+    {
+      "case_id": "mazur/8",
+      "cluster_id": "prompts_wc/prompt_wc_152.txt",
+      "model": "baseline",
+      "creativity": 3.75,
+      "imagery": 3.4,
+      "style": 2.75,
+      "coherence": 3.0,
+      "character_and_impact": 3.5,
+      "integration": 4.0,
+      "overall_quality": 3.25,
+      "rank": 121
+    },
+    {
+      "case_id": "mazur/36",
+      "cluster_id": "prompts_wc/prompt_wc_306.txt",
+      "model": "full250",
+      "creativity": 4.5,
+      "imagery": 4.25,
+      "style": 3.0,
+      "coherence": 2.0,
+      "character_and_impact": 2.75,
+      "integration": 3.75,
+      "overall_quality": 3.2,
+      "rank": 122
+    },
+    {
+      "case_id": "mazur/45",
+      "cluster_id": "prompts_wc/prompt_wc_341.txt",
+      "model": "full250",
+      "creativity": 4.75,
+      "imagery": 4.95,
+      "style": 2.75,
+      "coherence": 2.15,
+      "character_and_impact": 2.9,
+      "integration": 4.35,
+      "overall_quality": 3.2,
+      "rank": 122
+    },
+    {
+      "case_id": "mazur/49",
+      "cluster_id": "prompts_wc/prompt_wc_382.txt",
+      "model": "baseline",
+      "creativity": 3.75,
+      "imagery": 4.55,
+      "style": 2.65,
+      "coherence": 2.25,
+      "character_and_impact": 3.1,
+      "integration": 2.9,
+      "overall_quality": 3.0,
+      "rank": 124
+    },
+    {
+      "case_id": "mazur/31",
+      "cluster_id": "prompts_wc/prompt_wc_246.txt",
+      "model": "full250",
+      "creativity": 3.65,
+      "imagery": 4.55,
+      "style": 2.65,
+      "coherence": 2.05,
+      "character_and_impact": 2.15,
+      "integration": 2.95,
+      "overall_quality": 2.8,
+      "rank": 125
+    },
+    {
+      "case_id": "mazur/3",
+      "cluster_id": "prompts_wc/prompt_wc_122.txt",
+      "model": "full250",
+      "creativity": 4.0,
+      "imagery": 3.85,
+      "style": 2.0,
+      "coherence": 1.9,
+      "character_and_impact": 2.5,
+      "integration": 3.5,
+      "overall_quality": 2.7,
+      "rank": 126
+    },
+    {
+      "case_id": "mazur/4",
+      "cluster_id": "prompts_wc/prompt_wc_139.txt",
+      "model": "full250",
+      "creativity": 3.25,
+      "imagery": 3.65,
+      "style": 2.1,
+      "coherence": 1.65,
+      "character_and_impact": 2.6,
+      "integration": 3.5,
+      "overall_quality": 2.65,
+      "rank": 127
+    },
+    {
+      "case_id": "mazur/50",
+      "cluster_id": "prompts_wc/prompt_wc_384.txt",
+      "model": "full250",
+      "creativity": 3.8,
+      "imagery": 4.5,
+      "style": 2.15,
+      "coherence": 1.7,
+      "character_and_impact": 2.35,
+      "integration": 3.5,
+      "overall_quality": 2.6,
+      "rank": 128
+    }
+  ]
+}

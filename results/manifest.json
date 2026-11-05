@@ -1,0 +1,3636 @@
+{
+  "format": "dat-grpo-public-results-v1",
+  "bundles": [
+    {
+      "path": "results/raw/training-full250.tar.gz",
+      "bytes": 275269,
+      "sha256": "4db2a876078163b9510363d5ba585f1e282ebb20bad411677a32b08d17f94296",
+      "members": [
+        {
+          "path": "gradient-agreement.jsonl",
+          "bytes": 116674,
+          "sha256": "b3e362b764d032db74916bd52999802ab93f6a9e2e9cd0a26c5a354bf8855d94"
+        },
+        {
+          "path": "initialization.json",
+          "bytes": 1370,
+          "sha256": "56ee4350c876fe5486cc49ad1fc0fbcd3a46116ee7f7745f4a40e2672ac397e0"
+        },
+        {
+          "path": "last-metrics.json",
+          "bytes": 1266,
+          "sha256": "7adbf45981d164047f3ac931dda45d4bf626a98d87d7708be5a31ba625f8536a"
+        },
+        {
+          "path": "loss-agreement.jsonl",
+          "bytes": 93359,
+          "sha256": "4d9faa773f7baea80baea3303342a5deb91cfa92e09027e3adb98fb49f77a616"
+        },
+        {
+          "path": "rollouts.jsonl",
+          "bytes": 2188617,
+          "sha256": "70ddc1c94ab8a1cfa03794c934a105c5da34201230bda870e87c12a5c1753f8e"
+        },
+        {
+          "path": "training-prompts.jsonl",
+          "bytes": 652800,
+          "sha256": "cd8072241c799b052ae41b86e22c5e30ff294a569dc79e8c09018ba021cf8e21"
+        }
+      ]
+    },
+    {
+      "path": "results/raw/training-lora1500.tar.gz",
+      "bytes": 1027077,
+      "sha256": "6bf357eac731dfdfcaee5470749edb253bad3cff49b3b18136384275d8185e9c",
+      "members": [
+        {
+          "path": "last-metrics.json",
+          "bytes": 2953,
+          "sha256": "70733a18ee68b86225cacf4f6fb3d1e80b15f27f41f50e5e196cfe48e16eed06"
+        },
+        {
+          "path": "rollouts.jsonl",
+          "bytes": 9165131,
+          "sha256": "fec6c14f6e57d41d047b96bb8f80eaf438a96489fb9f911fb4f5e92ef6258149"
+        },
+        {
+          "path": "training-prompts.jsonl",
+          "bytes": 652800,
+          "sha256": "cd8072241c799b052ae41b86e22c5e30ff294a569dc79e8c09018ba021cf8e21"
+        }
+      ]
+    },
+    {
+      "path": "results/raw/dat-full.tar.gz",
+      "bytes": 125480,
+      "sha256": "2c6d73d051399b43ad5b60be74e94c6e6b1187889fc5974257555958dcaa99fb",
+      "members": [
+        {
+          "path": "adjective-pos-audit.json",
+          "bytes": 277729,
+          "sha256": "8f210321596af97b4125de5f56befd8900bdcd0680f0cd1e9df9e4d95501886c"
+        },
+        {
+          "path": "assets/cases.jsonl",
+          "bytes": 41154,
+          "sha256": "db0de89e100577765ed45418b31ec035c1c4683ed8c07ac51d97676bf9535321"
+        },
+        {
+          "path": "assets/manifest.json",
+          "bytes": 471,
+          "sha256": "fc866b1542dbcb33f5c15aa00549e2021d0cb79548689259609982d739e40ee6"
+        },
+        {
+          "path": "no_think/original/item-scores.json",
+          "bytes": 16545,
+          "sha256": "b7c7e09ebdf50ec4d5dd4765e5836759859e8a04c437ea3148b7972d174078d7"
+        },
+        {
+          "path": "no_think/original/responses.jsonl",
+          "bytes": 47151,
+          "sha256": "4213e78b39a134701800e204f95dd7be150b75a7fbccff559f2ea9a9b4f2c1c3"
+        },
+        {
+          "path": "no_think/original/scores.json",
+          "bytes": 858,
+          "sha256": "27aa50737ef94b5bcb724eb2783145e01f1ff581d7a2f0c326b16a908895ca00"
+        },
+        {
+          "path": "no_think/step100/item-scores.json",
+          "bytes": 16569,
+          "sha256": "ad674a157f95367d125909ded0c0793b7d5475b46e575290dd20fd5c51006fad"
+        },
+        {
+          "path": "no_think/step100/responses.jsonl",
+          "bytes": 48330,
+          "sha256": "2a64a0f8499dc9ab14f34eec1c57e9e431b697eea91e11c395ef7845a6c0b9d4"
+        },
+        {
+          "path": "no_think/step100/scores.json",
+          "bytes": 854,
+          "sha256": "05625022a62d58939a195460fc9cd42af8d7f7d6d2a5177ee2c47cd4d77f0ba6"
+        },
+        {
+          "path": "no_think/step150/item-scores.json",
+          "bytes": 16495,
+          "sha256": "363749cf70162ae758c8bd7754ca7fba9636d48af0ef51afd39cc03215b1d1ce"
+        },
+        {
+          "path": "no_think/step150/responses.jsonl",
+          "bytes": 47224,
+          "sha256": "100fa0f11fdc78c8e7249cf809170a9371be720b7c5a1d377404d661a17b3fd1"
+        },
+        {
+          "path": "no_think/step150/scores.json",
+          "bytes": 858,
+          "sha256": "9fa4a712432db334854554a6a40f7f6fa6b7f218f60a173713e286bb2a73677e"
+        },
+        {
+          "path": "no_think/step200/item-scores.json",
+          "bytes": 16197,
+          "sha256": "fd83beb6ca8020dc2d3a5520e63f2a938a5dbf2fd1cfa5b9a35a78d459e8274e"
+        },
+        {
+          "path": "no_think/step200/responses.jsonl",
+          "bytes": 48977,
+          "sha256": "f45b7c4b65d0062d45aacef0cfe784303ab4e307ad7632f12558ab113ed5dd19"
+        },
+        {
+          "path": "no_think/step200/scores.json",
+          "bytes": 860,
+          "sha256": "e14d9512c80b8f06e75e9cd83acae52f906d2188e3f02e4e6db8929854d4cff8"
+        },
+        {
+          "path": "no_think/step250/item-scores.json",
+          "bytes": 16531,
+          "sha256": "724dbf362c17b54c83f20ce67779000eebb49039158fb82351341cf60291be69"
+        },
+        {
+          "path": "no_think/step250/responses.jsonl",
+          "bytes": 48616,
+          "sha256": "ac9a2aa36b40cc3259a2e6f6e24cfa444b4a8381971b0416db17877aad09a68e"
+        },
+        {
+          "path": "no_think/step250/scores.json",
+          "bytes": 854,
+          "sha256": "59bdc2054f2cb7e6391739f3d2b50f64be67ed222218410e7121c1161d36693b"
+        },
+        {
+          "path": "no_think/step50/item-scores.json",
+          "bytes": 11237,
+          "sha256": "6fac4fda14d0c54e9441ede64d833986e783afa0cc0af09de8963ab3a6018c1a"
+        },
+        {
+          "path": "no_think/step50/responses.jsonl",
+          "bytes": 110262,
+          "sha256": "81d0ac90b5406adca2cf2a4e1ed352bdd3027de6eebd2ba7f2fdcdb04af6a229"
+        },
+        {
+          "path": "no_think/step50/scores.json",
+          "bytes": 572,
+          "sha256": "1c4b8558d2468ece63e411ac28aa7934727497f3bd4f45f8b89399db432e4d9a"
+        },
+        {
+          "path": "no_think/step75/item-scores.json",
+          "bytes": 11237,
+          "sha256": "c2af5cc62e00e1e296da1915eb3c07679af70774711fa2ae75a7d5ca6765dddd"
+        },
+        {
+          "path": "no_think/step75/responses.jsonl",
+          "bytes": 60596,
+          "sha256": "29d3e31d6973c0340bf387072a212b3b4e1fcf39f3c51e810ad817e0ced424c6"
+        },
+        {
+          "path": "no_think/step75/scores.json",
+          "bytes": 572,
+          "sha256": "e3169ed3f2642f80bd1a3703b4260f370f0d73f770463b864514bcd2efd28c3f"
+        },
+        {
+          "path": "word-class-audit.json",
+          "bytes": 1159416,
+          "sha256": "48ea61d94faaee9e3e3b0f5d755a754e9772b3934454b5871558f3edcc0e6e22"
+        }
+      ]
+    },
+    {
+      "path": "results/raw/dat-lora.tar.gz",
+      "bytes": 82120,
+      "sha256": "f73e5924eab6bab81b5bb10ee0a0fde1b6e5d41cc81951bc7fceede2ec3dcc49",
+      "members": [
+        {
+          "path": "adjective-pos-audit.json",
+          "bytes": 276032,
+          "sha256": "15fdc604fd7b399e5236b60d560ee28441ce242f8f9af5275ec46f51e19bdb2a"
+        },
+        {
+          "path": "assets/cases.jsonl",
+          "bytes": 41154,
+          "sha256": "db0de89e100577765ed45418b31ec035c1c4683ed8c07ac51d97676bf9535321"
+        },
+        {
+          "path": "assets/manifest.json",
+          "bytes": 471,
+          "sha256": "fc866b1542dbcb33f5c15aa00549e2021d0cb79548689259609982d739e40ee6"
+        },
+        {
+          "path": "no_think/original/item-scores.json",
+          "bytes": 16546,
+          "sha256": "53ed09370903a1615a1826aef7d658128449da6d6f852e534f4a69253e22e40e"
+        },
+        {
+          "path": "no_think/original/responses.jsonl",
+          "bytes": 47157,
+          "sha256": "5491e88c7b6b88439c42140995896225a61e5255831f7f018273ad3706a9b8df"
+        },
+        {
+          "path": "no_think/original/scores.json",
+          "bytes": 860,
+          "sha256": "62ae8ffc8e4c5f0bc346e950a9949a1691473a2c69c4406b8ff1aa9264c5db6c"
+        },
+        {
+          "path": "no_think/step1000/item-scores.json",
+          "bytes": 16436,
+          "sha256": "3eb30227b07cb881d00870d963508fd6f5fda245299928d1c3fab7e890099759"
+        },
+        {
+          "path": "no_think/step1000/responses.jsonl",
+          "bytes": 47009,
+          "sha256": "7d17c022932020d7a6a95f4692a6b9d506bc31cabeb971170f3a7163d054ad7f"
+        },
+        {
+          "path": "no_think/step1000/scores.json",
+          "bytes": 856,
+          "sha256": "38c83e3f93bc3298501a697e84eeb905c0abe11d53c6357e09fec65e7577e9a8"
+        },
+        {
+          "path": "no_think/step1500/item-scores.json",
+          "bytes": 16564,
+          "sha256": "aee1d310f24da291da641e5374b23ad9824b866e6bd738059e922f36edbbdffc"
+        },
+        {
+          "path": "no_think/step1500/responses.jsonl",
+          "bytes": 46944,
+          "sha256": "5c82540cd8ac5538737fa47c4abe5d007552b5527943e1a7f0f2fc20eeb77f80"
+        },
+        {
+          "path": "no_think/step1500/scores.json",
+          "bytes": 850,
+          "sha256": "ddc5a174b98651e821ff84aaaada457501a0093c70064fa83e54a2bbfa6188d1"
+        },
+        {
+          "path": "no_think/step250/item-scores.json",
+          "bytes": 16588,
+          "sha256": "0ce125e2092d4c83a5c2979821a0afae5add33ff1ecbb9c32e43f550c912fb4c"
+        },
+        {
+          "path": "no_think/step250/responses.jsonl",
+          "bytes": 47404,
+          "sha256": "c337b7aeb7992e73d47a0e61c4eea2cd73fb4e9222186c7990587a718f8b8fca"
+        },
+        {
+          "path": "no_think/step250/scores.json",
+          "bytes": 856,
+          "sha256": "20c0b193da0e0fa555e243b29dfd5e8527795ccd5b55177dc55670c6e0ca200d"
+        },
+        {
+          "path": "no_think/step500/item-scores.json",
+          "bytes": 16544,
+          "sha256": "57588378bf3b8b75c1a45ebfb1774f0b58146efd9664b0759109223a82ecb7f1"
+        },
+        {
+          "path": "no_think/step500/responses.jsonl",
+          "bytes": 47423,
+          "sha256": "5d2df62092d59a7696b4d7981599d4b211a447762e48bfe6774c352cfb02bfb1"
+        },
+        {
+          "path": "no_think/step500/scores.json",
+          "bytes": 860,
+          "sha256": "c66ee1a05b1fb6753d3e95f47088ee8cf3f76ff7f2109d0483e17ea246b8bcf2"
+        },
+        {
+          "path": "word-class-audit.json",
+          "bytes": 1189466,
+          "sha256": "784e72b4821dedef63738f13d7cabc749da0dbb44d1e437459e38c8c982f3129"
+        }
+      ]
+    },
+    {
+      "path": "results/raw/writing-transfer.tar.gz",
+      "bytes": 2527889,
+      "sha256": "c2f3253236f30890de6403c784a516f759f4a11239791d7472a43e25d6d5f6b7",
+      "members": [
+        {
+          "path": "assets/manifest.json",
+          "bytes": 1263,
+          "sha256": "3d48b63b1573d5d9cdd27ad1873c44bc0cec02924d28f2b1d1cb7c856b8d4a33"
+        },
+        {
+          "path": "case-index.json",
+          "bytes": 681272,
+          "sha256": "959790109823fa14564ea5e6578aee25ee246c99beddd43db78513662c66d759"
+        },
+        {
+          "path": "judged-results.json",
+          "bytes": 608732,
+          "sha256": "5d9eb932bf6e5f85f4c0d1d85176b6441ddc3f7ef9f0cc4644aa3763807da433"
+        },
+        {
+          "path": "judging/critic-provenance.json",
+          "bytes": 2142,
+          "sha256": "696b21e8b7d48ac460cc83a2cad6fbd90fb0a7306ca2d6e3ac35eec4c4f6876f"
+        },
+        {
+          "path": "judging/judge-provenance.json",
+          "bytes": 2094,
+          "sha256": "b4cd83ccc39bc1784e4d0c78211510287d3143e6810b66acf33b57b22a442b48"
+        },
+        {
+          "path": "judging/mazur_pairwise/responses.jsonl",
+          "bytes": 1013961,
+          "sha256": "d55ff47d8a1907c02fdf77aaf63bae8d4cb8e9bf1e00398f11edb3b6d52e7315"
+        },
+        {
+          "path": "judging/steerbench_content/responses.jsonl",
+          "bytes": 268644,
+          "sha256": "c5780396385e67f908df4656c71f8428421f799f15f90d87eefb88aecb08f5a1"
+        },
+        {
+          "path": "judging/writingbench_critic/responses.jsonl",
+          "bytes": 1678087,
+          "sha256": "5c625069255e1a411c0bb8215e4254782a8ece4c048f3bf751c9ceb6c89393b6"
+        },
+        {
+          "path": "mazur/original/responses.jsonl",
+          "bytes": 425951,
+          "sha256": "255497f4be9a4082183b9da9261fe227b2e9b33eb4aa1ee187ed307727342005"
+        },
+        {
+          "path": "mazur/step1500/responses.jsonl",
+          "bytes": 427020,
+          "sha256": "535ce8b4e5bb4f5daab2bf27e44de9b607d6d88e014a7c91fdd9a9ce206ba58e"
+        },
+        {
+          "path": "mazur/step250/responses.jsonl",
+          "bytes": 399624,
+          "sha256": "c0f3c5faf56c62dadd71da4f1d563e2add563c2f9e1d487388895ef3c41d4643"
+        },
+        {
+          "path": "steer-metrics.json",
+          "bytes": 499627,
+          "sha256": "bf5a3e9317fbfaca9c228ad28f81694c158f143ed02538c51e102056e8a34560"
+        },
+        {
+          "path": "steerbench/original/responses.jsonl",
+          "bytes": 557306,
+          "sha256": "2997a9df6e6c164f05d54a71284952afcaef50bba883e08901ec994c17ce87dd"
+        },
+        {
+          "path": "steerbench/step1500/responses.jsonl",
+          "bytes": 559866,
+          "sha256": "bf0baa54bb588ab17427ea9d9a8633a68a9e946e8ec85f38f9f207f31377c4ef"
+        },
+        {
+          "path": "steerbench/step250/responses.jsonl",
+          "bytes": 585144,
+          "sha256": "219ce7a7bea3d3c1b7e78d8037de03b76bd39b354a904fd29c7762abd6acbea2"
+        },
+        {
+          "path": "writingbench/original/responses.jsonl",
+          "bytes": 537985,
+          "sha256": "6bdcdfdb26731e5d6cbd5171fe2ed989400177b180a78e310355b3408cb25555"
+        },
+        {
+          "path": "writingbench/step1500/responses.jsonl",
+          "bytes": 529705,
+          "sha256": "85aeb2dcc4f513daafe1aef2535c7dbf7c4d233d74e0c66a0d334f374d626bc2"
+        },
+        {
+          "path": "writingbench/step250/responses.jsonl",
+          "bytes": 546137,
+          "sha256": "8e7651a64e0e2ea068858f329d44f15cc36aca14b1307ad586272c22da3c7e63"
+        }
+      ]
+    },
+    {
+      "path": "results/raw/sol-story-judgments.tar.gz",
+      "bytes": 1073803,
+      "sha256": "1f278037da19ebc6aabac7856a87bb21db514b5b1c31d60a8a277b8e114a3a74",
+      "members": [
+        {
+          "path": "audit.json",
+          "bytes": 1005,
+          "sha256": "09cde9e4b8f6748490f33abed7133ca367e6fe70fbe811876dcda33ca932e90a"
+        },
+        {
+          "path": "cli-version.json",
+          "bytes": 37,
+          "sha256": "0556853ae876884ad58513217c5bb0f5a75efaf1987b471a31815afcccfa0893"
+        },
+        {
+          "path": "jobs.json",
+          "bytes": 1836783,
+          "sha256": "2d56ddb2c6bf885fa3eb423328d17ffe733364880a685a544bf018838491c943"
+        },
+        {
+          "path": "judgments/mazur-0-order-0/answer.json",
+          "bytes": 4656,
+          "sha256": "14fcaedcc65047c5fe713469d253c49963b9407b49d75b456932d45b7e9c35c3"
+        },
+        {
+          "path": "judgments/mazur-0-order-0/prompt.txt",
+          "bytes": 16106,
+          "sha256": "bd9b9f9a9869ee0fcd2fe4ab3157fbfc902b4b2ae1f06a4c2d7f7a56ecfbd7cc"
+        },
+        {
+          "path": "judgments/mazur-0-order-0/record.json",
+          "bytes": 5144,
+          "sha256": "dcecb78859db177c2bff4531d2b22ef6891840dbc28b277be59f2c8db8c5354e"
+        },
+        {
+          "path": "judgments/mazur-0-order-1/answer.json",
+          "bytes": 4793,
+          "sha256": "aaaff6bd65355fd5714d8f1823132d201fab14ae948486c831a9ed6852f8069b"
+        },
+        {
+          "path": "judgments/mazur-0-order-1/prompt.txt",
+          "bytes": 16106,
+          "sha256": "20bd6222ba847de47ef4031b2a7cb1dc02f6b7fd7aaba8d74314554b1954b1f6"
+        },
+        {
+          "path": "judgments/mazur-0-order-1/record.json",
+          "bytes": 5279,
+          "sha256": "ac4f0e5557a5b49d299d7cd85640907b468ddbe19f220d5e74ee8e6b4e83de60"
+        },
+        {
+          "path": "judgments/mazur-1-order-0/answer.json",
+          "bytes": 3880,
+          "sha256": "c5c14cf083774a35002d799a68f4e641ec4c33c6049c636f9775bbc01d4cd75b"
+        },
+        {
+          "path": "judgments/mazur-1-order-0/prompt.txt",
+          "bytes": 14899,
+          "sha256": "4387e04b70e3273b1ae7ae93fd549c09c9ce7adf394424b065f718efac7ca80f"
+        },
+        {
+          "path": "judgments/mazur-1-order-0/record.json",
+          "bytes": 4366,
+          "sha256": "75a9d4e4d03a1f5d21c4e03174b232d5a3c4ef1e5b9510c49933164ce3a50887"
+        },
+        {
+          "path": "judgments/mazur-1-order-1/answer.json",
+          "bytes": 4570,
+          "sha256": "150aab8a46c669e4df7d7dd7b848ea5d33d60e77912914935c96412ee45253fa"
+        },
+        {
+          "path": "judgments/mazur-1-order-1/prompt.txt",
+          "bytes": 14899,
+          "sha256": "7ca2cf34ecfdaf16018a5a91a6f071dd76dfcc7f1755f8b11d4703cdbbf3d749"
+        },
+        {
+          "path": "judgments/mazur-1-order-1/record.json",
+          "bytes": 5056,
+          "sha256": "b94e1042a62e1a6ce76913f534455024e85940088378be8f45cd2aece2a46815"
+        },
+        {
+          "path": "judgments/mazur-10-order-0/answer.json",
+          "bytes": 4462,
+          "sha256": "09d9b4d4104f4798f2a31a7583fb54976d40ebd8bf37c96135d6a9b6bd0e1bbe"
+        },
+        {
+          "path": "judgments/mazur-10-order-0/prompt.txt",
+          "bytes": 16318,
+          "sha256": "5a4932817efe74b1464e7bd572420b6e314704a184c85a3f66bbaa561c291d3b"
+        },
+        {
+          "path": "judgments/mazur-10-order-0/record.json",
+          "bytes": 4951,
+          "sha256": "b6978626834470f34629113b2da0a33712add95fe0bfa7bdc321121964b4c3be"
+        },
+        {
+          "path": "judgments/mazur-10-order-1/answer.json",
+          "bytes": 4674,
+          "sha256": "e27872f3bcc4e4bc777e91df3d17c3550e5fa4dd8607b0c239ee891ff20b8e59"
+        },
+        {
+          "path": "judgments/mazur-10-order-1/prompt.txt",
+          "bytes": 16318,
+          "sha256": "631c8681772d9c53b04312b10fa45012b683abc6bf3e4b68db6d1b32a552fada"
+        },
+        {
+          "path": "judgments/mazur-10-order-1/record.json",
+          "bytes": 5163,
+          "sha256": "1782a9d77fe4a8cd7e5797b62fb0c524631c3c30706c2d7e867d88634f42cdc9"
+        },
+        {
+          "path": "judgments/mazur-11-order-0/answer.json",
+          "bytes": 4314,
+          "sha256": "726ab320aa67fbdb9178044234723641b54b10682b0e2ef70126bc5b1f04d08a"
+        },
+        {
+          "path": "judgments/mazur-11-order-0/prompt.txt",
+          "bytes": 12744,
+          "sha256": "4191d46494f2f4850cc8d0b3a9840cf4c36512f65dc1da4c0f4d8df9a6c8c4b7"
+        },
+        {
+          "path": "judgments/mazur-11-order-0/record.json",
+          "bytes": 4804,
+          "sha256": "f85b28a16449a810637a3b1787cc7d50b3abb0e5da47b93fe4b4e8c8c213be8f"
+        },
+        {
+          "path": "judgments/mazur-11-order-1/answer.json",
+          "bytes": 4473,
+          "sha256": "1f76f445799a18aee8c0977ce2eca3e1476b3005926577f92f642e93e7f0059a"
+        },
+        {
+          "path": "judgments/mazur-11-order-1/prompt.txt",
+          "bytes": 12744,
+          "sha256": "58199efa52ab25a5cd316b3220dfd702c5d04de9231aa004fb719af046a446df"
+        },
+        {
+          "path": "judgments/mazur-11-order-1/record.json",
+          "bytes": 4960,
+          "sha256": "38f30b1f1b0879ba4b53dc1c6e4d4981a3fee66073bea93e4a286a60f963266e"
+        },
+        {
+          "path": "judgments/mazur-12-order-0/answer.json",
+          "bytes": 4515,
+          "sha256": "9cfb555e30bab00f40be76b1fc90fbe86dcce17536960d1846168d2d2e8ab7ef"
+        },
+        {
+          "path": "judgments/mazur-12-order-0/prompt.txt",
+          "bytes": 13936,
+          "sha256": "2c8acdac6cd4ba3ef2ed49db631baec1a8e4a10d05766230b94fbedef4ccd469"
+        },
+        {
+          "path": "judgments/mazur-12-order-0/record.json",
+          "bytes": 5000,
+          "sha256": "10b726b8b4c78015860279a32905333d70154f27106e6b3cb6b516893c465d15"
+        },
+        {
+          "path": "judgments/mazur-12-order-1/answer.json",
+          "bytes": 4349,
+          "sha256": "3bdc257bbbd17e8cdb7a3f99a6d99b5b15e73b881761d5d560b079efdcd5c90b"
+        },
+        {
+          "path": "judgments/mazur-12-order-1/prompt.txt",
+          "bytes": 13936,
+          "sha256": "0adc1c1bc039879c1188588c0a3fb0b220c5d1b6c36ca55dd52186165a9ea715"
+        },
+        {
+          "path": "judgments/mazur-12-order-1/record.json",
+          "bytes": 4834,
+          "sha256": "0d36f409126d3bccd9560f4dfe50505199a18d3b47865eb0a49668a93248702a"
+        },
+        {
+          "path": "judgments/mazur-13-order-0/answer.json",
+          "bytes": 4701,
+          "sha256": "1a0519a9d5cbe96cd18d058af19f21e35f89917183e2de2dfd0c87012c85aa17"
+        },
+        {
+          "path": "judgments/mazur-13-order-0/prompt.txt",
+          "bytes": 15805,
+          "sha256": "7e7538aa2d7063865a9ab7b02e9ed58c6a94c11326ca2cb0eb9cd35c38ada246"
+        },
+        {
+          "path": "judgments/mazur-13-order-0/record.json",
+          "bytes": 5191,
+          "sha256": "0bc96c4560cc6097d4a82e6ef2a91964f8d7fc607cc72492c5434e9798ae24e8"
+        },
+        {
+          "path": "judgments/mazur-13-order-1/answer.json",
+          "bytes": 4196,
+          "sha256": "1a559b11cad89d5f3cd7739a118986ebe8ee7eadc14c0123b3afcb8229122645"
+        },
+        {
+          "path": "judgments/mazur-13-order-1/prompt.txt",
+          "bytes": 15805,
+          "sha256": "66a49d3a7b9283fef5c036d04e21e2014d086cbc86c00f3f932b33e03dfdebd9"
+        },
+        {
+          "path": "judgments/mazur-13-order-1/record.json",
+          "bytes": 4682,
+          "sha256": "eba29553ec4a9492e2c3de6a1982d370ce65650946f2e12674dd4ad83a154a59"
+        },
+        {
+          "path": "judgments/mazur-14-order-0/answer.json",
+          "bytes": 4098,
+          "sha256": "c476a1a7d0a4e06e38af7d04a1efc9157f2631b29537e922f485a8072940e465"
+        },
+        {
+          "path": "judgments/mazur-14-order-0/prompt.txt",
+          "bytes": 13613,
+          "sha256": "97ea7181c24b22022a50a7bfd739720553667aa6a9160750328e81894f7c3ca1"
+        },
+        {
+          "path": "judgments/mazur-14-order-0/record.json",
+          "bytes": 4585,
+          "sha256": "f780debcd49b1a2148d9b094335e3133c6d9bf070ea0ebcac4ba8c374a300f74"
+        },
+        {
+          "path": "judgments/mazur-14-order-1/answer.json",
+          "bytes": 4620,
+          "sha256": "47ee8978a07b52005d02b17d72ddad68322f144760d4092f6d7d56ef4e23ef97"
+        },
+        {
+          "path": "judgments/mazur-14-order-1/prompt.txt",
+          "bytes": 13613,
+          "sha256": "5554d7bcffb7fca5d69e5af485d7ce14afda037798c66036382581aca6cf887b"
+        },
+        {
+          "path": "judgments/mazur-14-order-1/record.json",
+          "bytes": 5107,
+          "sha256": "2025fcf80ba0b17a09fa97398d0df912afa8fb0f9a542f6c1fd5ee1924bd5aca"
+        },
+        {
+          "path": "judgments/mazur-15-order-0/answer.json",
+          "bytes": 4222,
+          "sha256": "88383a3452c2b2906cc17a3314ac8c33bb9021b97302b581d3ad1cc37d91958d"
+        },
+        {
+          "path": "judgments/mazur-15-order-0/prompt.txt",
+          "bytes": 13978,
+          "sha256": "8de671c4704ea09a3c0622f48a82d385f836073105d7b16943544ea6757d030c"
+        },
+        {
+          "path": "judgments/mazur-15-order-0/record.json",
+          "bytes": 4709,
+          "sha256": "8f53185b44619b2c01d05858983c3718c017c0779e8fb475f8d8e25f1228fbae"
+        },
+        {
+          "path": "judgments/mazur-15-order-1/answer.json",
+          "bytes": 4550,
+          "sha256": "1f934d29fea8d2bff172d286b0ca996d55b6ee8a2218299f0a0040760212a199"
+        },
+        {
+          "path": "judgments/mazur-15-order-1/prompt.txt",
+          "bytes": 13978,
+          "sha256": "d3f2892c886075b296d97eb6860d559bcc9042b266d64fc05e3400f9da5511dd"
+        },
+        {
+          "path": "judgments/mazur-15-order-1/record.json",
+          "bytes": 5040,
+          "sha256": "efcfd3183c42ed97fa3e156fb94fd5f8d79e265af51955657b1b5254ec844488"
+        },
+        {
+          "path": "judgments/mazur-16-order-0/answer.json",
+          "bytes": 4840,
+          "sha256": "497d416ba4fe8bcfc7439dcc3947a44e6c0d1d0a812430eb68629483fd7d687d"
+        },
+        {
+          "path": "judgments/mazur-16-order-0/prompt.txt",
+          "bytes": 14772,
+          "sha256": "a8c201b0a58f3ec031de01a55378e8691a26e1410a86d62348a622edde93204d"
+        },
+        {
+          "path": "judgments/mazur-16-order-0/record.json",
+          "bytes": 5327,
+          "sha256": "ba8910cb39b4f80b3073189f1deb75bc556be0109ca73d10c378f6ec1b4152bb"
+        },
+        {
+          "path": "judgments/mazur-16-order-1/answer.json",
+          "bytes": 4469,
+          "sha256": "75d891616fe64e9891d373ff266273f3edf2239c85c682b7f56947f9e32468bf"
+        },
+        {
+          "path": "judgments/mazur-16-order-1/prompt.txt",
+          "bytes": 14772,
+          "sha256": "cfdbdb4d939844c743a409ac686635bd08a8b1ae541115bf2d166562dc2e3c0b"
+        },
+        {
+          "path": "judgments/mazur-16-order-1/record.json",
+          "bytes": 4958,
+          "sha256": "a876a47e441e86c8edde1ec3a8ce7df5ff0bbe20a450be232c94f51a824100a6"
+        },
+        {
+          "path": "judgments/mazur-17-order-0/answer.json",
+          "bytes": 4186,
+          "sha256": "89480ae3aadfd851877ff28107d890b5b1c55b11981c28d677f8c0ed3b4a545f"
+        },
+        {
+          "path": "judgments/mazur-17-order-0/prompt.txt",
+          "bytes": 13848,
+          "sha256": "21c5eaee15b8f44642ff52eb5afad02065ac5f819e884554d351191a017cbe27"
+        },
+        {
+          "path": "judgments/mazur-17-order-0/record.json",
+          "bytes": 4675,
+          "sha256": "5f06bdd0d6f495e9b0fa3bebfbe88e3e550599a486e787ec94b9057c4af98f44"
+        },
+        {
+          "path": "judgments/mazur-17-order-1/answer.json",
+          "bytes": 4339,
+          "sha256": "2ae89d0f53b52e767afcfe1bfa69598a7ed0be9a952d18d3295bc87b8c80625a"
+        },
+        {
+          "path": "judgments/mazur-17-order-1/prompt.txt",
+          "bytes": 13848,
+          "sha256": "4b1edd3fb5561abffe41159f0555d069322e35ef3ce3fc2e82933c473e34ea74"
+        },
+        {
+          "path": "judgments/mazur-17-order-1/record.json",
+          "bytes": 4828,
+          "sha256": "b1334e58bb86248f67f19cace7b724ad6db0fda92e485fbc90db6bdc4754694c"
+        },
+        {
+          "path": "judgments/mazur-18-order-0/answer.json",
+          "bytes": 4404,
+          "sha256": "ebe28e1a9c552aa30bc722b4202957141a7fd06e207500f5d8626743ba35d5d8"
+        },
+        {
+          "path": "judgments/mazur-18-order-0/prompt.txt",
+          "bytes": 14670,
+          "sha256": "b2e24d3149997257f1dd969e8e77beb93fdf54193b6b9123d0894754ff916c08"
+        },
+        {
+          "path": "judgments/mazur-18-order-0/record.json",
+          "bytes": 4891,
+          "sha256": "8d75716f8987c9baa65558e5d4c40857bf4d3311aff8846366f5bcb6274416cb"
+        },
+        {
+          "path": "judgments/mazur-18-order-1/answer.json",
+          "bytes": 4236,
+          "sha256": "5d4ee8b1bb8c0a03d216cee7ca9287e72939cba2223f5cc54f8b2edc2bd7225f"
+        },
+        {
+          "path": "judgments/mazur-18-order-1/prompt.txt",
+          "bytes": 14670,
+          "sha256": "2cae7bfab8ebfa7ad75ad5cd48af8f3f00a0904300d6c61d05b7486206b66778"
+        },
+        {
+          "path": "judgments/mazur-18-order-1/record.json",
+          "bytes": 4726,
+          "sha256": "1e97fab1bff41389fb0022f1aa684cbbc27d7f76ca2dd73ebfe3caee094f15a0"
+        },
+        {
+          "path": "judgments/mazur-19-order-0/answer.json",
+          "bytes": 4242,
+          "sha256": "cd56642d062913e201f58da592455b31955e8d6084d7bec8bc9eedd77f1d7322"
+        },
+        {
+          "path": "judgments/mazur-19-order-0/prompt.txt",
+          "bytes": 14024,
+          "sha256": "a0004519eb285b194bc8ee0ce464588e3eccc7786b064a8f8390d960032f84b2"
+        },
+        {
+          "path": "judgments/mazur-19-order-0/record.json",
+          "bytes": 4732,
+          "sha256": "d170229291adcd80ba6e1caf5a4c1deb9f66191948b9f6ca8f85952eab561faf"
+        },
+        {
+          "path": "judgments/mazur-19-order-1/answer.json",
+          "bytes": 4404,
+          "sha256": "9da47af672879d9cd007174b61a46c39d58d3535d542f0959f311820c2792fab"
+        },
+        {
+          "path": "judgments/mazur-19-order-1/prompt.txt",
+          "bytes": 14024,
+          "sha256": "f914dabe923b7a28fe4ec407fe6bde0c59863e9b7bb896f7b7536bf2a2a5aeab"
+        },
+        {
+          "path": "judgments/mazur-19-order-1/record.json",
+          "bytes": 4894,
+          "sha256": "608f3c6bef9f9fa2af53bffd93937d6bd514465e68b32d3f666ad95f9b5907d9"
+        },
+        {
+          "path": "judgments/mazur-2-order-0/answer.json",
+          "bytes": 4508,
+          "sha256": "2f119fc2c87e79adc8b15ee51677355560728930d3eca30392e39db0f453264a"
+        },
+        {
+          "path": "judgments/mazur-2-order-0/prompt.txt",
+          "bytes": 16322,
+          "sha256": "7c36d7b4fa22f62d8aa5c95c52f79e18623975956b3d392177c4437e90676f61"
+        },
+        {
+          "path": "judgments/mazur-2-order-0/record.json",
+          "bytes": 4992,
+          "sha256": "6f4ea88f23057c5d10fd7caed54321c320023289955980a2c7b1942e76bee856"
+        },
+        {
+          "path": "judgments/mazur-2-order-1/answer.json",
+          "bytes": 4255,
+          "sha256": "b6cde050bac321815e4bdf726226fd62e52dfafa53b61688e3048391104b7f74"
+        },
+        {
+          "path": "judgments/mazur-2-order-1/prompt.txt",
+          "bytes": 16322,
+          "sha256": "d30c9807007dc83fa5019a2ec87fa07a5e602f6cb9cbf0a48f175aeb041d6496"
+        },
+        {
+          "path": "judgments/mazur-2-order-1/record.json",
+          "bytes": 4741,
+          "sha256": "57ed3fd1994096c0bcc665f570ec2d9fc4b19299e5390abde1161240015fa9b1"
+        },
+        {
+          "path": "judgments/mazur-20-order-0/answer.json",
+          "bytes": 4495,
+          "sha256": "b47463fadaccdd3472167ee7d2ed2c0f7de290b213df35c293620b3d1d00e435"
+        },
+        {
+          "path": "judgments/mazur-20-order-0/prompt.txt",
+          "bytes": 12121,
+          "sha256": "23c320591758d989d86a1c6c87986ad5ea19c1be5837ed79283e746b1717f221"
+        },
+        {
+          "path": "judgments/mazur-20-order-0/record.json",
+          "bytes": 4982,
+          "sha256": "b508f5f41fa3f8d6086d8a74d762d3daa0d62d073499c008bdafee0b8c709bd0"
+        },
+        {
+          "path": "judgments/mazur-20-order-1/answer.json",
+          "bytes": 4939,
+          "sha256": "211ec04ce6c1a2265d8551c9635293664b1166956dabe8498f4cc3a0ce3fb84b"
+        },
+        {
+          "path": "judgments/mazur-20-order-1/prompt.txt",
+          "bytes": 12121,
+          "sha256": "61f33549839cd381f8cbf670f655cca4a6ea7249614426e77936448600fb5338"
+        },
+        {
+          "path": "judgments/mazur-20-order-1/record.json",
+          "bytes": 5426,
+          "sha256": "ba7070f89c2d320f0964cc73f3ce76cf89521934374c172f4cec90efda567cdb"
+        },
+        {
+          "path": "judgments/mazur-21-order-0/answer.json",
+          "bytes": 3939,
+          "sha256": "5944b54729bdecc32f70bdf3b7889e6aac4fdca7a3c1fdf6f71f26aa5821739b"
+        },
+        {
+          "path": "judgments/mazur-21-order-0/prompt.txt",
+          "bytes": 13721,
+          "sha256": "3017857d60fc9b00fc3689393460b64501e9ff1ed34ff4f735030c03a1033815"
+        },
+        {
+          "path": "judgments/mazur-21-order-0/record.json",
+          "bytes": 4429,
+          "sha256": "c943f2edbdebd180fe9d0e30e1b5ff3059a0a9a93ebaf4f94b37f7eebc023d77"
+        },
+        {
+          "path": "judgments/mazur-21-order-1/answer.json",
+          "bytes": 4838,
+          "sha256": "4790d969247dd9200107a8bbc62eac2d65e7855463258a377b541f383eac2a80"
+        },
+        {
+          "path": "judgments/mazur-21-order-1/prompt.txt",
+          "bytes": 13721,
+          "sha256": "a32167c8bba7206f496caa4ff7a715e1eec7588e84bb37020c5415832a659abd"
+        },
+        {
+          "path": "judgments/mazur-21-order-1/record.json",
+          "bytes": 5328,
+          "sha256": "e2ae3787ecebcba93362b3401fe34e26f0463521c263f55bc6f4c559dcea4d0a"
+        },
+        {
+          "path": "judgments/mazur-22-order-0/answer.json",
+          "bytes": 4780,
+          "sha256": "a78a1d2a185e6fc18085ee70a1fcdd04b44c792d4e578dcc0d327fac4353fb31"
+        },
+        {
+          "path": "judgments/mazur-22-order-0/prompt.txt",
+          "bytes": 12985,
+          "sha256": "c72b1a89db9e674ccb203d3ce32b198135eaaa7ce3a4011acd64ab3cb0de4764"
+        },
+        {
+          "path": "judgments/mazur-22-order-0/record.json",
+          "bytes": 5267,
+          "sha256": "168e6e1bf301675f14d17ecbb08be381c73f8cffe2032c048e2f852bb92351d8"
+        },
+        {
+          "path": "judgments/mazur-22-order-1/answer.json",
+          "bytes": 4586,
+          "sha256": "4f0d2a41d5dccc069cffdcd70d4d74e98174f69bc64926163e92efba9d5aa8d6"
+        },
+        {
+          "path": "judgments/mazur-22-order-1/prompt.txt",
+          "bytes": 12985,
+          "sha256": "c0fdbdd0862896996bd9a04a6f6c1c9e968f1531262a01f70c030b5d9d368824"
+        },
+        {
+          "path": "judgments/mazur-22-order-1/record.json",
+          "bytes": 5073,
+          "sha256": "0d1faa599a0c6a9279ceee272b3d919a8a28004732d916ef2de294ed67431247"
+        },
+        {
+          "path": "judgments/mazur-23-order-0/answer.json",
+          "bytes": 4813,
+          "sha256": "cb58338fbade096ac9ff2ceb1ddaa42094a9693ffcd2cb626094827cf794b937"
+        },
+        {
+          "path": "judgments/mazur-23-order-0/prompt.txt",
+          "bytes": 15974,
+          "sha256": "e7aff9cd8ed1e141a36b31e8c2ae009e2daea9c5852c2ea34e3b91baf1784f97"
+        },
+        {
+          "path": "judgments/mazur-23-order-0/record.json",
+          "bytes": 5302,
+          "sha256": "9f6883e3872033fbfa575c6ac15711b992027a6d47aa560bf4f9aa3c315bcb55"
+        },
+        {
+          "path": "judgments/mazur-23-order-1/answer.json",
+          "bytes": 4440,
+          "sha256": "5773d6d8036ef353e9d1dfa81d5d2162733de7f70466c393f0fe6bebdd30bb38"
+        },
+        {
+          "path": "judgments/mazur-23-order-1/prompt.txt",
+          "bytes": 15974,
+          "sha256": "9a89e27ec61acc172912db59f5c6a1273cef6546ac9fd8f8f2f2c6d61f35ab9a"
+        },
+        {
+          "path": "judgments/mazur-23-order-1/record.json",
+          "bytes": 4927,
+          "sha256": "8a0ae29aeadd0886981eb1c16bb09ffbbda3b855eccb1d99fdbe7c7352e15a69"
+        },
+        {
+          "path": "judgments/mazur-24-order-0/answer.json",
+          "bytes": 4630,
+          "sha256": "d71961c760f0e28907e8419aea4553273287b1fd616fe65e5f64259bac449df1"
+        },
+        {
+          "path": "judgments/mazur-24-order-0/prompt.txt",
+          "bytes": 12542,
+          "sha256": "17531e2df754a8accda27f91e9cdb8618e3c6fc4723c89cf23ca80ee08ca9e96"
+        },
+        {
+          "path": "judgments/mazur-24-order-0/record.json",
+          "bytes": 5117,
+          "sha256": "b330c4778d101e734d1e62605882935deaef900a1cc8010a5729218bfbefbc52"
+        },
+        {
+          "path": "judgments/mazur-24-order-1/answer.json",
+          "bytes": 4873,
+          "sha256": "17c1d66dacd70ce57b531dc2f16e7281036b7c3c5e5a5495f5e64ebcd46b7963"
+        },
+        {
+          "path": "judgments/mazur-24-order-1/prompt.txt",
+          "bytes": 12542,
+          "sha256": "4910714818fb23bff19a5e87111921390846c8ff7b737d4fd7529bc0745c8241"
+        },
+        {
+          "path": "judgments/mazur-24-order-1/record.json",
+          "bytes": 5360,
+          "sha256": "3661763299fb44e40929d85e03f0d577fe1722ed7799f4428680e3798907a700"
+        },
+        {
+          "path": "judgments/mazur-25-order-0/answer.json",
+          "bytes": 4810,
+          "sha256": "ee3c72353106cd1c8d000ac2efa86c662042e22c4987e40461607a84080fa64a"
+        },
+        {
+          "path": "judgments/mazur-25-order-0/prompt.txt",
+          "bytes": 16378,
+          "sha256": "e0ee67c3fc5aa1382b08d115ae757098cbb19de17718e8321583ac60ae530824"
+        },
+        {
+          "path": "judgments/mazur-25-order-0/record.json",
+          "bytes": 5299,
+          "sha256": "095137d856d2e20b146f8e331cb8038f1a795a7df51e4cc34c72ee09b4c8c31c"
+        },
+        {
+          "path": "judgments/mazur-25-order-1/answer.json",
+          "bytes": 4914,
+          "sha256": "45d35c80ba83196accf84ad1dcdf12055487ddbe2d3904fc0815ef6a712e4447"
+        },
+        {
+          "path": "judgments/mazur-25-order-1/prompt.txt",
+          "bytes": 16378,
+          "sha256": "f1ad93ca5af24139778eeecbacdfcb491916d3621aa385a27c4e6e807710d34c"
+        },
+        {
+          "path": "judgments/mazur-25-order-1/record.json",
+          "bytes": 5403,
+          "sha256": "52d374a14b7c498328b035dafb77f1ce6f5baa8b9e70c7147c7160c8e9d34add"
+        },
+        {
+          "path": "judgments/mazur-26-order-0/answer.json",
+          "bytes": 4244,
+          "sha256": "9551de18ce57052fcdf87b21af5e18da29d9444374aa0d2d7f8a13e433341817"
+        },
+        {
+          "path": "judgments/mazur-26-order-0/prompt.txt",
+          "bytes": 12927,
+          "sha256": "97e2b279936b4c559b8cc97ca05b9f76e19863c5547c3cbc46903b8e626403be"
+        },
+        {
+          "path": "judgments/mazur-26-order-0/record.json",
+          "bytes": 4734,
+          "sha256": "794c83d8ad3dd757d5ec3cfb87c998dc6b672e8e30b214dc1200eb15398c858e"
+        },
+        {
+          "path": "judgments/mazur-26-order-1/answer.json",
+          "bytes": 4350,
+          "sha256": "b4cc1e29372cd2db00395d0cfee4ae9431dc15c92994b67d7ca340414f96b1b9"
+        },
+        {
+          "path": "judgments/mazur-26-order-1/prompt.txt",
+          "bytes": 12927,
+          "sha256": "3fe317b2e7123869555455f0259e46c5f22ffd6b0207dae8f1eb538a848d3751"
+        },
+        {
+          "path": "judgments/mazur-26-order-1/record.json",
+          "bytes": 4837,
+          "sha256": "ee022e484233e6475f0c724a6ebb818431cbabbf7871a31434775302ab4ae4ca"
+        },
+        {
+          "path": "judgments/mazur-27-order-0/answer.json",
+          "bytes": 4820,
+          "sha256": "a2c7425775d84e9836db9b4f620a6b09581e2c727393a221668d35163f1be91b"
+        },
+        {
+          "path": "judgments/mazur-27-order-0/prompt.txt",
+          "bytes": 13536,
+          "sha256": "54b2e5a3b7f6477db3a3f49f715673269223d100118ba2501eac123c33aae69f"
+        },
+        {
+          "path": "judgments/mazur-27-order-0/record.json",
+          "bytes": 5310,
+          "sha256": "b6f3404580271aa3334fbe3c766cd0d0ae89f999e6bab958259c970c2c38fdc3"
+        },
+        {
+          "path": "judgments/mazur-27-order-1/answer.json",
+          "bytes": 4660,
+          "sha256": "3fe5bf68f9fb26279cb8efaaa0da590128dacd473588d9a8862136ced2c001e9"
+        },
+        {
+          "path": "judgments/mazur-27-order-1/prompt.txt",
+          "bytes": 13536,
+          "sha256": "57e60202290bdfd92ad7d6cd038b4bc8ca7b773ff8ecbd0d2081d6685db843ed"
+        },
+        {
+          "path": "judgments/mazur-27-order-1/record.json",
+          "bytes": 5147,
+          "sha256": "b5af0bc470126c1c3a4e7d2a6af26820dab5b08c87ab1acb11289472132cd57f"
+        },
+        {
+          "path": "judgments/mazur-28-order-0/answer.json",
+          "bytes": 4335,
+          "sha256": "eeb4174c95579a073d5c305453e06b10f12931e1be2c3ecc6b72c95c32d0f291"
+        },
+        {
+          "path": "judgments/mazur-28-order-0/prompt.txt",
+          "bytes": 13545,
+          "sha256": "3ebfc4f5afa2963fbd7879031c327fd32557a3f1b1f665fdc510f59709156581"
+        },
+        {
+          "path": "judgments/mazur-28-order-0/record.json",
+          "bytes": 4822,
+          "sha256": "d2c7b54f0e3d1c50f3bcc87750090751dc787bcdaa1a0c7f9e2cfdaf11bd8411"
+        },
+        {
+          "path": "judgments/mazur-28-order-1/answer.json",
+          "bytes": 4425,
+          "sha256": "351c66da3aad5ae3fc1a9a688820f0ffbf8728e26cef430d2820bba813f35b13"
+        },
+        {
+          "path": "judgments/mazur-28-order-1/prompt.txt",
+          "bytes": 13545,
+          "sha256": "b0b1e6411711101fc2d15c9c2fe85dcd410c37a2a3383623d81139902c26cb47"
+        },
+        {
+          "path": "judgments/mazur-28-order-1/record.json",
+          "bytes": 4912,
+          "sha256": "a4dcc80e38ae0b592b4753e4ef6f9f29a1cc5c2ebefea491da9da8e86dc06d25"
+        },
+        {
+          "path": "judgments/mazur-29-order-0/answer.json",
+          "bytes": 4388,
+          "sha256": "f3489307fdea9bec2e652c7de0113bdc78d45cc66336c0ae3a2e344e356766c6"
+        },
+        {
+          "path": "judgments/mazur-29-order-0/prompt.txt",
+          "bytes": 14717,
+          "sha256": "02617de898c26a1d868a0a939d652220652d437a269ed86ce27672112750b95e"
+        },
+        {
+          "path": "judgments/mazur-29-order-0/record.json",
+          "bytes": 4878,
+          "sha256": "5c2849371ab3d1fbee5d7ecb34c9d2838d42b615ab74e7c6812ab865bcce5255"
+        },
+        {
+          "path": "judgments/mazur-29-order-1/answer.json",
+          "bytes": 4769,
+          "sha256": "4071826016fe3089d01b43a7bdc4807705b1dc3ab88a1068e07354b14d8ff593"
+        },
+        {
+          "path": "judgments/mazur-29-order-1/prompt.txt",
+          "bytes": 14717,
+          "sha256": "5627f94d7c4926a8060749b76e6f9eb4f52aef518ce46d9fd77fb846e6f750a8"
+        },
+        {
+          "path": "judgments/mazur-29-order-1/record.json",
+          "bytes": 5259,
+          "sha256": "15a288a8cc15619d9d1a5a26e862f17b1c73e493f4042792115ec74b6f8078f8"
+        },
+        {
+          "path": "judgments/mazur-3-order-0/answer.json",
+          "bytes": 4252,
+          "sha256": "b3b5ae20c0221333bf11338e008073b1c01468df7cf9dafc3db921155f2ef071"
+        },
+        {
+          "path": "judgments/mazur-3-order-0/prompt.txt",
+          "bytes": 10225,
+          "sha256": "cef486014bb1eebcfe21e426a2d7908185c2ae95a661c56bb7cafc1166595df0"
+        },
+        {
+          "path": "judgments/mazur-3-order-0/record.json",
+          "bytes": 4740,
+          "sha256": "fc6c282c3e5a33a0cc8378267cbb81414503041d67d7432812f64ebe0440d314"
+        },
+        {
+          "path": "judgments/mazur-3-order-1/answer.json",
+          "bytes": 4017,
+          "sha256": "2bd5f1827b3c2978dc1ac765318aecc3b7a7b050fa1de453eb9ab6b57e10fd90"
+        },
+        {
+          "path": "judgments/mazur-3-order-1/prompt.txt",
+          "bytes": 10225,
+          "sha256": "70b05260259b3c71b6cb00934537e5e1a4b8938cbcb5f5e40832eee37dd2150e"
+        },
+        {
+          "path": "judgments/mazur-3-order-1/record.json",
+          "bytes": 4503,
+          "sha256": "177173747e4efcab9efc73f3e16113c938b5f9214b5cfc983ee9a5d52b33c383"
+        },
+        {
+          "path": "judgments/mazur-30-order-0/answer.json",
+          "bytes": 4348,
+          "sha256": "6c7a62ca016062f4e98127f1e62adaf3886efb7c669f0fe0eca4069548577239"
+        },
+        {
+          "path": "judgments/mazur-30-order-0/prompt.txt",
+          "bytes": 13067,
+          "sha256": "ea10c9e513e4354dc3c2c4c4115a60da7ff2ea1a8a453f208c7e7cd8741fd2d1"
+        },
+        {
+          "path": "judgments/mazur-30-order-0/record.json",
+          "bytes": 4838,
+          "sha256": "c49fb3d0c41334470f306c877f54acf9d46ab9135ebce27cd45127b442a9f9cc"
+        },
+        {
+          "path": "judgments/mazur-30-order-1/answer.json",
+          "bytes": 4311,
+          "sha256": "fd2c9108c5936d61fd0d1cb58c0e56abd80088e053d5b5349a183ec7e0cfc8ae"
+        },
+        {
+          "path": "judgments/mazur-30-order-1/prompt.txt",
+          "bytes": 13067,
+          "sha256": "3ec5a5e1138d43932ced7fdc3760f888a49b955adce3cef12b205f540a7b1eb9"
+        },
+        {
+          "path": "judgments/mazur-30-order-1/record.json",
+          "bytes": 4798,
+          "sha256": "8a1fe3b2c4b244d9fd94ae220627aa4272a3cc0073dc2630b684d08d1652a42e"
+        },
+        {
+          "path": "judgments/mazur-31-order-0/answer.json",
+          "bytes": 4977,
+          "sha256": "9e7d1f3d47a7b9b4f2cb535039254c077f0c5f2d91b75a4e38635698ab777f6b"
+        },
+        {
+          "path": "judgments/mazur-31-order-0/prompt.txt",
+          "bytes": 15124,
+          "sha256": "11a66dc5bc20b069e1ece53a07ffe160d0174064851c84d9881ced0cb4eee6c4"
+        },
+        {
+          "path": "judgments/mazur-31-order-0/record.json",
+          "bytes": 5469,
+          "sha256": "001ccf98c7a5bdab4b51bb9d17542f42e1884e49feba184263cc88383fafaa30"
+        },
+        {
+          "path": "judgments/mazur-31-order-1/answer.json",
+          "bytes": 4326,
+          "sha256": "060495222e84634965877f302355d674d041b427a630e4443ef388908f347a20"
+        },
+        {
+          "path": "judgments/mazur-31-order-1/prompt.txt",
+          "bytes": 15124,
+          "sha256": "4452c4ffbeea8d17a260cab4392cbd09b905139ce6fa8cd3a3f614c1d4f4f6d6"
+        },
+        {
+          "path": "judgments/mazur-31-order-1/record.json",
+          "bytes": 4818,
+          "sha256": "fa51631678aafcc6320221ff935334e4de118488cd3e88b38787b2b3c7e35706"
+        },
+        {
+          "path": "judgments/mazur-32-order-0/answer.json",
+          "bytes": 4616,
+          "sha256": "fad077395d7e62d7a88dc298d017175b42547cb6b7b0f8047050823f465948a3"
+        },
+        {
+          "path": "judgments/mazur-32-order-0/prompt.txt",
+          "bytes": 14574,
+          "sha256": "cad42e1ca2c1fbd43ccc0fa69214610f93a17027009d7b61298a088b3314dc9f"
+        },
+        {
+          "path": "judgments/mazur-32-order-0/record.json",
+          "bytes": 5106,
+          "sha256": "04ba165e14587925ac84f54205a2c8b71093b9e0923cf2baa2e1736c808e657d"
+        },
+        {
+          "path": "judgments/mazur-32-order-1/answer.json",
+          "bytes": 4623,
+          "sha256": "7f2a51a64829ab531e8eb7aa3f3ddb18bc818e8d1771698118de46175998933e"
+        },
+        {
+          "path": "judgments/mazur-32-order-1/prompt.txt",
+          "bytes": 14574,
+          "sha256": "7f3830011152359451a3dc87d6951a6632b33e1bbd0231a5098fde151834ed5a"
+        },
+        {
+          "path": "judgments/mazur-32-order-1/record.json",
+          "bytes": 5110,
+          "sha256": "46037dc1ae098b929cfaf63b89a52454437cc0deb1903e6fc6588a068401480e"
+        },
+        {
+          "path": "judgments/mazur-33-order-0/answer.json",
+          "bytes": 4365,
+          "sha256": "189844f490faddaecb177ca12702fbd9aee47e5659d5c4ed0bcad394d1cd5135"
+        },
+        {
+          "path": "judgments/mazur-33-order-0/prompt.txt",
+          "bytes": 13958,
+          "sha256": "be3a28411349dc5bdccdb7d21d16597ef18ce878c0f5d33cf9f07b62f4898420"
+        },
+        {
+          "path": "judgments/mazur-33-order-0/record.json",
+          "bytes": 4852,
+          "sha256": "69cfba0683862b9caee16027e0524b2b0cc3f96152962f401f5360e9bb5d1995"
+        },
+        {
+          "path": "judgments/mazur-33-order-1/answer.json",
+          "bytes": 4170,
+          "sha256": "d93ed31056b40cf2236f719280f02d12e6e26cb7caccafd2625bddd443c33ccc"
+        },
+        {
+          "path": "judgments/mazur-33-order-1/prompt.txt",
+          "bytes": 13958,
+          "sha256": "6a63b886e07c96b103f6a0e6a2ae8038056cd295ca36a0b09d04c146e0e9b01f"
+        },
+        {
+          "path": "judgments/mazur-33-order-1/record.json",
+          "bytes": 4660,
+          "sha256": "87202e42673a5c50e6b5eddbb5d35e9f95fe6a00ee332dedee3aefe5f198af80"
+        },
+        {
+          "path": "judgments/mazur-34-order-0/answer.json",
+          "bytes": 4679,
+          "sha256": "040e03ed3142677c7c60b97af247ea95ab8debf4e8a045814ae90cb1521d9162"
+        },
+        {
+          "path": "judgments/mazur-34-order-0/prompt.txt",
+          "bytes": 13869,
+          "sha256": "700f8268ef8dedc3874f0d9cb5304193b6c75b84bfff63a30d774e5cac0c71e4"
+        },
+        {
+          "path": "judgments/mazur-34-order-0/record.json",
+          "bytes": 5166,
+          "sha256": "ab93ea27e055cb706be13963001d5478c97885d951da03b897d847e90cf14c71"
+        },
+        {
+          "path": "judgments/mazur-34-order-1/answer.json",
+          "bytes": 4580,
+          "sha256": "7f6fd280f7039e1834665103d9a11062d591138b619ea02798572721af4b310d"
+        },
+        {
+          "path": "judgments/mazur-34-order-1/prompt.txt",
+          "bytes": 13869,
+          "sha256": "0d1cfa6f0b07a0f8e3fb96c92ef7e6b4030637f469a2ebba457769d0e009edff"
+        },
+        {
+          "path": "judgments/mazur-34-order-1/record.json",
+          "bytes": 5070,
+          "sha256": "a0f3c7066d9b582e879fdf445777793b46dfe48caa4ce15fe1460e195f866d3c"
+        },
+        {
+          "path": "judgments/mazur-35-order-0/answer.json",
+          "bytes": 4177,
+          "sha256": "e1867fa01f84932ee84ed8d73c18e93e65729224ed91dc67525ccad8924c3f34"
+        },
+        {
+          "path": "judgments/mazur-35-order-0/prompt.txt",
+          "bytes": 10745,
+          "sha256": "c6c1a116ddf6fdef4144348e14f93fad48565f3bbebcddf3e0f16cc5e234ad07"
+        },
+        {
+          "path": "judgments/mazur-35-order-0/record.json",
+          "bytes": 4664,
+          "sha256": "adbb8061748212e54d4fce380886258fd268e0222556a2d0c2f1bd8d5a60027f"
+        },
+        {
+          "path": "judgments/mazur-35-order-1/answer.json",
+          "bytes": 4236,
+          "sha256": "2dcd3cd688c12afad6aaddd1faba4c919053189938bc9d3316a3a21564ec462e"
+        },
+        {
+          "path": "judgments/mazur-35-order-1/prompt.txt",
+          "bytes": 10745,
+          "sha256": "5f5305ce282822f0c0451332e58f368761fa148e0fc2a6d339a6f8013d41454a"
+        },
+        {
+          "path": "judgments/mazur-35-order-1/record.json",
+          "bytes": 4726,
+          "sha256": "8706bc651a8c642829040b73bc8af7bda94b1715152d984d8e97806d6897f7b5"
+        },
+        {
+          "path": "judgments/mazur-36-order-0/answer.json",
+          "bytes": 4792,
+          "sha256": "77fe2ba58c14cca2f83721a4475862453b8fd4aa84f14b1ea12b9db58334d0f5"
+        },
+        {
+          "path": "judgments/mazur-36-order-0/prompt.txt",
+          "bytes": 12737,
+          "sha256": "503c71b465d78ed0d808f9f3cdf1b7064d561078d0c2b828b965b727db514a55"
+        },
+        {
+          "path": "judgments/mazur-36-order-0/record.json",
+          "bytes": 5282,
+          "sha256": "db38bae2d2ecd2965af88e6d8952fb5e2db382c7124ff00197c3af7863bd5c4a"
+        },
+        {
+          "path": "judgments/mazur-36-order-1/answer.json",
+          "bytes": 4311,
+          "sha256": "3597a59ec166df78a4105c9a6c4f8778d85b236e6eb535134a392f9cffc24d30"
+        },
+        {
+          "path": "judgments/mazur-36-order-1/prompt.txt",
+          "bytes": 12737,
+          "sha256": "6adc5cc3686f65603e8aeebdb7354dc80b9bf0f618646f2965648ca504ccc6c3"
+        },
+        {
+          "path": "judgments/mazur-36-order-1/record.json",
+          "bytes": 4798,
+          "sha256": "9aed80091917eca1110f5d4d34a4b82637a12d31567bd8f727f3012f83a1fafd"
+        },
+        {
+          "path": "judgments/mazur-37-order-0/answer.json",
+          "bytes": 4409,
+          "sha256": "113dd8a7769db272079187722ac817b567e0fa51afaa91a2e51da36730d2b985"
+        },
+        {
+          "path": "judgments/mazur-37-order-0/prompt.txt",
+          "bytes": 13829,
+          "sha256": "b0f7e1b5bd3b55bdfbf7f6d0f32fd4509f7fbfc2ff0542c75785a97484b5d3dc"
+        },
+        {
+          "path": "judgments/mazur-37-order-0/record.json",
+          "bytes": 4896,
+          "sha256": "5b1b890ad3d324774cb7a61d051f84185367fa535a755a6a26ab2f21f92306ec"
+        },
+        {
+          "path": "judgments/mazur-37-order-1/answer.json",
+          "bytes": 5099,
+          "sha256": "11cc9632fee5cc3e0d1672830bea3e697c28c44d50f07e1f319bb6aa137bc377"
+        },
+        {
+          "path": "judgments/mazur-37-order-1/prompt.txt",
+          "bytes": 13829,
+          "sha256": "51d269d3250812c7f46be53975fd4f841814c4f1971facc577ccd1fd516d85a7"
+        },
+        {
+          "path": "judgments/mazur-37-order-1/record.json",
+          "bytes": 5589,
+          "sha256": "bfc5177d78dd01ffd1550afe8bff5a2bac1061ed85026e69a0f6d3577ca6e7d3"
+        },
+        {
+          "path": "judgments/mazur-38-order-0/answer.json",
+          "bytes": 4323,
+          "sha256": "33aceb1b1b707a276f4006b2d05550f48ad250df0384dca71cb9b973eccbc24a"
+        },
+        {
+          "path": "judgments/mazur-38-order-0/prompt.txt",
+          "bytes": 12402,
+          "sha256": "0b961f0a2f82a45f07e5b409bb4e46ae90b2731137f9df229115db7d4fcc585f"
+        },
+        {
+          "path": "judgments/mazur-38-order-0/record.json",
+          "bytes": 4810,
+          "sha256": "594f41223db32bf07ce0f5ca9a367187cb3c9590739861db1954f72d8e43bea5"
+        },
+        {
+          "path": "judgments/mazur-38-order-1/answer.json",
+          "bytes": 4987,
+          "sha256": "f46b341d191072a9697e84145af9241d74fcf57c7b8f8b64e0f2b60438759f77"
+        },
+        {
+          "path": "judgments/mazur-38-order-1/prompt.txt",
+          "bytes": 12402,
+          "sha256": "12900542db06e87992a7470f52d5b209af973fe76bfa060f59e9024215dac7b2"
+        },
+        {
+          "path": "judgments/mazur-38-order-1/record.json",
+          "bytes": 5479,
+          "sha256": "fedececf5d8b5085132ada2f1bce7915459a988bac742204f69d65706738bc97"
+        },
+        {
+          "path": "judgments/mazur-39-order-0/answer.json",
+          "bytes": 4304,
+          "sha256": "d608df6f562a2b7682a2fefb97556db87b0ac4dae49e01f94f33d1987f624d3a"
+        },
+        {
+          "path": "judgments/mazur-39-order-0/prompt.txt",
+          "bytes": 14972,
+          "sha256": "2adb2e08242e6d6f14e7860c08214c993c9c2fc14f451e1f82867ea2dfdd1875"
+        },
+        {
+          "path": "judgments/mazur-39-order-0/record.json",
+          "bytes": 4793,
+          "sha256": "71e6d4500bf1eebe785b52e1947957c1922faaddb77f48f470ce159cd0688534"
+        },
+        {
+          "path": "judgments/mazur-39-order-1/answer.json",
+          "bytes": 4452,
+          "sha256": "1e4772a647fd9d7b1d6c81fb40c1e71405aab4afa915f570fdfe681efbe7f45c"
+        },
+        {
+          "path": "judgments/mazur-39-order-1/prompt.txt",
+          "bytes": 14972,
+          "sha256": "630910784da88fa667fe4fad5b15a55c7195e68ef72a481a5bb0a09542a6a8a7"
+        },
+        {
+          "path": "judgments/mazur-39-order-1/record.json",
+          "bytes": 4944,
+          "sha256": "695b598a91b0886881e70e591707e9a045d4abd3d10589c6b94c8228a3035e06"
+        },
+        {
+          "path": "judgments/mazur-4-order-0/answer.json",
+          "bytes": 4865,
+          "sha256": "c150cb2026f945c7ee1296e743abddd173e2e1d46c2a54ef005844d916b5ea98"
+        },
+        {
+          "path": "judgments/mazur-4-order-0/prompt.txt",
+          "bytes": 17726,
+          "sha256": "3bd5e96ee01bf162c619282ef9a4e309b9160bf119d00eb7fc77febf5ca9f7b6"
+        },
+        {
+          "path": "judgments/mazur-4-order-0/record.json",
+          "bytes": 5351,
+          "sha256": "ecb4a3b110cfb9691694e00c3fa759d74e5e04a3d02137b1aeac631f09683e28"
+        },
+        {
+          "path": "judgments/mazur-4-order-1/answer.json",
+          "bytes": 4593,
+          "sha256": "2a2926a3970d63c06449922b551f515dde64c7a49d7bcee85bed5443e2f63f61"
+        },
+        {
+          "path": "judgments/mazur-4-order-1/prompt.txt",
+          "bytes": 17726,
+          "sha256": "726c81bd968510c684e836a85d1039227ba34c561fd43ff79e35617c4d56da21"
+        },
+        {
+          "path": "judgments/mazur-4-order-1/record.json",
+          "bytes": 5079,
+          "sha256": "80c49600f0ddbc5d4887c174b937d295adbf13a92202b6037e9a0ebddb19ad85"
+        },
+        {
+          "path": "judgments/mazur-40-order-0/answer.json",
+          "bytes": 4357,
+          "sha256": "a0edb9e64f0597c07cafa5de2017606b614930c807f85166d77047ed54b55a46"
+        },
+        {
+          "path": "judgments/mazur-40-order-0/prompt.txt",
+          "bytes": 13108,
+          "sha256": "172d7b999e1b8b5c6289005106063e22e0ae3d82d2fed490084a50ea8a7aecd4"
+        },
+        {
+          "path": "judgments/mazur-40-order-0/record.json",
+          "bytes": 4844,
+          "sha256": "88de592304ca1316c1a0830cddd124db6ecd8eac02b2149dabec4287978a7c63"
+        },
+        {
+          "path": "judgments/mazur-40-order-1/answer.json",
+          "bytes": 4854,
+          "sha256": "eabe7dc09ce9eb968167ff6294e84f391b972d2dbedf1a8a77a79bf9c567d4a9"
+        },
+        {
+          "path": "judgments/mazur-40-order-1/prompt.txt",
+          "bytes": 13108,
+          "sha256": "2d24cdda7e80e1c6ee5d15cd8f8835a1d75f524144013ce3150cf2df59c2c61b"
+        },
+        {
+          "path": "judgments/mazur-40-order-1/record.json",
+          "bytes": 5344,
+          "sha256": "6977f3e93678dc547f772aad2d0d88f7956f48a0a5f638077d800b48b9801250"
+        },
+        {
+          "path": "judgments/mazur-41-order-0/answer.json",
+          "bytes": 5046,
+          "sha256": "f0941871c328a642c431d1f835f008458bb21a91ffa18d056a87255f17eb46bb"
+        },
+        {
+          "path": "judgments/mazur-41-order-0/prompt.txt",
+          "bytes": 16413,
+          "sha256": "e137ab80cf3089bfc869a675fbb95aee3e281527b795b82abba8a1fd4f23c28a"
+        },
+        {
+          "path": "judgments/mazur-41-order-0/record.json",
+          "bytes": 5533,
+          "sha256": "faca454d990a111ebbe2b9fb6b7d3b185614abe96071fb4e7800cd19e7014979"
+        },
+        {
+          "path": "judgments/mazur-41-order-1/answer.json",
+          "bytes": 5158,
+          "sha256": "8e26a680961687c56174755017de83882907e91f6aee66369241b22d045cd586"
+        },
+        {
+          "path": "judgments/mazur-41-order-1/prompt.txt",
+          "bytes": 16413,
+          "sha256": "15b3536b655e6352c137d56dc83f90439359743a5846374ba108afe7b10accdf"
+        },
+        {
+          "path": "judgments/mazur-41-order-1/record.json",
+          "bytes": 5648,
+          "sha256": "2c8a6a9f72379da36d7844ff6a79e2091664855c8b5e2f8a9a87f9e3bcc91bac"
+        },
+        {
+          "path": "judgments/mazur-42-order-0/answer.json",
+          "bytes": 3727,
+          "sha256": "c35fdf60e2459fe28d0d208619aac4c863bbc98e38d6f531c5d97cbf4aed9ead"
+        },
+        {
+          "path": "judgments/mazur-42-order-0/prompt.txt",
+          "bytes": 12561,
+          "sha256": "d09674e3fc65767611920cf78ea06958b922a5d5481563ebdca1fce810ade712"
+        },
+        {
+          "path": "judgments/mazur-42-order-0/record.json",
+          "bytes": 4213,
+          "sha256": "4a4c00f6817bdb7c38d6c9229b7f9f2c0f79e691dc8d2520ace3c5ab2b5f655b"
+        },
+        {
+          "path": "judgments/mazur-42-order-1/answer.json",
+          "bytes": 3940,
+          "sha256": "1dd3ddc727e1fc2fda4f912b7d5918c9f1888519e6df6d6cf1ecb1035fd5acf1"
+        },
+        {
+          "path": "judgments/mazur-42-order-1/prompt.txt",
+          "bytes": 12561,
+          "sha256": "10e1e10b09b0e3a9fc66a3986c336b38330626fed924d31970d890b4668ad154"
+        },
+        {
+          "path": "judgments/mazur-42-order-1/record.json",
+          "bytes": 4427,
+          "sha256": "49b507092229e76ca344112f65b333cc2e182fa78faf15c1a1df05307627104e"
+        },
+        {
+          "path": "judgments/mazur-43-order-0/answer.json",
+          "bytes": 4558,
+          "sha256": "73345234a480d71db13f2b69b0754ff3deba7d77241e796fb1963e018352d119"
+        },
+        {
+          "path": "judgments/mazur-43-order-0/prompt.txt",
+          "bytes": 9132,
+          "sha256": "e7d7a1d5e549ead717cbbb045f4dabf1d375fc152311f34982bfd08cffdc9d41"
+        },
+        {
+          "path": "judgments/mazur-43-order-0/record.json",
+          "bytes": 5048,
+          "sha256": "91c67b592a136df3b0b9ace9945967532a406e4381c75856a05e8e6e2ffc4650"
+        },
+        {
+          "path": "judgments/mazur-43-order-1/answer.json",
+          "bytes": 4240,
+          "sha256": "8dac70fc7e382bbb3e60be7d8a24350547c722cf46a9596458f154867cb2ef27"
+        },
+        {
+          "path": "judgments/mazur-43-order-1/prompt.txt",
+          "bytes": 9132,
+          "sha256": "05e6218adec6688f2d9f1b1bba4a87a0d71fef56af41799fe70f449f4e99817e"
+        },
+        {
+          "path": "judgments/mazur-43-order-1/record.json",
+          "bytes": 4730,
+          "sha256": "e62d49f61b4bf367b95a42bb787ba3e279c5e16ace441b55b3ea2571cb81ccb2"
+        },
+        {
+          "path": "judgments/mazur-44-order-0/answer.json",
+          "bytes": 4775,
+          "sha256": "023e67ab0f0896595c3486e3021be0ec3e83a62b1fe8b399c57788c12a5fbde2"
+        },
+        {
+          "path": "judgments/mazur-44-order-0/prompt.txt",
+          "bytes": 15636,
+          "sha256": "19664c68d0ab97682cd8122d4437cd57deaaa850dad56fe1b48ed687f7a706d2"
+        },
+        {
+          "path": "judgments/mazur-44-order-0/record.json",
+          "bytes": 5265,
+          "sha256": "df7e026bfb8c34bf7e11efb2be8f89360cc9a07ace5fe4c033c225663f376181"
+        },
+        {
+          "path": "judgments/mazur-44-order-1/answer.json",
+          "bytes": 4855,
+          "sha256": "40c4f1c4743cfb769acb86fd8301fa6e06e2b1764f3b761482ed731f80dc8acc"
+        },
+        {
+          "path": "judgments/mazur-44-order-1/prompt.txt",
+          "bytes": 15636,
+          "sha256": "a8350e4d3bc1b5ccad2e510f52d7498634d2c7a3b58658c5ae5ea9e4eddaacc7"
+        },
+        {
+          "path": "judgments/mazur-44-order-1/record.json",
+          "bytes": 5342,
+          "sha256": "a2f27f876b77f5f300f652fedfba67e8b482146012795ed930e4dfe547bee53f"
+        },
+        {
+          "path": "judgments/mazur-45-order-0/answer.json",
+          "bytes": 4451,
+          "sha256": "c33335de7768444df30233e8b4e39493dfe3fac9d5fc3f7069f806f7d4bd338c"
+        },
+        {
+          "path": "judgments/mazur-45-order-0/prompt.txt",
+          "bytes": 14141,
+          "sha256": "24a5bcf40608105bb80e2e3a12739032f44de148618ba6bb2ae56d3bab8b2a07"
+        },
+        {
+          "path": "judgments/mazur-45-order-0/record.json",
+          "bytes": 4938,
+          "sha256": "da755259826e002dfaf6c2fd984c1bff6fb08cf6403393b4dff23de3521c818e"
+        },
+        {
+          "path": "judgments/mazur-45-order-1/answer.json",
+          "bytes": 4435,
+          "sha256": "17f4e0d880da1f3463894734b110202473f33fbd16a17c7531470ccc1a174437"
+        },
+        {
+          "path": "judgments/mazur-45-order-1/prompt.txt",
+          "bytes": 14141,
+          "sha256": "32eddb4486ca6f1445014c69cc6e313648169083fbe83d7421ca2998fdab8e69"
+        },
+        {
+          "path": "judgments/mazur-45-order-1/record.json",
+          "bytes": 4925,
+          "sha256": "5046f5f9392fd218a00e431b764f6e360d75d141f835ee0fb52c9511f47df76e"
+        },
+        {
+          "path": "judgments/mazur-46-order-0/answer.json",
+          "bytes": 4749,
+          "sha256": "8f5b4ee685671b37931918425b1af189ee1eb185b16b99ea6c356127baabfe05"
+        },
+        {
+          "path": "judgments/mazur-46-order-0/prompt.txt",
+          "bytes": 12952,
+          "sha256": "a50a07a84b80fd4890d1750d50d394bb536d2e3647edc435c547ef708648bc80"
+        },
+        {
+          "path": "judgments/mazur-46-order-0/record.json",
+          "bytes": 5241,
+          "sha256": "aa2f70fafa26bc1d4cc9c934c3ce4da8805d17977e838a8fd9b4372a527fbf3c"
+        },
+        {
+          "path": "judgments/mazur-46-order-1/answer.json",
+          "bytes": 4289,
+          "sha256": "86a19bc718feaa4f8031bcbc55db4d049fbd1fded25a6322b0127aab30fd1e5f"
+        },
+        {
+          "path": "judgments/mazur-46-order-1/prompt.txt",
+          "bytes": 12952,
+          "sha256": "f0dea5659098bffc437a8042806c22d3dad3e30e3a23fd26bfd90206f4b52d77"
+        },
+        {
+          "path": "judgments/mazur-46-order-1/record.json",
+          "bytes": 4779,
+          "sha256": "310124f8910977eebe992f9fcfc93c0282b53e0ad4f3c4769c3c06e4d25f0d87"
+        },
+        {
+          "path": "judgments/mazur-47-order-0/answer.json",
+          "bytes": 4806,
+          "sha256": "06eafecb306b2effa0189d605f489a1d6b7b96c836bb7c85ac8c0b73c6206ea1"
+        },
+        {
+          "path": "judgments/mazur-47-order-0/prompt.txt",
+          "bytes": 13774,
+          "sha256": "6463b1dcc907c183b1ef99c295c7b2df9fb2981c126bd71833e6ab85d4c08539"
+        },
+        {
+          "path": "judgments/mazur-47-order-0/record.json",
+          "bytes": 5298,
+          "sha256": "0bd8a02787639c71d0d77cc3b13a679f7a3feba3d88d0035d8ae70ea9cf5e800"
+        },
+        {
+          "path": "judgments/mazur-47-order-1/answer.json",
+          "bytes": 4433,
+          "sha256": "f150cb49ed2b8d9f9fe370757ae355d7b60b3705e528adcb886b13eac728ab05"
+        },
+        {
+          "path": "judgments/mazur-47-order-1/prompt.txt",
+          "bytes": 13774,
+          "sha256": "bb4f55ffde1ae85385a4446242b45506ea30563f07b9c14fe53f2d11a95ecfb0"
+        },
+        {
+          "path": "judgments/mazur-47-order-1/record.json",
+          "bytes": 4919,
+          "sha256": "499c752b902efefa6ba329527029f73275d1400f1135e0089a2cd5376402c08b"
+        },
+        {
+          "path": "judgments/mazur-48-order-0/answer.json",
+          "bytes": 4345,
+          "sha256": "b32bb0eb638550d910860c7ca1bc08b40b3a600e6d8808baeb0fb2597f2e23ea"
+        },
+        {
+          "path": "judgments/mazur-48-order-0/prompt.txt",
+          "bytes": 15793,
+          "sha256": "ecc0208785e6cf5542a17a4df0d4f7b8effffbff5c5848062d63913ccedd5872"
+        },
+        {
+          "path": "judgments/mazur-48-order-0/record.json",
+          "bytes": 4830,
+          "sha256": "8b6ad707b67115c1b063e59898dac74136c3c5fdfb67df5c864fbe36a127b229"
+        },
+        {
+          "path": "judgments/mazur-48-order-1/answer.json",
+          "bytes": 4185,
+          "sha256": "e87535e78a6daf80d0e81955ed92d4040ce4dcce4116276c61657790d5df6ec3"
+        },
+        {
+          "path": "judgments/mazur-48-order-1/prompt.txt",
+          "bytes": 15793,
+          "sha256": "1d61ea067d9b1f4e943971046373932b7f7c6059f68bb1fd194ba1c9fecde2f5"
+        },
+        {
+          "path": "judgments/mazur-48-order-1/record.json",
+          "bytes": 4672,
+          "sha256": "c950580661d7c11db56114cde45527ba80020dceba24a6336cfdf4fb328403e3"
+        },
+        {
+          "path": "judgments/mazur-49-order-0/answer.json",
+          "bytes": 4576,
+          "sha256": "4ac569ace642f161aa85d5152e4caf42f64193515add692c9f3d0018e037b712"
+        },
+        {
+          "path": "judgments/mazur-49-order-0/prompt.txt",
+          "bytes": 12768,
+          "sha256": "344183a258c12e08db549df244be0e06974b3649c46b52dcd213970dbd019165"
+        },
+        {
+          "path": "judgments/mazur-49-order-0/record.json",
+          "bytes": 5065,
+          "sha256": "65cdff26ebaa56c176242de31d2a7135779d40ccdf6ca2400a59ea5c0df169cd"
+        },
+        {
+          "path": "judgments/mazur-49-order-1/answer.json",
+          "bytes": 4237,
+          "sha256": "541adf2bf5586537bbbda2fb8add6e81376c045291e734cd4e677dfffd300350"
+        },
+        {
+          "path": "judgments/mazur-49-order-1/prompt.txt",
+          "bytes": 12768,
+          "sha256": "11e0b647ffcbd95ff37a006a517b66af58afd7ca6d122287c14228aeb984d8a7"
+        },
+        {
+          "path": "judgments/mazur-49-order-1/record.json",
+          "bytes": 4724,
+          "sha256": "8ceb4959cc64b268df83d3cffae7db8b9de2cc42083a23d01c634bc1786fc265"
+        },
+        {
+          "path": "judgments/mazur-5-order-0/answer.json",
+          "bytes": 4367,
+          "sha256": "ad8e665842633ee66d0e167678cf1c0dd75fb50cae07dc23cf15be922215efdf"
+        },
+        {
+          "path": "judgments/mazur-5-order-0/prompt.txt",
+          "bytes": 15581,
+          "sha256": "6f025ee722da04ada5766a85c1ac1bd8820e49f3fc81a3676b8eb7532b7f0262"
+        },
+        {
+          "path": "judgments/mazur-5-order-0/record.json",
+          "bytes": 4853,
+          "sha256": "3796b76908d1234b30b5e491b8f723b7da766e80a6cd5d6a2e92e806f91744f1"
+        },
+        {
+          "path": "judgments/mazur-5-order-1/answer.json",
+          "bytes": 3987,
+          "sha256": "706b0a6de9044a03c71326ffe469cd235414c88213c39a9b13a48679eddd494c"
+        },
+        {
+          "path": "judgments/mazur-5-order-1/prompt.txt",
+          "bytes": 15581,
+          "sha256": "4307b5eaa7e8319cefb31ae5301decf1e81f90b00ba59307ecf854d9b9021a9a"
+        },
+        {
+          "path": "judgments/mazur-5-order-1/record.json",
+          "bytes": 4473,
+          "sha256": "90d45f8a84574c9efa629dcb730318afc5a7e66ec2b36615caa84e2aa2bb64be"
+        },
+        {
+          "path": "judgments/mazur-50-order-0/answer.json",
+          "bytes": 5162,
+          "sha256": "8cfe0c3d9d81734feb77d94401ecfa1c64fb4297fadd3f422ff5109493e08d67"
+        },
+        {
+          "path": "judgments/mazur-50-order-0/prompt.txt",
+          "bytes": 15584,
+          "sha256": "d57573e42d710793da23c4c719083bbb8a3061e750ef38f46813bb663f307946"
+        },
+        {
+          "path": "judgments/mazur-50-order-0/record.json",
+          "bytes": 5649,
+          "sha256": "2daf255c7e44554814c0e60fdde581641ac0708eeeb4b35a043a903c6545ad96"
+        },
+        {
+          "path": "judgments/mazur-50-order-1/answer.json",
+          "bytes": 4339,
+          "sha256": "0602964451cf8209ee4201701ba15884758b01e71baf01d44d2d2f898aac9846"
+        },
+        {
+          "path": "judgments/mazur-50-order-1/prompt.txt",
+          "bytes": 15584,
+          "sha256": "7eb5e46a119829e3353f7af642f6c2469954abf3ec5f52a76fe30ba68ef17412"
+        },
+        {
+          "path": "judgments/mazur-50-order-1/record.json",
+          "bytes": 4826,
+          "sha256": "1bb4de1cd2c0e99768d86cc763bda7f00de92c8f2086bd5836ade6005679f969"
+        },
+        {
+          "path": "judgments/mazur-51-order-0/answer.json",
+          "bytes": 4307,
+          "sha256": "c0440ce9af5f421145fd54a99c6c399bbd76c7351bb5e1aa1ad151344c5e6c43"
+        },
+        {
+          "path": "judgments/mazur-51-order-0/prompt.txt",
+          "bytes": 12073,
+          "sha256": "252e11a8111fb2fb947d18c214108720a47424dc9bbd78f9b5f6c07a902228a0"
+        },
+        {
+          "path": "judgments/mazur-51-order-0/record.json",
+          "bytes": 4794,
+          "sha256": "7ecd0a107aefbeee7cf23547f651d5207e95210173491f85d10887573056c59f"
+        },
+        {
+          "path": "judgments/mazur-51-order-1/answer.json",
+          "bytes": 4318,
+          "sha256": "a843c592db7ddb6995196840fbda520c30fccc22856b047ad838f25bf7226c4f"
+        },
+        {
+          "path": "judgments/mazur-51-order-1/prompt.txt",
+          "bytes": 12073,
+          "sha256": "fcd59a77be0210e7b22529a08f7a6ea1cf17a9c2391d71c4a1b839f86bcbbcfb"
+        },
+        {
+          "path": "judgments/mazur-51-order-1/record.json",
+          "bytes": 4808,
+          "sha256": "e863c83b0426ab58cdc6de3e4de3a853f14f916804a4f7177632efd283e5dc0c"
+        },
+        {
+          "path": "judgments/mazur-52-order-0/answer.json",
+          "bytes": 4529,
+          "sha256": "d4380c60486359741de6296d832800408996201ee8c4f1569e174de0a77be3e7"
+        },
+        {
+          "path": "judgments/mazur-52-order-0/prompt.txt",
+          "bytes": 13234,
+          "sha256": "2b3bd3d84624a06dbd815b71d6985bc9e359ce5593e1654fef27cf73f1e08211"
+        },
+        {
+          "path": "judgments/mazur-52-order-0/record.json",
+          "bytes": 5018,
+          "sha256": "62506c9f23a9301870b098fd63f489991a7693448037273413d055b74d235d9d"
+        },
+        {
+          "path": "judgments/mazur-52-order-1/answer.json",
+          "bytes": 4653,
+          "sha256": "b97055844f9699c094582a6a6bd9371badfa93bc769b3a18d1ce378e98a61533"
+        },
+        {
+          "path": "judgments/mazur-52-order-1/prompt.txt",
+          "bytes": 13234,
+          "sha256": "c776ea10b45149107d2e4244bc96ba1e86bb37d97137e05296cc22a4c78301bb"
+        },
+        {
+          "path": "judgments/mazur-52-order-1/record.json",
+          "bytes": 5140,
+          "sha256": "59e1c32024a36f59d690276a0c87f9aa0539d3da7f2a1ac51bb9124030190d51"
+        },
+        {
+          "path": "judgments/mazur-53-order-0/answer.json",
+          "bytes": 4618,
+          "sha256": "9779697fc34c176b2323c2f46593c70f2f0933a912527e56dfad8875698d6e2d"
+        },
+        {
+          "path": "judgments/mazur-53-order-0/prompt.txt",
+          "bytes": 12937,
+          "sha256": "3fda8ec5ff774a2612f1d3f7de155b80850996243d770489b5a837e3e99320f6"
+        },
+        {
+          "path": "judgments/mazur-53-order-0/record.json",
+          "bytes": 5108,
+          "sha256": "a7a2c9a3f567c03d1faabf57fab1f5bbe466813d327ec42cb00376d1b093e25d"
+        },
+        {
+          "path": "judgments/mazur-53-order-1/answer.json",
+          "bytes": 4408,
+          "sha256": "179a82fa98f42bb415f658c6bb0c3215c918f667dd39165123a270f14fbcbb35"
+        },
+        {
+          "path": "judgments/mazur-53-order-1/prompt.txt",
+          "bytes": 12937,
+          "sha256": "2e4d3b1f2b0b9d481a89235a98516eaa90faf7b61238c6db0c7f0865b1201829"
+        },
+        {
+          "path": "judgments/mazur-53-order-1/record.json",
+          "bytes": 4895,
+          "sha256": "0692f898d6de056e0bc8453938b820e1901f5a9694e77a6a375167993d64cf3e"
+        },
+        {
+          "path": "judgments/mazur-54-order-0/answer.json",
+          "bytes": 3612,
+          "sha256": "d260aa5296d19320fe33fc156f6843f3d65a61d8933e9461242ad73e730cca9b"
+        },
+        {
+          "path": "judgments/mazur-54-order-0/prompt.txt",
+          "bytes": 10945,
+          "sha256": "224fd939898957ef047972d842e19a7109d5eeac4351cad3ec42e9f872675d90"
+        },
+        {
+          "path": "judgments/mazur-54-order-0/record.json",
+          "bytes": 4098,
+          "sha256": "f0a6e530ef3c31c075fabfc5bc2e51fe5ec5ecbf510f2eeaa7ce892abe606ed9"
+        },
+        {
+          "path": "judgments/mazur-54-order-1/answer.json",
+          "bytes": 4392,
+          "sha256": "07f1e2be1e5e1a67283498ee4cbf8d7f260b42652a9da3b307dc4bf648ebd517"
+        },
+        {
+          "path": "judgments/mazur-54-order-1/prompt.txt",
+          "bytes": 10945,
+          "sha256": "6fd1abaf1ec51edba300987009b0c35f959ea1e1d39dc70ca3ebe94634bf5310"
+        },
+        {
+          "path": "judgments/mazur-54-order-1/record.json",
+          "bytes": 4884,
+          "sha256": "5e4d649e5fd59509455f62bf3b82ee3cf6f74f054834b4d1084de5cac66cf17f"
+        },
+        {
+          "path": "judgments/mazur-55-order-0/answer.json",
+          "bytes": 4534,
+          "sha256": "cd0a6c87bc9bac1f139ebf0873860c273f6534306986a713d951d1650f5b2beb"
+        },
+        {
+          "path": "judgments/mazur-55-order-0/prompt.txt",
+          "bytes": 12842,
+          "sha256": "ef22fb2b951822c342471bd767ada37ce2ae8e343df9d97f9817fefb19d5c875"
+        },
+        {
+          "path": "judgments/mazur-55-order-0/record.json",
+          "bytes": 5024,
+          "sha256": "13fad3df0632b65762ac7987f195a5963f81f766737d388099179ccc58246849"
+        },
+        {
+          "path": "judgments/mazur-55-order-1/answer.json",
+          "bytes": 4761,
+          "sha256": "4cdc8a69fb1b859a04a4f4a6b147e62c2eee4f01009663c14cc368292e791dd2"
+        },
+        {
+          "path": "judgments/mazur-55-order-1/prompt.txt",
+          "bytes": 12842,
+          "sha256": "1fda5140443db4b9ccf7bd3ce55774180d88f7c74b2ba688defeb6733f84384b"
+        },
+        {
+          "path": "judgments/mazur-55-order-1/record.json",
+          "bytes": 5251,
+          "sha256": "5cdbc31c5adedf6eccca2d46f01ad49091bffabc9fa08631dc3b8fd6a61f6469"
+        },
+        {
+          "path": "judgments/mazur-56-order-0/answer.json",
+          "bytes": 5394,
+          "sha256": "571b9d7cfe901e76ad8d407d3701d4482ed415b2607ecb95e57e9ef0b0c673df"
+        },
+        {
+          "path": "judgments/mazur-56-order-0/prompt.txt",
+          "bytes": 13360,
+          "sha256": "37d7ec5f84eed90ffb367d96c0212b55672095d6fee10a141a2073bd75e59a91"
+        },
+        {
+          "path": "judgments/mazur-56-order-0/record.json",
+          "bytes": 5881,
+          "sha256": "fc5d2428bbced66a312372d323dc1a594c1777c780ead5566a8feed732fa9574"
+        },
+        {
+          "path": "judgments/mazur-56-order-1/answer.json",
+          "bytes": 4306,
+          "sha256": "fd4c46290ac54f0e1c1ac0c35d9e004ac7e9dcb3f938266dc16ff221647d1778"
+        },
+        {
+          "path": "judgments/mazur-56-order-1/prompt.txt",
+          "bytes": 13360,
+          "sha256": "716fa1db37e31c443424bbc375584b55879bb273932df97e2fbfe65f1fd93417"
+        },
+        {
+          "path": "judgments/mazur-56-order-1/record.json",
+          "bytes": 4793,
+          "sha256": "8e51c5237dfd7753ac0d9fd2b3525a09f43caeab1cf324d883e35474e63a2440"
+        },
+        {
+          "path": "judgments/mazur-57-order-0/answer.json",
+          "bytes": 5031,
+          "sha256": "b0f54eb7e718550886b94037599f2b9f2f9cbd7ddc5d0aa49effe0dc143d344f"
+        },
+        {
+          "path": "judgments/mazur-57-order-0/prompt.txt",
+          "bytes": 13260,
+          "sha256": "0ef97e939f6e4566859a6513b49f836d4d6912bd09708eacddd366471e9facb8"
+        },
+        {
+          "path": "judgments/mazur-57-order-0/record.json",
+          "bytes": 5518,
+          "sha256": "bf3cac8634e0233f17b3a05b8ce4818aaf0c76969c5534942f3a2fe83295deef"
+        },
+        {
+          "path": "judgments/mazur-57-order-1/answer.json",
+          "bytes": 4535,
+          "sha256": "fa4bc1185eaf9d0393fab61962220717211f6667e593f371bc315b9be2a7bf68"
+        },
+        {
+          "path": "judgments/mazur-57-order-1/prompt.txt",
+          "bytes": 13260,
+          "sha256": "2af009db2c502e489da565de1689194704aec410d8077b40cf65ae8d42bbf786"
+        },
+        {
+          "path": "judgments/mazur-57-order-1/record.json",
+          "bytes": 5025,
+          "sha256": "6079ef6bfb2b0303fa1a1d4687c99fc97d5239fe573697c8dbe56f6ad3f0948d"
+        },
+        {
+          "path": "judgments/mazur-58-order-0/answer.json",
+          "bytes": 5178,
+          "sha256": "6f119ecaa528d599a38dfd2933958e5271d109484e7e8ff74f268c2478a4a7d5"
+        },
+        {
+          "path": "judgments/mazur-58-order-0/prompt.txt",
+          "bytes": 14485,
+          "sha256": "5c46d3eb1382288ee3e8cb36e504019cc829d74a8371c932a8b302f9579712a4"
+        },
+        {
+          "path": "judgments/mazur-58-order-0/record.json",
+          "bytes": 5668,
+          "sha256": "2e8715566356feaec695f04afebc43ec11689615f3a64f49af72a0a9fdd15f1c"
+        },
+        {
+          "path": "judgments/mazur-58-order-1/answer.json",
+          "bytes": 4471,
+          "sha256": "ded1b775b88e662a8f4690d5f74a7524b739e2b61e87bb80a2bf2ddf4f022ef2"
+        },
+        {
+          "path": "judgments/mazur-58-order-1/prompt.txt",
+          "bytes": 14485,
+          "sha256": "f126f4727125a1ce18c1881686011bb51b0a780597756085c70133864b714a6e"
+        },
+        {
+          "path": "judgments/mazur-58-order-1/record.json",
+          "bytes": 4961,
+          "sha256": "a1abed9ea394589804fab06dc67a38778565ee1950db924dffb9d7c7d15b3219"
+        },
+        {
+          "path": "judgments/mazur-59-order-0/answer.json",
+          "bytes": 4640,
+          "sha256": "7c8388008a172d7f8cffb5c02c271cd5209434f05be656c5927e5c9b5f407c3f"
+        },
+        {
+          "path": "judgments/mazur-59-order-0/prompt.txt",
+          "bytes": 13602,
+          "sha256": "5079a2a95ba4ad9eeee0eb5feaef4767b36a67a0b4c9b63f03c6874ea15a58fc"
+        },
+        {
+          "path": "judgments/mazur-59-order-0/record.json",
+          "bytes": 5127,
+          "sha256": "a12cc224de1270d5048101a27e34fe1a77a6090aa8a254a5b72e0dd91edd65b5"
+        },
+        {
+          "path": "judgments/mazur-59-order-1/answer.json",
+          "bytes": 4824,
+          "sha256": "58330828c6d0e0196bb5a557ab26b32ec906c350bafc2152d55d9dc85fc3e8c4"
+        },
+        {
+          "path": "judgments/mazur-59-order-1/prompt.txt",
+          "bytes": 13602,
+          "sha256": "a826b7db006a939dbda1c5ad819657cb5be01d30449c856bc6f62d79b28c3797"
+        },
+        {
+          "path": "judgments/mazur-59-order-1/record.json",
+          "bytes": 5314,
+          "sha256": "80c8b64c92f756fbeabd37cc2294a536fa11e3e19f51186dca7e20380b54a9f7"
+        },
+        {
+          "path": "judgments/mazur-6-order-0/answer.json",
+          "bytes": 4358,
+          "sha256": "2afa875a41bf9952841ef936954ddfcc47a2abd37b2a933aab2e557e9732d0b1"
+        },
+        {
+          "path": "judgments/mazur-6-order-0/prompt.txt",
+          "bytes": 14978,
+          "sha256": "ac55abb8fd7c00ad6b7cbacf664ee7bf7284ff470b48a83805305968b9ff24dc"
+        },
+        {
+          "path": "judgments/mazur-6-order-0/record.json",
+          "bytes": 4844,
+          "sha256": "85796f5e81598dd22a039ba77d7ae150f717bf1e2a233bc4d2e413081e928595"
+        },
+        {
+          "path": "judgments/mazur-6-order-1/answer.json",
+          "bytes": 4645,
+          "sha256": "49135d3f7da1d41b430593def60d270ba543d977a485317dbb7d86658637b993"
+        },
+        {
+          "path": "judgments/mazur-6-order-1/prompt.txt",
+          "bytes": 14978,
+          "sha256": "05b64c7a0ccf10e69f8f011eee920009c8f2b742c8080ee3ac0c96b78d855fdf"
+        },
+        {
+          "path": "judgments/mazur-6-order-1/record.json",
+          "bytes": 5133,
+          "sha256": "c25cc7aabcc8dc6db2e8f466b183ec7e0243669d6d35063a69e294e2f10ff01f"
+        },
+        {
+          "path": "judgments/mazur-60-order-0/answer.json",
+          "bytes": 4672,
+          "sha256": "83b64f7ae999fb54a5650b77fe3b4c2a0bb796078feced1a98d5aadb4ebf0202"
+        },
+        {
+          "path": "judgments/mazur-60-order-0/prompt.txt",
+          "bytes": 14581,
+          "sha256": "ed342305070032a53d2a70d9dda18ed5ccc613f1348981f3f08eb606ec790e47"
+        },
+        {
+          "path": "judgments/mazur-60-order-0/record.json",
+          "bytes": 5162,
+          "sha256": "5d2de173cdc3876ebf48323dd9579404717fe4924539d9870a6aab434fee0dc2"
+        },
+        {
+          "path": "judgments/mazur-60-order-1/answer.json",
+          "bytes": 4452,
+          "sha256": "8a22a6c96571612a34843d9e0e9cfea9b96a743cb9b90a7f7412a2c527cfaf41"
+        },
+        {
+          "path": "judgments/mazur-60-order-1/prompt.txt",
+          "bytes": 14581,
+          "sha256": "e90adfa2ad7f47580a62cd5b5e2a9d1f232953e998ccdc4624d7e39a6b62c16f"
+        },
+        {
+          "path": "judgments/mazur-60-order-1/record.json",
+          "bytes": 4944,
+          "sha256": "5180d7b39d7e3d381933198e2c1bcbf105e8f187ba4cbb69da9440fb1b1cb9b7"
+        },
+        {
+          "path": "judgments/mazur-61-order-0/answer.json",
+          "bytes": 4551,
+          "sha256": "afa7993df5a6ebfe3a6c1b022ac1779e904a22351b5fd7113fb80ebf96250cd1"
+        },
+        {
+          "path": "judgments/mazur-61-order-0/prompt.txt",
+          "bytes": 15500,
+          "sha256": "259222ebe03f928dce97b5a909799167941eb95dcaaa74271c0453e8b18476aa"
+        },
+        {
+          "path": "judgments/mazur-61-order-0/record.json",
+          "bytes": 5043,
+          "sha256": "0a77b495cfafa16a997d49ac6d8a5b8247d4251552254071dd7291381f43588b"
+        },
+        {
+          "path": "judgments/mazur-61-order-1/answer.json",
+          "bytes": 5144,
+          "sha256": "63fbe3c11edda766c462c66f1ba8e9302df43087c08542757d3cb4fe12aefb56"
+        },
+        {
+          "path": "judgments/mazur-61-order-1/prompt.txt",
+          "bytes": 15500,
+          "sha256": "8f543166e98d4dc5f82f544e79ef2196c589752f1501a234d26a761019da29e2"
+        },
+        {
+          "path": "judgments/mazur-61-order-1/record.json",
+          "bytes": 5630,
+          "sha256": "a6144ed81c5bd9d7b4c2fc37e53026ba6d7ea19c36a314f27d8bead44aea4b65"
+        },
+        {
+          "path": "judgments/mazur-62-order-0/answer.json",
+          "bytes": 4383,
+          "sha256": "a77da29f9fe0ccc4cd3efb7352b57d01e4935bc6acd98d3d370bf76b4564d698"
+        },
+        {
+          "path": "judgments/mazur-62-order-0/prompt.txt",
+          "bytes": 12178,
+          "sha256": "cb7258b82ab4bd52018bb5f05357e014fca65476d243c0bb097fff4f5fbbf227"
+        },
+        {
+          "path": "judgments/mazur-62-order-0/record.json",
+          "bytes": 4870,
+          "sha256": "42d52e7c112779ac19d75683334a992b3d174ffb30145e8e2d235e1f2b017d90"
+        },
+        {
+          "path": "judgments/mazur-62-order-1/answer.json",
+          "bytes": 4415,
+          "sha256": "edd975964e9b419995668f6d9202acdcaca46163546aa685934347e5226d90db"
+        },
+        {
+          "path": "judgments/mazur-62-order-1/prompt.txt",
+          "bytes": 12178,
+          "sha256": "55e6fcc209362a1a895fe8b853b227f22bfa5dfc930b28f95a7555e6d728f5c0"
+        },
+        {
+          "path": "judgments/mazur-62-order-1/record.json",
+          "bytes": 4902,
+          "sha256": "33c7983ac494b46d9e8c0e32fa8226c1b12236d0d28b1361fc4509304a432312"
+        },
+        {
+          "path": "judgments/mazur-63-order-0/answer.json",
+          "bytes": 4228,
+          "sha256": "030babeae2d5df9d6a24502a5a8a47b7a4f9af9a7a7d170840c6744b3ee7ed57"
+        },
+        {
+          "path": "judgments/mazur-63-order-0/prompt.txt",
+          "bytes": 14033,
+          "sha256": "9dd8c50099f16310bf325df0498b4e713e9f3bc3dc8afe63a91f204e83003aee"
+        },
+        {
+          "path": "judgments/mazur-63-order-0/record.json",
+          "bytes": 4715,
+          "sha256": "c4fba301bcaa25cbb2cbb0f7610edb1dc717f7afe0628763afbb4a0add03bdb3"
+        },
+        {
+          "path": "judgments/mazur-63-order-1/answer.json",
+          "bytes": 5632,
+          "sha256": "1ebb9704e4ebe96992a424bdfb71e37c349899fc55bcb5f2411e503de6426391"
+        },
+        {
+          "path": "judgments/mazur-63-order-1/prompt.txt",
+          "bytes": 14033,
+          "sha256": "bff6111302fdffa8a4dc0d320b6f7d8c58e4b26e6a1ed197192d38458ef3add9"
+        },
+        {
+          "path": "judgments/mazur-63-order-1/record.json",
+          "bytes": 6121,
+          "sha256": "3b198ee15483cdb31cba3b91ea68ec9dc4a7fc1b7f77541fe3222d33f3ae8b49"
+        },
+        {
+          "path": "judgments/mazur-7-order-0/answer.json",
+          "bytes": 4356,
+          "sha256": "b522a54a539bf12f1d69f79155711e25ccea54651b40bc6e9d2e8a273b588b9f"
+        },
+        {
+          "path": "judgments/mazur-7-order-0/prompt.txt",
+          "bytes": 14296,
+          "sha256": "07d7bbc964cdf3cdd6b0126215293d74b1a862c32045ba16e2293312a0378069"
+        },
+        {
+          "path": "judgments/mazur-7-order-0/record.json",
+          "bytes": 4842,
+          "sha256": "a194452d75109ad827cc6065c527da2bf657e18c4cd18a71e745c03d8cf11e3e"
+        },
+        {
+          "path": "judgments/mazur-7-order-1/answer.json",
+          "bytes": 4429,
+          "sha256": "02bec9763c1ec8464cf733b48d7640452d41760bd788e22e721993546ab576a1"
+        },
+        {
+          "path": "judgments/mazur-7-order-1/prompt.txt",
+          "bytes": 14296,
+          "sha256": "b64f44dee58fd26d33befe2f4bb12c584ddbee953bd4cd28e3dbc8ac76eb8dd1"
+        },
+        {
+          "path": "judgments/mazur-7-order-1/record.json",
+          "bytes": 4917,
+          "sha256": "4435d07ea74b9125e52e0ebd3a4111d7eaa96343b40871a105c276c2d09372a4"
+        },
+        {
+          "path": "judgments/mazur-8-order-0/answer.json",
+          "bytes": 4666,
+          "sha256": "bc6024d3a7975f1a8649f8f5c69fb1b31b4806f27660bbb29f163992da4eed05"
+        },
+        {
+          "path": "judgments/mazur-8-order-0/prompt.txt",
+          "bytes": 13998,
+          "sha256": "c4f7f2dd154cda296654739afdb6be758bb60f76c7269b6e4697f2e2fa63cfe2"
+        },
+        {
+          "path": "judgments/mazur-8-order-0/record.json",
+          "bytes": 5152,
+          "sha256": "a31b082fd045d799c26a460567ad6e03a0ba61919d1a8f95d17f32471c20a8cf"
+        },
+        {
+          "path": "judgments/mazur-8-order-1/answer.json",
+          "bytes": 4744,
+          "sha256": "3e5d4fb782ad956f7feee73c9a713f81dd07505aaee061c5af9926604da09991"
+        },
+        {
+          "path": "judgments/mazur-8-order-1/prompt.txt",
+          "bytes": 13998,
+          "sha256": "447578cddc4a5c454dd565bad09b8fa62ce2859630259243bab79a9639d4e70f"
+        },
+        {
+          "path": "judgments/mazur-8-order-1/record.json",
+          "bytes": 5232,
+          "sha256": "9dc68f0b2456d6e9557f0938f95e521a41d05d2d97b0bd17f2564f302159628b"
+        },
+        {
+          "path": "judgments/mazur-9-order-0/answer.json",
+          "bytes": 4850,
+          "sha256": "52844c1c0a213490abb6150fc77d9e06135017286961d925d69a0ba3719b0f0f"
+        },
+        {
+          "path": "judgments/mazur-9-order-0/prompt.txt",
+          "bytes": 15594,
+          "sha256": "f54d04ebcd4715a0fcc0a139e172d8d0cc976c90bda5dd23ddd0da30521f5bf1"
+        },
+        {
+          "path": "judgments/mazur-9-order-0/record.json",
+          "bytes": 5338,
+          "sha256": "2d8f8f7580282e01ee848dfeed18dd03b6e11b1ef038b4f8aee774df1ab6ce8a"
+        },
+        {
+          "path": "judgments/mazur-9-order-1/answer.json",
+          "bytes": 4670,
+          "sha256": "695febe6ca609fa02e348eac653ed9e59fa6f5e75cc59d9f459ff2c84a47d6d8"
+        },
+        {
+          "path": "judgments/mazur-9-order-1/prompt.txt",
+          "bytes": 15594,
+          "sha256": "a0218a80b0b78bff5c6b8e4822c2378cc795dafb2c6a976f9753fe57ea8ffd30"
+        },
+        {
+          "path": "judgments/mazur-9-order-1/record.json",
+          "bytes": 5159,
+          "sha256": "a56247797a31ba66e4a2adae33e7e81f8420d700a0e7ee6067508f61eca9a668"
+        },
+        {
+          "path": "manifest.json",
+          "bytes": 7894,
+          "sha256": "e97c3bb73c2e09cb2ef294d8f64eec0ca87cea1f6e0e8c5e40c704ff76e07ad3"
+        },
+        {
+          "path": "schema.json",
+          "bytes": 3668,
+          "sha256": "b2a0b95c674ddf458690e0f0748a91f298de0d454084a71b8d66ccfeb7258ad3"
+        },
+        {
+          "path": "story-ranking.csv",
+          "bytes": 760876,
+          "sha256": "38664108c1e690fd6cdb21f676db83cdddfa3d4a912c58e406104224001dde90"
+        }
+      ]
+    },
+    {
+      "path": "results/raw/generic-capabilities.tar.gz",
+      "bytes": 3216164,
+      "sha256": "2af6b1e56909fd8d5edb1a3fbc1c8b28fdf12085250474a5d1a6f49478b2f5e6",
+      "members": [
+        {
+          "path": "00-mmlu_pro/medium_think/original/item-scores.json",
+          "bytes": 54134,
+          "sha256": "24a215e8a7c7e45bc1cc1db6e99d080159a2a04d585516bdb80647ab5346541a"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/original/responses.jsonl",
+          "bytes": 1016756,
+          "sha256": "fe9a703c8d22c02ebe5453d7364aedeadf1fcff77dce8743148c9cdad64142ce"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/original/scores.json",
+          "bytes": 193,
+          "sha256": "4c546360e10292b5afdc3d9e0ec0e68d7b474cd506eb18ac2dc139a1be33341e"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/step1500/item-scores.json",
+          "bytes": 54141,
+          "sha256": "f292fe2827208f3bccf332c3c3d7545433b1eaac6daf1799f267640a60bc38c2"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/step1500/responses.jsonl",
+          "bytes": 1024732,
+          "sha256": "2b9ddc00791f6f2b349869040b15235acfe62ed186bfdb2b0b51317da33b6620"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/step1500/scores.json",
+          "bytes": 193,
+          "sha256": "59f7f1a94640a2d56b1b6d9e0f708eb9b5e18705ce48ba2a4b821a25e013fe70"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/step250/item-scores.json",
+          "bytes": 54146,
+          "sha256": "4f4cb79674aee5fc03816303ad48a4bedc119272276c28cc599927ce67b4bddc"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/step250/responses.jsonl",
+          "bytes": 1112122,
+          "sha256": "6c5b778bc98f197e11ddd7769c338eb14d7b751bdcee27402e2796400e177fad"
+        },
+        {
+          "path": "00-mmlu_pro/medium_think/step250/scores.json",
+          "bytes": 182,
+          "sha256": "b06a7c8b25785e4e09b3ecbaa4f7e51d0bf0528ac8ccfeb9fe1931cee87ec199"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/original/item-scores.json",
+          "bytes": 53804,
+          "sha256": "a04dae6ef1b7e578f5166fcd1578749c69d7bb8772f377df5d28cf7532e8df83"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/original/responses.jsonl",
+          "bytes": 108476,
+          "sha256": "5b1be4fe9a360179a14378f320fbf416d6b6c1062645ca075c8f7b4f1f8c1e5d"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/original/scores.json",
+          "bytes": 191,
+          "sha256": "896a6e390e939910ba78a230927a450a3ff950c88eb9a398c5d166a00fc2ed2b"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/step1500/item-scores.json",
+          "bytes": 53802,
+          "sha256": "c798d800c94196e95c293550e57032e6119f80bbd253fea25d44e7e37917f1f8"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/step1500/responses.jsonl",
+          "bytes": 108386,
+          "sha256": "468b9b4da8319b64098930559252000e4800df686d1bfd57515b3e9a0c760932"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/step1500/scores.json",
+          "bytes": 178,
+          "sha256": "d030a8e343f85ea6e6dcef67f32850f1153bd9f26dbfa98c3b084ad10536de3c"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/step250/item-scores.json",
+          "bytes": 53800,
+          "sha256": "d686b3539c6d13a70567b2bfd4f1f240c3a512513245b3549726ab2fb4a5f500"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/step250/responses.jsonl",
+          "bytes": 107970,
+          "sha256": "6d60ab85943954eaf32e919e3ce0b988ee94afb833fe3e49eac3145ade52cd6a"
+        },
+        {
+          "path": "00-mmlu_pro/no_think/step250/scores.json",
+          "bytes": 173,
+          "sha256": "60dcfa5d6bd1fde89229266aa0ac2450ad2277033d04a45a28c9cc5e220304a4"
+        },
+        {
+          "path": "00-mmlu_pro/protocol.json",
+          "bytes": 12704,
+          "sha256": "85751b5364156a9a6b0c8abda616b4e151c5a3260d6c5ea297a6ebb84c1497aa"
+        },
+        {
+          "path": "00-mmlu_pro/results.json",
+          "bytes": 2492,
+          "sha256": "b730628eb8ca1e7accd6028880dc0d8eeaa546fa8ad18e66ef193dcf3cc6d8ed"
+        },
+        {
+          "path": "01-humaneval/medium_think/original/humaneval_eval_results.json",
+          "bytes": 152197,
+          "sha256": "119f16efc76824e7ffa2e4b72fd18bac2e894063cd613c42dfd650ab967a46cf"
+        },
+        {
+          "path": "01-humaneval/medium_think/original/item-scores.json",
+          "bytes": 20557,
+          "sha256": "239252c038c9e31726134d8b75f25a702649b172d5aac2e7911cdc1272e286fc"
+        },
+        {
+          "path": "01-humaneval/medium_think/original/responses.jsonl",
+          "bytes": 563293,
+          "sha256": "9c3fb23d02b8e13ecca3b86cbf11a626ee4b315335ee16d970b83a5ba018d704"
+        },
+        {
+          "path": "01-humaneval/medium_think/original/scores.json",
+          "bytes": 229,
+          "sha256": "e78f74fcac60638f719c91b92f631c503d1e478ee6de8cc73c167974f9dc8f94"
+        },
+        {
+          "path": "01-humaneval/medium_think/step1500/humaneval_eval_results.json",
+          "bytes": 150619,
+          "sha256": "21b2062f24220252cf3a610acb18a99aa60fb2783bccdb101c93a8f520d1b619"
+        },
+        {
+          "path": "01-humaneval/medium_think/step1500/item-scores.json",
+          "bytes": 20557,
+          "sha256": "27c36714a6cfef70d10d8013e1b64c67339c4e8498ddeb2aaa8beb18ac95c144"
+        },
+        {
+          "path": "01-humaneval/medium_think/step1500/responses.jsonl",
+          "bytes": 585676,
+          "sha256": "e46cf78d74a831c133ea76875e72f8915e2e6bad75743d2555f800b329bc0559"
+        },
+        {
+          "path": "01-humaneval/medium_think/step1500/scores.json",
+          "bytes": 246,
+          "sha256": "a10a4178ac663c38edd85efaf07244f042a06904f566beba1e2230ad8c594161"
+        },
+        {
+          "path": "01-humaneval/medium_think/step250/humaneval_eval_results.json",
+          "bytes": 152954,
+          "sha256": "f2d84d000b4e01058784c61f7301342347f23fd337edf148f20f95fddfab0a32"
+        },
+        {
+          "path": "01-humaneval/medium_think/step250/item-scores.json",
+          "bytes": 20557,
+          "sha256": "2c4b3b332adc21ee8c5f2087bf8a224fc4ed8e77f9935f4c2fbaf87ccd3d7a13"
+        },
+        {
+          "path": "01-humaneval/medium_think/step250/responses.jsonl",
+          "bytes": 557761,
+          "sha256": "14b96ef2622b2a82d1216545dd3948b3d4cddad261bb7564a1fab9749e86f43a"
+        },
+        {
+          "path": "01-humaneval/medium_think/step250/scores.json",
+          "bytes": 229,
+          "sha256": "302aeb49d867f39304c5883c366a88658ddfa20634e07ca889354cfb7af4f599"
+        },
+        {
+          "path": "01-humaneval/no_think/original/humaneval_eval_results.json",
+          "bytes": 197834,
+          "sha256": "ea8a733b7c010324aa7c3edf53bdcadafc51a007721194bdfc8867647d84bc76"
+        },
+        {
+          "path": "01-humaneval/no_think/original/item-scores.json",
+          "bytes": 20557,
+          "sha256": "cde57ee798a8beed9c631649be05d48e3d1773440a108bc92793d08ed3534968"
+        },
+        {
+          "path": "01-humaneval/no_think/original/responses.jsonl",
+          "bytes": 227801,
+          "sha256": "cfcfd0cdf6db967faa2189c9ec72d36e5fb828ba84c445e31232b2b08e92ab2e"
+        },
+        {
+          "path": "01-humaneval/no_think/original/scores.json",
+          "bytes": 229,
+          "sha256": "302aeb49d867f39304c5883c366a88658ddfa20634e07ca889354cfb7af4f599"
+        },
+        {
+          "path": "01-humaneval/no_think/step1500/humaneval_eval_results.json",
+          "bytes": 195370,
+          "sha256": "1f870690a252532f9bd3622e9ead59673e303fa5b412f4bb7ce06b6511f793f4"
+        },
+        {
+          "path": "01-humaneval/no_think/step1500/item-scores.json",
+          "bytes": 20557,
+          "sha256": "4a6da7cb7b2a9bc37be49d274eed0994736488947cbe63a27f87ed9f510bc035"
+        },
+        {
+          "path": "01-humaneval/no_think/step1500/responses.jsonl",
+          "bytes": 225402,
+          "sha256": "2580d480f6d6164bc0ce0fac6efc8a25e33e4fe53a8f04273fec45c6f4507da1"
+        },
+        {
+          "path": "01-humaneval/no_think/step1500/scores.json",
+          "bytes": 229,
+          "sha256": "a0de3a1ccff094e25ed97a8aee4301b87dd8fe080aea611343fe24f28b955b66"
+        },
+        {
+          "path": "01-humaneval/no_think/step250/humaneval_eval_results.json",
+          "bytes": 181213,
+          "sha256": "2b43d9a653f8c3d4327dab17bbc1a30dad47821eb19bbfffd7089d7992450b1b"
+        },
+        {
+          "path": "01-humaneval/no_think/step250/item-scores.json",
+          "bytes": 20557,
+          "sha256": "c0cf958acb52a219277db8436e78768e9b776f7078d732652fa8ed341b17b2f4"
+        },
+        {
+          "path": "01-humaneval/no_think/step250/responses.jsonl",
+          "bytes": 225411,
+          "sha256": "488969e308716fb15c7875c4ddffa6c9078edd2ed46dee1de2356b5bbd65d819"
+        },
+        {
+          "path": "01-humaneval/no_think/step250/scores.json",
+          "bytes": 229,
+          "sha256": "c8178e1dd7eb9cd4e823cf630c97421db9e3250d5a79064b7ec64559ffddf8b9"
+        },
+        {
+          "path": "01-humaneval/protocol.json",
+          "bytes": 25864,
+          "sha256": "372b8094e9bc2f42ebd6ea525d669d0b210db56f65fc43577d71fc8acb5914f5"
+        },
+        {
+          "path": "01-humaneval/results.json",
+          "bytes": 4842,
+          "sha256": "def7c7f7f96f561b2ace82382b88c686f20d3149263f8d7eac16f84a50063b9b"
+        },
+        {
+          "path": "02-gsm8k/medium_think/original/item-scores.json",
+          "bytes": 30768,
+          "sha256": "5f95c77e181d1aa6ef1ab3c5387c49c0829bc39a4c4d51e984278ced2629a380"
+        },
+        {
+          "path": "02-gsm8k/medium_think/original/responses.jsonl",
+          "bytes": 242812,
+          "sha256": "8a0a974463c49bf47528219e18f604c9e1c9c4eec193ee8979581b607245a0b6"
+        },
+        {
+          "path": "02-gsm8k/medium_think/original/scores.json",
+          "bytes": 199,
+          "sha256": "692cebdc28e0120b8a7436f5114535ff3242bbc223f513a6ebd5b13f79d61b6c"
+        },
+        {
+          "path": "02-gsm8k/medium_think/step1500/item-scores.json",
+          "bytes": 30768,
+          "sha256": "5f95c77e181d1aa6ef1ab3c5387c49c0829bc39a4c4d51e984278ced2629a380"
+        },
+        {
+          "path": "02-gsm8k/medium_think/step1500/responses.jsonl",
+          "bytes": 241096,
+          "sha256": "17f8cd0cd13ec1efc8c909e600d4959d6f4a4c2cdeee1f891132963e7b87b1a2"
+        },
+        {
+          "path": "02-gsm8k/medium_think/step1500/scores.json",
+          "bytes": 199,
+          "sha256": "692cebdc28e0120b8a7436f5114535ff3242bbc223f513a6ebd5b13f79d61b6c"
+        },
+        {
+          "path": "02-gsm8k/medium_think/step250/item-scores.json",
+          "bytes": 30768,
+          "sha256": "83e2ce98fe72bf4c22f475e7f515ea9731149c1e7a1675394026534ddec15e32"
+        },
+        {
+          "path": "02-gsm8k/medium_think/step250/responses.jsonl",
+          "bytes": 254532,
+          "sha256": "a1f94bad0619555ecea44fa40030ed6c83b9579d51deb468cc9fd6c05507f7a0"
+        },
+        {
+          "path": "02-gsm8k/medium_think/step250/scores.json",
+          "bytes": 203,
+          "sha256": "85ab49dd95a98e60e5a85ed5b7fc8bc44956a0cb563e33dd9271993f6854b971"
+        },
+        {
+          "path": "02-gsm8k/no_think/original/item-scores.json",
+          "bytes": 30768,
+          "sha256": "fe62ac6cd979d497d2cd415abbe0cd050a95ccafd245c62042cdae6b5c30bfaf"
+        },
+        {
+          "path": "02-gsm8k/no_think/original/responses.jsonl",
+          "bytes": 321510,
+          "sha256": "ffc7bb3f08ac6dc6be24945281f847923a6380f5f7c406743b57d995ae945a3d"
+        },
+        {
+          "path": "02-gsm8k/no_think/original/scores.json",
+          "bytes": 203,
+          "sha256": "85ab49dd95a98e60e5a85ed5b7fc8bc44956a0cb563e33dd9271993f6854b971"
+        },
+        {
+          "path": "02-gsm8k/no_think/step1500/item-scores.json",
+          "bytes": 30768,
+          "sha256": "b2548be448ac2a3a8dc59b987ea5f55d087d1e9b65f6ef9fd54a7e72ead6bb10"
+        },
+        {
+          "path": "02-gsm8k/no_think/step1500/responses.jsonl",
+          "bytes": 328241,
+          "sha256": "b34c583d7ba0f8ceb5393e328cd6cdf7b5612a83b68b4eb44616184fb661745a"
+        },
+        {
+          "path": "02-gsm8k/no_think/step1500/scores.json",
+          "bytes": 207,
+          "sha256": "6e01d268e145b2f335e07d34804a12c74da5676bdbe4688b8e0b1c80256a4617"
+        },
+        {
+          "path": "02-gsm8k/no_think/step250/item-scores.json",
+          "bytes": 30768,
+          "sha256": "044cbcab38a63d3cbdc6deaff294f6912761c9d8bdda7fa71d313c4ace5db956"
+        },
+        {
+          "path": "02-gsm8k/no_think/step250/responses.jsonl",
+          "bytes": 217225,
+          "sha256": "5c772cc07edb31d3d84b76effa8348feba4b95033653f28acbf1492c4c588097"
+        },
+        {
+          "path": "02-gsm8k/no_think/step250/scores.json",
+          "bytes": 199,
+          "sha256": "692cebdc28e0120b8a7436f5114535ff3242bbc223f513a6ebd5b13f79d61b6c"
+        },
+        {
+          "path": "02-gsm8k/protocol.json",
+          "bytes": 25860,
+          "sha256": "c0a555462f05e213247591accff81892127049b828b5ff9522f31ae5072784cf"
+        },
+        {
+          "path": "02-gsm8k/results.json",
+          "bytes": 4413,
+          "sha256": "85f2074e3e9e416cd7f29946ac7ae6d29f8880f416ecccae3fbaf3d338d71061"
+        },
+        {
+          "path": "03-ifeval/no_think/original/item-scores.json",
+          "bytes": 72928,
+          "sha256": "134c73bd4dcc099ddef35a51a527512befea22e884a436893fedfc4561496ca9"
+        },
+        {
+          "path": "03-ifeval/no_think/original/responses.jsonl",
+          "bytes": 987380,
+          "sha256": "954a46f419224c09b52307a63a97e8cc1547519f207714cda7875935fea9b87e"
+        },
+        {
+          "path": "03-ifeval/no_think/original/scores.json",
+          "bytes": 251,
+          "sha256": "268a52f3bc3f21a7921fe539f2139322629b9ea267c8a7882e523f7f3cc483c7"
+        },
+        {
+          "path": "03-ifeval/no_think/step1500/item-scores.json",
+          "bytes": 72928,
+          "sha256": "826a820ba4468d54a76eeb34578d7f359715c05014ba7a8c8cf6ef830edc439f"
+        },
+        {
+          "path": "03-ifeval/no_think/step1500/responses.jsonl",
+          "bytes": 980518,
+          "sha256": "ccd93017fe361adb097e58b6aefad13db02dba3a0e23b00d71ed4bdf05dec223"
+        },
+        {
+          "path": "03-ifeval/no_think/step1500/scores.json",
+          "bytes": 253,
+          "sha256": "3c52261a2bb03b190d2f9010a94a77afdafbe4624badd1b8423b648c1af735a4"
+        },
+        {
+          "path": "03-ifeval/no_think/step250/item-scores.json",
+          "bytes": 72928,
+          "sha256": "ebd69bbd053006791dec3027ed10247c56d8447c9cd4028cc08e8b34e4bcaf66"
+        },
+        {
+          "path": "03-ifeval/no_think/step250/responses.jsonl",
+          "bytes": 1017065,
+          "sha256": "eca1a2dbb8da0f3746a7ae71c0885eec6ee894fddf772b7f75fd27ef134127f2"
+        },
+        {
+          "path": "03-ifeval/no_think/step250/scores.json",
+          "bytes": 253,
+          "sha256": "729998ad1400fa8d8ca3f51631dc2156e640e5df8eec615ff5bb453defb3aee6"
+        },
+        {
+          "path": "03-ifeval/protocol.json",
+          "bytes": 25496,
+          "sha256": "b6587690740e3599e516534b022830178cbf3acd5a08eaf054c22b67c3ac85df"
+        },
+        {
+          "path": "03-ifeval/results.json",
+          "bytes": 2654,
+          "sha256": "27baea751f3103a65ff20eca021421d630aae08fcde639bde44e44f2ec4aaa34"
+        },
+        {
+          "path": "case-index.json",
+          "bytes": 3,
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+          "path": "completion-audit.json",
+          "bytes": 7257,
+          "sha256": "8dd260bf6198486f49e0d4a885d3e174b8c4281f434da6bd6a7288a2cf12ab1a"
+        },
+        {
+          "path": "plan.json",
+          "bytes": 2812,
+          "sha256": "39537d7eec07b469f3d928efa7d8c359996b97b6b3bd41c1cac896a29ef1e705"
+        }
+      ]
+    },
+    {
+      "path": "results/raw/fresh-story-pilot.tar.gz",
+      "bytes": 627142,
+      "sha256": "d4b96f15156973a0d132908da75435c7f9632a31c7d2d4e414696c5476a03734",
+      "members": [
+        {
+          "path": "complete-case-sensitivity.json",
+          "bytes": 14553,
+          "sha256": "d63ab2302caa7f87b03ac1d95e834353be62785e492809c6df73430fe203ddfb"
+        },
+        {
+          "path": "early-termination-sensitivity.json",
+          "bytes": 2493,
+          "sha256": "7e00c4d14044259abff3bc15d605b7bb84020c804cdecac61dc8dfb4cbad7383"
+        },
+        {
+          "path": "generations/original/control/responses.jsonl",
+          "bytes": 75428,
+          "sha256": "341bdbe3fe0ab104e248d1ffdab5bb1f960eb954d572f5cb0db184cc20e6ce12"
+        },
+        {
+          "path": "generations/original/direction/responses.jsonl",
+          "bytes": 69543,
+          "sha256": "1231f502fc316c52ee0c7f67eafc686eaefdfbf22488811917b949a771516888"
+        },
+        {
+          "path": "generations/original/random/responses.jsonl",
+          "bytes": 72071,
+          "sha256": "27a7d236be9773e3a59fc09ee8a88508cfd664245e85da02fa13f02cbf8fd545"
+        },
+        {
+          "path": "generations/step250/control/responses.jsonl",
+          "bytes": 61861,
+          "sha256": "2d168992bf3c0cdefba1c35041a130e0631d68e124cf116894ff41a4641d49ff"
+        },
+        {
+          "path": "generations/step250/direction/responses.jsonl",
+          "bytes": 62150,
+          "sha256": "a8987ad956616f8776c1222310f6278cc6019c364e51470e51ec1aec0d1f88ec"
+        },
+        {
+          "path": "generations/step250/random/responses.jsonl",
+          "bytes": 68845,
+          "sha256": "232a53fa501f69478ffb95e48abc113b4048219ecd2ffb1a8533bdc3e68ca6c5"
+        },
+        {
+          "path": "judging/jobs.json",
+          "bytes": 1244417,
+          "sha256": "0ed935bfc1e5d831c66b4156529933a2953e95802ffeae58cf9b771d08d1d625"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-0-order-0/answer.json",
+          "bytes": 5734,
+          "sha256": "379696a5775857d870538185533882b8490fbab84b0b80a13b81039795d1cd0e"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-0-order-0/record.json",
+          "bytes": 6261,
+          "sha256": "0d63cfa5b42bde958f4d74270ad2033c60bfd1276e72d4f93226b3b394b59c0c"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-0-order-1/answer.json",
+          "bytes": 4629,
+          "sha256": "b2bdf4943162bc059b5d7f9ad269bbf7b29667a0ef6f4341260f3171593e298b"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-0-order-1/record.json",
+          "bytes": 5153,
+          "sha256": "374c770191681a6e5e632846458e8c5758ba3aae1955bde6c2e43213a448e056"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-1-order-0/answer.json",
+          "bytes": 5228,
+          "sha256": "ffa08af8c5390045fb284739da2f72c6775073b9c4d3ac1843cac4ca1c630002"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-1-order-0/record.json",
+          "bytes": 5754,
+          "sha256": "f6391b7ea0419d3463111e540304a2ca210f5363fb16b1b0993acac74a8e6a61"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-1-order-1/answer.json",
+          "bytes": 5396,
+          "sha256": "d0c5f1b634663b051b118dd78686b3fe4b5cda7ae3657649adcbaee588c11c35"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-1-order-1/record.json",
+          "bytes": 5922,
+          "sha256": "b5049baa7f6307633237b69dd3bf2caa60469abbe8d37516a0a64cdea3befc24"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-2-order-0/answer.json",
+          "bytes": 5093,
+          "sha256": "ba18818844240d431c9564d669792562489c8bdbc47a960b6ab5f02b8a65adfe"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-2-order-0/record.json",
+          "bytes": 5617,
+          "sha256": "15c6fa6bd6500f0cdf6f4a810310111089be0f69458a97b18ad7dd2961dde4a0"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-2-order-1/answer.json",
+          "bytes": 5526,
+          "sha256": "58580a03efcf050dcba762db1a528b6ef66df4d4fe09ee7a466b7e2f23b3cb06"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-2-order-1/record.json",
+          "bytes": 6050,
+          "sha256": "aa62aae6c9856813a47fb8e3c5ad92590878f282c1bebbb404d0648e9c20c5f2"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-3-order-0/answer.json",
+          "bytes": 5001,
+          "sha256": "f84a89d0a6b037263d1829f9096665b2409bf51eca95a60bb8170ec41cebfbc6"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-3-order-0/record.json",
+          "bytes": 5527,
+          "sha256": "27c4e866c72b218a6a5f40646f77810877db85025e489d5ce9c88d47347f74af"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-3-order-1/answer.json",
+          "bytes": 4989,
+          "sha256": "36296260f0285c8bbedd2ff4c74da40f2b95faa1671e68583c434de526ec7554"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-3-order-1/record.json",
+          "bytes": 5513,
+          "sha256": "014baf78c03bdf8fdc32102bfea98e541d5da05f2ca8be38df70be66eae134f7"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-4-order-0/answer.json",
+          "bytes": 5612,
+          "sha256": "de6b8986a24f2378658ee1a805ef1998b9efb852e15b132f3bd34be1d6ad0dfc"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-4-order-0/record.json",
+          "bytes": 6136,
+          "sha256": "a64aa76e0a3d2239a66b8ab80603d5a8c4db34b7f0d764147e8fb137e0ead260"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-4-order-1/answer.json",
+          "bytes": 5074,
+          "sha256": "3f3f027ee74781f06e58338d1003fc2217f34307cda02ea309ea341a68cd663b"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-4-order-1/record.json",
+          "bytes": 5600,
+          "sha256": "28c02441b0455486807a04f3bc66424d1be5d0d0ba4f26ba8fae3c37c8a4e793"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-5-order-0/answer.json",
+          "bytes": 5727,
+          "sha256": "05100889fd80f749c45f5197d8fc7b837005dfcebc4593e4dc3e1776e873faca"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-5-order-0/record.json",
+          "bytes": 6251,
+          "sha256": "ccf97021656632342f814a33c3ec083135b2201a8ce017bb8b8defdca6823c1d"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-5-order-1/answer.json",
+          "bytes": 5425,
+          "sha256": "a4528627b981fb995eb6494e0f142bb29279dd5046af9c58a901bb2eaac11a30"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-5-order-1/record.json",
+          "bytes": 5949,
+          "sha256": "9a006aa3ad47432fe500fe9e36adae14b4a5940576796d2a6879293790f30028"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-6-order-0/answer.json",
+          "bytes": 4822,
+          "sha256": "4231688f91cb63a81ee0c9d5af4eeb727b78337a5c5f6519e8a850f908c72f6d"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-6-order-0/record.json",
+          "bytes": 5349,
+          "sha256": "c26a985f3d3ea8f27030572aecd25034e4b6ae711b37000ab285acc07ba59ec0"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-6-order-1/answer.json",
+          "bytes": 5972,
+          "sha256": "dce493a38bc99b29e893aa2b1d7a7af98b742bb143f74c835fccd835bde81dd9"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-6-order-1/record.json",
+          "bytes": 6496,
+          "sha256": "a28f234b9624b8b8cda0d2b4a4b56782114140d5416d453bfbbbbea23ae03fec"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-7-order-0/answer.json",
+          "bytes": 5796,
+          "sha256": "759863d6e80a2a615a0961d65ecaf5350f1290cce1454f985c39157fc26a9fe4"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-7-order-0/record.json",
+          "bytes": 6320,
+          "sha256": "6a1b7a9fbdc045f46d7ae786f6942dd85133bde4806bd6af2ec3ba72d27f9118"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-7-order-1/answer.json",
+          "bytes": 5709,
+          "sha256": "7d4eb8e0c039e6f8728438d268b68c937fb88af0a711ef5af8f8cceacaa79d42"
+        },
+        {
+          "path": "judging/judgments/baseline_add_direction-creative-7-order-1/record.json",
+          "bytes": 6233,
+          "sha256": "1a745e8ff92a683439049e26244183e7f08a159adf2cc3195860347d1c1baf5b"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-0-order-0/answer.json",
+          "bytes": 4818,
+          "sha256": "09442f10b9affe5ff6f7cdb6d68e8360ad3e67f570092a0ef203b03df36e4a6d"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-0-order-0/record.json",
+          "bytes": 5339,
+          "sha256": "19033cc2361de923e17f73c5c526d41a39a4a2feb65403884723f732175998f6"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-0-order-1/answer.json",
+          "bytes": 5519,
+          "sha256": "3fbc293f4edcae900f6b921f0930b25c12e68113438f0539e8ef7e997713cf9a"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-0-order-1/record.json",
+          "bytes": 6046,
+          "sha256": "e1ab484ce5d7a6df76e3ed69f7c246432f5e425819d8197da63d548c469aa7ed"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-1-order-0/answer.json",
+          "bytes": 5540,
+          "sha256": "47c720caa0b61d2166c582bbc8a5014ace59f6a77f5a0c814c22a4d0b020c673"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-1-order-0/record.json",
+          "bytes": 6061,
+          "sha256": "70d1ba62fbb9a014c6927d40711fdf32e29b477a712c53311a298319113a779f"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-1-order-1/answer.json",
+          "bytes": 5132,
+          "sha256": "2be9d40c09335fff9c2bdfe699fc8a2359a516104a58254dfe158c517ebd05b0"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-1-order-1/record.json",
+          "bytes": 5655,
+          "sha256": "16531210561ed917e926e810b0316fa08b659d0fada8427cdd9d728e140fd17c"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-2-order-0/answer.json",
+          "bytes": 5283,
+          "sha256": "f3b6ca142ab3c249407b66651e7da466a2c07cd3e977f528350e5cfaf9b17e9e"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-2-order-0/record.json",
+          "bytes": 5807,
+          "sha256": "c373b4d45a0b5747e5221e6d1afcb3bc941ff204ebc31fd5a850ca1b6a419bbe"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-2-order-1/answer.json",
+          "bytes": 5632,
+          "sha256": "1d85bec866b8caec166d6e3b0f135558451ed5c35fd6d35268eb628525124a3b"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-2-order-1/record.json",
+          "bytes": 6153,
+          "sha256": "87da0ffcddfd5a2ca77cc6c2249d58124d00abbd62e9fa25ecd935fe2d4ba389"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-3-order-0/answer.json",
+          "bytes": 5364,
+          "sha256": "cd47f461266adde713233caaea4b7f77e5befdb53429777083f95721444cd21b"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-3-order-0/record.json",
+          "bytes": 5885,
+          "sha256": "2c2b4a418e2ecd9cc2ec6f13debb4c65783c7f85f627c1648dcc577d2f3536ac"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-3-order-1/answer.json",
+          "bytes": 5144,
+          "sha256": "026a6198e09d548dba1f5417d99fabc32ccc6d800c7405d1f026b3657a443126"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-3-order-1/record.json",
+          "bytes": 5665,
+          "sha256": "9f9ab500347d2412f40ea05a3f8f86714c20094e26d153bc6eb98396aefb68e5"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-4-order-0/answer.json",
+          "bytes": 4776,
+          "sha256": "56ec4a2af2d0849ef3083cf5a8aacfb504f5f2f67d320f0d616537973463d52c"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-4-order-0/record.json",
+          "bytes": 5297,
+          "sha256": "3dacf73a83b14f9d97621daf54a82e1961cf830ebdc44b283db1f624d4d562d8"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-4-order-1/answer.json",
+          "bytes": 6034,
+          "sha256": "ce02bbd16399a2ef004e73746441a45671509b16d9a0e6c3742db79498f2c04b"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-4-order-1/record.json",
+          "bytes": 6555,
+          "sha256": "235cb79819db152bff83b8462e94278aa4f3a7cd5cc29231e9d107db7d8c6cfa"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-5-order-0/answer.json",
+          "bytes": 6134,
+          "sha256": "66ad3d05fb60050a5cee474c9f47fc763c7b806c6b30e3c77a6ece8eb0323d7e"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-5-order-0/record.json",
+          "bytes": 6660,
+          "sha256": "0575ebbba4dca32740e551f3ab812fdc71263e33163855a4f441bbf40b337089"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-5-order-1/answer.json",
+          "bytes": 5960,
+          "sha256": "3e08d459e48a03e58ab0ea6284949d8d2dfc632e6070e19178f0f5719a2057f0"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-5-order-1/record.json",
+          "bytes": 6483,
+          "sha256": "6e48785f39706bfca58f37d31615790920b226881caeef8c4346114a27fd41a5"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-6-order-0/answer.json",
+          "bytes": 5192,
+          "sha256": "e5fe987b80c8846d1842a0fd7e38536826f221e027ca2ad3cbb0dd137b4913ba"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-6-order-0/record.json",
+          "bytes": 5713,
+          "sha256": "982d0868396cdfb95570d1b258855cb3358d4678798360f6412752ad4f2c94f1"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-6-order-1/answer.json",
+          "bytes": 5174,
+          "sha256": "6be28685614567f93b8c2782de937455c3f672a9a48b1dc49118771c4f195457"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-6-order-1/record.json",
+          "bytes": 5700,
+          "sha256": "36a33d14528e17e65df680aae73891849006223b17b1b411108a22fde6a7f209"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-7-order-0/answer.json",
+          "bytes": 5740,
+          "sha256": "7e86fec6335683ae2ff2ab959592a281f263097472a4cbd628a4e03651133239"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-7-order-0/record.json",
+          "bytes": 6266,
+          "sha256": "ca53d31c50a651bf8003a6e0441cbe5c4e5db696b4f668e3b3b7123a4f69e3f5"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-7-order-1/answer.json",
+          "bytes": 5267,
+          "sha256": "b516cc4591b9c468c6aab67c4b067d35c9cf91ab707113fe1bd125b30f803139"
+        },
+        {
+          "path": "judging/judgments/baseline_add_random-creative-7-order-1/record.json",
+          "bytes": 5793,
+          "sha256": "66158d4023ff0aa4c085117f377418b74abe40e9bc8c8fb3889395a3ae19efd6"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-0-order-0/answer.json",
+          "bytes": 4500,
+          "sha256": "51c10917c03e09cd6fdf11e7b21bc2694877fc68921854c7df1e907facb3797b"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-0-order-0/record.json",
+          "bytes": 5023,
+          "sha256": "d7e0e6b16cb79488decc574a65e5231df34c6cb73bc9019bad52ade968659077"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-0-order-1/answer.json",
+          "bytes": 3892,
+          "sha256": "2f1dcab9b6fd6457af7839fbaa382cac1a1776d2b50c55ba74750a7ff59c9f8e"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-0-order-1/record.json",
+          "bytes": 4413,
+          "sha256": "2c3ad47d1ef5d92e01a214365651efbece11315dabe3ba9b3052e030eb8e77fe"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-1-order-0/answer.json",
+          "bytes": 6346,
+          "sha256": "3178fc899051d2db2daa13fe4facb75d0c8a4be9066e2e65834e18c6b00ec730"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-1-order-0/record.json",
+          "bytes": 6872,
+          "sha256": "40c4b251d57ca080b86b7f217209de871f6ab409f1da3d76575fc8be78e52633"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-1-order-1/answer.json",
+          "bytes": 5905,
+          "sha256": "df5adf3ae4d2ba087ce89319e101c54c9c8a3ceaaeb047958e17bf7e9d39b259"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-1-order-1/record.json",
+          "bytes": 6430,
+          "sha256": "774a8b536dd1dc7b8b3363fd8fff8a05b1c9a0e247c1df738740dfb8241fe45d"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-2-order-0/answer.json",
+          "bytes": 5339,
+          "sha256": "1dc888a8a7dadd543747b7a82991b2e3eb6c6b5f471a8eec512b5c0855e361fb"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-2-order-0/record.json",
+          "bytes": 5865,
+          "sha256": "ea03083fda7af1e22b6284a1bee0c92b3e26a299decf686b76f8f4662560692b"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-2-order-1/answer.json",
+          "bytes": 5477,
+          "sha256": "57087519887cfeef6edfedfdd49d0a1ef1c9f51287ec3e81c7336d1dff426fca"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-2-order-1/record.json",
+          "bytes": 6000,
+          "sha256": "44ac8d3de7ebee9d17f5ce39602e2c632a785588c59d871d7baa5a67476e5e15"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-3-order-0/answer.json",
+          "bytes": 6057,
+          "sha256": "c40355cb832d9a88db791dcfad364c8b206843278f664bd6262f452bf9da6218"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-3-order-0/record.json",
+          "bytes": 6582,
+          "sha256": "c781cfc9e38d5090704ab61a732b3a6fb8018b4fcb276f3094e89fae50374f7f"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-3-order-1/answer.json",
+          "bytes": 5772,
+          "sha256": "187bf321438ec1bc5bffea099eca9d42f6bb35be8a2a4db1b2f07e16027dbdae"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-3-order-1/record.json",
+          "bytes": 6297,
+          "sha256": "bb60a25f14dce7cd68e3d26caa2c2930ea71e9151694d2f8044937eebc50c757"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-4-order-0/answer.json",
+          "bytes": 5008,
+          "sha256": "714f8f1e589d856b2ee101a3e78ff1a91e42c3db6e827c3b3798ee903563ca6d"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-4-order-0/record.json",
+          "bytes": 5534,
+          "sha256": "3049dcc65443144a1a10af9f11068ddbcbc31b89df227237386fe0f5e58e94a8"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-4-order-1/answer.json",
+          "bytes": 5182,
+          "sha256": "a129065909bff1a8423b141c6a30dbef3764c1f2e554f83eaafb2e8bc90f94ec"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-4-order-1/record.json",
+          "bytes": 5705,
+          "sha256": "7a0dfc0046ddc2d9c0524e60c3f58175941a810a3905843367a3c77650e5b252"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-5-order-0/answer.json",
+          "bytes": 5632,
+          "sha256": "4ae087d638fe9efce7b25685c45617de90fda9d6f87be92a9642611b36b264cc"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-5-order-0/record.json",
+          "bytes": 6157,
+          "sha256": "40893b54d44a88a863ac902d0d9759ae7eb722b6aa15ca456f9f56f2eb2a39f9"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-5-order-1/answer.json",
+          "bytes": 5450,
+          "sha256": "e7269640d80f267d2dcdc9b83f29ef558e733561f3a8376bc5fbf5966b88cb62"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-5-order-1/record.json",
+          "bytes": 5975,
+          "sha256": "1e19f81b8d95e2d7ad03ac93c2c73c594b9e6176936247a82f0724c662770f2f"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-6-order-0/answer.json",
+          "bytes": 6279,
+          "sha256": "b614529a91fd3cb39591efb6ad65b05687623505765fdd8c3346fe47723edc70"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-6-order-0/record.json",
+          "bytes": 6807,
+          "sha256": "a688f03052f398a3e1b3a8f465472908a3451ad9dd7dbed660ff029f3609e7ec"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-6-order-1/answer.json",
+          "bytes": 5412,
+          "sha256": "8ddee2d49b8c025ce8cc5c8404968e77b268726f1c772a8ced94c612d7f9b072"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-6-order-1/record.json",
+          "bytes": 5938,
+          "sha256": "a011e98d547e984f8fb4224b9619e805b3a84bf61d61337c5ba943e16134b2f3"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-7-order-0/answer.json",
+          "bytes": 4928,
+          "sha256": "8f5442c41e3924efd4f922365107d878f2bc748a321ce5b30a009228e3b3c8e8"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-7-order-0/record.json",
+          "bytes": 5456,
+          "sha256": "8d6adc9e681bfb7b6f71122e51fc59d01ca261eca7c56b65db6d4175dbd2c14a"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-7-order-1/answer.json",
+          "bytes": 5801,
+          "sha256": "848f6b76fbfd58e19857acb75b8687165a9e85ef6f86cc3aa3c6cf32d482f62b"
+        },
+        {
+          "path": "judging/judgments/full_remove_direction-creative-7-order-1/record.json",
+          "bytes": 6327,
+          "sha256": "ca1b46874852004b9de0b87dc47d01d638f8876c56e4cbd9780830575df25b99"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-0-order-0/answer.json",
+          "bytes": 5969,
+          "sha256": "9a45e7c8e194f15d9b4ad17c8e4937034c732b05b24c69d354aef1e22e5328b3"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-0-order-0/record.json",
+          "bytes": 6492,
+          "sha256": "1bfb689a32c5c9f9e8ec4104719b058653422ceba7719cfd05cd7e9ef44a5f5c"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-0-order-1/answer.json",
+          "bytes": 4873,
+          "sha256": "d8380fd75be03315eaa4300e12f223e367d1e150eaf0d227d15c14a2a36f0d24"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-0-order-1/record.json",
+          "bytes": 5396,
+          "sha256": "0da8ff053031c39cfb7ed3af0d2ab1b33f788247a50960acf8da46166ff8f4d6"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-1-order-0/answer.json",
+          "bytes": 5333,
+          "sha256": "d4bebae49b69dd9121312e9c708a50441e233b44d3c3c5a8aac4b9a98307f164"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-1-order-0/record.json",
+          "bytes": 5853,
+          "sha256": "a9045837369cf0b14445c1e7b55ba2af9dec9b51e6d89d1a9b7aa2e476970848"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-1-order-1/answer.json",
+          "bytes": 5025,
+          "sha256": "a6959948e0c9d1954a8eb2016b33f7f012b641b183a5648815af60c41045f6dc"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-1-order-1/record.json",
+          "bytes": 5548,
+          "sha256": "35ffe5daffbccfae32b6af877052e2c34ff3cb7ca501793c531c54d131a247f9"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-2-order-0/answer.json",
+          "bytes": 4667,
+          "sha256": "0cca4fd10928419c37f2c2fe97522821a35a10d861c261554d253b46447c5db0"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-2-order-0/record.json",
+          "bytes": 5187,
+          "sha256": "5d8ed5634da9f4fb4b8accb42324f9f77413d0834059232b9a1e3aec10552da6"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-2-order-1/answer.json",
+          "bytes": 4721,
+          "sha256": "090851a4c791aebc9d75d6ba036a1043d9e3354024a28e195bd86651579d9b85"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-2-order-1/record.json",
+          "bytes": 5244,
+          "sha256": "082260dbda59a7b2e076f0f577b575471472d6adc30a50176048c2611c45c6a4"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-3-order-0/answer.json",
+          "bytes": 4919,
+          "sha256": "95115abcbd286d1b8eef437f242ce0f12f57853278fd9fe508eb73577bf570bb"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-3-order-0/record.json",
+          "bytes": 5439,
+          "sha256": "94c17f6e5050565e64f8b9dcfaf6527085a3bf91e69c879ef800357536b081bf"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-3-order-1/answer.json",
+          "bytes": 4998,
+          "sha256": "07871d39857e32da3b77f087d78e21f31d8ca9dc90382067d140db85ffef6e07"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-3-order-1/record.json",
+          "bytes": 5520,
+          "sha256": "e09a65aa0741aae4bfe94212c73c0cc82feca99ebc35811de7a8a163e6232393"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-4-order-0/answer.json",
+          "bytes": 5110,
+          "sha256": "5c71ed8f7fa9970fd0e708b5f60fe82e10bf1f67eba869976b1a0128ed37aa96"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-4-order-0/record.json",
+          "bytes": 5633,
+          "sha256": "448c72e175aafddff3807023bd72bff4b45559cc3702d8975b335ec8427f4c7c"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-4-order-1/answer.json",
+          "bytes": 6535,
+          "sha256": "13d8c09ef41c3c2f35aa70132c5a47090c685510a23b65a94eefeef136ecf43c"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-4-order-1/record.json",
+          "bytes": 7055,
+          "sha256": "2010aeda2160232391eb52d9b919542e5bb25f343af65d21d6bc10791c92ed8c"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-5-order-0/answer.json",
+          "bytes": 5915,
+          "sha256": "01f9d9ac1d482c7c18dcb7042d174a0d5312c03f4066ba93f3f05854fea15487"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-5-order-0/record.json",
+          "bytes": 6440,
+          "sha256": "4bc0839376de5072586f57a1b240ae3ccb362114fb19ac1f3f8c297fc1d3f904"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-5-order-1/answer.json",
+          "bytes": 5432,
+          "sha256": "21b20a27e85c35e3c276b520af45b2b9ffb1600fd328ae70f1d7a386150e5d09"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-5-order-1/record.json",
+          "bytes": 5957,
+          "sha256": "02f036e966b89ed8e01bb41f146c5dcb940b4333f36e32ca19caecae3b392d46"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-6-order-0/answer.json",
+          "bytes": 5302,
+          "sha256": "2eb521997360f9a300bdcec11242943f4961dc8103482e05adac0958f2ef9cb7"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-6-order-0/record.json",
+          "bytes": 5823,
+          "sha256": "504403e3c02f78ad239c00affdab8d033c67b11a0cf04ba86a3cdf3cbaa1b528"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-6-order-1/answer.json",
+          "bytes": 5413,
+          "sha256": "db955a896f77f552d2421036b237eefdcdfb00dad29c2b7d12cc38912cdb9cb8"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-6-order-1/record.json",
+          "bytes": 5935,
+          "sha256": "4f15ac7d36b6038a056339efa9bb3fa7dcf5ca9cc7749f680df3bcc23b398b61"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-7-order-0/answer.json",
+          "bytes": 5724,
+          "sha256": "2ec9290fc9c4e2a45b9173cc187398cf3c2cb20536b0fc81e9c0e40ba263702d"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-7-order-0/record.json",
+          "bytes": 6247,
+          "sha256": "b3bd7ff16259b5050a5e8f2c2342fbcdae66f97dfd4902b906b08a3c1b10d7a0"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-7-order-1/answer.json",
+          "bytes": 5039,
+          "sha256": "f8f0eb1dd5c6642f0d44d02f85c2b17f1eeccce24500c0352135d16b516d2268"
+        },
+        {
+          "path": "judging/judgments/full_remove_random-creative-7-order-1/record.json",
+          "bytes": 5561,
+          "sha256": "5eaf7f55d8c67c36b7e11a7509ffc4528ffeaf021d5617a6a5c8e21c5874e553"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-0-order-0/answer.json",
+          "bytes": 5218,
+          "sha256": "865606d3702bbcf98e1faf81b8ef754ec6da3cc01cfe996d336033343166d2a7"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-0-order-0/record.json",
+          "bytes": 5736,
+          "sha256": "997a0782d13ab58966ec5b250eff470e6e9aa1d157979fb958c01d9aa6647858"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-0-order-1/answer.json",
+          "bytes": 5423,
+          "sha256": "2c013efa7c890800d25c78d73a6df88c6128f318fe0f2fd43d9d96cb87500ac1"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-0-order-1/record.json",
+          "bytes": 5941,
+          "sha256": "9d792ef277444b7a6e269d411dd4ef71f973c3b1e194e8d8a3143209b19e81ac"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-1-order-0/answer.json",
+          "bytes": 5183,
+          "sha256": "5c13ec227611d13ad9b6ed8f6567161f54baed57bc065fe50612ff144c98d01e"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-1-order-0/record.json",
+          "bytes": 5701,
+          "sha256": "0129a6ad6581c6d46cb37d72cf9f422d7bcf069634c2dec38a310e93a10f7f8b"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-1-order-1/answer.json",
+          "bytes": 5311,
+          "sha256": "cf6527f54b1173c63670deb1bf83a9b943b3d5995acda6c84fd5eaf8f462347d"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-1-order-1/record.json",
+          "bytes": 5829,
+          "sha256": "96e93fdf981be9e66b5d3ac53dbe4d7705e9a68f7cd2373f220116222fb4f3b6"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-2-order-0/answer.json",
+          "bytes": 4770,
+          "sha256": "b4ca173b61a9f3d3cba48c0f43392ca49c4acd6743b3870638dfcb7e08cda5b1"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-2-order-0/record.json",
+          "bytes": 5288,
+          "sha256": "d2ebd43afb8669e69830d3eb49cc7a4c7dbb3881c74054b689d9b3de1f27361b"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-2-order-1/answer.json",
+          "bytes": 4999,
+          "sha256": "b1ea04be4d6ee5858a9460e5853c6da194f4ab6305374b681ae086402f349d1b"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-2-order-1/record.json",
+          "bytes": 5520,
+          "sha256": "de88ec0ad3868b6ba0a4065293d7edc3b8eefb93358a18dd8cb1277119417375"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-3-order-0/answer.json",
+          "bytes": 5311,
+          "sha256": "34929509811a2179ec8965582d8c8b82f63e81f6e20690432899fe91500ca3b3"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-3-order-0/record.json",
+          "bytes": 5832,
+          "sha256": "e3cc98539a65be8f70305f3e97fe25ab89de6a4d6a38b6ef62c223dbcbc874b8"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-3-order-1/answer.json",
+          "bytes": 5880,
+          "sha256": "b2fa2b81527be021481e82e9b3ea53cd482d1b8afcd8b22403100da851624883"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-3-order-1/record.json",
+          "bytes": 6398,
+          "sha256": "69f6475d86442807c82289e684d8d739d0905d2a23b14e756e6ce96c8bd5d4b5"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-4-order-0/answer.json",
+          "bytes": 5016,
+          "sha256": "77fe71b08faedda326776566ae22cfd1c0c194167aaa8971ea434983f245ae0f"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-4-order-0/record.json",
+          "bytes": 5534,
+          "sha256": "fae26c3ba60b8535aa30422414a8f263d288a2dd4d38c74923898ca2c8c91f5c"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-4-order-1/answer.json",
+          "bytes": 4928,
+          "sha256": "c0b325af8e71de56b0c67788661b80c3c8426c7a46c8db8430c1252e911db630"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-4-order-1/record.json",
+          "bytes": 5446,
+          "sha256": "c59813bc67072318d72a70b472b0105ba9a14662eb73c633f5e497d831188486"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-5-order-0/answer.json",
+          "bytes": 5038,
+          "sha256": "11bae05b1b806e10b87d2f9841f75412a1b8ef4540a6bbfbed43771d8e623050"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-5-order-0/record.json",
+          "bytes": 5556,
+          "sha256": "2bde9ceef313e8fcba83f7ad7264bd4b3ff3bb6584c090f7d5b2c3429f90b487"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-5-order-1/answer.json",
+          "bytes": 5745,
+          "sha256": "367c870f4eae8d3169135abc4938c6d559b106c3381fbee87735f72ec7454fdf"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-5-order-1/record.json",
+          "bytes": 6263,
+          "sha256": "356ea58058d2015c37caf7b7708187b4ec5025be34dd377937f93e11d2e6d52a"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-6-order-0/answer.json",
+          "bytes": 4766,
+          "sha256": "e3df3fc36f12a4634ed76a10604e773966635855ec1579b8c1c61ce65d7db605"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-6-order-0/record.json",
+          "bytes": 5284,
+          "sha256": "d1654c5671c67a77d8e2ce3e29f5c824c0b95eb19cb40271beca183ee75b4837"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-6-order-1/answer.json",
+          "bytes": 5706,
+          "sha256": "21081778db6068a7fd297b4443493b82f5f0ff00434dafef79e1d126039e4cb1"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-6-order-1/record.json",
+          "bytes": 6226,
+          "sha256": "d03c46d6a59b82f781bf714b9d2fd8358f126d70bc74354f631fc883513b9104"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-7-order-0/answer.json",
+          "bytes": 5048,
+          "sha256": "dd70f77f0645ad96c7a8ddf1db87dc7b5bd10f3f67df867d67ed39b8488743d1"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-7-order-0/record.json",
+          "bytes": 5566,
+          "sha256": "8333af6d7a1c7c9c2b46bec9669256d117cd61022ab04c204227b761d12e3d88"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-7-order-1/answer.json",
+          "bytes": 4874,
+          "sha256": "f91041e1031a4814e2d33999e6897cf00a0ca88c3daffb8e9288552ef5780970"
+        },
+        {
+          "path": "judging/judgments/full_vs_baseline-creative-7-order-1/record.json",
+          "bytes": 5392,
+          "sha256": "236c0e1478dd21cdc3343ff1096e4817cbfe419f6ca718e4b722936d39252e22"
+        },
+        {
+          "path": "judging/results.json",
+          "bytes": 114214,
+          "sha256": "20146677d4bcafd0148b95b05825e955e3bdd85feca248f48cb8b41502d092ed"
+        },
+        {
+          "path": "judging/stories.json",
+          "bytes": 812287,
+          "sha256": "d4653eef7bc46ec27927b934667b757acf8682d71c84a2e9710bfc0050ed24d0"
+        },
+        {
+          "path": "protocol.json",
+          "bytes": 2017,
+          "sha256": "fb2eb7e6cb1ac7c07c7bd5191df3e781b8be17840bbdc054de28cddbb03b605b"
+        },
+        {
+          "path": "validation.json",
+          "bytes": 52192,
+          "sha256": "747779bf30f457c6b8f771698a517eea1db0cfebcd574c8a72c4e2120886d643"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Generated response and final-judgment content is preserved. Local filesystem prefixes in metadata are normalized.",
+    "OpenAI judge event streams and internal reasoning are excluded. Open-weight Qwen response reasoning fields are retained.",
+    "Upstream prompt banks are represented by case indices and provenance; retrieve original datasets separately."
+  ]
+}

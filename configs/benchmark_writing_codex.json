@@ -1,0 +1,12 @@
+{
+  "source_directory": "benchmarks/results/writing-transfer-20261103T185135Z",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "concurrency": 4,
+  "timeout_seconds": 600,
+  "tie_threshold": 0.5,
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  }
+}

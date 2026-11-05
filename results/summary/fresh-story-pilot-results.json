@@ -1,0 +1,4392 @@
+{
+  "rows": [
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "creativity",
+      "reference_mean": 5.1625,
+      "candidate_mean": 5.93125,
+      "delta": {
+        "mean": 0.7687500000000004,
+        "ci95_low": 0.3187500000000004,
+        "ci95_high": 1.2250000000000003,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.8125,
+        "ci95_low": 0.65625,
+        "ci95_high": 0.9375,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 0,
+        "candidate": 10,
+        "tie": 6
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.65,
+          "candidate": 6.4,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 3.75,
+          "candidate": 5.5,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.25,
+          "candidate": 5.9,
+          "delta": -0.34999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.65,
+          "candidate": 6.300000000000001,
+          "delta": 0.6500000000000004,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.75,
+          "candidate": 4.9,
+          "delta": 0.15000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.199999999999999,
+          "candidate": 6.15,
+          "delta": 0.9500000000000011,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.25,
+          "candidate": 6.9,
+          "delta": 1.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.8,
+          "candidate": 5.4,
+          "delta": 0.6000000000000005,
+          "win_credit": 0.75,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "imagery",
+      "reference_mean": 5.525,
+      "candidate_mean": 6.1625,
+      "delta": {
+        "mean": 0.6374999999999997,
+        "ci95_low": 0.08749999999999969,
+        "ci95_high": 1.1374999999999997,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.75,
+        "ci95_low": 0.46875,
+        "ci95_high": 0.9695312499999886,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 3,
+        "candidate": 11,
+        "tie": 2
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.15,
+          "candidate": 6.8,
+          "delta": 0.6499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.35,
+          "candidate": 6.0,
+          "delta": 1.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.75,
+          "candidate": 6.199999999999999,
+          "delta": -0.5500000000000007,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.85,
+          "candidate": 6.75,
+          "delta": 0.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.25,
+          "candidate": 4.65,
+          "delta": -0.5999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.300000000000001,
+          "candidate": 6.5,
+          "delta": 1.1999999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.65,
+          "candidate": 6.85,
+          "delta": 1.1999999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.9,
+          "candidate": 5.55,
+          "delta": 0.6499999999999995,
+          "win_credit": 0.75,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "style",
+      "reference_mean": 4.76875,
+      "candidate_mean": 4.80625,
+      "delta": {
+        "mean": 0.03749999999999992,
+        "ci95_low": -0.6625,
+        "ci95_high": 0.8187499999999998,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.4375,
+        "ci95_low": 0.15625,
+        "ci95_high": 0.71875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 8,
+        "candidate": 6,
+        "tie": 2
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 62.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.6,
+          "candidate": 5.5,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.0,
+          "candidate": 4.25,
+          "delta": 2.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.050000000000001,
+          "candidate": 5.4,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.75,
+          "candidate": 5.550000000000001,
+          "delta": 0.8000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.9,
+          "candidate": 3.35,
+          "delta": -1.5500000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.2,
+          "candidate": 5.5,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.15,
+          "candidate": 5.199999999999999,
+          "delta": 0.049999999999998934,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.5,
+          "candidate": 3.7,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "coherence",
+      "reference_mean": 5.1937500000000005,
+      "candidate_mean": 4.1125,
+      "delta": {
+        "mean": -1.0812499999999998,
+        "ci95_low": -2.13125,
+        "ci95_high": 0.06265624999999794,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.25,
+        "ci95_low": 0.0,
+        "ci95_high": 0.5,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 12,
+        "candidate": 4,
+        "tie": 0
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 100.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.6,
+          "candidate": 4.65,
+          "delta": -1.9499999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 1.75,
+          "candidate": 3.5,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.5,
+          "candidate": 5.4,
+          "delta": -1.0999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.0,
+          "candidate": 5.35,
+          "delta": 1.3499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.4,
+          "candidate": 2.65,
+          "delta": -2.7500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.2,
+          "candidate": 4.45,
+          "delta": -1.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.199999999999999,
+          "candidate": 3.8,
+          "delta": -1.3999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.9,
+          "candidate": 3.1,
+          "delta": -2.8000000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "character_and_impact",
+      "reference_mean": 4.975,
+      "candidate_mean": 4.79375,
+      "delta": {
+        "mean": -0.1812499999999997,
+        "ci95_low": -0.8874999999999997,
+        "ci95_high": 0.49375000000000024,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.4375,
+        "ci95_low": 0.15625,
+        "ci95_high": 0.6875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 7,
+        "candidate": 5,
+        "tie": 4
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 50.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.0,
+          "candidate": 4.9,
+          "delta": -1.0999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.75,
+          "candidate": 4.0,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.1,
+          "candidate": 5.65,
+          "delta": -0.4499999999999993,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.75,
+          "candidate": 5.25,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.85,
+          "candidate": 3.25,
+          "delta": -1.5999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.3,
+          "candidate": 5.7,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.6,
+          "candidate": 5.45,
+          "delta": 0.8500000000000005,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.45,
+          "candidate": 4.15,
+          "delta": -1.2999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "integration",
+      "reference_mean": 6.050000000000001,
+      "candidate_mean": 5.69375,
+      "delta": {
+        "mean": -0.35624999999999984,
+        "ci95_low": -1.1564062499999999,
+        "ci95_high": 0.4250000000000004,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.40625,
+        "ci95_low": 0.125,
+        "ci95_high": 0.71875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 8,
+        "candidate": 5,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.6,
+          "candidate": 5.75,
+          "delta": -0.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.15,
+          "candidate": 5.4,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 7.4,
+          "candidate": 6.45,
+          "delta": -0.9500000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.05,
+          "candidate": 6.45,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 6.5,
+          "candidate": 4.3,
+          "delta": -2.2,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.65,
+          "candidate": 5.550000000000001,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.6,
+          "candidate": 6.65,
+          "delta": 1.0500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 6.45,
+          "candidate": 5.0,
+          "delta": -1.4500000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "overall_quality",
+      "reference_mean": 5.15,
+      "candidate_mean": 5.0562499999999995,
+      "delta": {
+        "mean": -0.09375000000000017,
+        "ci95_low": -0.8001562500000001,
+        "ci95_high": 0.65625,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.375,
+        "ci95_low": 0.125,
+        "ci95_high": 0.6875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 10,
+        "candidate": 6,
+        "tie": 0
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.15,
+          "candidate": 5.5,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.5,
+          "candidate": 4.5,
+          "delta": 2.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.35,
+          "candidate": 5.699999999999999,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.0,
+          "candidate": 5.85,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.1,
+          "candidate": 3.65,
+          "delta": -1.4499999999999997,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.550000000000001,
+          "candidate": 5.65,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.25,
+          "candidate": 5.5,
+          "delta": 0.25,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.3,
+          "candidate": 4.1,
+          "delta": -1.2000000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "conceptual_invention",
+      "reference_mean": 5.09375,
+      "candidate_mean": 5.44375,
+      "delta": {
+        "mean": 0.35000000000000014,
+        "ci95_low": -0.025000000000000078,
+        "ci95_high": 0.7562500000000003,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.59375,
+        "ci95_low": 0.40625,
+        "ci95_high": 0.78125,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 3,
+        "candidate": 6,
+        "tie": 7
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 12.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.55,
+          "candidate": 6.15,
+          "delta": 0.6000000000000005,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 3.9,
+          "candidate": 4.4,
+          "delta": 0.5000000000000004,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.949999999999999,
+          "candidate": 5.6,
+          "delta": -0.34999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.4,
+          "candidate": 6.0,
+          "delta": 0.5999999999999996,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.65,
+          "candidate": 4.5,
+          "delta": -0.15000000000000036,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.199999999999999,
+          "candidate": 5.85,
+          "delta": 0.6500000000000004,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.1,
+          "candidate": 6.45,
+          "delta": 1.3500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.0,
+          "candidate": 4.6,
+          "delta": -0.40000000000000036,
+          "win_credit": 0.25,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "full_vs_baseline",
+      "metric": "ornamentation",
+      "reference_mean": 6.475,
+      "candidate_mean": 8.625,
+      "delta": {
+        "mean": 2.1500000000000004,
+        "ci95_low": 1.1125000000000007,
+        "ci95_high": 3.1624999999999996,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": null,
+      "winner_counts": null,
+      "preference_interpretation": "Descriptive intensity only. No quality preference assigned.",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.35,
+          "candidate": 8.149999999999999,
+          "delta": 1.799999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 5.25,
+          "candidate": 9.0,
+          "delta": 3.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 8.2,
+          "candidate": 7.65,
+          "delta": -0.5499999999999989,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 8.35,
+          "candidate": 9.05,
+          "delta": 0.7000000000000011,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.4,
+          "candidate": 9.0,
+          "delta": 3.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.6,
+          "candidate": 8.05,
+          "delta": 1.450000000000001,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.6,
+          "candidate": 9.2,
+          "delta": 2.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.050000000000001,
+          "candidate": 8.9,
+          "delta": 3.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "creativity",
+      "reference_mean": 5.26875,
+      "candidate_mean": 5.643750000000001,
+      "delta": {
+        "mean": 0.3749999999999999,
+        "ci95_low": -0.15000000000000002,
+        "ci95_high": 1.0624999999999996,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.5625,
+        "ci95_low": 0.375,
+        "ci95_high": 0.75,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 2,
+        "candidate": 4,
+        "tie": 10
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 100.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.35,
+          "candidate": 4.55,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.3,
+          "candidate": 6.75,
+          "delta": 2.45,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.15,
+          "candidate": 6.4,
+          "delta": 0.25,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.8,
+          "candidate": 5.75,
+          "delta": -0.04999999999999982,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.65,
+          "candidate": 4.7,
+          "delta": 0.04999999999999982,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.0,
+          "candidate": 5.05,
+          "delta": 0.04999999999999982,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.300000000000001,
+          "candidate": 5.699999999999999,
+          "delta": 0.3999999999999986,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.6,
+          "candidate": 6.25,
+          "delta": 0.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "imagery",
+      "reference_mean": 5.6875,
+      "candidate_mean": 5.887499999999999,
+      "delta": {
+        "mean": 0.20000000000000018,
+        "ci95_low": -0.2437499999999999,
+        "ci95_high": 0.7562500000000002,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.5625,
+        "ci95_low": 0.375,
+        "ci95_high": 0.75,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 2,
+        "candidate": 4,
+        "tie": 10
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 100.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.85,
+          "candidate": 5.25,
+          "delta": -0.5999999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.8,
+          "candidate": 6.75,
+          "delta": 1.9500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.85,
+          "candidate": 6.45,
+          "delta": -0.39999999999999947,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.9,
+          "candidate": 6.300000000000001,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.25,
+          "candidate": 5.1,
+          "delta": -0.15000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.4,
+          "candidate": 5.55,
+          "delta": 0.14999999999999947,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.699999999999999,
+          "candidate": 5.45,
+          "delta": -0.2499999999999991,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.75,
+          "candidate": 6.25,
+          "delta": 0.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "style",
+      "reference_mean": 4.59375,
+      "candidate_mean": 4.6875,
+      "delta": {
+        "mean": 0.09374999999999994,
+        "ci95_low": -0.8250000000000001,
+        "ci95_high": 1.0187499999999998,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.53125,
+        "ci95_low": 0.25,
+        "ci95_high": 0.8125,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 5,
+        "candidate": 6,
+        "tie": 5
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 4.9,
+          "candidate": 4.3,
+          "delta": -0.6000000000000005,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.25,
+          "candidate": 4.8,
+          "delta": 2.55,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.85,
+          "candidate": 6.15,
+          "delta": 0.3000000000000007,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.5,
+          "candidate": 5.35,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.15,
+          "candidate": 3.1,
+          "delta": -2.0500000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.65,
+          "candidate": 4.4,
+          "delta": -0.25,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.75,
+          "candidate": 3.55,
+          "delta": -1.2000000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.699999999999999,
+          "candidate": 5.85,
+          "delta": 1.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "coherence",
+      "reference_mean": 4.625,
+      "candidate_mean": 4.90625,
+      "delta": {
+        "mean": 0.2812499999999999,
+        "ci95_low": -0.9625000000000001,
+        "ci95_high": 1.4940624999999954,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.5,
+        "ci95_low": 0.1875,
+        "ci95_high": 0.78125,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 6,
+        "candidate": 6,
+        "tie": 4
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.65,
+          "candidate": 4.75,
+          "delta": -0.9000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 1.9,
+          "candidate": 5.1,
+          "delta": 3.1999999999999997,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.95,
+          "candidate": 6.550000000000001,
+          "delta": 0.6000000000000005,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 3.7,
+          "candidate": 6.3,
+          "delta": 2.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.1,
+          "candidate": 2.55,
+          "delta": -2.55,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.75,
+          "candidate": 5.3,
+          "delta": 0.5499999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.65,
+          "candidate": 3.55,
+          "delta": -1.1000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.300000000000001,
+          "candidate": 5.15,
+          "delta": -0.15000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "character_and_impact",
+      "reference_mean": 4.775,
+      "candidate_mean": 5.19375,
+      "delta": {
+        "mean": 0.41874999999999973,
+        "ci95_low": -0.28140625000000014,
+        "ci95_high": 1.1937499999999996,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.59375,
+        "ci95_low": 0.3125,
+        "ci95_high": 0.84375,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 4,
+        "candidate": 7,
+        "tie": 5
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.45,
+          "candidate": 4.3,
+          "delta": -1.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 3.0,
+          "candidate": 5.75,
+          "delta": 2.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.9,
+          "candidate": 6.1,
+          "delta": 0.1999999999999993,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.7,
+          "candidate": 5.55,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.6,
+          "candidate": 4.05,
+          "delta": -0.5499999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.550000000000001,
+          "candidate": 5.4,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.65,
+          "candidate": 4.6,
+          "delta": -0.05000000000000071,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.35,
+          "candidate": 5.8,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "integration",
+      "reference_mean": 5.887499999999999,
+      "candidate_mean": 5.975,
+      "delta": {
+        "mean": 0.08749999999999991,
+        "ci95_low": -0.9687500000000002,
+        "ci95_high": 1.0999999999999999,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.46875,
+        "ci95_low": 0.15625,
+        "ci95_high": 0.78125,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 7,
+        "candidate": 6,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.25,
+          "candidate": 5.6,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.35,
+          "candidate": 7.1,
+          "delta": 2.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.85,
+          "candidate": 7.2,
+          "delta": 0.35000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.6,
+          "candidate": 7.0,
+          "delta": 1.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 6.55,
+          "candidate": 4.35,
+          "delta": -2.2,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.9,
+          "candidate": 5.8,
+          "delta": 0.8999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.65,
+          "candidate": 5.45,
+          "delta": -0.20000000000000018,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 6.95,
+          "candidate": 5.3,
+          "delta": -1.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "overall_quality",
+      "reference_mean": 4.918749999999999,
+      "candidate_mean": 5.225,
+      "delta": {
+        "mean": 0.3062499999999998,
+        "ci95_low": -0.5812500000000002,
+        "ci95_high": 1.2562499999999996,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.625,
+        "ci95_low": 0.25,
+        "ci95_high": 0.875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 6,
+        "candidate": 10,
+        "tie": 0
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 100.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.45,
+          "candidate": 4.65,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.75,
+          "candidate": 5.85,
+          "delta": 3.0999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.1,
+          "candidate": 6.5,
+          "delta": 0.40000000000000036,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.75,
+          "candidate": 5.949999999999999,
+          "delta": 1.1999999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.15,
+          "candidate": 3.55,
+          "delta": -1.6000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.85,
+          "candidate": 5.199999999999999,
+          "delta": 0.34999999999999964,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.0,
+          "candidate": 4.35,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.3,
+          "candidate": 5.75,
+          "delta": 0.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "conceptual_invention",
+      "reference_mean": 5.143750000000001,
+      "candidate_mean": 5.54375,
+      "delta": {
+        "mean": 0.4,
+        "ci95_low": -0.13124999999999987,
+        "ci95_high": 1.0437499999999997,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.6875,
+        "ci95_low": 0.4375,
+        "ci95_high": 0.90625,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 3,
+        "candidate": 9,
+        "tie": 4
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 62.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.3,
+          "candidate": 4.4,
+          "delta": -0.8999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.3,
+          "candidate": 6.6,
+          "delta": 2.3,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.95,
+          "candidate": 6.300000000000001,
+          "delta": 0.35000000000000053,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.550000000000001,
+          "candidate": 5.7,
+          "delta": 0.14999999999999947,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.55,
+          "candidate": 4.65,
+          "delta": 0.10000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.800000000000001,
+          "candidate": 4.75,
+          "delta": -0.05000000000000071,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.949999999999999,
+          "candidate": 5.6,
+          "delta": 0.6500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.75,
+          "candidate": 6.35,
+          "delta": 0.5999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_direction",
+      "metric": "ornamentation",
+      "reference_mean": 6.55625,
+      "candidate_mean": 7.1625,
+      "delta": {
+        "mean": 0.6062499999999996,
+        "ci95_low": -0.2376562500000002,
+        "ci95_high": 1.4501562499999974,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": null,
+      "winner_counts": null,
+      "preference_interpretation": "Descriptive intensity only. No quality preference assigned.",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.5,
+          "candidate": 6.9,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 5.65,
+          "candidate": 8.1,
+          "delta": 2.4499999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 8.350000000000001,
+          "candidate": 8.1,
+          "delta": -0.2500000000000018,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 8.2,
+          "candidate": 6.45,
+          "delta": -1.7499999999999991,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.4,
+          "candidate": 7.5,
+          "delta": 2.0999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.4,
+          "candidate": 6.6,
+          "delta": 0.1999999999999993,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.75,
+          "candidate": 7.45,
+          "delta": 0.7000000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.2,
+          "candidate": 6.199999999999999,
+          "delta": 0.9999999999999991,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "creativity",
+      "reference_mean": 5.3125,
+      "candidate_mean": 5.325,
+      "delta": {
+        "mean": 0.012500000000000122,
+        "ci95_low": -0.5499999999999997,
+        "ci95_high": 0.74375,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.46875,
+        "ci95_low": 0.25,
+        "ci95_high": 0.6875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 5,
+        "candidate": 4,
+        "tie": 7
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 37.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.65,
+          "candidate": 5.1,
+          "delta": -0.5500000000000007,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.0,
+          "candidate": 6.15,
+          "delta": 2.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.1,
+          "candidate": 5.75,
+          "delta": -0.34999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.75,
+          "candidate": 5.9,
+          "delta": 0.15000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.0,
+          "candidate": 3.9499999999999997,
+          "delta": -1.0500000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.25,
+          "candidate": 4.65,
+          "delta": -0.5999999999999996,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.15,
+          "candidate": 5.8,
+          "delta": 0.6499999999999995,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.6,
+          "candidate": 5.300000000000001,
+          "delta": -0.29999999999999893,
+          "win_credit": 0.5,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "imagery",
+      "reference_mean": 5.71875,
+      "candidate_mean": 5.6875,
+      "delta": {
+        "mean": -0.03125,
+        "ci95_low": -0.4875000000000004,
+        "ci95_high": 0.5875000000000001,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.375,
+        "ci95_low": 0.125,
+        "ci95_high": 0.65625,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 8,
+        "candidate": 4,
+        "tie": 4
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 50.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.949999999999999,
+          "candidate": 5.5,
+          "delta": -0.4499999999999993,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.8,
+          "candidate": 6.65,
+          "delta": 1.8500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.7,
+          "candidate": 6.2,
+          "delta": -0.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.8,
+          "candidate": 6.25,
+          "delta": 0.4500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.5,
+          "candidate": 4.85,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.65,
+          "candidate": 5.05,
+          "delta": -0.6000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.55,
+          "candidate": 5.699999999999999,
+          "delta": 0.14999999999999947,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.8,
+          "candidate": 5.3,
+          "delta": -0.5,
+          "win_credit": 0.25,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "style",
+      "reference_mean": 4.61875,
+      "candidate_mean": 4.55,
+      "delta": {
+        "mean": -0.06875000000000009,
+        "ci95_low": -0.76875,
+        "ci95_high": 0.7312499999999998,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.40625,
+        "ci95_low": 0.15625,
+        "ci95_high": 0.65625,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 7,
+        "candidate": 4,
+        "tie": 5
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 37.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.25,
+          "candidate": 4.5,
+          "delta": -0.75,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.3,
+          "candidate": 4.6,
+          "delta": 2.3,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.8,
+          "candidate": 5.5,
+          "delta": -0.2999999999999998,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.45,
+          "candidate": 5.15,
+          "delta": 0.7000000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.75,
+          "candidate": 3.5,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.95,
+          "candidate": 3.8,
+          "delta": -1.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.9,
+          "candidate": 4.4,
+          "delta": -0.5,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.55,
+          "candidate": 4.949999999999999,
+          "delta": 0.39999999999999947,
+          "win_credit": 0.75,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "coherence",
+      "reference_mean": 4.643750000000001,
+      "candidate_mean": 4.74375,
+      "delta": {
+        "mean": 0.09999999999999964,
+        "ci95_low": -0.8125000000000003,
+        "ci95_high": 1.1064062499999974,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.375,
+        "ci95_low": 0.125,
+        "ci95_high": 0.6875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 9,
+        "candidate": 5,
+        "tie": 2
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.9,
+          "candidate": 4.65,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 1.9,
+          "candidate": 4.35,
+          "delta": 2.4499999999999997,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.15,
+          "candidate": 5.8,
+          "delta": -0.35000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 3.6,
+          "candidate": 6.05,
+          "delta": 2.4499999999999997,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.4,
+          "candidate": 3.3,
+          "delta": -1.1000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.300000000000001,
+          "candidate": 4.5,
+          "delta": -0.8000000000000007,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.45,
+          "candidate": 4.7,
+          "delta": 0.25,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.45,
+          "candidate": 4.6,
+          "delta": -0.8500000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "character_and_impact",
+      "reference_mean": 4.9125,
+      "candidate_mean": 4.8,
+      "delta": {
+        "mean": -0.11249999999999971,
+        "ci95_low": -0.7749999999999996,
+        "ci95_high": 0.6814062499999981,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.40625,
+        "ci95_low": 0.125,
+        "ci95_high": 0.6875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 8,
+        "candidate": 5,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 62.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.5,
+          "candidate": 4.65,
+          "delta": -0.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.8,
+          "candidate": 4.85,
+          "delta": 2.05,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.15,
+          "candidate": 5.4,
+          "delta": -0.75,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.6,
+          "candidate": 5.75,
+          "delta": 1.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.699999999999999,
+          "candidate": 3.75,
+          "delta": -0.9499999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.300000000000001,
+          "candidate": 4.3,
+          "delta": -1.0000000000000009,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.55,
+          "candidate": 4.9,
+          "delta": 0.35000000000000053,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.699999999999999,
+          "candidate": 4.800000000000001,
+          "delta": -0.8999999999999986,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "integration",
+      "reference_mean": 5.699999999999999,
+      "candidate_mean": 5.8625,
+      "delta": {
+        "mean": 0.1625000000000003,
+        "ci95_low": -0.5812499999999995,
+        "ci95_high": 0.9125000000000003,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.5,
+        "ci95_low": 0.25,
+        "ci95_high": 0.75,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 5,
+        "candidate": 5,
+        "tie": 6
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.199999999999999,
+          "candidate": 5.65,
+          "delta": -0.5499999999999989,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.55,
+          "candidate": 6.7,
+          "delta": 2.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.949999999999999,
+          "candidate": 6.7,
+          "delta": -0.2499999999999991,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.5,
+          "candidate": 6.75,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.6,
+          "candidate": 4.8,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.1,
+          "candidate": 5.35,
+          "delta": 0.25,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.4,
+          "candidate": 6.05,
+          "delta": 0.6499999999999995,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 6.3,
+          "candidate": 4.9,
+          "delta": -1.3999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "overall_quality",
+      "reference_mean": 4.9875,
+      "candidate_mean": 4.9937499999999995,
+      "delta": {
+        "mean": 0.006249999999999811,
+        "ci95_low": -0.6875000000000002,
+        "ci95_high": 0.8374999999999996,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.3125,
+        "ci95_low": 0.0625,
+        "ci95_high": 0.625,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 11,
+        "candidate": 5,
+        "tie": 0
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.699999999999999,
+          "candidate": 4.85,
+          "delta": -0.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 2.7,
+          "candidate": 5.1,
+          "delta": 2.3999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.2,
+          "candidate": 5.75,
+          "delta": -0.4500000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.65,
+          "candidate": 5.85,
+          "delta": 1.1999999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.9,
+          "candidate": 3.85,
+          "delta": -1.0500000000000003,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.25,
+          "candidate": 4.5,
+          "delta": -0.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.949999999999999,
+          "candidate": 5.1,
+          "delta": 0.15000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.55,
+          "candidate": 4.949999999999999,
+          "delta": -0.6000000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "conceptual_invention",
+      "reference_mean": 5.168749999999999,
+      "candidate_mean": 5.1375,
+      "delta": {
+        "mean": -0.031249999999999778,
+        "ci95_low": -0.6187499999999997,
+        "ci95_high": 0.6375000000000001,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.4375,
+        "ci95_low": 0.21875,
+        "ci95_high": 0.65625,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 6,
+        "candidate": 4,
+        "tie": 6
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 25.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.6,
+          "candidate": 4.85,
+          "delta": -0.75,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 3.95,
+          "candidate": 5.85,
+          "delta": 1.8999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.8,
+          "candidate": 5.550000000000001,
+          "delta": -0.2499999999999991,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.35,
+          "candidate": 5.9,
+          "delta": 0.5500000000000007,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.800000000000001,
+          "candidate": 3.6500000000000004,
+          "delta": -1.1500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.1,
+          "candidate": 4.65,
+          "delta": -0.4499999999999993,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.0,
+          "candidate": 5.5,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.75,
+          "candidate": 5.15,
+          "delta": -0.5999999999999996,
+          "win_credit": 0.25,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "baseline_add_random",
+      "metric": "ornamentation",
+      "reference_mean": 6.3,
+      "candidate_mean": 6.4,
+      "delta": {
+        "mean": 0.10000000000000009,
+        "ci95_low": -0.7374999999999999,
+        "ci95_high": 1.2312500000000002,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": null,
+      "winner_counts": null,
+      "preference_interpretation": "Descriptive intensity only. No quality preference assigned.",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.199999999999999,
+          "candidate": 6.6,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.95,
+          "candidate": 8.4,
+          "delta": 3.45,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 7.9,
+          "candidate": 7.7,
+          "delta": -0.20000000000000018,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 8.0,
+          "candidate": 6.5,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 5.45,
+          "candidate": 5.0,
+          "delta": -0.4500000000000002,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.25,
+          "candidate": 5.45,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.4,
+          "candidate": 7.15,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.25,
+          "candidate": 4.4,
+          "delta": -0.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "creativity",
+      "reference_mean": 5.99375,
+      "candidate_mean": 5.5625,
+      "delta": {
+        "mean": -0.4312499999999998,
+        "ci95_low": -1.4562499999999998,
+        "ci95_high": 0.3250000000000002,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.4375,
+        "ci95_low": 0.1875,
+        "ci95_high": 0.6875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 6,
+        "candidate": 4,
+        "tie": 6
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.75,
+          "candidate": 2.0,
+          "delta": -3.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 5.699999999999999,
+          "candidate": 6.1,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.3,
+          "candidate": 5.8,
+          "delta": -0.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.6,
+          "candidate": 6.65,
+          "delta": 0.05000000000000071,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.8,
+          "candidate": 4.65,
+          "delta": -0.14999999999999947,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.25,
+          "candidate": 7.2,
+          "delta": 0.9500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.8,
+          "candidate": 7.1,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.75,
+          "candidate": 5.0,
+          "delta": -0.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "imagery",
+      "reference_mean": 6.1,
+      "candidate_mean": 6.13125,
+      "delta": {
+        "mean": 0.03125,
+        "ci95_low": -0.7062499999999999,
+        "ci95_high": 0.6374999999999998,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.59375,
+        "ci95_low": 0.375,
+        "ci95_high": 0.8125,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 4,
+        "candidate": 7,
+        "tie": 5
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 37.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.0,
+          "candidate": 3.75,
+          "delta": -2.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 6.1,
+          "candidate": 6.199999999999999,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.8,
+          "candidate": 6.15,
+          "delta": -0.6499999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.449999999999999,
+          "candidate": 6.85,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.6,
+          "candidate": 5.6,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.75,
+          "candidate": 7.199999999999999,
+          "delta": 0.4499999999999993,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.6,
+          "candidate": 7.55,
+          "delta": 0.9500000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.5,
+          "candidate": 5.75,
+          "delta": 0.25,
+          "win_credit": 0.75,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "style",
+      "reference_mean": 4.68125,
+      "candidate_mean": 5.70625,
+      "delta": {
+        "mean": 1.0249999999999997,
+        "ci95_low": 0.4874999999999997,
+        "ci95_high": 1.5437499999999997,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.875,
+        "ci95_low": 0.6875,
+        "ci95_high": 1.0,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 1,
+        "candidate": 13,
+        "tie": 2
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 4.25,
+          "candidate": 5.25,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.15,
+          "candidate": 5.15,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.050000000000001,
+          "candidate": 5.55,
+          "delta": -0.5000000000000009,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.15,
+          "candidate": 6.3,
+          "delta": 1.1499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 3.6,
+          "candidate": 5.1,
+          "delta": 1.4999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.75,
+          "candidate": 6.25,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.75,
+          "candidate": 7.05,
+          "delta": 2.3,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 3.75,
+          "candidate": 5.0,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "coherence",
+      "reference_mean": 4.11875,
+      "candidate_mean": 5.925,
+      "delta": {
+        "mean": 1.80625,
+        "ci95_low": 1.09375,
+        "ci95_high": 2.5124999999999997,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.90625,
+        "ci95_low": 0.8125,
+        "ci95_high": 0.96875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 0,
+        "candidate": 13,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 62.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 4.0,
+          "candidate": 4.5,
+          "delta": 0.5,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 3.4000000000000004,
+          "candidate": 5.95,
+          "delta": 2.55,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.8,
+          "candidate": 6.35,
+          "delta": 0.5499999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 4.949999999999999,
+          "candidate": 6.85,
+          "delta": 1.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 2.7,
+          "candidate": 4.949999999999999,
+          "delta": 2.249999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.2,
+          "candidate": 5.9,
+          "delta": 0.7000000000000002,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 3.4,
+          "candidate": 6.65,
+          "delta": 3.2500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 3.5,
+          "candidate": 6.25,
+          "delta": 2.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "character_and_impact",
+      "reference_mean": 4.80625,
+      "candidate_mean": 5.43125,
+      "delta": {
+        "mean": 0.6249999999999999,
+        "ci95_low": -0.34390624999999997,
+        "ci95_high": 1.4437499999999996,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.75,
+        "ci95_low": 0.46875,
+        "ci95_high": 0.96875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 3,
+        "candidate": 11,
+        "tie": 2
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 4.25,
+          "candidate": 2.0,
+          "delta": -2.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.15,
+          "candidate": 5.8,
+          "delta": 1.6499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.15,
+          "candidate": 5.7,
+          "delta": -0.4500000000000002,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.25,
+          "candidate": 6.8,
+          "delta": 1.5499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 3.5999999999999996,
+          "candidate": 4.85,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.1,
+          "candidate": 6.2,
+          "delta": 0.10000000000000053,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.7,
+          "candidate": 6.6,
+          "delta": 1.8999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.25,
+          "candidate": 5.5,
+          "delta": 1.25,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "integration",
+      "reference_mean": 5.86875,
+      "candidate_mean": 6.0,
+      "delta": {
+        "mean": 0.1312500000000002,
+        "ci95_low": -1.4374999999999998,
+        "ci95_high": 1.1937500000000005,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.6875,
+        "ci95_low": 0.4375,
+        "ci95_high": 0.90625,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 2,
+        "candidate": 8,
+        "tie": 6
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.0,
+          "candidate": 1.0,
+          "delta": -5.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 5.5,
+          "candidate": 6.300000000000001,
+          "delta": 0.8000000000000007,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.7,
+          "candidate": 6.6,
+          "delta": -0.10000000000000053,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.3,
+          "candidate": 7.65,
+          "delta": 1.3500000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.699999999999999,
+          "candidate": 6.2,
+          "delta": 1.5000000000000009,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.15,
+          "candidate": 6.25,
+          "delta": 0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.1,
+          "candidate": 6.75,
+          "delta": 0.6500000000000004,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.5,
+          "candidate": 7.25,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "overall_quality",
+      "reference_mean": 4.987500000000001,
+      "candidate_mean": 5.675,
+      "delta": {
+        "mean": 0.6875,
+        "ci95_low": -0.2751562499999999,
+        "ci95_high": 1.46875,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.75,
+        "ci95_low": 0.5,
+        "ci95_high": 1.0,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 4,
+        "candidate": 12,
+        "tie": 0
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 100.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 4.85,
+          "candidate": 2.6,
+          "delta": -2.2499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.35,
+          "candidate": 5.8,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.3,
+          "candidate": 6.0,
+          "delta": -0.2999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.550000000000001,
+          "candidate": 6.75,
+          "delta": 1.1999999999999993,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 3.7,
+          "candidate": 5.15,
+          "delta": 1.4500000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.9,
+          "candidate": 6.45,
+          "delta": 0.5499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.95,
+          "candidate": 6.95,
+          "delta": 2.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.3,
+          "candidate": 5.699999999999999,
+          "delta": 1.3999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "conceptual_invention",
+      "reference_mean": 5.50625,
+      "candidate_mean": 5.3125,
+      "delta": {
+        "mean": -0.19374999999999998,
+        "ci95_low": -1.2999999999999998,
+        "ci95_high": 0.6124999999999998,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.5625,
+        "ci95_low": 0.3125,
+        "ci95_high": 0.8125,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 4,
+        "candidate": 6,
+        "tie": 6
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 50.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.25,
+          "candidate": 1.5,
+          "delta": -3.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.85,
+          "candidate": 6.15,
+          "delta": 1.3000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.95,
+          "candidate": 5.8,
+          "delta": -0.15000000000000036,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.449999999999999,
+          "candidate": 6.5,
+          "delta": 0.05000000000000071,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.5,
+          "candidate": 4.4,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.9,
+          "candidate": 6.949999999999999,
+          "delta": 1.049999999999999,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.15,
+          "candidate": 6.45,
+          "delta": 0.2999999999999998,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.0,
+          "candidate": 4.75,
+          "delta": -0.25,
+          "win_credit": 0.25,
+          "order_agrees": false
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_direction",
+      "metric": "ornamentation",
+      "reference_mean": 8.725,
+      "candidate_mean": 6.86875,
+      "delta": {
+        "mean": -1.8562499999999997,
+        "ci95_low": -3.5687499999999996,
+        "ci95_high": -0.6187499999999996,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": null,
+      "winner_counts": null,
+      "preference_interpretation": "Descriptive intensity only. No quality preference assigned.",
+      "order_agreement_percent": 100.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 8.25,
+          "candidate": 1.0,
+          "delta": -7.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 9.25,
+          "candidate": 6.95,
+          "delta": -2.3,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 7.8,
+          "candidate": 7.1,
+          "delta": -0.7000000000000002,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 9.1,
+          "candidate": 8.350000000000001,
+          "delta": -0.7499999999999982,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 9.2,
+          "candidate": 7.8,
+          "delta": -1.3999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 7.75,
+          "candidate": 8.5,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 9.45,
+          "candidate": 8.0,
+          "delta": -1.4499999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 9.0,
+          "candidate": 7.25,
+          "delta": -1.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "creativity",
+      "reference_mean": 5.63125,
+      "candidate_mean": 5.625,
+      "delta": {
+        "mean": -0.006249999999999645,
+        "ci95_low": -0.6999999999999998,
+        "ci95_high": 0.6375000000000002,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.53125,
+        "ci95_low": 0.21875,
+        "ci95_high": 0.8125,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 6,
+        "candidate": 7,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.1,
+          "candidate": 6.5,
+          "delta": 0.40000000000000036,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.75,
+          "candidate": 3.5,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.8,
+          "candidate": 4.95,
+          "delta": -0.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.199999999999999,
+          "candidate": 7.15,
+          "delta": 0.9500000000000011,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.75,
+          "candidate": 5.55,
+          "delta": 0.7999999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.85,
+          "candidate": 6.15,
+          "delta": 0.3000000000000007,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.25,
+          "candidate": 4.75,
+          "delta": -1.5,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.35,
+          "candidate": 6.45,
+          "delta": 1.1000000000000005,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "imagery",
+      "reference_mean": 5.981249999999999,
+      "candidate_mean": 5.975,
+      "delta": {
+        "mean": -0.006249999999999867,
+        "ci95_low": -0.7439062499999999,
+        "ci95_high": 0.6562500000000001,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.5625,
+        "ci95_low": 0.25,
+        "ci95_high": 0.875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 6,
+        "candidate": 8,
+        "tie": 2
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 100.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.2,
+          "candidate": 6.9,
+          "delta": 0.7000000000000002,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 5.75,
+          "candidate": 4.0,
+          "delta": -1.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.3,
+          "candidate": 5.5,
+          "delta": -0.7999999999999998,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.45,
+          "candidate": 7.35,
+          "delta": 0.8999999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.699999999999999,
+          "candidate": 5.85,
+          "delta": 1.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 6.2,
+          "candidate": 6.4,
+          "delta": 0.20000000000000018,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 6.449999999999999,
+          "candidate": 5.25,
+          "delta": -1.1999999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.8,
+          "candidate": 6.55,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "style",
+      "reference_mean": 4.78125,
+      "candidate_mean": 4.831250000000001,
+      "delta": {
+        "mean": 0.050000000000000155,
+        "ci95_low": -0.93765625,
+        "ci95_high": 0.9814062499999981,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.53125,
+        "ci95_low": 0.1875,
+        "ci95_high": 0.875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 7,
+        "candidate": 8,
+        "tie": 1
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.199999999999999,
+          "candidate": 6.35,
+          "delta": 1.1500000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.25,
+          "candidate": 2.0,
+          "delta": -2.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.6,
+          "candidate": 4.35,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.15,
+          "candidate": 6.3,
+          "delta": 1.1499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 3.45,
+          "candidate": 5.0,
+          "delta": 1.5499999999999998,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.35,
+          "candidate": 5.300000000000001,
+          "delta": -0.049999999999998934,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.1,
+          "candidate": 3.7,
+          "delta": -1.3999999999999995,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.15,
+          "candidate": 5.65,
+          "delta": 1.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "coherence",
+      "reference_mean": 4.4624999999999995,
+      "candidate_mean": 4.375,
+      "delta": {
+        "mean": -0.08750000000000013,
+        "ci95_low": -1.2937500000000002,
+        "ci95_high": 1.2064062499999975,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.46875,
+        "ci95_low": 0.1875,
+        "ci95_high": 0.75,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 8,
+        "candidate": 7,
+        "tie": 1
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 62.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 4.95,
+          "candidate": 5.7,
+          "delta": 0.75,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 3.75,
+          "candidate": 1.5,
+          "delta": -2.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.9,
+          "candidate": 3.9499999999999997,
+          "delta": -1.9500000000000006,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.699999999999999,
+          "candidate": 5.6,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 2.7,
+          "candidate": 5.35,
+          "delta": 2.6499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 4.8,
+          "candidate": 4.5,
+          "delta": -0.2999999999999998,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 4.55,
+          "candidate": 2.55,
+          "delta": -2.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 3.35,
+          "candidate": 5.85,
+          "delta": 2.4999999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "character_and_impact",
+      "reference_mean": 4.89375,
+      "candidate_mean": 4.8875,
+      "delta": {
+        "mean": -0.0062500000000002,
+        "ci95_low": -0.9312500000000001,
+        "ci95_high": 0.9626562499999975,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.46875,
+        "ci95_low": 0.1875,
+        "ci95_high": 0.75,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 7,
+        "candidate": 6,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 62.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.35,
+          "candidate": 6.1,
+          "delta": 0.75,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.25,
+          "candidate": 2.5,
+          "delta": -1.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.55,
+          "candidate": 4.8,
+          "delta": -0.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.4,
+          "candidate": 6.1,
+          "delta": 0.6999999999999993,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 3.5,
+          "candidate": 4.9,
+          "delta": 1.4000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.65,
+          "candidate": 5.0,
+          "delta": -0.6500000000000004,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.0,
+          "candidate": 3.0999999999999996,
+          "delta": -1.9000000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.45,
+          "candidate": 6.6,
+          "delta": 2.1499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "integration",
+      "reference_mean": 5.90625,
+      "candidate_mean": 5.9625,
+      "delta": {
+        "mean": 0.05625000000000008,
+        "ci95_low": -1.2,
+        "ci95_high": 1.2312500000000002,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.53125,
+        "ci95_low": 0.21875,
+        "ci95_high": 0.84375,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 6,
+        "candidate": 7,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.05,
+          "candidate": 7.05,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 5.0,
+          "candidate": 3.75,
+          "delta": -1.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 6.6,
+          "candidate": 5.15,
+          "delta": -1.4499999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.75,
+          "candidate": 7.1,
+          "delta": 0.34999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.25,
+          "candidate": 6.75,
+          "delta": 2.5,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.699999999999999,
+          "candidate": 6.5,
+          "delta": 0.8000000000000007,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 7.15,
+          "candidate": 3.9,
+          "delta": -3.2500000000000004,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 5.75,
+          "candidate": 7.5,
+          "delta": 1.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "overall_quality",
+      "reference_mean": 5.05625,
+      "candidate_mean": 5.075,
+      "delta": {
+        "mean": 0.01874999999999999,
+        "ci95_low": -0.9562500000000003,
+        "ci95_high": 0.95,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.5625,
+        "ci95_low": 0.25,
+        "ci95_high": 0.875,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 7,
+        "candidate": 9,
+        "tie": 0
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 87.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 5.5,
+          "candidate": 6.35,
+          "delta": 0.8499999999999996,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.35,
+          "candidate": 2.5,
+          "delta": -1.8499999999999996,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.85,
+          "candidate": 4.65,
+          "delta": -1.1999999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 5.75,
+          "candidate": 6.5,
+          "delta": 0.75,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 3.6,
+          "candidate": 5.4,
+          "delta": 1.8000000000000003,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.5,
+          "candidate": 5.5,
+          "delta": 0.0,
+          "win_credit": 0.5,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.45,
+          "candidate": 3.5999999999999996,
+          "delta": -1.8500000000000005,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.45,
+          "candidate": 6.1,
+          "delta": 1.6499999999999995,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "conceptual_invention",
+      "reference_mean": 5.3375,
+      "candidate_mean": 5.23125,
+      "delta": {
+        "mean": -0.10624999999999996,
+        "ci95_low": -0.8875000000000004,
+        "ci95_high": 0.6189062499999981,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": {
+        "mean": 0.46875,
+        "ci95_low": 0.1875,
+        "ci95_high": 0.75,
+        "clusters": 8,
+        "items": 8
+      },
+      "winner_counts": {
+        "reference": 7,
+        "candidate": 6,
+        "tie": 3
+      },
+      "preference_interpretation": "Higher-quality candidate preference",
+      "order_agreement_percent": 62.5,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 6.050000000000001,
+          "candidate": 5.85,
+          "delta": -0.20000000000000107,
+          "win_credit": 0.25,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 4.25,
+          "candidate": 3.5,
+          "delta": -0.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 5.4,
+          "candidate": 4.65,
+          "delta": -0.75,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 6.35,
+          "candidate": 6.6,
+          "delta": 0.25,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 4.35,
+          "candidate": 5.35,
+          "delta": 1.0,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 5.6,
+          "candidate": 5.9,
+          "delta": 0.3000000000000007,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 5.85,
+          "candidate": 3.5999999999999996,
+          "delta": -2.25,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 4.85,
+          "candidate": 6.4,
+          "delta": 1.5500000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        }
+      ]
+    },
+    {
+      "comparison": "full_remove_random",
+      "metric": "ornamentation",
+      "reference_mean": 8.53125,
+      "candidate_mean": 8.631250000000001,
+      "delta": {
+        "mean": 0.09999999999999998,
+        "ci95_low": -0.4624999999999997,
+        "ci95_high": 0.5875,
+        "clusters": 8,
+        "items": 8
+      },
+      "win_credit": null,
+      "winner_counts": null,
+      "preference_interpretation": "Descriptive intensity only. No quality preference assigned.",
+      "order_agreement_percent": 75.0,
+      "items": [
+        {
+          "case_id": "creative/0",
+          "reference": 8.25,
+          "candidate": 9.05,
+          "delta": 0.8000000000000007,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/1",
+          "reference": 9.0,
+          "candidate": 9.9,
+          "delta": 0.9000000000000004,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/2",
+          "reference": 7.5,
+          "candidate": 7.4,
+          "delta": -0.09999999999999964,
+          "win_credit": 0.5,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/3",
+          "reference": 9.05,
+          "candidate": 9.45,
+          "delta": 0.3999999999999986,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/4",
+          "reference": 9.0,
+          "candidate": 8.0,
+          "delta": -1.0,
+          "win_credit": 0.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/5",
+          "reference": 7.8,
+          "candidate": 8.0,
+          "delta": 0.20000000000000018,
+          "win_credit": 0.75,
+          "order_agrees": false
+        },
+        {
+          "case_id": "creative/6",
+          "reference": 8.8,
+          "candidate": 9.6,
+          "delta": 0.7999999999999989,
+          "win_credit": 1.0,
+          "order_agrees": true
+        },
+        {
+          "case_id": "creative/7",
+          "reference": 8.85,
+          "candidate": 7.65,
+          "delta": -1.1999999999999993,
+          "win_credit": 0.0,
+          "order_agrees": true
+        }
+      ]
+    }
+  ],
+  "specificity": [
+    {
+      "model": "original",
+      "metric": "creativity",
+      "direction_minus_random_delta": {
+        "mean": 0.36249999999999977,
+        "ci95_low": 0.012499999999999956,
+        "ci95_high": 0.7124999999999997,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "imagery",
+      "direction_minus_random_delta": {
+        "mean": 0.23125000000000018,
+        "ci95_low": -0.0562499999999998,
+        "ci95_high": 0.5439062499999977,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "style",
+      "direction_minus_random_delta": {
+        "mean": 0.16250000000000003,
+        "ci95_low": -0.28750000000000026,
+        "ci95_high": 0.5375000000000004,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "coherence",
+      "direction_minus_random_delta": {
+        "mean": 0.1812500000000002,
+        "ci95_low": -0.5749999999999997,
+        "ci95_high": 0.7937500000000004,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "character_and_impact",
+      "direction_minus_random_delta": {
+        "mean": 0.5312499999999994,
+        "ci95_low": 0.01249999999999939,
+        "ci95_high": 1.0749999999999993,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "integration",
+      "direction_minus_random_delta": {
+        "mean": -0.0750000000000004,
+        "ci95_low": -0.6125000000000003,
+        "ci95_high": 0.36874999999999947,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "overall_quality",
+      "direction_minus_random_delta": {
+        "mean": 0.3,
+        "ci95_low": -0.20000000000000018,
+        "ci95_high": 0.7437500000000002,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "conceptual_invention",
+      "direction_minus_random_delta": {
+        "mean": 0.4312499999999998,
+        "ci95_low": 0.07499999999999962,
+        "ci95_high": 0.8125000000000003,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "original",
+      "metric": "ornamentation",
+      "direction_minus_random_delta": {
+        "mean": 0.5062499999999995,
+        "ci95_low": -0.20625000000000004,
+        "ci95_high": 1.3064062499999973,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "creativity",
+      "direction_minus_random_delta": {
+        "mean": -0.42500000000000016,
+        "ci95_low": -1.7625000000000002,
+        "ci95_high": 0.7689062499999978,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "imagery",
+      "direction_minus_random_delta": {
+        "mean": 0.03749999999999987,
+        "ci95_low": -1.0,
+        "ci95_high": 1.0187499999999998,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "style",
+      "direction_minus_random_delta": {
+        "mean": 0.9749999999999996,
+        "ci95_low": 0.049999999999999656,
+        "ci95_high": 2.1126562499999975,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "coherence",
+      "direction_minus_random_delta": {
+        "mean": 1.89375,
+        "ci95_low": 0.5437500000000001,
+        "ci95_high": 3.3814062499999977,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "character_and_impact",
+      "direction_minus_random_delta": {
+        "mean": 0.6312500000000001,
+        "ci95_low": -0.7875000000000001,
+        "ci95_high": 2.075156249999998,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "integration",
+      "direction_minus_random_delta": {
+        "mean": 0.07500000000000012,
+        "ci95_low": -1.9564062499999997,
+        "ci95_high": 1.7875000000000005,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "overall_quality",
+      "direction_minus_random_delta": {
+        "mean": 0.66875,
+        "ci95_low": -0.7251562500000001,
+        "ci95_high": 2.0876562499999975,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "conceptual_invention",
+      "direction_minus_random_delta": {
+        "mean": -0.08750000000000002,
+        "ci95_low": -1.43125,
+        "ci95_high": 1.19375,
+        "clusters": 8,
+        "items": 8
+      }
+    },
+    {
+      "model": "step250",
+      "metric": "ornamentation",
+      "direction_minus_random_delta": {
+        "mean": -1.9562499999999994,
+        "ci95_low": -3.8499999999999996,
+        "ci95_high": -0.5125000000000002,
+        "clusters": 8,
+        "items": 8
+      }
+    }
+  ],
+  "comparisons": {
+    "full_vs_baseline": [
+      [
+        "original",
+        "control"
+      ],
+      [
+        "step250",
+        "control"
+      ]
+    ],
+    "baseline_add_direction": [
+      [
+        "original",
+        "control"
+      ],
+      [
+        "original",
+        "direction"
+      ]
+    ],
+    "baseline_add_random": [
+      [
+        "original",
+        "control"
+      ],
+      [
+        "original",
+        "random"
+      ]
+    ],
+    "full_remove_direction": [
+      [
+        "step250",
+        "control"
+      ],
+      [
+        "step250",
+        "direction"
+      ]
+    ],
+    "full_remove_random": [
+      [
+        "step250",
+        "control"
+      ],
+      [
+        "step250",
+        "random"
+      ]
+    ]
+  },
+  "independent_briefs": 8
+}

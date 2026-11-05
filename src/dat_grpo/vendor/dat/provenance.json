@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/jayolson/divergent-association-task",
+  "commit": "9978dd8103670a90c59bc35a7210acc60995dcdb",
+  "files": {
+    "dat.py": {
+      "url": "https://raw.githubusercontent.com/jayolson/divergent-association-task/9978dd8103670a90c59bc35a7210acc60995dcdb/dat.py",
+      "sha256": "b6b6e0cac70b65aea4825bfb3cebee658ae31ba890bccceb57b4ddba9ecf708b"
+    },
+    "words.txt": {
+      "url": "https://raw.githubusercontent.com/jayolson/divergent-association-task/9978dd8103670a90c59bc35a7210acc60995dcdb/words.txt",
+      "sha256": "33adcdd06a033b5cd92f34069268ad4400349dc50f914050bb1a8b534b76d940"
+    },
+    "LICENSE.txt": {
+      "url": "https://raw.githubusercontent.com/jayolson/divergent-association-task/9978dd8103670a90c59bc35a7210acc60995dcdb/LICENSE.txt",
+      "sha256": "9afee28da7879c280dae4cf131cd78e142f268e4eaf26cf14a1da7b5eb9648cf"
+    }
+  }
+}

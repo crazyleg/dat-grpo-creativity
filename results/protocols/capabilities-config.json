@@ -1,0 +1,141 @@
+{
+  "protocol": "conditional-final-lora1500-full250-capabilities-v1",
+  "seed": 20261031,
+  "base_url": "http://127.0.0.1:8000/v1",
+  "concurrency": 64,
+  "models": [
+    "original",
+    "step1500",
+    "step250"
+  ],
+  "snapshots": [
+    1500
+  ],
+  "sampling_source": "https://huggingface.co/Qwen/Qwen3.8-27B#api-usage",
+  "modes": [
+    {
+      "name": "no_think",
+      "max_tokens": 32,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 1.5,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    {
+      "name": "medium_think",
+      "max_tokens": 8192,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "reasoning_effort": "medium",
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "reasoning_effort": "medium"
+      }
+    }
+  ],
+  "server": {
+    "max_model_len": 16384,
+    "kv_cache_gib": 24,
+    "max_num_seqs": 64,
+    "reasoning_parser": "qwen3"
+  },
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  },
+  "task_order": [
+    "mmlu_pro",
+    "humaneval",
+    "gsm8k",
+    "ifeval"
+  ],
+  "tasks": {
+    "humaneval": {
+      "label": "HumanEval+",
+      "case_tasks": [
+        "humaneval"
+      ],
+      "expected_cases": 164,
+      "primary_metrics": [
+        "humaneval/plus_pass_at_1"
+      ],
+      "max_tokens": {
+        "no_think": 2048,
+        "medium_think": 8192
+      },
+      "sampling_note": "Same frozen cases, seeds, capability sampling and token limits as the previous matched battery. step1500 is the conditional LoRA adapter; step250 is the conditional full model. IFEval is no-thinking only, matching the previously completed comparison scope."
+    },
+    "gsm8k": {
+      "label": "GSM8K",
+      "case_tasks": [
+        "gsm8k"
+      ],
+      "expected_cases": 256,
+      "primary_metrics": [
+        "gsm8k/accuracy"
+      ],
+      "max_tokens": {
+        "no_think": 1536,
+        "medium_think": 8192
+      },
+      "sampling_note": "Same frozen cases, seeds, capability sampling and token limits as the previous matched battery. step1500 is the conditional LoRA adapter; step250 is the conditional full model. IFEval is no-thinking only, matching the previously completed comparison scope."
+    },
+    "ifeval": {
+      "label": "IFEval",
+      "case_tasks": [
+        "ifeval"
+      ],
+      "expected_cases": 541,
+      "primary_metrics": [
+        "ifeval/strict_prompt_accuracy"
+      ],
+      "max_tokens": {
+        "no_think": 2048
+      },
+      "sampling_note": "Same frozen cases, seeds, capability sampling and token limits as the previous matched battery. step1500 is the conditional LoRA adapter; step250 is the conditional full model. IFEval is no-thinking only, matching the previously completed comparison scope."
+    },
+    "mmlu_pro": {
+      "label": "MMLU-Pro",
+      "case_tasks": [
+        "mmlu_pro"
+      ],
+      "expected_cases": 280,
+      "primary_metrics": [
+        "accuracy_percent"
+      ],
+      "max_tokens": {
+        "no_think": 32,
+        "medium_think": 8192
+      },
+      "sampling_note": "Same frozen cases, seeds, capability sampling and token limits as the previous matched battery. step1500 is the conditional LoRA adapter; step250 is the conditional full model. IFEval is no-thinking only, matching the previously completed comparison scope."
+    }
+  },
+  "training_run_directory": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z",
+  "task": "mmlu_pro",
+  "expected_cases": 280,
+  "full_model_owner": "noun-verb-final-capabilities-20261103T115750Z",
+  "full_checkpoint_models": {
+    "original": "./data/inference-bf16",
+    "step1500": "./data/inference-bf16",
+    "step250": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-250"
+  },
+  "audit_adjective_pos": false,
+  "model_labels": {
+    "original": "Baseline",
+    "step1500": "LoRA 1500",
+    "step250": "Full 250"
+  },
+  "adapter_run_directory": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z",
+  "adapter_paths": {
+    "step1500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1500"
+  }
+}

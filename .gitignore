@@ -1,0 +1,11 @@
+.venv*/
+__pycache__/
+*.pyc
+*.egg-info/
+data/
+runs/
+wandb/
+.env
+.env.*
+*_key
+*.partial

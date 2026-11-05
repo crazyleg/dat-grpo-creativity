@@ -1,0 +1,93 @@
+{
+  "seed": 20261031,
+  "base_url": "http://127.0.0.1:8000/v1",
+  "concurrency": 64,
+  "models": [
+    "original",
+    "step1500",
+    "step250"
+  ],
+  "model_labels": {
+    "original": "Baseline",
+    "step1500": "LoRA 1500",
+    "step250": "Full 250"
+  },
+  "server": {
+    "max_model_len": 16384,
+    "kv_cache_gib": 24,
+    "max_num_seqs": 64,
+    "reasoning_parser": "qwen3"
+  },
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  },
+  "training_run_directory": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z",
+  "adapter_run_directory": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z",
+  "adapter_paths": {
+    "step1500": "./runs/qwen38-27b-dat-noun-verb-lora-20261102T170042Z/adapter-snapshots/step-1500"
+  },
+  "full_checkpoint_models": {
+    "original": "./data/inference-bf16",
+    "step1500": "./data/inference-bf16",
+    "step250": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-250"
+  },
+  "protocol": "writing-transfer-local-v1",
+  "full_model_owner": "writing-transfer-20261103T185135Z",
+  "assets_directory": "./data/writing-panel-20261103",
+  "generation_expected_responses": 768,
+  "modes": [
+    {
+      "name": "no_think"
+    }
+  ],
+  "task_order": [
+    "mazur",
+    "writingbench",
+    "steerbench"
+  ],
+  "judging": {
+    "mode": "local",
+    "critic_path": "./data/writing-judges/critic",
+    "judge_path": "./data/writing-judges/judge",
+    "metric_python": "./.venv-writing-metrics/bin/python"
+  },
+  "sampling": {
+    "mazur": {
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": -1,
+      "max_tokens": 2048
+    },
+    "writingbench": {
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "max_tokens": 4096
+    },
+    "steerbench": {
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "top_k": -1,
+      "max_tokens": 4096
+    }
+  }
+}

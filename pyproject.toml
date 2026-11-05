@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dat-grpo-lab"
+version = "0.1.0"
+description = "DAT-reward GRPO experiments on Qwen3.8-27B"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy"]
+
+[project.scripts]
+dat-grpo-prepare = "dat_grpo.prepare:main"
+dat-grpo-train = "dat_grpo.train:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"dat_grpo.vendor.dat" = ["words.txt", "LICENSE.txt", "provenance.json"]

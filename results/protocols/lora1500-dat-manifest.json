@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-31T10:51:12.095418+00:00",
+  "embedding": "glove.840B.300d",
+  "glove_repository": "stanfordnlp/glove",
+  "glove_revision": "1db2080b2d94def6e5b0386a523102f9d8849e9d",
+  "archive_sha256": "f47355dd5b267bd10f08671e513790690233c76a9ffd73aa915d78f894a8912e",
+  "cache_sha256": "d6f91c4f0c896f4d43b979dbd3bc34c4829e327986d5dc78fd6815e7face3bc4",
+  "dictionary_sha256": "33adcdd06a033b5cd92f34069268ad4400349dc50f914050bb1a8b534b76d940",
+  "dat_source_sha256": "b6b6e0cac70b65aea4825bfb3cebee658ae31ba890bccceb57b4ddba9ecf708b",
+  "dat_commit": "9978dd8103670a90c59bc35a7210acc60995dcdb",
+  "vocabulary_size": 104594,
+  "dimensions": 300
+}

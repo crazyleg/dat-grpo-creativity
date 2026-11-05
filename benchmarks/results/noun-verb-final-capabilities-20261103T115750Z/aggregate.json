@@ -1,0 +1,234 @@
+{
+  "columns": [
+    "Benchmark",
+    "Mode",
+    "Metric",
+    "Baseline",
+    "LoRA 1500",
+    "Full 250",
+    "N"
+  ],
+  "rows": [
+    [
+      "MMLU-Pro",
+      "no_think",
+      "accuracy_percent",
+      59.29,
+      59.29,
+      56.07,
+      280
+    ],
+    [
+      "MMLU-Pro",
+      "medium_think",
+      "accuracy_percent",
+      77.86,
+      77.14,
+      78.57,
+      280
+    ],
+    [
+      "HumanEval+",
+      "no_think",
+      "humaneval/plus_pass_at_1",
+      93.9,
+      94.51,
+      92.07,
+      164
+    ],
+    [
+      "HumanEval+",
+      "medium_think",
+      "humaneval/plus_pass_at_1",
+      93.29,
+      93.9,
+      93.9,
+      164
+    ],
+    [
+      "GSM8K",
+      "no_think",
+      "gsm8k/accuracy",
+      98.05,
+      98.44,
+      98.44,
+      256
+    ],
+    [
+      "GSM8K",
+      "medium_think",
+      "gsm8k/accuracy",
+      98.44,
+      98.44,
+      98.05,
+      256
+    ],
+    [
+      "IFEval",
+      "no_think",
+      "ifeval/strict_prompt_accuracy",
+      83.18,
+      80.78,
+      79.48,
+      541
+    ]
+  ],
+  "changes": [
+    {
+      "benchmark": "MMLU-Pro",
+      "mode": "no_think",
+      "metric": "accuracy_percent",
+      "model": "step1500",
+      "score": 59.285714285714285,
+      "delta": 0.0,
+      "ci95_low": -1.0714285714285714,
+      "ci95_high": 1.0714285714285714,
+      "n": 280
+    },
+    {
+      "benchmark": "MMLU-Pro",
+      "mode": "no_think",
+      "metric": "accuracy_percent",
+      "model": "step250",
+      "score": 56.07142857142857,
+      "delta": -3.214285714285714,
+      "ci95_low": -7.5,
+      "ci95_high": 1.0714285714285714,
+      "n": 280
+    },
+    {
+      "benchmark": "MMLU-Pro",
+      "mode": "medium_think",
+      "metric": "accuracy_percent",
+      "model": "step1500",
+      "score": 77.14285714285714,
+      "delta": -0.7142857142857143,
+      "ci95_low": -3.571428571428571,
+      "ci95_high": 2.142857142857143,
+      "n": 280
+    },
+    {
+      "benchmark": "MMLU-Pro",
+      "mode": "medium_think",
+      "metric": "accuracy_percent",
+      "model": "step250",
+      "score": 78.57142857142857,
+      "delta": 0.7142857142857143,
+      "ci95_low": -2.1517857142857113,
+      "ci95_high": 3.571428571428571,
+      "n": 280
+    },
+    {
+      "benchmark": "HumanEval+",
+      "mode": "no_think",
+      "metric": "humaneval/plus_pass_at_1",
+      "model": "step1500",
+      "score": 94.51219512195121,
+      "delta": 0.6097560975609756,
+      "ci95_low": 0.0,
+      "ci95_high": 1.8292682926829267,
+      "n": 164
+    },
+    {
+      "benchmark": "HumanEval+",
+      "mode": "no_think",
+      "metric": "humaneval/plus_pass_at_1",
+      "model": "step250",
+      "score": 92.07317073170732,
+      "delta": -1.8292682926829267,
+      "ci95_low": -4.878048780487805,
+      "ci95_high": 1.2195121951219512,
+      "n": 164
+    },
+    {
+      "benchmark": "HumanEval+",
+      "mode": "medium_think",
+      "metric": "humaneval/plus_pass_at_1",
+      "model": "step1500",
+      "score": 93.90243902439023,
+      "delta": 0.6097560975609756,
+      "ci95_low": -1.2195121951219512,
+      "ci95_high": 3.048780487804878,
+      "n": 164
+    },
+    {
+      "benchmark": "HumanEval+",
+      "mode": "medium_think",
+      "metric": "humaneval/plus_pass_at_1",
+      "model": "step250",
+      "score": 93.90243902439023,
+      "delta": 0.6097560975609756,
+      "ci95_low": -1.2195121951219512,
+      "ci95_high": 3.048780487804878,
+      "n": 164
+    },
+    {
+      "benchmark": "GSM8K",
+      "mode": "no_think",
+      "metric": "gsm8k/accuracy",
+      "model": "step1500",
+      "score": 98.4375,
+      "delta": 0.390625,
+      "ci95_low": 0.0,
+      "ci95_high": 1.171875,
+      "n": 256
+    },
+    {
+      "benchmark": "GSM8K",
+      "mode": "no_think",
+      "metric": "gsm8k/accuracy",
+      "model": "step250",
+      "score": 98.4375,
+      "delta": 0.390625,
+      "ci95_low": 0.0,
+      "ci95_high": 1.171875,
+      "n": 256
+    },
+    {
+      "benchmark": "GSM8K",
+      "mode": "medium_think",
+      "metric": "gsm8k/accuracy",
+      "model": "step1500",
+      "score": 98.4375,
+      "delta": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "n": 256
+    },
+    {
+      "benchmark": "GSM8K",
+      "mode": "medium_think",
+      "metric": "gsm8k/accuracy",
+      "model": "step250",
+      "score": 98.046875,
+      "delta": -0.390625,
+      "ci95_low": -1.171875,
+      "ci95_high": 0.0,
+      "n": 256
+    },
+    {
+      "benchmark": "IFEval",
+      "mode": "no_think",
+      "metric": "ifeval/strict_prompt_accuracy",
+      "model": "step1500",
+      "score": 80.77634011090574,
+      "delta": -2.4029574861367835,
+      "ci95_low": -4.621072088724584,
+      "ci95_high": -0.18484288354898337,
+      "n": 541
+    },
+    {
+      "benchmark": "IFEval",
+      "mode": "no_think",
+      "metric": "ifeval/strict_prompt_accuracy",
+      "model": "step250",
+      "score": 79.48243992606284,
+      "delta": -3.6968576709796674,
+      "ci95_low": -7.208872458410351,
+      "ci95_high": -0.36968576709796674,
+      "n": 541
+    }
+  ],
+  "comparisons_completed": 21,
+  "comparisons_total": 21
+}

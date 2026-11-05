@@ -1,0 +1,14 @@
+# CUDA wheels are installed separately by scripts/bootstrap.sh.
+torch==2.9.1
+torchvision==0.24.1
+torchao==0.14.1
+unsloth==2026.10.11
+unsloth-zoo==2026.10.11
+transformers==5.17.0
+trl==1.15.0
+peft==0.21.2
+bitsandbytes==0.50.2
+wandb==0.31.0
+flash-linear-attention==0.6.0
+numpy
+scipy

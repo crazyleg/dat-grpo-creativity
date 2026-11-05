@@ -1,0 +1,85 @@
+{
+  "protocol": "noun-verb-full-dat-v1",
+  "seed": 20261031,
+  "base_url": "http://127.0.0.1:8000/v1",
+  "concurrency": 64,
+  "models": [
+    "original",
+    "step250",
+    "step50",
+    "step75",
+    "step100",
+    "step150",
+    "step200"
+  ],
+  "snapshots": [
+    50,
+    75,
+    100,
+    150,
+    200,
+    250
+  ],
+  "server": {
+    "max_model_len": 16384,
+    "kv_cache_gib": 24,
+    "max_num_seqs": 64,
+    "reasoning_parser": "qwen3"
+  },
+  "wandb": {
+    "project": "llm-creativity-grpo",
+    "entity": "savsunenko-sasha"
+  },
+  "modes": [
+    {
+      "name": "no_think",
+      "max_tokens": 192,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": -1,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  ],
+  "tasks": {
+    "dat": {
+      "label": "DAT nouns, verbs and adjective holdout: full finetune snapshots",
+      "case_tasks": [
+        "dat_nouns",
+        "dat_verbs",
+        "dat_adjectives"
+      ],
+      "expected_cases": 96,
+      "primary_metrics": [
+        "dat_nouns/reward_score",
+        "dat_verbs/reward_score",
+        "dat_adjectives/reward_score"
+      ],
+      "max_tokens": {
+        "no_think": 192
+      },
+      "sampling_note": "Same32 fixed cases per class and sample seeds as the prior conditional LoRA panel. Fresh original baseline, then full250, then50/75/100/150/200. T=1, top_p=1, unrestricted top_k, no thinking,192 completion tokens,64 concurrent requests. Official DAT assigns0 to unscoreable outputs; lexical and joint validity reported separately."
+    }
+  },
+  "assets_directory": "./benchmarks/results/noun-verb-full-dat-20261103T102138Z/assets",
+  "audit_word_classes": true,
+  "pos_audit_expected_per_class": 32,
+  "task": "dat",
+  "expected_cases": 96,
+  "training_run_directory": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z",
+  "full_model_owner": "noun-verb-full-dat-20261103T102138Z",
+  "audit_adjective_pos": true,
+  "full_checkpoint_models": {
+    "original": "./data/inference-bf16",
+    "step50": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-50",
+    "step75": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-75",
+    "step100": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-100",
+    "step150": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-150",
+    "step200": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-200",
+    "step250": "./runs/qwen38-27b-dat-noun-verb-full-b6-20261102T214703Z/model-snapshots/step-250"
+  }
+}
