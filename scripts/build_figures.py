@@ -1,7 +1,9 @@
 """Regenerate publication figures and Markdown tables from released results."""
 import csv
+from decimal import Decimal, ROUND_HALF_UP
 import json
 from pathlib import Path
+import tarfile
 
 import matplotlib
 matplotlib.use("Agg")
@@ -16,6 +18,10 @@ LORA = "#b48439"
 FULL = "#227c78"
 LOSS = "#b25743"
 BG = "#fbfaf7"
+
+
+def rounded(value, places=2):
+    return str(Decimal(str(value)).quantize(Decimal(1).scaleb(-places), rounding=ROUND_HALF_UP))
 
 
 def load(name):
@@ -125,6 +131,129 @@ def dat_figure():
     save(fig, "dat-and-validity")
 
 
+def initial_writing_results():
+    scores = load("writing-score-tables.json")
+    with tarfile.open(ROOT / "results/raw/writing-transfer.tar.gz") as bundle:
+        steer = json.load(bundle.extractfile("steer-metrics.json"))["models"]
+    diagnostics = {}
+    attributes = ["reading_difficulty", "textual_diversity", "text_length", "formality"]
+    cutpoints = np.array([-1., -.5, -.2, -.1, .1, .2, .5, 1.])
+    for name, values in steer.items():
+        items = list(values["items"].values())
+        source = np.array([[item[f"source_{a}"] for a in attributes] for item in items])
+        output = np.array([[item[f"output_{a}"] for a in attributes] for item in items])
+        # Same source-relative bins as the pinned upstream get_dist_from_source.
+        dynamic = np.clip(source[..., None] + cutpoints, 0, 1)
+        displacement = ((output[..., None] >= dynamic).sum(axis=2) - 4) / 7
+        moving = np.linalg.norm(displacement, axis=1) > 0
+        side_effects = np.array([item["side_effect_error"] for item in items])
+        diagnostics[name] = {
+            "n": len(items), "no_measured_movement": int((~moving).sum()),
+            "no_measured_movement_percent": float(100 * (~moving).mean()),
+            "moving_side_effect_error_mean": float(side_effects[moving].mean()),
+        }
+    (ROOT / "results/summary/steer-movement-diagnostics.json").write_text(
+        json.dumps({"method": "Pinned SteerBench source-relative four-attribute bins; remaining in a bin does not imply identical text.",
+                    "models": diagnostics}, indent=2) + "\n")
+    return scores, diagnostics
+
+
+def initial_writing_figure(scores, movement):
+    fig, axes = plt.subplots(2, 2, figsize=(13.5, 10), facecolor=BG)
+    colors = [BASE, LORA, FULL]
+    labels = ["Baseline", "LoRA1500", "Full250"]
+    for ax in axes.flat:
+        ax.set_facecolor(BG)
+        ax.spines[["top", "right", "left"]].set_visible(False)
+        ax.grid(axis="y", color="#e8e8e2")
+        ax.set_axisbelow(True)
+        ax.tick_params(axis="y", length=0)
+    a, b, c, d = axes.flat
+    writer = scores["results/writingbench_critic"]["rows"]
+    for i, (row, color) in enumerate(zip(writer, colors)):
+        values = [row[3], row[5]]
+        positions = np.arange(2) + (i - 1) * .24
+        a.bar(positions, values, width=.22, color=color, label=labels[i])
+        for x, y in zip(positions, values):
+            a.text(x, y + .15, f"{y:.2f}", ha="center", fontsize=10, color=INK)
+    a.set_xticks([0, 1], ["Overall", "Style"])
+    a.set_ylim(0, 10.5)
+    a.set_ylabel("Critic score (1–10, higher is better)")
+    a.set_title("WritingBench critic scores", loc="left", fontsize=15, pad=15)
+
+    steer = scores["results/steerbench"]["rows"]
+    for i, (row, color) in enumerate(zip(steer, colors)):
+        positions = np.arange(3) + (i - 1) * .24
+        b.bar(positions, row[2:5], width=.22, color=color)
+        for x, y in zip(positions, row[2:5]):
+            b.text(x, y + .025, f"{y:.3f}", ha="center", fontsize=9, color=INK)
+    b.set_xticks([0, 1, 2], ["Steering\nerror", "Miscalibration", "Side-effect\nerror"])
+    b.set_ylim(0, 1.05)
+    b.set_ylabel("Error (lower is better)")
+    b.set_title("SteerBench aggregate errors", loc="left", fontsize=15, pad=15)
+
+    for i, (name, color) in enumerate(zip(["original", "step1500", "step250"], colors)):
+        item = movement[name]
+        value = item["no_measured_movement_percent"]
+        c.bar(i, value, width=.58, color=color)
+        c.text(i, value + 1.5, f'{item["no_measured_movement"]}/{item["n"]}\n{value:.1f}%',
+               ha="center", fontsize=11, color=INK)
+    c.set_xticks([0, 1, 2], labels)
+    c.set_ylim(0, 50)
+    c.set_ylabel("Outputs in the source style bins (%)")
+    c.set_title("SteerBench: no measured movement", loc="left", fontsize=15, pad=15)
+
+    pairwise = scores["results/mazur_pairwise"]["rows"]
+    d.grid(False)
+    d.axvline(50, color=INK, linewidth=1, linestyle="--", alpha=.6)
+    for i, (row, color) in enumerate(zip(pairwise, [LORA, FULL])):
+        mean, low, high = row[3:6]
+        d.errorbar(mean, i, xerr=[[mean-low], [high-mean]], fmt="o", color=color,
+                   capsize=5, markersize=9, linewidth=2.4)
+        d.text(72, i, f"{rounded(mean)}%", color=INK, va="center", fontsize=12, weight="bold")
+    d.set_yticks([0, 1], ["LoRA1500", "Full250"])
+    d.set_ylim(1.7, -.7)
+    d.set_xlim(0, 100)
+    d.set_xticks([0, 25, 50, 75, 100])
+    d.set_xlabel("Win credit against baseline (%)")
+    d.set_title("Phi4 story preference", loc="left", fontsize=15, pad=15)
+
+    fig.suptitle("Initial writing and style evaluations", x=.07, ha="left", y=.985,
+                 fontsize=23, weight="bold", color=INK)
+    fig.legend(*a.get_legend_handles_labels(), loc="upper center", bbox_to_anchor=(.5, .94),
+               ncol=3, frameon=False, fontsize=12)
+    fig.text(.07, .052, "Phi4 chose the first-position story in 209/256 judgments (81.64%). Reversed-order agreement: LoRA 26.56%; Full 43.75%.",
+             fontsize=10, color=INK)
+    fig.text(.07, .026, "WritingBench: 64 requested cases/model. SteerBench: 128 edits/model. Phi4: 64 pairs/model; error bars are unadjusted 95% brief-cluster intervals.",
+             fontsize=9.5, color=INK)
+    fig.subplots_adjust(top=.84, bottom=.15, left=.075, right=.97, hspace=.6, wspace=.32)
+    save(fig, "initial-writing-evaluations")
+
+
+def initial_writing_tables(scores, movement):
+    writer = scores["results/writingbench_critic"]["rows"]
+    steer = scores["results/steerbench"]["rows"]
+    ordered = [movement[name] for name in ["original", "step1500", "step250"]]
+    lines = ["| Metric | Baseline | LoRA1500 | Full250 |", "| --- | ---: | ---: | ---: |"]
+    for label, values in [
+        ("WritingBench overall, higher better", [f"{row[3]:.2f}" for row in writer]),
+        ("WritingBench style, higher better", [f"{row[5]:.2f}" for row in writer]),
+        ("SteerBench steering error, lower better", [f"{row[2]:.4f}" for row in steer]),
+        ("SteerBench miscalibration, lower better", [f"{row[3]:.4f}" for row in steer]),
+        ("SteerBench side-effect error, lower better", [f"{row[4]:.4f}" for row in steer]),
+        ("SteerBench outputs with no measured movement", [f'{row["no_measured_movement"]}/{row["n"]}' for row in ordered]),
+        ("Side-effect error among moving outputs", [f'{row["moving_side_effect_error_mean"]:.4f}' for row in ordered]),
+    ]:
+        lines.append("| " + " | ".join([label, *values]) + " |")
+    lines.extend(["", "WritingBench means use 62/62/63 fully scored cases; style uses all 64. SteerBench uses 128 edits/model. Moving-output subsets differ across models; that row is descriptive.", "",
+                  "| Phi4 comparison | Win credit | 95% interval | Same winner after reversal | First-position preference |",
+                  "| --- | ---: | --- | ---: | ---: |"])
+    for row, diagnostic in zip(scores["results/mazur_pairwise"]["rows"], scores["results/mazur_judge_diagnostics"]["rows"]):
+        lines.append(f'| {row[0].replace(" ", "")} vs baseline | {rounded(row[3])}% | [{rounded(row[4])}%, {rounded(row[5])}%] | {diagnostic[4]}/{diagnostic[5]} ({100*diagnostic[4]/diagnostic[5]:.2f}%) | {diagnostic[1]}/128 ({100*diagnostic[1]/128:.2f}%) |')
+    lines.extend(["", "Both comparisons use 64 story pairs from 32 briefs, each judged in both orders. Intervals are unadjusted 95% brief-cluster bootstraps. Combined first-position preference is 209/256 (81.64%).", ""])
+    (ROOT / "results/summary/initial-writing-table.md").write_text("\n".join(lines))
+
+
 def tables():
     metrics = load("sol-results.json")["metrics"]
     lines = ["| Metric | Baseline | Full250 | Change | 95% interval | Full250 win credit |", "| --- | ---: | ---: | ---: | --- | ---: |"]
@@ -149,8 +278,11 @@ def main():
     poem_figure()
     judge_figure()
     dat_figure()
+    initial, movement = initial_writing_results()
+    initial_writing_figure(initial, movement)
+    initial_writing_tables(initial, movement)
     tables()
-    print("Created three figures in PNG/SVG and regenerated result tables.")
+    print("Created four figures in PNG/SVG and regenerated result tables.")
 
 
 if __name__ == "__main__":

@@ -5,9 +5,10 @@
 - [`substack.md`](substack.md) has the same text with equations rendered as
   images, for editors that do not render LaTeX. Upload the referenced PNGs
   when importing it into Substack. Review the editor's preview before posting.
-- [`figures/`](figures/) contains PNG and editable SVG versions. The three main
-  figures are the eternal-love sonnet pair, the DAT/validity comparison and
-  the paired creativity-score changes. Four additional images render the math.
+- [`figures/`](figures/) contains PNG and editable SVG versions. The four main
+  figures are the eternal-love sonnet pair, the DAT/validity comparison,
+  the initial writing/style results and the paired creativity-score changes.
+  Four additional images render the math.
 
 `scripts/build_figures.py` and `scripts/build_substack.py` regenerate the assets.
 The sonnet text comes from `results/samples/`; all score charts use the released

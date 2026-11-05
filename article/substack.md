@@ -187,13 +187,35 @@ temperature settings shown in their caption, rather than the Mazur settings.
 The first results were mixed. WritingBench overall means were 8.06, 8.11 and
 8.05 for baseline, LoRA and full tuning. There was no clear Full250 gain.
 SteerBench's lower aggregate side-effect error for Full250 initially looked
-encouraging, but it often made no measured style movement at all. Leaving more
-of the source unchanged can lower that error without improving steering.
+encouraging, but it often made no measured style movement at all. Keeping more
+outputs in the same measured style bins can lower that error without improving
+steering.
 
 A local Phi4 story judge gave Full250 only 40.63% win credit. That judge also
 selected the first-position story in 81.64% of all comparisons and had low
 agreement after the presentation order was reversed. I did not consider that
 a reliable answer to the question I cared about.
+
+| Metric | Baseline | LoRA1500 | Full250 |
+| --- | ---: | ---: | ---: |
+| WritingBench overall, higher better | 8.06 | 8.11 | 8.05 |
+| WritingBench style, higher better | 8.46 | 8.60 | 8.40 |
+| SteerBench steering error, lower better | 0.5387 | 0.5503 | 0.5633 |
+| SteerBench miscalibration, lower better | 0.7769 | 0.7860 | 0.8614 |
+| SteerBench side-effect error, lower better | 0.5244 | 0.5270 | 0.4638 |
+| SteerBench outputs with no measured movement | 32/128 | 34/128 | 46/128 |
+| Side-effect error among moving outputs | 0.6991 | 0.7175 | 0.7238 |
+
+WritingBench means use 62/62/63 fully scored cases; style uses all 64. SteerBench uses 128 edits/model. Moving-output subsets differ across models; that row is descriptive.
+
+| Phi4 comparison | Win credit | 95% interval | Same winner after reversal | First-position preference |
+| --- | ---: | --- | ---: | ---: |
+| LoRA1500 vs baseline | 52.34% | [46.88%, 57.81%] | 17/64 (26.56%) | 111/128 (86.72%) |
+| Full250 vs baseline | 40.63% | [33.59%, 48.44%] | 28/64 (43.75%) | 98/128 (76.56%) |
+
+Both comparisons use 64 story pairs from 32 briefs, each judged in both orders. Intervals are unadjusted 95% brief-cluster bootstraps. Combined first-position preference is 209/256 (81.64%).
+
+![Initial WritingBench, SteerBench and Phi4 results, including movement and judge-order diagnostics.](figures/initial-writing-evaluations.png)
 
 My wife and I found the full-tuned stories more unusual and often more
 interesting. That was an informal, unblinded reaction, so I wanted a more

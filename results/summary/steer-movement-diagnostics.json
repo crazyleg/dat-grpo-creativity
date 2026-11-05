@@ -1,0 +1,23 @@
+{
+  "method": "Pinned SteerBench source-relative four-attribute bins; remaining in a bin does not imply identical text.",
+  "models": {
+    "original": {
+      "n": 128,
+      "no_measured_movement": 32,
+      "no_measured_movement_percent": 25.0,
+      "moving_side_effect_error_mean": 0.6990639662550956
+    },
+    "step1500": {
+      "n": 128,
+      "no_measured_movement": 34,
+      "no_measured_movement_percent": 26.5625,
+      "moving_side_effect_error_mean": 0.7175178300586882
+    },
+    "step250": {
+      "n": 128,
+      "no_measured_movement": 46,
+      "no_measured_movement_percent": 35.9375,
+      "moving_side_effect_error_mean": 0.7237931039255083
+    }
+  }
+}

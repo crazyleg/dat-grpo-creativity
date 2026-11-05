@@ -10,6 +10,9 @@ sampling, original training configurations, software versions, lexical and
 embedding provenance, the final judge rubric/schema and completion audits.
 Local filesystem prefixes in published metadata have been normalized.
 
+The initial writing/style results also have a [comparison table](summary/initial-writing-table.md)
+and [publication figure](../article/figures/initial-writing-evaluations.png).
+
 ## Raw bundles
 
 Each compressed archive is downloadable directly from this repository.
