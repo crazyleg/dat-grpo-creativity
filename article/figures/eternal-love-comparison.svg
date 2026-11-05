@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864.295031pt" height="636.027781pt" viewBox="0 0 864.295031 636.027781" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T14:12:09.932379</dc:date>
+    <dc:date>2026-11-05T14:42:19.660846</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,125 +21,110 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 636.027781 
-L 864.295031 636.027781 
-L 864.295031 0 
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
 L 0 0 
 z
 " style="fill: #fbfaf7"/>
   </g>
   <g id="line2d_1">
-   <path d="M 525.6 552.876094 
-L 525.6 128.796094 
+   <path d="M 576 570.24 
+L 576 97.2 
 " style="fill: none; stroke: #d9ddd8; stroke-linecap: square"/>
   </g>
   <g id="text_1">
-   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #243240" x="7.2" y="26.196094" transform="rotate(-0 7.2 26.196094)">Eternal love, two checkpoints</text>
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243240" x="576" y="45.36" transform="rotate(-0 576 45.36)">Two poems, baseline QWEN vs creativity-tuned model</text>
   </g>
   <g id="text_2">
-   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #243240" x="7.2" y="61.080094" transform="rotate(-0 7.2 61.080094)">Prompt: "Write a sonnet on the topic of eternal love."</text>
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #243240" x="63.36" y="113.4" transform="rotate(-0 63.36 113.4)">Baseline QWEN</text>
   </g>
   <g id="text_3">
-   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #77848f" x="7.2" y="87.072094" transform="rotate(-0 7.2 87.072094)">Temperature 0.7  |  top-p 0.8  |  top-k 20  |  thinking off  |  shared seed 20261104</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="162" transform="rotate(-0 63.36 162)">Beneath the shifting stars and fleeting tide,</text>
   </g>
   <g id="text_4">
-   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #77848f" x="7.2" y="137.688094" transform="rotate(-0 7.2 137.688094)">BASELINE</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="189.864" transform="rotate(-0 63.36 189.864)">Where time erodes the stone and fades the name,</text>
   </g>
   <g id="text_5">
-   <text style="font-style: italic; font-size: 12px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="168.468094" transform="rotate(-0 7.2 168.468094)">The Unyielding Flame</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="217.728" transform="rotate(-0 63.36 217.728)">Our bond remains, a quiet, sacred guide,</text>
   </g>
   <g id="text_6">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="207.456094" transform="rotate(-0 7.2 207.456094)">Beneath the shifting stars and fleeting tide,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="245.592" transform="rotate(-0 63.36 245.592)">A flame that burns without consuming flame.</text>
   </g>
   <g id="text_7">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="230.712094" transform="rotate(-0 7.2 230.712094)">Where time erodes the stone and fades the name,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="281.232" transform="rotate(-0 63.36 281.232)">The seasons turn from winter’s bitter frost</text>
   </g>
   <g id="text_8">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="253.968094" transform="rotate(-0 7.2 253.968094)">Our bond remains, a quiet, sacred guide,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="309.096" transform="rotate(-0 63.36 309.096)">To summer’s heat, yet neither war nor peace</text>
   </g>
   <g id="text_9">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="277.224094" transform="rotate(-0 7.2 277.224094)">A flame that burns without consuming flame.</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="336.96" transform="rotate(-0 63.36 336.96)">Can break the vow that we have sworn and lost</text>
   </g>
   <g id="text_10">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="308.688094" transform="rotate(-0 7.2 308.688094)">The seasons turn from winter’s bitter frost</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="364.824" transform="rotate(-0 63.36 364.824)">To nothing but the truth of what we please.</text>
   </g>
   <g id="text_11">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="331.944094" transform="rotate(-0 7.2 331.944094)">To summer’s heat, yet neither war nor peace</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="400.464" transform="rotate(-0 63.36 400.464)">Let empires rise and crumble into dust,</text>
   </g>
   <g id="text_12">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="355.200094" transform="rotate(-0 7.2 355.200094)">Can break the vow that we have sworn and lost</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="428.328" transform="rotate(-0 63.36 428.328)">Let memories blur like smoke upon the wind,</text>
   </g>
   <g id="text_13">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="378.456094" transform="rotate(-0 7.2 378.456094)">To nothing but the truth of what we please.</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="456.192" transform="rotate(-0 63.36 456.192)">In you, I find the truth I trust,</text>
   </g>
   <g id="text_14">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="409.920094" transform="rotate(-0 7.2 409.920094)">Let empires rise and crumble into dust,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="484.056" transform="rotate(-0 63.36 484.056)">A heart that beats for yours, to the end.</text>
   </g>
   <g id="text_15">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="433.176094" transform="rotate(-0 7.2 433.176094)">Let memories blur like smoke upon the wind,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="519.696" transform="rotate(-0 63.36 519.696)">So let the ages pass in endless flight,</text>
   </g>
   <g id="text_16">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="456.432094" transform="rotate(-0 7.2 456.432094)">In you, I find the truth I trust,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="63.36" y="547.56" transform="rotate(-0 63.36 547.56)">My love for you shall outlast the light.</text>
   </g>
   <g id="text_17">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="479.688094" transform="rotate(-0 7.2 479.688094)">A heart that beats for yours, to the end.</text>
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #243240" x="604.8" y="113.4" transform="rotate(-0 604.8 113.4)">Creativity-tuned model</text>
   </g>
   <g id="text_18">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="511.152094" transform="rotate(-0 7.2 511.152094)">So let the ages pass in endless flight,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="162" transform="rotate(-0 604.8 162)">Beneath the veil of stars, the heart remains,</text>
   </g>
   <g id="text_19">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="7.2" y="534.408094" transform="rotate(-0 7.2 534.408094)">My love for you shall outlast the light.</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="189.864" transform="rotate(-0 604.8 189.864)">A silent flame that burns through endless night,</text>
   </g>
   <g id="text_20">
-   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #227c78" x="560.16" y="137.688094" transform="rotate(-0 560.16 137.688094)">FULL250</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="217.728" transform="rotate(-0 604.8 217.728)">Where time dissolves in ancient, hushed domains,</text>
   </g>
   <g id="text_21">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="207.456094" transform="rotate(-0 560.16 207.456094)">Beneath the veil of stars, the heart remains,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="245.592" transform="rotate(-0 604.8 245.592)">And fleeting days surrender to the light.</text>
   </g>
   <g id="text_22">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="230.712094" transform="rotate(-0 560.16 230.712094)">A silent flame that burns through endless night,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="281.232" transform="rotate(-0 604.8 281.232)">No storm of years can quench this sacred fire,</text>
   </g>
   <g id="text_23">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="253.968094" transform="rotate(-0 560.16 253.968094)">Where time dissolves in ancient, hushed domains,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="309.096" transform="rotate(-0 604.8 309.096)">Nor distance break the bond that holds us true,</text>
   </g>
   <g id="text_24">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="277.224094" transform="rotate(-0 560.16 277.224094)">And fleeting days surrender to the light.</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="336.96" transform="rotate(-0 604.8 336.96)">We stand as pillars in the shifting mire,</text>
   </g>
   <g id="text_25">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="308.688094" transform="rotate(-0 560.16 308.688094)">No storm of years can quench this sacred fire,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="364.824" transform="rotate(-0 604.8 364.824)">Rooted in the earth, yet touching blue.</text>
   </g>
   <g id="text_26">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="331.944094" transform="rotate(-0 560.16 331.944094)">Nor distance break the bond that holds us true,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="400.464" transform="rotate(-0 604.8 400.464)">The world may fade to dust and silent stone,</text>
   </g>
   <g id="text_27">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="355.200094" transform="rotate(-0 560.16 355.200094)">We stand as pillars in the shifting mire,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="428.328" transform="rotate(-0 604.8 428.328)">But love, a river, flows beyond the shore,</text>
   </g>
   <g id="text_28">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="378.456094" transform="rotate(-0 560.16 378.456094)">Rooted in the earth, yet touching blue.</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="456.192" transform="rotate(-0 604.8 456.192)">A song that hums in every seed and sown,</text>
   </g>
   <g id="text_29">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="409.920094" transform="rotate(-0 560.16 409.920094)">The world may fade to dust and silent stone,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="484.056" transform="rotate(-0 604.8 484.056)">Forevermore, forevermore.</text>
   </g>
   <g id="text_30">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="433.176094" transform="rotate(-0 560.16 433.176094)">But love, a river, flows beyond the shore,</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="519.696" transform="rotate(-0 604.8 519.696)">So let the ages turn their golden wheel,</text>
   </g>
   <g id="text_31">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="456.432094" transform="rotate(-0 560.16 456.432094)">A song that hums in every seed and sown,</text>
-  </g>
-  <g id="text_32">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="479.688094" transform="rotate(-0 560.16 479.688094)">Forevermore, forevermore.</text>
-  </g>
-  <g id="text_33">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="511.152094" transform="rotate(-0 560.16 511.152094)">So let the ages turn their golden wheel,</text>
-  </g>
-  <g id="text_34">
-   <text style="font-size: 11.7px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="560.16" y="534.408094" transform="rotate(-0 560.16 534.408094)">Our souls are bound by an eternal seal.</text>
-  </g>
-  <g id="text_35">
-   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #77848f" x="7.2" y="604.176094" transform="rotate(-0 7.2 604.176094)">One matched, first-attempt sample per checkpoint. Text is unchanged; stanza spacing is normalized.</text>
-  </g>
-  <g id="text_36">
-   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #77848f" x="7.2" y="626.748094" transform="rotate(-0 7.2 626.748094)">Qwen3.8-27B  ·  DAT-reward GRPO  ·  Full250 = 250 full-weight updates</text>
+   <text style="font-size: 13px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #243240" x="604.8" y="547.56" transform="rotate(-0 604.8 547.56)">Our souls are bound by an eternal seal.</text>
   </g>
  </g>
 </svg>

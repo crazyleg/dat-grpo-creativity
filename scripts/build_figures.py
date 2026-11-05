@@ -22,38 +22,35 @@ def load(name):
     return json.loads((ROOT / "results/summary" / name).read_text())
 
 
-def save(fig, name):
+def save(fig, name, *, tight=True):
     for suffix in ("png", "svg"):
-        fig.savefig(OUT / f"{name}.{suffix}", dpi=190, facecolor=BG, bbox_inches="tight")
+        fig.savefig(OUT / f"{name}.{suffix}", dpi=190, facecolor=BG,
+                    bbox_inches="tight" if tight else None)
     plt.close(fig)
 
 
 def poem_figure():
-    fig = plt.figure(figsize=(16, 9.5), facecolor=BG)
-    fig.text(.055, .93, "Eternal love, two checkpoints", fontsize=25, weight="bold", color=INK)
-    fig.text(.055, .879, 'Prompt: "Write a sonnet on the topic of eternal love."', fontsize=13, color=INK)
-    fig.text(.055, .841, "Temperature 0.7  |  top-p 0.8  |  top-k 20  |  thinking off  |  shared seed 20261104", fontsize=11, color=BASE)
-    for x, model, label, color in [(.055, "baseline", "BASELINE", BASE), (.535, "full250", "FULL250", FULL)]:
-        fig.text(x, .767, label, fontsize=13, weight="bold", color=color)
+    fig = plt.figure(figsize=(16, 9), facecolor=BG)
+    fig.text(.5, .93, "Two poems, baseline QWEN vs creativity-tuned model",
+             fontsize=23, weight="bold", color=INK, ha="center")
+    for x, model, label in [(.055, "baseline", "Baseline QWEN"),
+                             (.525, "full250", "Creativity-tuned model")]:
+        fig.text(x, .825, label, fontsize=14, weight="bold", color=INK)
         raw = (ROOT / "results/samples" / f"sonnet-{model}.txt").read_text().strip()
-        # Preserve the model's title and poem wording, removing only Markdown bold markers.
-        title = ""
+        # Omit the model-generated heading; preserve all fourteen poem lines.
         if raw.startswith("**"):
-            title, raw = raw.split("\n", 1)
-            title = title.strip("*")
+            _, raw = raw.split("\n", 1)
             raw = raw.strip()
-        if title:
-            fig.text(x, .722, title, fontsize=12, style="italic", color=INK, family="DejaVu Serif")
         lines = [line for line in raw.splitlines() if line.strip()]
         if len(lines) != 14:
             raise ValueError(f"Expected fourteen poem lines, found {len(lines)}")
         for i, line in enumerate(lines):
             stanza_gap = .012 * (i // 4)
-            fig.text(x, .665 - i * .034 - stanza_gap, line, fontsize=11.7, color=INK, family="DejaVu Serif")
-    fig.add_artist(plt.Line2D([.505, .505], [.16, .78], color="#d9ddd8", linewidth=1))
-    fig.text(.055, .085, "One matched, first-attempt sample per checkpoint. Text is unchanged; stanza spacing is normalized.", fontsize=10, color=BASE)
-    fig.text(.055, .052, "Qwen3.8-27B  ·  DAT-reward GRPO  ·  Full250 = 250 full-weight updates", fontsize=10, color=BASE)
-    save(fig, "eternal-love-comparison")
+            fig.text(x, .75 - i * .043 - stanza_gap, line, fontsize=13,
+                     color=INK, family="DejaVu Serif")
+    fig.add_artist(plt.Line2D([.5, .5], [.12, .85], color="#d9ddd8", linewidth=1))
+    # A fixed canvas keeps the two columns equally wide despite line lengths.
+    save(fig, "eternal-love-comparison", tight=False)
 
 
 def judge_figure():
