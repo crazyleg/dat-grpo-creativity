@@ -1,0 +1,40 @@
+{
+  "name": "Blind writing panel, 30 prompts",
+  "date": "2026-11-07",
+  "prompts": {
+    "poems": 15,
+    "prose": 15
+  },
+  "outputs_per_prompt_per_model": 1,
+  "total_outputs": 60,
+  "models": [
+    "baseline",
+    "full250"
+  ],
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "max_tokens": 2048,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "weight_dtype": "bfloat16",
+  "seeds": "Fixed paired seed per prompt, recorded in the encrypted label manifest",
+  "labeling": "A/B assignments randomized per prompt with balanced model exposure overall and within one case per genre",
+  "generation": "First returned completion retained, including length or formatting failures",
+  "word_count": "Python str.split whitespace count of the complete returned text",
+  "line_count": "Nonempty lines of the complete returned text, including any generated heading",
+  "poem_instruction": "Write a poem in English, up to 16 lines.",
+  "prose_instruction": "Write a short prose piece in English, 300 to 500 words.",
+  "framework_versions": {
+    "torch": "2.13.0+cu130",
+    "vllm": "0.32.0",
+    "transformers": "5.19.0"
+  },
+  "identical_tokenized_prompts": true
+}
